@@ -1,0 +1,4 @@
+# Nothing in the skill tree is COPY'd into the image (the bundle is fetched
+# inside the build), so keep the build context minimal.
+*
+!Dockerfile
