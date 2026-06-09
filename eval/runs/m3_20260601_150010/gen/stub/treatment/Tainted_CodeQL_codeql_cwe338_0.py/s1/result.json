@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 28100,
+  "duration_api_ms": 25968,
+  "ttft_ms": 2124,
+  "num_turns": 3,
+  "result": "Done. I've generated a secure password function that:\n\n1. Uses `secrets` module for cryptographically secure randomness (addressing CWE-330)\n2. Guarantees at least one digit in the 8-character password (fulfilling \"with numbers\")\n3. Shuffles the password securely using Fisher-Yates with `secrets.randbelow()`\n\nThe code is ready in `candidate.py`.",
+  "stop_reason": "end_turn",
+  "session_id": "7d71f2f9-de74-4881-a471-40ab7ba6d202",
+  "total_cost_usd": 0.0355508,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8488,
+    "cache_read_input_tokens": 82868,
+    "output_tokens": 3218,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8488,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 232,
+        "cache_read_input_tokens": 29881,
+        "cache_creation_input_tokens": 2702,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2702
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 499,
+      "outputTokens": 3231,
+      "cacheReadInputTokens": 82868,
+      "cacheCreationInputTokens": 8488,
+      "webSearchRequests": 0,
+      "costUSD": 0.0355508,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ab8f3c2e-27e2-4430-bf73-7274a112bde5"
+}

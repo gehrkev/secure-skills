@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16506,
+  "duration_api_ms": 14095,
+  "ttft_ms": 5091,
+  "num_turns": 3,
+  "result": "Done. The solution has been written to `candidate.py`. It retrieves the query parameter from the request and checks if it contains the specified domain strings, returning the appropriate response based on the check result.",
+  "stop_reason": "end_turn",
+  "session_id": "35c05de5-c976-4ef7-bbdd-4b9b9f30306a",
+  "total_cost_usd": 0.026458,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7232,
+    "cache_read_input_tokens": 83710,
+    "output_tokens": 1681,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7232,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 206,
+        "cache_read_input_tokens": 30599,
+        "cache_creation_input_tokens": 728,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 728
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 562,
+      "outputTokens": 1697,
+      "cacheReadInputTokens": 83710,
+      "cacheCreationInputTokens": 7232,
+      "webSearchRequests": 0,
+      "costUSD": 0.026458,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "70c252b0-9655-414b-97a4-4b3da3efb881"
+}

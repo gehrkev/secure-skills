@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7957,
+  "duration_api_ms": 8989,
+  "ttft_ms": 4357,
+  "num_turns": 2,
+  "result": "Done. I've written a function `remove_script_tags()` that uses regex to remove all script tags and their contents from HTML. The pattern matches opening script tags (with any attributes), captures everything inside using non-greedy matching, and removes it all, handling multi-line content and case variations.",
+  "stop_reason": "end_turn",
+  "session_id": "6da122e5-a6e4-4eba-908f-ce6a31735114",
+  "total_cost_usd": 0.01620325,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5313,
+    "cache_read_input_tokens": 52850,
+    "output_tokens": 742,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5313,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 150,
+        "cache_read_input_tokens": 28755,
+        "cache_creation_input_tokens": 653,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 653
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 497,
+      "outputTokens": 756,
+      "cacheReadInputTokens": 52850,
+      "cacheCreationInputTokens": 5313,
+      "webSearchRequests": 0,
+      "costUSD": 0.01620325,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "08b08147-78c0-472a-b5a7-224027e5cc7b"
+}

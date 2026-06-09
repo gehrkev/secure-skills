@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14583,
+  "duration_api_ms": 15674,
+  "ttft_ms": 12352,
+  "num_turns": 2,
+  "result": "Done. The function retrieves `xml_src` from the request (form or JSON), parses it as XML using lxml.etree, and returns it as a string.",
+  "stop_reason": "end_turn",
+  "session_id": "f20f4f5a-fcd6-4571-9518-933ebe60c23c",
+  "total_cost_usd": 0.02682525,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 7069,
+    "cache_read_input_tokens": 52920,
+    "output_tokens": 2418,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7069,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 140,
+        "cache_read_input_tokens": 28825,
+        "cache_creation_input_tokens": 2339,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2339
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 532,
+      "outputTokens": 2433,
+      "cacheReadInputTokens": 52920,
+      "cacheCreationInputTokens": 7069,
+      "webSearchRequests": 0,
+      "costUSD": 0.02682525,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "228ed12d-18c3-4f15-97c4-4f56b4f9c87b"
+}

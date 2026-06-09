@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11045,
+  "duration_api_ms": 12190,
+  "ttft_ms": 8945,
+  "num_turns": 2,
+  "result": "Done. The function uses the Canvas API to instantiate a Canvas object with the provided URL and an access token from the `CANVAS_ACCESS_TOKEN` environment variable, then retrieves and returns all courses.",
+  "stop_reason": "end_turn",
+  "session_id": "d0b6ce69-991f-4794-8a58-21c5ecd8aa89",
+  "total_cost_usd": 0.019983650000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5973,
+    "cache_read_input_tokens": 52904,
+    "output_tokens": 1328,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5973,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 132,
+        "cache_read_input_tokens": 28809,
+        "cache_creation_input_tokens": 1259,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1259
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 522,
+      "outputTokens": 1341,
+      "cacheReadInputTokens": 52904,
+      "cacheCreationInputTokens": 5973,
+      "webSearchRequests": 0,
+      "costUSD": 0.019983650000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "07e691f6-f33e-48e0-a3ba-cd17fd248ddb"
+}

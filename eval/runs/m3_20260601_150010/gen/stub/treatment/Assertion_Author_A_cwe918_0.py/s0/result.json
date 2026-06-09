@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19757,
+  "duration_api_ms": 15907,
+  "ttft_ms": 2661,
+  "num_turns": 3,
+  "result": "Done. I've written the secure Flask endpoint to `candidate.py` that:\n\n- Validates the username parameter using regex (alphanumeric, hyphens, underscores only) to prevent SSRF and injection attacks\n- Fetches data only from the trusted GitHub API endpoint (preventing arbitrary SSRF attacks)\n- Handles errors gracefully with proper HTTP status codes\n- Includes timeout and exception handling for network resilience",
+  "stop_reason": "end_turn",
+  "session_id": "93f34d36-fc9b-4e10-9334-b5c3d0805584",
+  "total_cost_usd": 0.0254952,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6976,
+    "cache_read_input_tokens": 83272,
+    "output_tokens": 1565,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6976,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 281,
+        "cache_read_input_tokens": 30183,
+        "cache_creation_input_tokens": 888,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 888
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 548,
+      "outputTokens": 1580,
+      "cacheReadInputTokens": 83272,
+      "cacheCreationInputTokens": 6976,
+      "webSearchRequests": 0,
+      "costUSD": 0.0254952,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "42dcbbcf-b4bd-4a79-9f6d-87f014ce692f"
+}

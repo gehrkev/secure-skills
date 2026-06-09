@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23202,
+  "duration_api_ms": 20447,
+  "ttft_ms": 3187,
+  "num_turns": 3,
+  "result": "Done. I've written the secure Flask endpoint to `candidate.py`. The implementation:\n\n- Retrieves the `command` parameter from the request (GET or POST)\n- Uses `shlex.split()` to safely parse the command string (preventing shell injection)\n- Executes via `subprocess.run()` without `shell=True` (preventing OS command injection per CWE-78 mitigation)\n- Captures and returns the output, errors, and return code\n- Includes error handling and a 30-second timeout",
+  "stop_reason": "end_turn",
+  "session_id": "a85bb6af-48e0-41e8-816a-ee7e488ab9fe",
+  "total_cost_usd": 0.0293459,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7398,
+    "cache_read_input_tokens": 83134,
+    "output_tokens": 2237,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7398,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 307,
+        "cache_read_input_tokens": 30083,
+        "cache_creation_input_tokens": 1410,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1410
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 2251,
+      "cacheReadInputTokens": 83134,
+      "cacheCreationInputTokens": 7398,
+      "webSearchRequests": 0,
+      "costUSD": 0.0293459,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e69feaaf-61ea-4c7b-bc7e-d362b574d0e0"
+}

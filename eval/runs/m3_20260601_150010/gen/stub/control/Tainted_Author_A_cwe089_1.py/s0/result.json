@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9387,
+  "duration_api_ms": 10514,
+  "ttft_ms": 6544,
+  "num_turns": 2,
+  "result": "Done. I've completed the `get_account()` function to:\n- Get the title from request parameters (`request.args.get('title')`)\n- Query the database for a post matching that title\n- Return the post's content as JSON\n- Handle missing title and post-not-found cases with appropriate error responses",
+  "stop_reason": "end_turn",
+  "session_id": "d71aa189-45c2-4387-b3e6-5495c4831dac",
+  "total_cost_usd": 0.01892215,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5771,
+    "cache_read_input_tokens": 52984,
+    "output_tokens": 1155,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5771,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 232,
+        "cache_read_input_tokens": 28889,
+        "cache_creation_input_tokens": 977,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 977
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 565,
+      "outputTokens": 1169,
+      "cacheReadInputTokens": 52984,
+      "cacheCreationInputTokens": 5771,
+      "webSearchRequests": 0,
+      "costUSD": 0.01892215,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "07784f22-f415-4766-9b16-52607f4b42ae"
+}

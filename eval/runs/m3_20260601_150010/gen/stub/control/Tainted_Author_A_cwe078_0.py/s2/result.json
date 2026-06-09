@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8419,
+  "duration_api_ms": 9425,
+  "ttft_ms": 6085,
+  "num_turns": 2,
+  "result": "Done. I've written a Flask application to `candidate.py` that implements the `/ping` route. The function retrieves the `link` parameter from the query string, makes an HTTP request to it (the \"ping\"), and returns the link.",
+  "stop_reason": "end_turn",
+  "session_id": "56d63b95-3957-4943-af51-533decba3620",
+  "total_cost_usd": 0.01783995,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5587,
+    "cache_read_input_tokens": 52882,
+    "output_tokens": 996,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5587,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 161,
+        "cache_read_input_tokens": 28787,
+        "cache_creation_input_tokens": 895,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 895
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 513,
+      "outputTokens": 1011,
+      "cacheReadInputTokens": 52882,
+      "cacheCreationInputTokens": 5587,
+      "webSearchRequests": 0,
+      "costUSD": 0.01783995,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c584f94e-308a-4df4-8adc-5b2b37ecabe7"
+}

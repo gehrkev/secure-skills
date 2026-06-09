@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23536,
+  "duration_api_ms": 24758,
+  "ttft_ms": 19014,
+  "num_turns": 2,
+  "result": "Done. I've written the complete Flask application to `candidate.py` with the login function implemented according to the docstring requirements:\n\n- **GET requests**: render the login template\n- **POST requests**: validate username/password against the database, create a session on success, and redirect to the `next` parameter (or `/` if not provided)\n- **On failure**: render login.html with the error message \"Authentication failed\"\n\nThe code also includes the necessary `app.secret_key` configuration to enable Flask sessions.",
+  "stop_reason": "end_turn",
+  "session_id": "7721a055-c799-4c2a-95f8-71c2544863d7",
+  "total_cost_usd": 0.03496315,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 8523,
+    "cache_read_input_tokens": 53294,
+    "output_tokens": 3637,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8523,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 270,
+        "cache_read_input_tokens": 29199,
+        "cache_creation_input_tokens": 3419,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 3419
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 720,
+      "outputTokens": 3652,
+      "cacheReadInputTokens": 53294,
+      "cacheCreationInputTokens": 8523,
+      "webSearchRequests": 0,
+      "costUSD": 0.03496315,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "bd9083ff-bb8e-4a24-a5b5-935bcb57ec31"
+}

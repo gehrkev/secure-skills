@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18218,
+  "duration_api_ms": 16313,
+  "ttft_ms": 3045,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Flask route to `candidate.py`. The implementation:\n\n1. Gets the `config` parameter from the request query string\n2. Decodes it from hex to bytes\n3. Unmarshals the data using `marshal.loads()`\n4. Returns the unmarshalled data\n\nThe code handles the case where the config parameter is missing by returning `None`.",
+  "stop_reason": "end_turn",
+  "session_id": "e4a00901-c9da-4d39-bec7-ad5ec0040a7c",
+  "total_cost_usd": 0.02674535,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7205,
+    "cache_read_input_tokens": 83311,
+    "output_tokens": 1755,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7205,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 216,
+        "cache_read_input_tokens": 30226,
+        "cache_creation_input_tokens": 1074,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1074
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 548,
+      "outputTokens": 1772,
+      "cacheReadInputTokens": 83311,
+      "cacheCreationInputTokens": 7205,
+      "webSearchRequests": 0,
+      "costUSD": 0.02674535,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "bfef000f-d5af-4a0a-ab4b-78582a7250e3"
+}

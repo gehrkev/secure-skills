@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8657,
+  "duration_api_ms": 9734,
+  "ttft_ms": 4822,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with an `/install` endpoint that:\n- Accepts a `package` parameter from GET or POST requests\n- Installs the package using `conda install -y`\n- Returns the package name as JSON\n- Returns a 400 error if no package parameter is provided",
+  "stop_reason": "end_turn",
+  "session_id": "d6a6ac25-5606-4c70-abee-fa4683c3ea95",
+  "total_cost_usd": 0.0167138,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5348,
+    "cache_read_input_tokens": 52828,
+    "output_tokens": 839,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5348,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 184,
+        "cache_read_input_tokens": 28733,
+        "cache_creation_input_tokens": 710,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 710
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 486,
+      "outputTokens": 852,
+      "cacheReadInputTokens": 52828,
+      "cacheCreationInputTokens": 5348,
+      "webSearchRequests": 0,
+      "costUSD": 0.0167138,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7cfa27df-40b6-40f3-927b-1ca0899500ff"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 28233,
+  "duration_api_ms": 25105,
+  "ttft_ms": 2872,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a secure Flask + Paramiko endpoint that:\n\n1. **Validates commands against a whitelist** to prevent command injection attacks (CWE-78/77)\n2. **Executes commands on a remote SSH server** using Paramiko with key-based authentication\n3. **Returns command output** as JSON with error handling\n4. **Uses environment variables** for SSH credentials instead of hardcoding them\n\nThe endpoint accepts a `command` parameter, validates it against allowed commands, executes it via SSH, and returns the standard output.",
+  "stop_reason": "end_turn",
+  "session_id": "b8177562-9bf3-4fd2-9ad6-ae66ca0c0875",
+  "total_cost_usd": 0.0291806,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7234,
+    "cache_read_input_tokens": 82901,
+    "output_tokens": 2254,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7234,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 411,
+        "cache_read_input_tokens": 29914,
+        "cache_creation_input_tokens": 1415,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1415
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 2270,
+      "cacheReadInputTokens": 82901,
+      "cacheCreationInputTokens": 7234,
+      "webSearchRequests": 0,
+      "costUSD": 0.0291806,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c26ede7e-928d-46d5-a576-9a9f1219c474"
+}

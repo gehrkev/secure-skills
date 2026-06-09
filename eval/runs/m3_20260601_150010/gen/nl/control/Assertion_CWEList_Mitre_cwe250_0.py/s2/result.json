@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18304,
+  "duration_api_ms": 19410,
+  "ttft_ms": 14727,
+  "num_turns": 2,
+  "result": "Done. The `candidate.py` file contains a `setup_user_directory()` method that creates a /tmp directory for a user with privilege escalation (seteuid/setegid), proper ownership handling, and FileExistsError exception handling.",
+  "stop_reason": "end_turn",
+  "session_id": "a8999ba7-3e68-4715-baf4-a7bf4392a2cb",
+  "total_cost_usd": 0.0278999,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 7098,
+    "cache_read_input_tokens": 52844,
+    "output_tokens": 2634,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7098,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 244,
+        "cache_read_input_tokens": 28749,
+        "cache_creation_input_tokens": 2444,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2444
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 493,
+      "outputTokens": 2650,
+      "cacheReadInputTokens": 52844,
+      "cacheCreationInputTokens": 7098,
+      "webSearchRequests": 0,
+      "costUSD": 0.0278999,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a300dc25-3a4a-4050-830a-08d245fffef3"
+}

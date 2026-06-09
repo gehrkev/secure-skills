@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 22731,
+  "duration_api_ms": 18930,
+  "ttft_ms": 2523,
+  "num_turns": 3,
+  "result": "Done. The code implements the `filterScriptTags()` function to extract the 'content' parameter from the request, remove all script tags using a regex pattern, and return the filtered content as a Response.",
+  "stop_reason": "end_turn",
+  "session_id": "a55a8d2f-6d01-41ae-bf65-aa28aea6784f",
+  "total_cost_usd": 0.026467900000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7108,
+    "cache_read_input_tokens": 83069,
+    "output_tokens": 1737,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7108,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 223,
+        "cache_read_input_tokens": 30026,
+        "cache_creation_input_tokens": 1177,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1177
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 526,
+      "outputTokens": 1750,
+      "cacheReadInputTokens": 83069,
+      "cacheCreationInputTokens": 7108,
+      "webSearchRequests": 0,
+      "costUSD": 0.026467900000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a6df242f-5067-430d-ac7e-dcb3b7670545"
+}

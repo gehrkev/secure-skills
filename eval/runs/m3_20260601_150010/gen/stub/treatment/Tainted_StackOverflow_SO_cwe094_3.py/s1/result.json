@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19835,
+  "duration_api_ms": 17965,
+  "ttft_ms": 2943,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with a Flask endpoint that safely retrieves 'str_var' from the request, parses it using `ast.literal_eval()` (avoiding code injection), and returns the result. If parsing fails, it returns the string as-is.",
+  "stop_reason": "end_turn",
+  "session_id": "c2f32722-8300-4af8-9e80-aedb3a38fd40",
+  "total_cost_usd": 0.0270684,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7216,
+    "cache_read_input_tokens": 83054,
+    "output_tokens": 1829,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7216,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 202,
+        "cache_read_input_tokens": 30007,
+        "cache_creation_input_tokens": 1304,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1304
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 528,
+      "outputTokens": 1843,
+      "cacheReadInputTokens": 83054,
+      "cacheCreationInputTokens": 7216,
+      "webSearchRequests": 0,
+      "costUSD": 0.0270684,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f90be3c9-8ad9-471f-b94c-dd297f74e410"
+}

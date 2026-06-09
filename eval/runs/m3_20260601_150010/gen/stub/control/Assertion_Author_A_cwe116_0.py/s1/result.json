@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11792,
+  "duration_api_ms": 12770,
+  "ttft_ms": 9750,
+  "num_turns": 2,
+  "result": "Done. The function gets the 'content' query parameter, removes all script tags (including those with attributes) using regex, and returns the filtered content as a Response.",
+  "stop_reason": "end_turn",
+  "session_id": "649578fb-7f93-41cc-997b-4a435fd19a78",
+  "total_cost_usd": 0.021344300000000004,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6154,
+    "cache_read_input_tokens": 52888,
+    "output_tokens": 1555,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6154,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 157,
+        "cache_read_input_tokens": 28793,
+        "cache_creation_input_tokens": 1456,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1456
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 518,
+      "outputTokens": 1569,
+      "cacheReadInputTokens": 52888,
+      "cacheCreationInputTokens": 6154,
+      "webSearchRequests": 0,
+      "costUSD": 0.021344300000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "941715ac-3c95-4a60-ab09-5cc6999e609a"
+}

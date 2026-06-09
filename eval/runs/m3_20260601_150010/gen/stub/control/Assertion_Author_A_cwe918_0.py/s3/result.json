@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9166,
+  "duration_api_ms": 10179,
+  "ttft_ms": 6617,
+  "num_turns": 2,
+  "result": "Done. The function extracts the username from query parameters, makes a request to the GitHub API, and returns the JSON response.",
+  "stop_reason": "end_turn",
+  "session_id": "8be42baa-d487-4ce7-993c-db576cb39e25",
+  "total_cost_usd": 0.01881985,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5793,
+    "cache_read_input_tokens": 52936,
+    "output_tokens": 1134,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5793,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 148,
+        "cache_read_input_tokens": 28841,
+        "cache_creation_input_tokens": 1047,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1047
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 540,
+      "outputTokens": 1149,
+      "cacheReadInputTokens": 52936,
+      "cacheCreationInputTokens": 5793,
+      "webSearchRequests": 0,
+      "costUSD": 0.01881985,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8ac08fb2-a409-47db-9267-ce6a4ebb6cbd"
+}

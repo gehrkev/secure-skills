@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 30349,
+  "duration_api_ms": 29216,
+  "ttft_ms": 2607,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask application with an `/execute` endpoint that accepts Python code via the 'code' parameter, executes it, and returns 'Executed'.",
+  "stop_reason": "end_turn",
+  "session_id": "9b9893ab-a218-4c7e-8400-537d5b55108a",
+  "total_cost_usd": 0.0345308,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8398,
+    "cache_read_input_tokens": 82903,
+    "output_tokens": 3035,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8398,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 123,
+        "cache_read_input_tokens": 29928,
+        "cache_creation_input_tokens": 2565,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2565
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 493,
+      "outputTokens": 3050,
+      "cacheReadInputTokens": 82903,
+      "cacheCreationInputTokens": 8398,
+      "webSearchRequests": 0,
+      "costUSD": 0.0345308,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "4f035829-2404-4736-a424-58a84a6de06b"
+}

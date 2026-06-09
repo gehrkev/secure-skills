@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23748,
+  "duration_api_ms": 19918,
+  "ttft_ms": 4558,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Python code to `candidate.py`. The implementation:\n\n- **`load_data`**: Deserializes pickle data from a file with exception handling to return `None` on any deserialization failure\n- **`save_data`**: Checks if input is a string before serializing with pickle and writing to the file",
+  "stop_reason": "end_turn",
+  "session_id": "1db0f05a-647d-420e-8c1f-60454809abf3",
+  "total_cost_usd": 0.03144075,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8179,
+    "cache_read_input_tokens": 84050,
+    "output_tokens": 2415,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8179,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 252,
+        "cache_read_input_tokens": 30725,
+        "cache_creation_input_tokens": 1549,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1549
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 667,
+      "outputTokens": 2429,
+      "cacheReadInputTokens": 84050,
+      "cacheCreationInputTokens": 8179,
+      "webSearchRequests": 0,
+      "costUSD": 0.03144075,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "42d12765-ba29-4a89-910e-608ebc295979"
+}

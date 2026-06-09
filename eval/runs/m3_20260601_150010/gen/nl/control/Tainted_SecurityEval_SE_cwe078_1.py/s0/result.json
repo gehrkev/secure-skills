@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10100,
+  "duration_api_ms": 11052,
+  "ttft_ms": 7624,
+  "num_turns": 2,
+  "result": "Done! I've created a Flask application with an `/execute` endpoint that:\n\n- Accepts a `command` parameter from either query string or JSON body\n- Executes the command using `subprocess.run`\n- Returns a JSON response containing the command, its output, any errors, and the return code",
+  "stop_reason": "end_turn",
+  "session_id": "93e4cbf2-7ee2-4261-895e-9921c25316cb",
+  "total_cost_usd": 0.0200491,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5850,
+    "cache_read_input_tokens": 52816,
+    "output_tokens": 1381,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5850,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 214,
+        "cache_read_input_tokens": 28721,
+        "cache_creation_input_tokens": 1224,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1224
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 480,
+      "outputTokens": 1395,
+      "cacheReadInputTokens": 52816,
+      "cacheCreationInputTokens": 5850,
+      "webSearchRequests": 0,
+      "costUSD": 0.0200491,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7593cce1-8a9a-4b7d-8724-fe07495152c9"
+}

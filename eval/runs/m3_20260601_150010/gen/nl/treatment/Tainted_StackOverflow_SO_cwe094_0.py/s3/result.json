@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17531,
+  "duration_api_ms": 15501,
+  "ttft_ms": 2433,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask endpoint at `/contents_dict` that safely evaluates the `contents` parameter as a dictionary using `ast.literal_eval()` (which is more secure than `eval()` per the security guidance for CWE-94: Code Injection). The endpoint accepts both GET and POST requests, validates that the parameter evaluates to a dictionary, and returns it as JSON with appropriate error handling.",
+  "stop_reason": "end_turn",
+  "session_id": "92874c43-acaa-49bc-ac13-2c14f404393b",
+  "total_cost_usd": 0.025887200000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6938,
+    "cache_read_input_tokens": 82967,
+    "output_tokens": 1670,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6938,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 268,
+        "cache_read_input_tokens": 29978,
+        "cache_creation_input_tokens": 1055,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1055
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 1684,
+      "cacheReadInputTokens": 82967,
+      "cacheCreationInputTokens": 6938,
+      "webSearchRequests": 0,
+      "costUSD": 0.025887200000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1ffda558-e513-462f-b351-4f6757da8707"
+}

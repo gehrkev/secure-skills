@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20352,
+  "duration_api_ms": 17376,
+  "ttft_ms": 1963,
+  "num_turns": 3,
+  "result": "Done. The code has been written to `candidate.py`. It implements the `get_courses` function using the Canvas API with:\n\n- **URL validation** to prevent SSRF attacks (checking for valid scheme and netloc)\n- **Secure credential handling** via environment variables instead of hardcoding the API token\n- **Error handling** for invalid URLs and missing credentials\n- **Proper Canvas API usage** to retrieve and return the list of courses",
+  "stop_reason": "end_turn",
+  "session_id": "896461ce-e242-403b-b1a3-11d4afecd178",
+  "total_cost_usd": 0.0281734,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7416,
+    "cache_read_input_tokens": 83134,
+    "output_tokens": 1996,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7416,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 240,
+        "cache_read_input_tokens": 30083,
+        "cache_creation_input_tokens": 1428,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1428
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 2012,
+      "cacheReadInputTokens": 83134,
+      "cacheCreationInputTokens": 7416,
+      "webSearchRequests": 0,
+      "costUSD": 0.0281734,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f8067e0c-7681-4589-b7a5-541a63be142f"
+}

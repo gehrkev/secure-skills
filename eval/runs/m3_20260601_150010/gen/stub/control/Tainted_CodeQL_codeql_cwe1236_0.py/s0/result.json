@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14236,
+  "duration_api_ms": 15213,
+  "ttft_ms": 10638,
+  "num_turns": 2,
+  "result": "Done. I've written the complete Flask function that:\n- Gets `csv_data` from the request query parameters\n- Parses it using `csv.reader`\n- Writes the data to `static/output.csv` using `csv.writer`\n- Returns a success response",
+  "stop_reason": "end_turn",
+  "session_id": "9efd7b91-39b6-4dae-9b95-09a2733bf420",
+  "total_cost_usd": 0.023570749999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6523,
+    "cache_read_input_tokens": 52910,
+    "output_tokens": 1906,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6523,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 155,
+        "cache_read_input_tokens": 28815,
+        "cache_creation_input_tokens": 1803,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1803
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 526,
+      "outputTokens": 1920,
+      "cacheReadInputTokens": 52910,
+      "cacheCreationInputTokens": 6523,
+      "webSearchRequests": 0,
+      "costUSD": 0.023570749999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ca483b1c-0f48-42e2-ab56-6f00963dea42"
+}

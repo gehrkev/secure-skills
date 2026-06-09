@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 30211,
+  "duration_api_ms": 26772,
+  "ttft_ms": 6950,
+  "num_turns": 3,
+  "result": "Done. The implementation reads the filename from query parameters, validates it against path traversal attacks (blocking \"..\" and absolute paths), verifies the resolved path stays within the static directory, and safely serves the file as an attachment.",
+  "stop_reason": "end_turn",
+  "session_id": "9c7cb89b-faff-45fe-912c-a900caa5b0de",
+  "total_cost_usd": 0.035806700000000004,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8532,
+    "cache_read_input_tokens": 82997,
+    "output_tokens": 3250,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8532,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 204,
+        "cache_read_input_tokens": 29972,
+        "cache_creation_input_tokens": 2655,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2655
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 517,
+      "outputTokens": 3265,
+      "cacheReadInputTokens": 82997,
+      "cacheCreationInputTokens": 8532,
+      "webSearchRequests": 0,
+      "costUSD": 0.035806700000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "68110fe3-d27e-4096-a1c8-1f5e11667b61"
+}

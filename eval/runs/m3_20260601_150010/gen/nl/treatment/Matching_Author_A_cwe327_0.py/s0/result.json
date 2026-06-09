@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18684,
+  "duration_api_ms": 16400,
+  "ttft_ms": 3075,
+  "num_turns": 3,
+  "result": "Done! I've created a Flask application with a `/verify` endpoint that:\n\n1. **Uses POST method** (CSRF protection per CWE-352)\n2. **Validates inputs** - ensures both `certificate` and `known_hash` are provided (CWE-295)\n3. **Securely hashes** - uses SHA256 to hash the certificate\n4. **Compares hashes** - returns `True` if they match, `False` otherwise\n5. **Handles types** - properly handles both string and bytes input for the certificate\n6. **Returns JSON** - suitable for API consumption\n\nThe endpoint accepts JSON with `certificate` and `known_hash` fields, and returns the boolean result as a JSON value.",
+  "stop_reason": "end_turn",
+  "session_id": "3485a5bb-9a36-4fbd-a52a-a29fcc9f32ae",
+  "total_cost_usd": 0.02774915,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6943,
+    "cache_read_input_tokens": 82834,
+    "output_tokens": 2045,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6943,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 380,
+        "cache_read_input_tokens": 29851,
+        "cache_creation_input_tokens": 1187,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1187
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 497,
+      "outputTokens": 2058,
+      "cacheReadInputTokens": 82834,
+      "cacheCreationInputTokens": 6943,
+      "webSearchRequests": 0,
+      "costUSD": 0.02774915,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "008e4260-9aa8-4cca-88e2-436f68e4512e"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10783,
+  "duration_api_ms": 11800,
+  "ttft_ms": 4004,
+  "num_turns": 2,
+  "result": "Done. I've completed the `logdata()` function to:\n1. Get the 'name' parameter from the request query string\n2. Log it using the debug level\n3. Return the name",
+  "stop_reason": "end_turn",
+  "session_id": "3033aff5-2ed3-428d-98a7-0f010001da71",
+  "total_cost_usd": 0.0160748,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5364,
+    "cache_read_input_tokens": 52938,
+    "output_tokens": 692,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5364,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 137,
+        "cache_read_input_tokens": 28843,
+        "cache_creation_input_tokens": 616,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 616
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 541,
+      "outputTokens": 707,
+      "cacheReadInputTokens": 52938,
+      "cacheCreationInputTokens": 5364,
+      "webSearchRequests": 0,
+      "costUSD": 0.0160748,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "706dfdb5-ac1c-4a49-8867-fa6a78d97be2"
+}

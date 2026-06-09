@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8576,
+  "duration_api_ms": 9536,
+  "ttft_ms": 6466,
+  "num_turns": 2,
+  "result": "Done. The `certificate_matches` function has been written to `candidate.py`. It computes the SHA256 hash of the certificate and compares it with the known hash.",
+  "stop_reason": "end_turn",
+  "session_id": "99c78aa8-c69e-470b-880d-817f44bcc7c7",
+  "total_cost_usd": 0.01751985,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5565,
+    "cache_read_input_tokens": 52896,
+    "output_tokens": 937,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5565,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 140,
+        "cache_read_input_tokens": 28801,
+        "cache_creation_input_tokens": 859,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 859
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 519,
+      "outputTokens": 951,
+      "cacheReadInputTokens": 52896,
+      "cacheCreationInputTokens": 5565,
+      "webSearchRequests": 0,
+      "costUSD": 0.01751985,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7f20aa3e-85be-4807-83d3-1bf08cea66e3"
+}

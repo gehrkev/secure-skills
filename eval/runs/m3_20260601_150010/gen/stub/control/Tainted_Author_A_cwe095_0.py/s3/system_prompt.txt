@@ -1,0 +1,24 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+class TreeNode:
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
+
+
+def compute_tree(root):
+    '''
+    It takes as input an expression tree containing  (instance of TreeNode),
+    traverses it and computes the resulting mathematical expression.
+    This expression tree supports the arithmetic operations: +, -, *, /, ^, %.
+    @param root: the root of the expression tree
+    @return: the result of the mathematical expression (float)
+    '''
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

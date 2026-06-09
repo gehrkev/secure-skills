@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10358,
+  "duration_api_ms": 11325,
+  "ttft_ms": 7504,
+  "num_turns": 2,
+  "result": "Done. I've written the Flask route handler that:\n1. Gets the `username` parameter from the request query string\n2. Renders it in the template string using `render_template_string()`\n3. Returns the rendered HTML",
+  "stop_reason": "end_turn",
+  "session_id": "39ac0c23-e11f-40c4-97c9-f8a14a2f7867",
+  "total_cost_usd": 0.01812375,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5627,
+    "cache_read_input_tokens": 52920,
+    "output_tokens": 1038,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5627,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 201,
+        "cache_read_input_tokens": 28825,
+        "cache_creation_input_tokens": 897,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 897
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 533,
+      "outputTokens": 1053,
+      "cacheReadInputTokens": 52920,
+      "cacheCreationInputTokens": 5627,
+      "webSearchRequests": 0,
+      "costUSD": 0.01812375,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e219f507-71fe-4beb-b41c-2660128381ba"
+}

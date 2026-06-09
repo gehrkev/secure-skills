@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18023,
+  "duration_api_ms": 14947,
+  "ttft_ms": 2420,
+  "num_turns": 3,
+  "result": "Done. I've written the `remove_script_tags()` function to `candidate.py`. The function uses a regex pattern `<script\\b[^>]*>.*?</script>` with the `DOTALL` and `IGNORECASE` flags to match and remove all script tags (including attributes) and their contents, handling both single-line and multi-line cases while being case-insensitive.",
+  "stop_reason": "end_turn",
+  "session_id": "6c3992e6-e9aa-45b1-b34a-008434537dfc",
+  "total_cost_usd": 0.024819800000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6682,
+    "cache_read_input_tokens": 82923,
+    "output_tokens": 1519,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6682,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 330,
+        "cache_read_input_tokens": 29918,
+        "cache_creation_input_tokens": 859,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 859
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 505,
+      "outputTokens": 1534,
+      "cacheReadInputTokens": 82923,
+      "cacheCreationInputTokens": 6682,
+      "webSearchRequests": 0,
+      "costUSD": 0.024819800000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "dd617443-60b5-4cdd-ba62-0f029a45f064"
+}

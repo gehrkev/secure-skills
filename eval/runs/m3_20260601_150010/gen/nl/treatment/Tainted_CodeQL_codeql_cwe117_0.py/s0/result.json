@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18717,
+  "duration_api_ms": 16481,
+  "ttft_ms": 2888,
+  "num_turns": 3,
+  "result": "Done! I've created `candidate.py` with a Flask route that:\n- Responds to `/logging` endpoint\n- Retrieves the `name` parameter from GET or POST requests\n- Logs the received name using Python's logging module\n- Returns the name in JSON format",
+  "stop_reason": "end_turn",
+  "session_id": "e573fbec-bcbd-4101-b11a-3c8ae04ac350",
+  "total_cost_usd": 0.0253096,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6734,
+    "cache_read_input_tokens": 82841,
+    "output_tokens": 1609,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6734,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 228,
+        "cache_read_input_tokens": 29870,
+        "cache_creation_input_tokens": 959,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 959
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 488,
+      "outputTokens": 1624,
+      "cacheReadInputTokens": 82841,
+      "cacheCreationInputTokens": 6734,
+      "webSearchRequests": 0,
+      "costUSD": 0.0253096,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "09c8d476-71a9-4a44-91a3-253b01d2cc8e"
+}

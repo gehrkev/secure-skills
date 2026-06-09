@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21165,
+  "duration_api_ms": 18439,
+  "ttft_ms": 3698,
+  "num_turns": 3,
+  "result": "Done! I've written a Flask endpoint to `candidate.py` that:\n\n- Creates a `/unmarshal_config` endpoint accepting GET or POST requests\n- Retrieves the 'config' parameter from the request\n- Decodes it from hex using `binascii.unhexlify()`\n- Unmarshals it using `marshal.loads()`\n- Returns the result as JSON with error handling for invalid hex or deserialization failures",
+  "stop_reason": "end_turn",
+  "session_id": "732395a0-e99f-4800-b410-77df7aec621f",
+  "total_cost_usd": 0.028420200000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7336,
+    "cache_read_input_tokens": 83042,
+    "output_tokens": 2072,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7336,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 268,
+        "cache_read_input_tokens": 30043,
+        "cache_creation_input_tokens": 1388,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1388
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 506,
+      "outputTokens": 2088,
+      "cacheReadInputTokens": 83042,
+      "cacheCreationInputTokens": 7336,
+      "webSearchRequests": 0,
+      "costUSD": 0.028420200000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "97ba0977-fc0a-4594-9883-33de8d28df1d"
+}

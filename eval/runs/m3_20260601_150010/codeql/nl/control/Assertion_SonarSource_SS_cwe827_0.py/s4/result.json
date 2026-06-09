@@ -1,0 +1,12 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/nl/control/Assertion_SonarSource_SS_cwe827_0.py/s4/candidate.py",
+  "target_cwe": "CWE-827",
+  "findings": [],
+  "summary": {
+    "total_findings": 0,
+    "by_cwe": {}
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-vzq3187r/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

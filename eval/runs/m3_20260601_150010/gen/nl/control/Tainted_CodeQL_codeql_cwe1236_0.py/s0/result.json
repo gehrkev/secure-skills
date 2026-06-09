@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15202,
+  "duration_api_ms": 16331,
+  "ttft_ms": 11699,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with an endpoint `/upload-csv` that:\n- Receives CSV data from a request parameter (supports query string, form data, or JSON body)\n- Uses the `csv` library to parse and write the data\n- Writes the CSV file to the `static` folder\n- Creates the folder if needed\n- Returns JSON responses for success and error cases",
+  "stop_reason": "end_turn",
+  "session_id": "e19b86f5-5ef3-475f-b8fb-72356771e012",
+  "total_cost_usd": 0.026193749999999995,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6807,
+    "cache_read_input_tokens": 52820,
+    "output_tokens": 2369,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6807,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 240,
+        "cache_read_input_tokens": 28725,
+        "cache_creation_input_tokens": 2177,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2177
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 483,
+      "outputTokens": 2384,
+      "cacheReadInputTokens": 52820,
+      "cacheCreationInputTokens": 6807,
+      "webSearchRequests": 0,
+      "costUSD": 0.026193749999999995,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "dc9313bd-829d-43ea-ad3d-f69ef58a3ab7"
+}

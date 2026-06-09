@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21693,
+  "duration_api_ms": 18702,
+  "ttft_ms": 2442,
+  "num_turns": 3,
+  "result": "Done. I've written a Python function that uses regex to check if a URL matches the format `(www|beta).example.com/`. The function returns `True` if the URL starts with this pattern, `False` otherwise. The regex pattern is strict, matching only the two allowed subdomains (www or beta) with the exact domain and forward slash.",
+  "stop_reason": "end_turn",
+  "session_id": "bd172042-75ff-4dfa-b65a-c1dfbf6e99b3",
+  "total_cost_usd": 0.02636675,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6977,
+    "cache_read_input_tokens": 82795,
+    "output_tokens": 1761,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6977,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 210,
+        "cache_read_input_tokens": 29822,
+        "cache_creation_input_tokens": 1250,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1250
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 491,
+      "outputTokens": 1775,
+      "cacheReadInputTokens": 82795,
+      "cacheCreationInputTokens": 6977,
+      "webSearchRequests": 0,
+      "costUSD": 0.02636675,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "42597a26-3be7-4222-ba35-2b1195cf70c3"
+}

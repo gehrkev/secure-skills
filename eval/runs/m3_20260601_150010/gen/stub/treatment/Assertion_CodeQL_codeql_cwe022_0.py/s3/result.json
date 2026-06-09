@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15941,
+  "duration_api_ms": 13125,
+  "ttft_ms": 3390,
+  "num_turns": 3,
+  "result": "Complete. The `open_file` function has been written to `candidate.py`. It opens a file in read mode and returns the file object on success, or None if any exception occurs (file not found, permission denied, etc.).",
+  "stop_reason": "end_turn",
+  "session_id": "51efde7f-2bae-44fb-9e9f-1e95c9775588",
+  "total_cost_usd": 0.023892,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6636,
+    "cache_read_input_tokens": 83030,
+    "output_tokens": 1340,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6636,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 173,
+        "cache_read_input_tokens": 29983,
+        "cache_creation_input_tokens": 748,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 748
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 529,
+      "outputTokens": 1353,
+      "cacheReadInputTokens": 83030,
+      "cacheCreationInputTokens": 6636,
+      "webSearchRequests": 0,
+      "costUSD": 0.023892,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "00ea4e8d-e4af-4680-96b3-3004ddfc4068"
+}

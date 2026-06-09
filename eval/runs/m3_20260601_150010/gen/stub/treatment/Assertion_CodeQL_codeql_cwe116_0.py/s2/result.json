@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18964,
+  "duration_api_ms": 16887,
+  "ttft_ms": 2580,
+  "num_turns": 3,
+  "result": "Done. The implementation uses a regex pattern to remove all script tags (case-insensitive) from the content, which handles the XSS vulnerability prevention guidance from the security context.",
+  "stop_reason": "end_turn",
+  "session_id": "ca5b2275-ddb3-403f-81d9-0a173209f468",
+  "total_cost_usd": 0.0248355,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6740,
+    "cache_read_input_tokens": 83055,
+    "output_tokens": 1502,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6740,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 295,
+        "cache_read_input_tokens": 30000,
+        "cache_creation_input_tokens": 835,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 835
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 1515,
+      "cacheReadInputTokens": 83055,
+      "cacheCreationInputTokens": 6740,
+      "webSearchRequests": 0,
+      "costUSD": 0.0248355,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "da39f8c2-60be-49eb-a1ff-24e5322ea813"
+}

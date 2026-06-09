@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 24004,
+  "duration_api_ms": 21210,
+  "ttft_ms": 3178,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with a secure implementation that:\n\n- Retrieves the command from the `command` query parameter\n- Uses `shlex.split()` to safely parse the command string into arguments (preventing shell injection)\n- Executes the command with `subprocess.run()` using `shell=False` to avoid OS command injection (CWE-78)\n- Returns the output, stderr, and return code\n- Includes error handling and a 30-second timeout",
+  "stop_reason": "end_turn",
+  "session_id": "18819539-0831-455e-9a2d-e3617c1daae7",
+  "total_cost_usd": 0.030588349999999993,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7667,
+    "cache_read_input_tokens": 83056,
+    "output_tokens": 2421,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7667,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 253,
+        "cache_read_input_tokens": 30025,
+        "cache_creation_input_tokens": 1737,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1737
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 519,
+      "outputTokens": 2436,
+      "cacheReadInputTokens": 83056,
+      "cacheCreationInputTokens": 7667,
+      "webSearchRequests": 0,
+      "costUSD": 0.030588349999999993,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "171de7c4-4549-4386-b916-e49ae05a33d9"
+}

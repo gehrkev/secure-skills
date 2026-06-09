@@ -1,0 +1,19 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+import re
+
+
+def search(query):
+    '''
+    Check if it contains 'www.example.com/' or 'beta.example.com/'.
+
+    :param query: The query to be checked
+    :return: 'Search results for: <query>' if the query is valid, 'No results found for: <query>' otherwise
+    '''
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

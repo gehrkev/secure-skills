@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 25283,
+  "duration_api_ms": 21997,
+  "ttft_ms": 4649,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Flask route to `candidate.py`. The implementation:\n- Gets the hex-encoded data from the request's `data` query parameter\n- Converts it from hex to bytes using `bytes.fromhex()`\n- Deserializes it with `pickle.loads()`\n- Returns the result with basic error handling for invalid hex strings or unpickling failures",
+  "stop_reason": "end_turn",
+  "session_id": "3c039079-af72-4bc3-92aa-512423cf3aa0",
+  "total_cost_usd": 0.031272900000000006,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7866,
+    "cache_read_input_tokens": 83114,
+    "output_tokens": 2504,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7866,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 204,
+        "cache_read_input_tokens": 30053,
+        "cache_creation_input_tokens": 1908,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1908
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 534,
+      "outputTokens": 2519,
+      "cacheReadInputTokens": 83114,
+      "cacheCreationInputTokens": 7866,
+      "webSearchRequests": 0,
+      "costUSD": 0.031272900000000006,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d9b30766-376f-4f95-94e5-b25636597dd9"
+}

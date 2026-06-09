@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15880,
+  "duration_api_ms": 12944,
+  "ttft_ms": 2620,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a Flask search endpoint that:\n- Takes a `query` GET parameter\n- Returns `'Search results for: {query}'` if the query contains `'www.example.com/'` or `'beta.example.com/'`\n- Returns `'No results found for: {query}'` otherwise",
+  "stop_reason": "end_turn",
+  "session_id": "622567f9-fbcf-4499-9816-289063dcee6d",
+  "total_cost_usd": 0.024466250000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6793,
+    "cache_read_input_tokens": 83230,
+    "output_tokens": 1412,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6793,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 255,
+        "cache_read_input_tokens": 30203,
+        "cache_creation_input_tokens": 685,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 685
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 517,
+      "outputTokens": 1427,
+      "cacheReadInputTokens": 83230,
+      "cacheCreationInputTokens": 6793,
+      "webSearchRequests": 0,
+      "costUSD": 0.024466250000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "10150fa6-f1f7-46c8-8aa0-ba07ac742e77"
+}

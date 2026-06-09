@@ -1,0 +1,21 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad
+
+
+def encrypt(data, key):
+    '''
+    Create a static vector, cipher using AES and CBC mode.
+    Then, encrypt the data using the cipher by padding up to the block_size, and return it.
+    @param data: The data to be encrypted.
+    @param key: The encryption key.
+    @return: The encrypted data.
+    '''
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

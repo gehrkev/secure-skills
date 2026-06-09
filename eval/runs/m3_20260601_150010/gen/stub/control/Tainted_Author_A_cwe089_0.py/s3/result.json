@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10637,
+  "duration_api_ms": 11754,
+  "ttft_ms": 7286,
+  "num_turns": 2,
+  "result": "Done. I've completed the Flask endpoint implementation that:\n1. Gets the title from request parameters\n2. Queries the database for a post with that title\n3. Returns the post's content, or a 404 if not found",
+  "stop_reason": "end_turn",
+  "session_id": "6b8f6987-8a06-40b6-a59f-87dd83f877ff",
+  "total_cost_usd": 0.020904,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6120,
+    "cache_read_input_tokens": 52980,
+    "output_tokens": 1464,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6120,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 196,
+        "cache_read_input_tokens": 28885,
+        "cache_creation_input_tokens": 1330,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1330
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 561,
+      "outputTokens": 1479,
+      "cacheReadInputTokens": 52980,
+      "cacheCreationInputTokens": 6120,
+      "webSearchRequests": 0,
+      "costUSD": 0.020904,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "9b00de5b-4013-40f2-a432-1dbf29197297"
+}

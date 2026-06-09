@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6733,
+  "duration_api_ms": 7775,
+  "ttft_ms": 4313,
+  "num_turns": 2,
+  "result": "Done. I've implemented the `generatePassword()` function to generate a random 8-character password containing letters and numbers.",
+  "stop_reason": "end_turn",
+  "session_id": "e30ae55d-4100-4a71-afa1-dd07586fbfdb",
+  "total_cost_usd": 0.015940000000000003,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5320,
+    "cache_read_input_tokens": 52840,
+    "output_tokens": 689,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5320,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 81,
+        "cache_read_input_tokens": 28745,
+        "cache_creation_input_tokens": 670,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 670
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 491,
+      "outputTokens": 703,
+      "cacheReadInputTokens": 52840,
+      "cacheCreationInputTokens": 5320,
+      "webSearchRequests": 0,
+      "costUSD": 0.015940000000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b287215c-3fd7-4a0d-9742-f3923a4f13f6"
+}

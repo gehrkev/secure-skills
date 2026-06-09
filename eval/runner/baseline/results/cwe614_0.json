@@ -1,0 +1,20 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_9c_3zi8j.py",
+  "target_cwe": "CWE-614",
+  "findings": [
+    {
+      "cwe": "CWE-20",
+      "line": 12,
+      "rule_id": "py/cookie-injection",
+      "message": "Cookie is constructed from a [user-supplied input](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "by_cwe": {
+      "CWE-20": 1
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-ub82ot7w/results.sarif"
+}

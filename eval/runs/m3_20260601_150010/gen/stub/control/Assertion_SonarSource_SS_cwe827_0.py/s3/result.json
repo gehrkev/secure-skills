@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5774,
+  "duration_api_ms": 6657,
+  "ttft_ms": 3031,
+  "num_turns": 2,
+  "result": "Done. I've written the `parse_xml` function that creates an XML parser, parses the file at the given path, and returns the root element.",
+  "stop_reason": "end_turn",
+  "session_id": "4d5aeeac-d58f-47d3-a1de-d510063f3178",
+  "total_cost_usd": 0.01563965,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5293,
+    "cache_read_input_tokens": 52904,
+    "output_tokens": 626,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5293,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 109,
+        "cache_read_input_tokens": 28809,
+        "cache_creation_input_tokens": 579,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 579
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 523,
+      "outputTokens": 642,
+      "cacheReadInputTokens": 52904,
+      "cacheCreationInputTokens": 5293,
+      "webSearchRequests": 0,
+      "costUSD": 0.01563965,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "63119297-0f0d-4a90-b390-0fb78b1d91dc"
+}

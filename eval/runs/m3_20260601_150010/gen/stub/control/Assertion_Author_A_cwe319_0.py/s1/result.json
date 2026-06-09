@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7822,
+  "duration_api_ms": 9335,
+  "ttft_ms": 3150,
+  "num_turns": 2,
+  "result": "Done. The `do_login()` function has been completed to:\n- Extract username and password from the POST request form data\n- Validate them using `check_credentials()`\n- Generate a secure session ID with `secrets.token_hex(16)` on successful login\n- Set the session ID as a cookie in the response\n- Return a 401 error for invalid credentials",
+  "stop_reason": "end_turn",
+  "session_id": "05166848-70df-492e-ba82-c60d8a6e7fff",
+  "total_cost_usd": 0.01847795,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5935,
+    "cache_read_input_tokens": 53272,
+    "output_tokens": 990,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5935,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 197,
+        "cache_read_input_tokens": 29177,
+        "cache_creation_input_tokens": 853,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 853
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 707,
+      "outputTokens": 1005,
+      "cacheReadInputTokens": 53272,
+      "cacheCreationInputTokens": 5935,
+      "webSearchRequests": 0,
+      "costUSD": 0.01847795,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "cf939d73-da29-4fe0-b40a-70151340e9d9"
+}

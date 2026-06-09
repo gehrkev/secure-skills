@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7737,
+  "duration_api_ms": 8776,
+  "ttft_ms": 4264,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a Flask endpoint at `/parse_xml` that accepts an `xml_src` parameter, parses it using lxml, and returns the parsed XML as a formatted string. The endpoint handles both GET and POST requests with basic error handling.",
+  "stop_reason": "end_turn",
+  "session_id": "c689d33e-e409-4887-84a9-1a65b5133462",
+  "total_cost_usd": 0.01711455,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5411,
+    "cache_read_input_tokens": 52838,
+    "output_tokens": 902,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5411,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 195,
+        "cache_read_input_tokens": 28743,
+        "cache_creation_input_tokens": 763,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 763
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 492,
+      "outputTokens": 915,
+      "cacheReadInputTokens": 52838,
+      "cacheCreationInputTokens": 5411,
+      "webSearchRequests": 0,
+      "costUSD": 0.01711455,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6900fa3f-9927-4e11-a059-c6401ec2987e"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5195,
+  "duration_api_ms": 6119,
+  "ttft_ms": 2694,
+  "num_turns": 2,
+  "result": "Done. I've written a `calculate_average_score` function to `candidate.py` that divides the total score by the total count to return the average.",
+  "stop_reason": "end_turn",
+  "session_id": "00e477ec-242d-4eb1-961d-0ec7eff9b800",
+  "total_cost_usd": 0.014055850000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 4981,
+    "cache_read_input_tokens": 52806,
+    "output_tokens": 403,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 4981,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 100,
+        "cache_read_input_tokens": 28711,
+        "cache_creation_input_tokens": 365,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 365
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 474,
+      "outputTokens": 415,
+      "cacheReadInputTokens": 52806,
+      "cacheCreationInputTokens": 4981,
+      "webSearchRequests": 0,
+      "costUSD": 0.014055850000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ef8e8959-2482-460c-9114-a0e2bddb8976"
+}

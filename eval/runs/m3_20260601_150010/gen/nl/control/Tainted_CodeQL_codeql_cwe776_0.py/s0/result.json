@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6892,
+  "duration_api_ms": 7711,
+  "ttft_ms": 3044,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a GET endpoint at `/upload` that:\n- Accepts an XML string via the `xml_src` query parameter\n- Parses it using Python's built-in XML parser\n- Returns the parsed XML as a string\n- Includes error handling for missing or malformed XML",
+  "stop_reason": "end_turn",
+  "session_id": "c26a7915-1209-4480-8fc9-0f8a5515fb29",
+  "total_cost_usd": 0.0164861,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5286,
+    "cache_read_input_tokens": 52846,
+    "output_tokens": 806,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5286,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 236,
+        "cache_read_input_tokens": 28751,
+        "cache_creation_input_tokens": 630,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 630
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 494,
+      "outputTokens": 820,
+      "cacheReadInputTokens": 52846,
+      "cacheCreationInputTokens": 5286,
+      "webSearchRequests": 0,
+      "costUSD": 0.0164861,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a1cdee15-02f0-45e5-a5cf-f66c32fbf4f5"
+}

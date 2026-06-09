@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8261,
+  "duration_api_ms": 9196,
+  "ttft_ms": 6028,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with the XMLUpload function that retrieves the `xml_src` parameter from the request, parses it as XML, and returns it as a string.",
+  "stop_reason": "end_turn",
+  "session_id": "895494c3-a5dd-40e1-9578-b49dfe6a84da",
+  "total_cost_usd": 0.017977550000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5663,
+    "cache_read_input_tokens": 52928,
+    "output_tokens": 1000,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5663,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 136,
+        "cache_read_input_tokens": 28833,
+        "cache_creation_input_tokens": 925,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 925
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 536,
+      "outputTokens": 1014,
+      "cacheReadInputTokens": 52928,
+      "cacheCreationInputTokens": 5663,
+      "webSearchRequests": 0,
+      "costUSD": 0.017977550000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "fff0b3a7-8420-44ff-a6b6-3230b710cc13"
+}

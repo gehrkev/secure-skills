@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15995,
+  "duration_api_ms": 13771,
+  "ttft_ms": 3245,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Flask function to `candidate.py`. The function retrieves the \"Content-Type\" header from the request with a safe default fallback, creates a response, and sets the same Content-Type header on the response before returning it.",
+  "stop_reason": "end_turn",
+  "session_id": "b42f5ac3-98b1-4374-b1b5-9f13cf447a66",
+  "total_cost_usd": 0.024713,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6876,
+    "cache_read_input_tokens": 83280,
+    "output_tokens": 1434,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6876,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 208,
+        "cache_read_input_tokens": 30207,
+        "cache_creation_input_tokens": 764,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 764
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 540,
+      "outputTokens": 1450,
+      "cacheReadInputTokens": 83280,
+      "cacheCreationInputTokens": 6876,
+      "webSearchRequests": 0,
+      "costUSD": 0.024713,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "29238636-df39-42b4-bf78-0442ae8467cf"
+}

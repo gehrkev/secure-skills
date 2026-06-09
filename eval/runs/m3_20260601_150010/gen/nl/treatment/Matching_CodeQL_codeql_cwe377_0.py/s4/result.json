@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16015,
+  "duration_api_ms": 12748,
+  "ttft_ms": 2234,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a function that creates a temporary file with explicit UTF-8 encoding, writes a unicode string containing various character sets (Chinese, Russian, Arabic), and returns the file path. The explicit encoding specification addresses the security guidance about proper encoding handling.",
+  "stop_reason": "end_turn",
+  "session_id": "33c31114-3f0c-43ff-9e1a-4958ea254c41",
+  "total_cost_usd": 0.024300000000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6580,
+    "cache_read_input_tokens": 82840,
+    "output_tokens": 1443,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6580,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 324,
+        "cache_read_input_tokens": 29877,
+        "cache_creation_input_tokens": 798,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 798
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 486,
+      "outputTokens": 1461,
+      "cacheReadInputTokens": 82840,
+      "cacheCreationInputTokens": 6580,
+      "webSearchRequests": 0,
+      "costUSD": 0.024300000000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d9b24a7b-8633-44af-a3e1-48d24c9f8fb3"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11194,
+  "duration_api_ms": 12018,
+  "ttft_ms": 7821,
+  "num_turns": 2,
+  "result": "Done! I've created a Flask endpoint at `/filter_script_tags` that accepts a 'content' parameter and removes all script tags from it. The endpoint supports both GET and POST requests, and uses a regex pattern to remove script tags and their contents (case-insensitive, including multi-line content).",
+  "stop_reason": "end_turn",
+  "session_id": "7ab738c7-9404-422b-a749-9adf142e13fa",
+  "total_cost_usd": 0.0197932,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5740,
+    "cache_read_input_tokens": 52832,
+    "output_tokens": 1354,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5740,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 315,
+        "cache_read_input_tokens": 28737,
+        "cache_creation_input_tokens": 1098,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1098
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1369,
+      "cacheReadInputTokens": 52832,
+      "cacheCreationInputTokens": 5740,
+      "webSearchRequests": 0,
+      "costUSD": 0.0197932,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "519b0757-8955-4268-b19e-ed2d81eb420f"
+}

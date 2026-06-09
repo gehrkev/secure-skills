@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12860,
+  "duration_api_ms": 10508,
+  "ttft_ms": 1827,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a Flask GET route for `/dashboard` that:\n- Checks if the user is authenticated by looking for `user_id` in the Flask session\n- Renders `dashboard.html` if authenticated\n- Redirects to `/login` if not authenticated\n\nThe code includes a basic login route placeholder and Flask app setup with a secret key for session management.",
+  "stop_reason": "end_turn",
+  "session_id": "af92247a-2cd3-4f95-ad98-d5addf13a8aa",
+  "total_cost_usd": 0.0226738,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6398,
+    "cache_read_input_tokens": 82833,
+    "output_tokens": 1167,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6398,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 204,
+        "cache_read_input_tokens": 29852,
+        "cache_creation_input_tokens": 641,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 641
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 493,
+      "outputTokens": 1180,
+      "cacheReadInputTokens": 82833,
+      "cacheCreationInputTokens": 6398,
+      "webSearchRequests": 0,
+      "costUSD": 0.0226738,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "094b8f6e-56e7-4c4e-91dc-6bee04c4b0aa"
+}

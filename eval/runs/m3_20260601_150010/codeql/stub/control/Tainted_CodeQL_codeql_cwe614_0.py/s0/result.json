@@ -1,0 +1,21 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/stub/control/Tainted_CodeQL_codeql_cwe614_0.py/s0/candidate.py",
+  "target_cwe": "CWE-614",
+  "findings": [
+    {
+      "cwe": "CWE-20",
+      "line": 13,
+      "rule_id": "py/cookie-injection",
+      "message": "Cookie is constructed from a [user-supplied input](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "by_cwe": {
+      "CWE-20": 1
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-7hz2jd_1/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

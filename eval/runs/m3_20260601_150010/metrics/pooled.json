@@ -1,0 +1,230 @@
+{
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4",
+  "model_id": "claude-haiku-4-5-20251001",
+  "run_id": "m3_20260601_150010",
+  "k": 5,
+  "metrics": {
+    "nl": {
+      "treatment": {
+        "vulnerable_at_k": 0.27,
+        "security_at_k": 0.87,
+        "pass_at_k": 0.92,
+        "n_prompts": 100
+      },
+      "control": {
+        "vulnerable_at_k": 0.33,
+        "security_at_k": 0.73,
+        "pass_at_k": 0.91,
+        "n_prompts": 100
+      }
+    },
+    "stub": {
+      "treatment": {
+        "vulnerable_at_k": 0.26,
+        "security_at_k": 0.85,
+        "pass_at_k": 0.9,
+        "n_prompts": 100
+      },
+      "control": {
+        "vulnerable_at_k": 0.35,
+        "security_at_k": 0.7,
+        "pass_at_k": 0.9,
+        "n_prompts": 100
+      }
+    },
+    "pooled": {
+      "treatment": {
+        "vulnerable_at_k": 0.265,
+        "security_at_k": 0.86,
+        "pass_at_k": 0.91,
+        "n_prompts": 100
+      },
+      "control": {
+        "vulnerable_at_k": 0.34,
+        "security_at_k": 0.715,
+        "pass_at_k": 0.905,
+        "n_prompts": 100
+      }
+    }
+  },
+  "mcnemar": {
+    "nl": {
+      "b": 6,
+      "c": 0,
+      "p_value": 0.03125,
+      "risk_diff": 0.06,
+      "log_odds": 2.5649493574615367,
+      "log_odds_se": 1.4675987714106855,
+      "n_prompts": 100
+    },
+    "stub": {
+      "b": 9,
+      "c": 0,
+      "p_value": 0.00390625,
+      "risk_diff": 0.08999999999999997,
+      "log_odds": 2.9444389791664403,
+      "log_odds_se": 1.4509525002200232,
+      "n_prompts": 100
+    }
+  },
+  "logistic_regression": {
+    "note": "GLMM logístico de efeitos mistos com intercepto aleatório de prompt (vulnerable ~ arm * modality + (1|prompt)), ajustado por Bayes variacional (statsmodels BinomialBayesMixedGLM). Os coeficientes são log-odds condicionais (subject-specific); os OR têm magnitude maior que as taxas marginais @k porque a variância entre prompts é grande. O p é uma aproximação tipo-Wald da posterior VB (|média|/desvio).",
+    "arm": {
+      "coef": -2.256685084418451,
+      "sd": 0.16219870483556834,
+      "OR": 0.1046969717729427,
+      "CI_lower": 0.07618470593901168,
+      "CI_upper": 0.1438800053543471,
+      "p": 5.27507622339378e-44
+    },
+    "modality": {
+      "coef": 0.8852473292442895,
+      "sd": 0.16550714928503457,
+      "OR": 2.4235837404992355,
+      "CI_lower": 1.7521670158384448,
+      "CI_upper": 3.352282113586964,
+      "p": 8.85904916705284e-08
+    },
+    "arm_x_modality": {
+      "coef": -1.208423028514663,
+      "sd": 0.2306834048077484,
+      "OR": 0.2986678990158575,
+      "CI_lower": 0.1900320566319013,
+      "CI_upper": 0.46940771722180974,
+      "p": 1.6193255748500813e-07
+    },
+    "prompt_intercept_sd": 6.949127780332465
+  },
+  "strata": {
+    "A": {
+      "n_prompts": 75,
+      "metrics": {
+        "treatment_nl": {
+          "vulnerable_at_k": 0.28,
+          "security_at_k": 0.88,
+          "pass_at_k": 0.9466666666666667,
+          "n_prompts": 75
+        },
+        "treatment_stub": {
+          "vulnerable_at_k": 0.28,
+          "security_at_k": 0.84,
+          "pass_at_k": 0.92,
+          "n_prompts": 75
+        },
+        "control_nl": {
+          "vulnerable_at_k": 0.36,
+          "security_at_k": 0.6933333333333334,
+          "pass_at_k": 0.92,
+          "n_prompts": 75
+        },
+        "control_stub": {
+          "vulnerable_at_k": 0.4,
+          "security_at_k": 0.6666666666666666,
+          "pass_at_k": 0.92,
+          "n_prompts": 75
+        }
+      },
+      "mcnemar": {
+        "nl": {
+          "b": 6,
+          "c": 0,
+          "p_value": 0.03125,
+          "risk_diff": 0.07999999999999996,
+          "log_odds": 2.5649493574615367,
+          "log_odds_se": 1.4675987714106855,
+          "n_prompts": 75
+        },
+        "stub": {
+          "b": 9,
+          "c": 0,
+          "p_value": 0.00390625,
+          "risk_diff": 0.12,
+          "log_odds": 2.9444389791664403,
+          "log_odds_se": 1.4509525002200232,
+          "n_prompts": 75
+        }
+      }
+    },
+    "B": {
+      "n_prompts": 20,
+      "metrics": {
+        "treatment_nl": {
+          "vulnerable_at_k": 0.3,
+          "security_at_k": 0.8,
+          "pass_at_k": 0.8,
+          "n_prompts": 20
+        },
+        "treatment_stub": {
+          "vulnerable_at_k": 0.25,
+          "security_at_k": 0.85,
+          "pass_at_k": 0.8,
+          "n_prompts": 20
+        },
+        "control_nl": {
+          "vulnerable_at_k": 0.3,
+          "security_at_k": 0.8,
+          "pass_at_k": 0.85,
+          "n_prompts": 20
+        },
+        "control_stub": {
+          "vulnerable_at_k": 0.25,
+          "security_at_k": 0.75,
+          "pass_at_k": 0.8,
+          "n_prompts": 20
+        }
+      },
+      "mcnemar": {
+        "nl": {
+          "b": 0,
+          "c": 0,
+          "p_value": 1.0,
+          "risk_diff": 0.0,
+          "log_odds": 0.0,
+          "log_odds_se": 2.0,
+          "n_prompts": 20
+        },
+        "stub": {
+          "b": 0,
+          "c": 0,
+          "p_value": 1.0,
+          "risk_diff": 0.0,
+          "log_odds": 0.0,
+          "log_odds_se": 2.0,
+          "n_prompts": 20
+        }
+      }
+    },
+    "C": {
+      "n_prompts": 5,
+      "metrics": {
+        "treatment_nl": {
+          "vulnerable_at_k": 0.0,
+          "security_at_k": 1.0,
+          "pass_at_k": 1.0,
+          "n_prompts": 5
+        },
+        "treatment_stub": {
+          "vulnerable_at_k": 0.0,
+          "security_at_k": 1.0,
+          "pass_at_k": 1.0,
+          "n_prompts": 5
+        },
+        "control_nl": {
+          "vulnerable_at_k": 0.0,
+          "security_at_k": 1.0,
+          "pass_at_k": 1.0,
+          "n_prompts": 5
+        },
+        "control_stub": {
+          "vulnerable_at_k": 0.0,
+          "security_at_k": 1.0,
+          "pass_at_k": 1.0,
+          "n_prompts": 5
+        }
+      },
+      "note": "n=5 prompts — descriptive only (O1 decision)",
+      "mcnemar": null,
+      "o1_decision": "Group C (n=5) too small for powered McNemar; reported descriptively"
+    }
+  }
+}

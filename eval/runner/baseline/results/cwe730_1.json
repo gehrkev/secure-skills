@@ -1,0 +1,46 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_4scavf4y.py",
+  "target_cwe": "CWE-730",
+  "findings": [
+    {
+      "cwe": "CWE-116",
+      "line": 15,
+      "rule_id": "py/reflective-xss",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-79",
+      "line": 15,
+      "rule_id": "py/reflective-xss",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-116",
+      "line": 17,
+      "rule_id": "py/reflective-xss",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-79",
+      "line": 17,
+      "rule_id": "py/reflective-xss",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-20",
+      "line": 13,
+      "rule_id": "py/incomplete-hostname-regexp",
+      "message": "This regular expression has an unescaped '.' before 'example.com/', so it might match more hosts than expected."
+    }
+  ],
+  "summary": {
+    "total_findings": 5,
+    "by_cwe": {
+      "CWE-116": 2,
+      "CWE-79": 2,
+      "CWE-20": 1
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-3di02ntr/results.sarif"
+}

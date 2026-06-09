@@ -1,0 +1,20 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_fme5x318.py",
+  "target_cwe": "CWE-89",
+  "findings": [
+    {
+      "cwe": "CWE-89",
+      "line": 19,
+      "rule_id": "py/sql-injection",
+      "message": "This SQL query depends on a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "by_cwe": {
+      "CWE-89": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-vw21f5ev/results.sarif"
+}

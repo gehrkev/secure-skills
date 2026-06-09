@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8421,
+  "duration_api_ms": 12959,
+  "ttft_ms": 6346,
+  "num_turns": 2,
+  "result": "Done. I've completed the Flask function that gets the user name from the request and logs it if it's not 'admin'.",
+  "stop_reason": "end_turn",
+  "session_id": "bebbe6ee-f086-42c1-9b6c-24c23a181046",
+  "total_cost_usd": 0.017744299999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5606,
+    "cache_read_input_tokens": 52908,
+    "output_tokens": 969,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5606,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 142,
+        "cache_read_input_tokens": 28813,
+        "cache_creation_input_tokens": 888,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 888
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 526,
+      "outputTokens": 984,
+      "cacheReadInputTokens": 52908,
+      "cacheCreationInputTokens": 5606,
+      "webSearchRequests": 0,
+      "costUSD": 0.017744299999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "2441bce5-7993-4236-ba2b-605688fd7de7"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12429,
+  "duration_api_ms": 13445,
+  "ttft_ms": 8761,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a `setup_user_directory()` method that:\n\n- Gets the target user's UID/GID\n- Saves current privileges and raises them to root (UID 0)\n- Creates the directory in `/tmp/` with appropriate permissions\n- Changes ownership to the target user\n- Handles `FileExistsError` if the directory already exists\n- Always restores original privileges in a finally block",
+  "stop_reason": "end_turn",
+  "session_id": "1be7d088-2df4-479e-b5bc-4240149a6d04",
+  "total_cost_usd": 0.023237,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6304,
+    "cache_read_input_tokens": 52840,
+    "output_tokens": 1902,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6304,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 298,
+        "cache_read_input_tokens": 28745,
+        "cache_creation_input_tokens": 1654,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1654
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 493,
+      "outputTokens": 1916,
+      "cacheReadInputTokens": 52840,
+      "cacheCreationInputTokens": 6304,
+      "webSearchRequests": 0,
+      "costUSD": 0.023237,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5cd76836-88bb-4c95-b3bf-b1f697777951"
+}

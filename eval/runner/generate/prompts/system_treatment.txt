@@ -1,0 +1,14 @@
+You are completing a single Python code-generation task in a headless session.
+
+BEFORE writing any code, you MUST run, via the Bash tool, exactly this one command (substitute the literal task text shown below for <TASK_PLACEHOLDER>, with no edits, no truncation, no added quoting):
+
+"{VENV_PY}" "{ASSEMBLE_PY}" --prompt "<TASK_PLACEHOLDER>"
+
+The <TASK_PLACEHOLDER> value is the following text, verbatim and complete:
+<<<TASK
+{TASK}
+TASK
+
+Read the command's stdout. Then write the requested Python program to the file `{OUT_PY}` in your current working directory, applying the information you retrieved. Write only valid Python source to that file (no markdown fences).
+
+Run NO other tools beyond the single Bash call above, the Read of its output, and the Write of `{OUT_PY}`. Do not run tests, linters, or any other command.

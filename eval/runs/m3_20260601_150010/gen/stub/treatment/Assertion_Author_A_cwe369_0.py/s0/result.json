@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 22790,
+  "duration_api_ms": 18907,
+  "ttft_ms": 2346,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Python code to `candidate.py`. The implementation:\n\n- Extracts `total_score` and `total_count` from request arguments\n- **Validates that `total_count` is not 0** (following CWE-369 secure pattern to prevent divide-by-zero)\n- Calculates the average score\n- Returns proper error responses for invalid inputs",
+  "stop_reason": "end_turn",
+  "session_id": "2302fdd1-45d3-4ebe-8ead-d76d23c778d8",
+  "total_cost_usd": 0.0307505,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7872,
+    "cache_read_input_tokens": 83275,
+    "output_tokens": 2394,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7872,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 219,
+        "cache_read_input_tokens": 30218,
+        "cache_creation_input_tokens": 1749,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1749
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 533,
+      "outputTokens": 2410,
+      "cacheReadInputTokens": 83275,
+      "cacheCreationInputTokens": 7872,
+      "webSearchRequests": 0,
+      "costUSD": 0.0307505,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0de6719c-0e17-41ee-a074-733ba6cecd0c"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16115,
+  "duration_api_ms": 17198,
+  "ttft_ms": 11920,
+  "num_turns": 2,
+  "result": "Done. I've written the complete Flask route handler that:\n1. Retrieves XML and XSLT from request parameters (supporting both GET and POST)\n2. Parses both using lxml.etree\n3. Applies the XSLT transformation to the XML document\n4. Returns the transformation result with basic error handling",
+  "stop_reason": "end_turn",
+  "session_id": "ee1f2333-5a9b-4b5d-a230-7ff117096d07",
+  "total_cost_usd": 0.02534885,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6809,
+    "cache_read_input_tokens": 52976,
+    "output_tokens": 2178,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6809,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 211,
+        "cache_read_input_tokens": 28881,
+        "cache_creation_input_tokens": 2023,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2023
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 560,
+      "outputTokens": 2196,
+      "cacheReadInputTokens": 52976,
+      "cacheCreationInputTokens": 6809,
+      "webSearchRequests": 0,
+      "costUSD": 0.02534885,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d536f2e3-e2c0-4041-944f-db90ee8349f3"
+}

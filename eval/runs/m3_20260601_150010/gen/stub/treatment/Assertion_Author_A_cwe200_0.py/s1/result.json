@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16681,
+  "duration_api_ms": 14084,
+  "ttft_ms": 3277,
+  "num_turns": 3,
+  "result": "Done. I've written the `login()` endpoint implementation to `candidate.py`. The function extracts the username and token from the request JSON, queries the database for a matching user/token combination, and returns the appropriate authorization status message.",
+  "stop_reason": "end_turn",
+  "session_id": "97ba0c37-ff61-4d18-8471-31fc96253f40",
+  "total_cost_usd": 0.027011399999999998,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7872,
+    "cache_read_input_tokens": 84884,
+    "output_tokens": 1558,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7872,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 185,
+        "cache_read_input_tokens": 31255,
+        "cache_creation_input_tokens": 712,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 712
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 818,
+      "outputTokens": 1573,
+      "cacheReadInputTokens": 84884,
+      "cacheCreationInputTokens": 7872,
+      "webSearchRequests": 0,
+      "costUSD": 0.027011399999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7a382811-0a87-481d-8dc0-5cc015c66718"
+}

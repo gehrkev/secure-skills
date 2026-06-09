@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5759,
+  "duration_api_ms": 6696,
+  "ttft_ms": 2698,
+  "num_turns": 2,
+  "result": "Done. I've written the complete `deleteImage()` function that gets the 'path' parameter from the request, checks if the file exists, deletes it if present, and returns the appropriate message.",
+  "stop_reason": "end_turn",
+  "session_id": "5252ddad-1f08-400d-aa49-43625d928f6f",
+  "total_cost_usd": 0.016726750000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5459,
+    "cache_read_input_tokens": 52960,
+    "output_tokens": 796,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5459,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 168,
+        "cache_read_input_tokens": 28865,
+        "cache_creation_input_tokens": 689,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 689
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 552,
+      "outputTokens": 811,
+      "cacheReadInputTokens": 52960,
+      "cacheCreationInputTokens": 5459,
+      "webSearchRequests": 0,
+      "costUSD": 0.016726750000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c172fc21-37ca-4d89-bad7-8c25817577c9"
+}

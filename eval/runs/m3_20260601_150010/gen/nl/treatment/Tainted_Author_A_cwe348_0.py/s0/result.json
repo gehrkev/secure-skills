@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17752,
+  "duration_api_ms": 14673,
+  "ttft_ms": 2139,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask application that:\n\n1. **Extracts** the `X-Forwarded-For` header from the request\n2. **Validates** the IP address format using the `ipaddress` module\n3. **Checks** if the IP is a private/local IP using `ip.is_private`\n4. **Raises** a `ValueError` if the IP is not local\n5. **Returns** the `X-Forwarded-For` header value if valid\n\nThe code properly handles edge cases like malformed IPs and uses the standard library's `ipaddress` module for secure IP validation, which correctly identifies all private IP ranges (127.0.0.0/8, 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, etc.).",
+  "stop_reason": "end_turn",
+  "session_id": "8c720a46-0c42-4a3e-8212-50d4a40cd022",
+  "total_cost_usd": 0.0264309,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6790,
+    "cache_read_input_tokens": 82924,
+    "output_tokens": 1810,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6790,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 449,
+        "cache_read_input_tokens": 29901,
+        "cache_creation_input_tokens": 984,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 984
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 516,
+      "outputTokens": 1827,
+      "cacheReadInputTokens": 82924,
+      "cacheCreationInputTokens": 6790,
+      "webSearchRequests": 0,
+      "costUSD": 0.0264309,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "4a44b5f7-128f-45ca-9500-01e211bd2cfa"
+}

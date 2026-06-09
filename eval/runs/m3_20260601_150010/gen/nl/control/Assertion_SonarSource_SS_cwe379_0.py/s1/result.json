@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5725,
+  "duration_api_ms": 6672,
+  "ttft_ms": 3046,
+  "num_turns": 2,
+  "result": "Done. The function `write_string_to_temp_file` takes a unicode string, writes it to a temporary file with UTF-8 encoding, and returns the file path.",
+  "stop_reason": "end_turn",
+  "session_id": "a3ae11b8-42e0-41f4-8eba-270a85f2faa5",
+  "total_cost_usd": 0.015877549999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5235,
+    "cache_read_input_tokens": 52818,
+    "output_tokens": 697,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5235,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 150,
+        "cache_read_input_tokens": 28723,
+        "cache_creation_input_tokens": 607,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 607
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 482,
+      "outputTokens": 714,
+      "cacheReadInputTokens": 52818,
+      "cacheCreationInputTokens": 5235,
+      "webSearchRequests": 0,
+      "costUSD": 0.015877549999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0b4d33c0-b1ee-45bf-bc60-b23f82cbee6e"
+}

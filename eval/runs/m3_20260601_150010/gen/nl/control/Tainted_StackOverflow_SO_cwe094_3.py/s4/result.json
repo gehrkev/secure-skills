@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6578,
+  "duration_api_ms": 7475,
+  "ttft_ms": 3843,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/create_variable` route that accepts a `str_var` query parameter, stores it in a variable, and returns it.",
+  "stop_reason": "end_turn",
+  "session_id": "49fa28c8-1905-43ce-8589-879d025c66cd",
+  "total_cost_usd": 0.01565215,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5239,
+    "cache_read_input_tokens": 52834,
+    "output_tokens": 652,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5239,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 117,
+        "cache_read_input_tokens": 28739,
+        "cache_creation_input_tokens": 595,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 595
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 666,
+      "cacheReadInputTokens": 52834,
+      "cacheCreationInputTokens": 5239,
+      "webSearchRequests": 0,
+      "costUSD": 0.01565215,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "371cfd69-7e3e-4f27-ba0f-83a558b598cf"
+}

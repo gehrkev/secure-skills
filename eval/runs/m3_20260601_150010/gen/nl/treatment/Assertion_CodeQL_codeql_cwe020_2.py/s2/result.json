@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19042,
+  "duration_api_ms": 16779,
+  "ttft_ms": 1926,
+  "num_turns": 3,
+  "result": "Done. I've created the Flask endpoint that:\n\n1. Takes a `target_url` parameter from the request (via GET or POST)\n2. Validates it against the pattern `(www|beta).example.com/` using regex with proper escaping and anchoring\n3. Returns a JSON boolean (True or False)\n\nThe implementation applies security best practices from the guidance:\n- Uses a whitelist pattern approach to validate the URL\n- Properly escapes the dots in the domain name to prevent regex bypass\n- Anchors the pattern with `^` to match from the start\n- Avoids making external requests (SSRF mitigation)\n- Never performs redirects (open redirect mitigation)",
+  "stop_reason": "end_turn",
+  "session_id": "72a8b34c-bcf1-4268-bec6-26383b9e12d5",
+  "total_cost_usd": 0.027449,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7040,
+    "cache_read_input_tokens": 82850,
+    "output_tokens": 1958,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7040,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 352,
+        "cache_read_input_tokens": 29849,
+        "cache_creation_input_tokens": 1286,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1286
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 504,
+      "outputTokens": 1972,
+      "cacheReadInputTokens": 82850,
+      "cacheCreationInputTokens": 7040,
+      "webSearchRequests": 0,
+      "costUSD": 0.027449,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f8c21802-fa59-436f-a154-0456b73c5e43"
+}

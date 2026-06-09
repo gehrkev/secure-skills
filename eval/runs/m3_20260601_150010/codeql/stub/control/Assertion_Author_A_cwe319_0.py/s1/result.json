@@ -1,0 +1,28 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/stub/control/Assertion_Author_A_cwe319_0.py/s1/candidate.py",
+  "target_cwe": "CWE-319",
+  "findings": [
+    {
+      "cwe": "CWE-614",
+      "line": 44,
+      "rule_id": "py/insecure-cookie",
+      "message": "Cookie is added to response without the 'secure' flag being set."
+    },
+    {
+      "cwe": "CWE-1004",
+      "line": 44,
+      "rule_id": "py/client-exposed-cookie",
+      "message": "Sensitive server cookie is set without HttpOnly flag."
+    }
+  ],
+  "summary": {
+    "total_findings": 2,
+    "by_cwe": {
+      "CWE-614": 1,
+      "CWE-1004": 1
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-ideascge/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

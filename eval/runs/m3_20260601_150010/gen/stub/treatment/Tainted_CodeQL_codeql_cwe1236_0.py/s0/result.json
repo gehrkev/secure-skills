@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16744,
+  "duration_api_ms": 14750,
+  "ttft_ms": 3309,
+  "num_turns": 3,
+  "result": "Done! I've written the secure code to `candidate.py`. The implementation:\n\n- Gets `csv_data` from the request form\n- Prevents path traversal attacks by validating the filepath stays within the static folder\n- Uses the csv library to safely write the data\n- Includes proper error handling and HTTP responses",
+  "stop_reason": "end_turn",
+  "session_id": "56c6591b-bd0a-41f4-9837-506d1d8c61b2",
+  "total_cost_usd": 0.02556055,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6907,
+    "cache_read_input_tokens": 83078,
+    "output_tokens": 1602,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6907,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 210,
+        "cache_read_input_tokens": 30019,
+        "cache_creation_input_tokens": 983,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 983
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 534,
+      "outputTokens": 1617,
+      "cacheReadInputTokens": 83078,
+      "cacheCreationInputTokens": 6907,
+      "webSearchRequests": 0,
+      "costUSD": 0.02556055,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6a9f3fb2-4d62-4eba-af5e-19e864281ba9"
+}

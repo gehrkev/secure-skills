@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23450,
+  "duration_api_ms": 19764,
+  "ttft_ms": 2820,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask endpoint at `candidate.py` that:\n\n- Defines a `Post` database model with title and content\n- Creates a `/get_post` endpoint accepting both GET and POST requests\n- Takes a `title` parameter from the request\n- Safely queries the database using SQLAlchemy's ORM (parameterized queries prevent SQL injection)\n- Returns the post content as JSON or appropriate error responses\n- Includes proper validation, error handling, and HTTP status codes",
+  "stop_reason": "end_turn",
+  "session_id": "38c33ade-7178-4397-a864-ab8473ca68b8",
+  "total_cost_usd": 0.029325000000000004,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7362,
+    "cache_read_input_tokens": 82855,
+    "output_tokens": 2252,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7362,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 309,
+        "cache_read_input_tokens": 29870,
+        "cache_creation_input_tokens": 1587,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1587
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 497,
+      "outputTokens": 2268,
+      "cacheReadInputTokens": 82855,
+      "cacheCreationInputTokens": 7362,
+      "webSearchRequests": 0,
+      "costUSD": 0.029325000000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "67de95d5-4353-4269-902f-eeddbbca9138"
+}

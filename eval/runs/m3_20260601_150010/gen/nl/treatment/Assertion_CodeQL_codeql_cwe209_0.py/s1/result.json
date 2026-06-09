@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15906,
+  "duration_api_ms": 13001,
+  "ttft_ms": 2709,
+  "num_turns": 3,
+  "result": "Done. I've created the `SSHByteStreamReader` class with:\n- A constructor that stores the stream\n- A `read(num_bytes)` method that reads exactly the requested bytes\n- Proper handling of EOF by raising `EOFError` if fewer bytes remain than requested\n- Security considerations: validates input, reads in chunks to prevent resource exhaustion, and handles partial reads from the underlying stream",
+  "stop_reason": "end_turn",
+  "session_id": "9358f6a2-d335-4ed5-bba3-0081f2d99d38",
+  "total_cost_usd": 0.02382985,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6535,
+    "cache_read_input_tokens": 82891,
+    "output_tokens": 1356,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6535,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 257,
+        "cache_read_input_tokens": 29876,
+        "cache_creation_input_tokens": 754,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 754
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 512,
+      "outputTokens": 1372,
+      "cacheReadInputTokens": 82891,
+      "cacheCreationInputTokens": 6535,
+      "webSearchRequests": 0,
+      "costUSD": 0.02382985,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "619fc8a2-8546-4e47-b4d3-c23729eb4b04"
+}

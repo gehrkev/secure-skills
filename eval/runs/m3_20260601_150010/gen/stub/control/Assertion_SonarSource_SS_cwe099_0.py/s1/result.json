@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8179,
+  "duration_api_ms": 9172,
+  "ttft_ms": 5533,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with a complete implementation of the `/download` route that reads the filename from the request query parameters and sends the file from the static directory as an attachment.",
+  "stop_reason": "end_turn",
+  "session_id": "c171d681-5623-443f-912c-a5431c4b5f4f",
+  "total_cost_usd": 0.017136400000000003,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5468,
+    "cache_read_input_tokens": 52874,
+    "output_tokens": 886,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5468,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 163,
+        "cache_read_input_tokens": 28779,
+        "cache_creation_input_tokens": 784,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 784
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 509,
+      "outputTokens": 901,
+      "cacheReadInputTokens": 52874,
+      "cacheCreationInputTokens": 5468,
+      "webSearchRequests": 0,
+      "costUSD": 0.017136400000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e4145931-2e1c-44cd-a629-755b3b18c584"
+}

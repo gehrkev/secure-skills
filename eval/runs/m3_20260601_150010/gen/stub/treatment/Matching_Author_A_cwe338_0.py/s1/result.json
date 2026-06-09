@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17776,
+  "duration_api_ms": 14475,
+  "ttft_ms": 3274,
+  "num_turns": 3,
+  "result": "Done. I've generated the Python code in `candidate.py`. The implementation:\n\n- Uses `secrets.token_hex(32)` for cryptographically secure randomness (256-bit), addressing the weak PRNG vulnerabilities\n- Calls `session.clear()` to invalidate existing session data before setting a new session ID, mitigating session fixation attacks\n- Sets and returns the secure session ID",
+  "stop_reason": "end_turn",
+  "session_id": "b1e7af0c-0d59-461b-9e14-1104c747710e",
+  "total_cost_usd": 0.0252186,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6874,
+    "cache_read_input_tokens": 83251,
+    "output_tokens": 1539,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6874,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 261,
+        "cache_read_input_tokens": 30178,
+        "cache_creation_input_tokens": 791,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 791
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 541,
+      "outputTokens": 1552,
+      "cacheReadInputTokens": 83251,
+      "cacheCreationInputTokens": 6874,
+      "webSearchRequests": 0,
+      "costUSD": 0.0252186,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "bc226c97-e5ff-4f7c-bff9-bdf986961b14"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9319,
+  "duration_api_ms": 10639,
+  "ttft_ms": 6610,
+  "num_turns": 2,
+  "result": "Done. The function uses a regex pattern to validate that the input string has exactly three non-empty parts separated by dots (x.y.z format).",
+  "stop_reason": "end_turn",
+  "session_id": "a8c9ddc5-f34f-4c39-ad0a-9fb7570063ca",
+  "total_cost_usd": 0.01888435,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5763,
+    "cache_read_input_tokens": 52976,
+    "output_tokens": 1151,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5763,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 237,
+        "cache_read_input_tokens": 28881,
+        "cache_creation_input_tokens": 977,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 977
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 558,
+      "outputTokens": 1165,
+      "cacheReadInputTokens": 52976,
+      "cacheCreationInputTokens": 5763,
+      "webSearchRequests": 0,
+      "costUSD": 0.01888435,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "bf7188cd-f4f4-410a-9c14-0ecb54486b05"
+}

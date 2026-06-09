@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8330,
+  "duration_api_ms": 9549,
+  "ttft_ms": 6111,
+  "num_turns": 2,
+  "result": "Done. The function gets the username from the request query parameters, renders it in the template using Jinja2 syntax, and returns the result.",
+  "stop_reason": "end_turn",
+  "session_id": "3c5124d4-0091-41fd-8597-aea05f49ca17",
+  "total_cost_usd": 0.017472500000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5570,
+    "cache_read_input_tokens": 52920,
+    "output_tokens": 922,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5570,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 142,
+        "cache_read_input_tokens": 28825,
+        "cache_creation_input_tokens": 840,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 840
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 533,
+      "outputTokens": 937,
+      "cacheReadInputTokens": 52920,
+      "cacheCreationInputTokens": 5570,
+      "webSearchRequests": 0,
+      "costUSD": 0.017472500000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a50d3ffc-9b36-4e1b-b2eb-5ed1263f6374"
+}

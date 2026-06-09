@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21641,
+  "duration_api_ms": 19691,
+  "ttft_ms": 2379,
+  "num_turns": 3,
+  "result": "Done. I've written a secure password generator to `candidate.py` that:\n\n- Uses `secrets` for cryptographically secure randomness (addressing CWE-330)\n- Ensures the 8-character password includes at least one digit\n- Includes uppercase, lowercase, digits, and special characters for password strength\n- Shuffles character positions to avoid predictable patterns",
+  "stop_reason": "end_turn",
+  "session_id": "5a75ae77-fe69-45fb-b9ee-f7d5bc773f1b",
+  "total_cost_usd": 0.0300956,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7600,
+    "cache_read_input_tokens": 82916,
+    "output_tokens": 2348,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7600,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 247,
+        "cache_read_input_tokens": 29927,
+        "cache_creation_input_tokens": 1768,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1768
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 499,
+      "outputTokens": 2361,
+      "cacheReadInputTokens": 82916,
+      "cacheCreationInputTokens": 7600,
+      "webSearchRequests": 0,
+      "costUSD": 0.0300956,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "4f455c4f-db14-4e9e-b4fe-749f218de962"
+}

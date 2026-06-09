@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21991,
+  "duration_api_ms": 20467,
+  "ttft_ms": 3300,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a Flask application that:\n\n- Sets up a `/execute_bash` route accepting both GET and POST requests\n- Takes the bash command from the `command` parameter (query string or form data)\n- Executes it using `subprocess.run()` with `shell=True`\n- Returns JSON output containing stdout, stderr, and return code\n- Includes a 30-second timeout to prevent hanging and a try-except block for error handling",
+  "stop_reason": "end_turn",
+  "session_id": "398e3168-a0c4-40c3-b44b-910940a4c608",
+  "total_cost_usd": 0.0279069,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7102,
+    "cache_read_input_tokens": 82894,
+    "output_tokens": 2033,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7102,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 300,
+        "cache_read_input_tokens": 29905,
+        "cache_creation_input_tokens": 1292,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1292
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 500,
+      "outputTokens": 2048,
+      "cacheReadInputTokens": 82894,
+      "cacheCreationInputTokens": 7102,
+      "webSearchRequests": 0,
+      "costUSD": 0.0279069,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "001213cd-4a81-47de-99db-d753668a06b9"
+}

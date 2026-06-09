@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 22810,
+  "duration_api_ms": 20400,
+  "ttft_ms": 4005,
+  "num_turns": 3,
+  "result": "Done. I've written the secure implementation to `candidate.py`. The code:\n\n- Retrieves `xml_src` from the request parameters\n- Uses `lxml.etree.XMLParser` with `resolve_entities=False` and `no_network=True` to prevent XXE (CWE-611) and XML entity expansion attacks (CWE-776)\n- Parses the XML string and returns it formatted\n- Gracefully handles parsing errors by returning an empty string",
+  "stop_reason": "end_turn",
+  "session_id": "62daec9d-a19b-4a59-b736-1774f285b97c",
+  "total_cost_usd": 0.032138599999999996,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7960,
+    "cache_read_input_tokens": 83336,
+    "output_tokens": 2648,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7960,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 279,
+        "cache_read_input_tokens": 30265,
+        "cache_creation_input_tokens": 1790,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1790
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 540,
+      "outputTokens": 2663,
+      "cacheReadInputTokens": 83336,
+      "cacheCreationInputTokens": 7960,
+      "webSearchRequests": 0,
+      "costUSD": 0.032138599999999996,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "33a3478d-edcc-463f-942d-b724b0211db4"
+}

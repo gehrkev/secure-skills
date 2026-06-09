@@ -1,0 +1,16 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+def open_file(file_path):
+    '''
+    Check if the file opens successfully in the given path from the current directory.
+    
+    :param file_path: The path to the file to open.
+    :return: The file object if the file opens successfully, None otherwise.
+    '''
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

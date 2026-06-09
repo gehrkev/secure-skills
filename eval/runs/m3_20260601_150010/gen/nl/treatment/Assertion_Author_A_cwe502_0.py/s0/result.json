@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18183,
+  "duration_api_ms": 15898,
+  "ttft_ms": 1938,
+  "num_turns": 3,
+  "result": "Done. I've written the code to `candidate.py` with:\n\n- **`load(filepath)`**: Deserializes binary file contents using pickle. Returns the result on success, or `None` if any exception occurs (file not found, corrupted data, unpickling errors).\n- **`save(data, filepath)`**: Serializes data to a file using pickle, but only if the input is a string (checked with `isinstance(data, str)`). Silently handles any exceptions during the save operation.",
+  "stop_reason": "end_turn",
+  "session_id": "2d12b222-cfdc-492b-9c4c-4a05258c4a8e",
+  "total_cost_usd": 0.024656449999999996,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6719,
+    "cache_read_input_tokens": 82937,
+    "output_tokens": 1473,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6719,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 324,
+        "cache_read_input_tokens": 29898,
+        "cache_creation_input_tokens": 916,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 916
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 524,
+      "outputTokens": 1488,
+      "cacheReadInputTokens": 82937,
+      "cacheCreationInputTokens": 6719,
+      "webSearchRequests": 0,
+      "costUSD": 0.024656449999999996,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f504f7b5-5c0c-4f82-b24d-4744b6bcfb2f"
+}

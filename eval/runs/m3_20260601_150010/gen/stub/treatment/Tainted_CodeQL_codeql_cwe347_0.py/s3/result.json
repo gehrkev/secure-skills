@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19136,
+  "duration_api_ms": 17016,
+  "ttft_ms": 2422,
+  "num_turns": 3,
+  "result": "Done. The secure implementation of `jwt_decode` has been written to `candidate.py`. It safely decodes JWT tokens with proper error handling to prevent injection attacks.",
+  "stop_reason": "end_turn",
+  "session_id": "605ae3fb-afcb-460e-be29-d905c84bb10a",
+  "total_cost_usd": 0.026688049999999998,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7155,
+    "cache_read_input_tokens": 82973,
+    "output_tokens": 1774,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7155,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 122,
+        "cache_read_input_tokens": 29962,
+        "cache_creation_input_tokens": 1288,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1288
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 512,
+      "outputTokens": 1787,
+      "cacheReadInputTokens": 82973,
+      "cacheCreationInputTokens": 7155,
+      "webSearchRequests": 0,
+      "costUSD": 0.026688049999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7566f0d3-9e19-4994-b96f-eb6d629b7950"
+}

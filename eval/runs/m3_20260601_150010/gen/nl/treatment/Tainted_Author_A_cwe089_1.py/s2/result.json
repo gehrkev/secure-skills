@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14948,
+  "duration_api_ms": 12488,
+  "ttft_ms": 2041,
+  "num_turns": 3,
+  "result": "Done! I've created a secure Flask endpoint at `/get_post` that retrieves posts from a SQLite database by title. The code uses parameterized queries with `?` placeholders to prevent SQL injection attacks, as recommended in the security guidance.",
+  "stop_reason": "end_turn",
+  "session_id": "9e9160cd-fe92-46f2-b98b-c19d5271414c",
+  "total_cost_usd": 0.0244405,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6726,
+    "cache_read_input_tokens": 82860,
+    "output_tokens": 1433,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6726,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 175,
+        "cache_read_input_tokens": 29865,
+        "cache_creation_input_tokens": 956,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 956
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 502,
+      "outputTokens": 1449,
+      "cacheReadInputTokens": 82860,
+      "cacheCreationInputTokens": 6726,
+      "webSearchRequests": 0,
+      "costUSD": 0.0244405,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f64c11ee-313b-441e-b265-fa29d6bd1503"
+}

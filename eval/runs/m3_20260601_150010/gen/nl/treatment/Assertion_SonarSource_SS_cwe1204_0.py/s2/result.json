@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23160,
+  "duration_api_ms": 19925,
+  "ttft_ms": 2265,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with Python code that:\n\n- Encrypts data using AES in CBC mode with the `cryptography` library (a well-vetted, NIST-approved encryption algorithm)\n- Implements PKCS7 padding to pad input to the 128-bit AES block size\n- Uses a static initialization vector as specified\n- Includes both `encrypt_aes_cbc()` and `decrypt_aes_cbc()` functions\n- Provides example usage with a static IV",
+  "stop_reason": "end_turn",
+  "session_id": "0aa53110-1d43-4681-9bd9-1cfd191bc8ef",
+  "total_cost_usd": 0.03175485,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7601,
+    "cache_read_input_tokens": 82686,
+    "output_tokens": 2683,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7601,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 359,
+        "cache_read_input_tokens": 29727,
+        "cache_creation_input_tokens": 1969,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1969
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 485,
+      "outputTokens": 2700,
+      "cacheReadInputTokens": 82686,
+      "cacheCreationInputTokens": 7601,
+      "webSearchRequests": 0,
+      "costUSD": 0.03175485,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "84227fe6-e6a2-4e51-bd37-f440c2b45bd7"
+}

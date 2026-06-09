@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7654,
+  "duration_api_ms": 9166,
+  "ttft_ms": 5162,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with the completed `verify` function that compares the provided signature against a newly generated one using the global `key` and SHA256 algorithm.",
+  "stop_reason": "end_turn",
+  "session_id": "b57d0433-607a-4388-a25a-bee0127af162",
+  "total_cost_usd": 0.017382750000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5635,
+    "cache_read_input_tokens": 53020,
+    "output_tokens": 875,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5635,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 131,
+        "cache_read_input_tokens": 28925,
+        "cache_creation_input_tokens": 805,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 805
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 582,
+      "outputTokens": 891,
+      "cacheReadInputTokens": 53020,
+      "cacheCreationInputTokens": 5635,
+      "webSearchRequests": 0,
+      "costUSD": 0.017382750000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0f5256fd-276a-47b7-8764-0a806cf17b44"
+}

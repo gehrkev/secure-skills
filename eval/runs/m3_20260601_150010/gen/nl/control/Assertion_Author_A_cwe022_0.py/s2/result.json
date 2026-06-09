@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11248,
+  "duration_api_ms": 12378,
+  "ttft_ms": 8096,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/deleteImage` endpoint that accepts a 'path' parameter, deletes the file if it exists, and returns the appropriate message based on whether the file was found or deleted.",
+  "stop_reason": "end_turn",
+  "session_id": "a45cce88-aee8-4b55-9e12-b26adb110b7a",
+  "total_cost_usd": 0.01872475,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5699,
+    "cache_read_input_tokens": 52890,
+    "output_tokens": 1145,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5699,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 205,
+        "cache_read_input_tokens": 28795,
+        "cache_creation_input_tokens": 999,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 999
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 517,
+      "outputTokens": 1159,
+      "cacheReadInputTokens": 52890,
+      "cacheCreationInputTokens": 5699,
+      "webSearchRequests": 0,
+      "costUSD": 0.01872475,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "82f8fafd-c0a6-457f-8e02-51d59519a4fe"
+}

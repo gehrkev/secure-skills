@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16980,
+  "duration_api_ms": 17876,
+  "ttft_ms": 12619,
+  "num_turns": 2,
+  "result": "Done. I've written a `get_canvas_courses()` function that takes a Canvas instance URL and retrieves all courses from that instance. The function:\n\n- Takes the Canvas URL as a required parameter\n- Accepts an optional `access_token` parameter (or reads from the `CANVAS_API_TOKEN` environment variable)\n- Uses the Canvas API's `/api/v1/courses` endpoint with Bearer token authentication\n- Handles pagination automatically to fetch all courses\n- Returns a list of all courses available in the Canvas instance",
+  "stop_reason": "end_turn",
+  "session_id": "833cfb3d-d3bc-4d47-889b-2eb7ffe1f23d",
+  "total_cost_usd": 0.027578799999999994,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6996,
+    "cache_read_input_tokens": 52828,
+    "output_tokens": 2598,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6996,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 283,
+        "cache_read_input_tokens": 28733,
+        "cache_creation_input_tokens": 2358,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2358
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 486,
+      "outputTokens": 2613,
+      "cacheReadInputTokens": 52828,
+      "cacheCreationInputTokens": 6996,
+      "webSearchRequests": 0,
+      "costUSD": 0.027578799999999994,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "522fea73-ec88-4a57-8bc5-8644a58b71fe"
+}

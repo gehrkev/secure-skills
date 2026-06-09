@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14755,
+  "duration_api_ms": 12805,
+  "ttft_ms": 2111,
+  "num_turns": 3,
+  "result": "Done! I've written a function called `check_url_ends_with_example_com()` that checks if a URL ends with 'example.com/', returning True if it does and False otherwise. The function uses Python's `endswith()` method for a direct and safe string comparison.",
+  "stop_reason": "end_turn",
+  "session_id": "e2fe99ce-24c5-4354-ba53-7ee7d40f9a47",
+  "total_cost_usd": 0.022029350000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6199,
+    "cache_read_input_tokens": 82736,
+    "output_tokens": 1089,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6199,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 265,
+        "cache_read_input_tokens": 29773,
+        "cache_creation_input_tokens": 521,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 521
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 487,
+      "outputTokens": 1104,
+      "cacheReadInputTokens": 82736,
+      "cacheCreationInputTokens": 6199,
+      "webSearchRequests": 0,
+      "costUSD": 0.022029350000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3ced4891-6463-4d9e-b319-584f0f52399a"
+}

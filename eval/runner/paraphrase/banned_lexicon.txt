@@ -1,0 +1,57 @@
+# Léxico banido para a auditoria de neutralidade da paráfrase cega.
+# Uma entrada por linha; linhas com '#' ou vazias são ignoradas.
+# Casamento: case-insensitive, com fronteira de palavra (\b...\b), exceto
+# entradas terminadas em '=' (ex.: 'shell=') que casam como substring literal.
+# Objetivo: rejeitar qualquer enquadramento de segurança/validação que possa
+# primar a modalidade NL ou o arm de controle.
+safe
+safely
+secure
+securely
+security
+# 'validate'/'validation' removidos do hard-fail: são
+# dual-use — vocabulário natural da tarefa ("validate login credentials",
+# "form validation") tanto quanto priming ("validate untrusted input"). A
+# neutralidade dessas palavras passa a ser julgada EM CONTEXTO pelo auditor
+# semântico, não bloqueada cegamente. Termos inequívocos seguem abaixo.
+sanitize
+sanitizes
+sanitizing
+sanitized
+sanitization
+sanitisation
+escape
+escaping
+escaped
+injection
+inject
+injected
+untrusted
+trusted
+malicious
+exploit
+exploitable
+vulnerable
+vulnerability
+vulnerabilities
+attack
+attacker
+harden
+hardened
+hardening
+whitelist
+allowlist
+blacklist
+denylist
+parameterize
+parameterized
+parameterised
+parameterise
+threat
+exploitation
+unsafe
+dangerous
+defensive
+mitigate
+mitigation
+shell=

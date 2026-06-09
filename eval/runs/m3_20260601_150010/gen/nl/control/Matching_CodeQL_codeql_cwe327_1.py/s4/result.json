@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8923,
+  "duration_api_ms": 9895,
+  "ttft_ms": 6180,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with a function that:\n\n1. Takes certificate data (as bytes), a known hash (as hex string), and an optional hash algorithm parameter\n2. Computes the certificate's hash using `hashlib`\n3. Compares the computed hash to the known hash (case-insensitive)\n4. Returns `True` if they match, `False` otherwise\n\nThe file includes example usage demonstrating the function.",
+  "stop_reason": "end_turn",
+  "session_id": "6e3b16f9-bc61-44e1-af77-f22c86789471",
+  "total_cost_usd": 0.018667499999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5602,
+    "cache_read_input_tokens": 52820,
+    "output_tokens": 1167,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5602,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 247,
+        "cache_read_input_tokens": 28725,
+        "cache_creation_input_tokens": 972,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 972
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 483,
+      "outputTokens": 1180,
+      "cacheReadInputTokens": 52820,
+      "cacheCreationInputTokens": 5602,
+      "webSearchRequests": 0,
+      "costUSD": 0.018667499999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5ac9b5a1-185c-4475-b18d-e10cff184924"
+}

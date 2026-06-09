@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9955,
+  "duration_api_ms": 11354,
+  "ttft_ms": 6880,
+  "num_turns": 2,
+  "result": "Done. The function implementation checks if the file exists and removes it if present.",
+  "stop_reason": "end_turn",
+  "session_id": "3b435dab-71a7-4d80-aea3-a5905079a21c",
+  "total_cost_usd": 0.01523915,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5203,
+    "cache_read_input_tokens": 52874,
+    "output_tokens": 575,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5203,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 118,
+        "cache_read_input_tokens": 28779,
+        "cache_creation_input_tokens": 519,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 519
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 508,
+      "outputTokens": 588,
+      "cacheReadInputTokens": 52874,
+      "cacheCreationInputTokens": 5203,
+      "webSearchRequests": 0,
+      "costUSD": 0.01523915,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "16c70d90-2940-4a95-9344-490dba023f5c"
+}

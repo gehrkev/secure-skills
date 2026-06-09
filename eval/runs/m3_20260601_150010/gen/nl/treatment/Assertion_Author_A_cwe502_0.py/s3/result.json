@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17863,
+  "duration_api_ms": 16804,
+  "ttft_ms": 1801,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with two functions:\n\n1. **`load(filename)`** \u2014 Opens a binary file, deserializes it with `pickle.load()`, and returns the result. Returns `None` if any exception occurs during deserialization.\n\n2. **`save(data, filename)`** \u2014 Checks if `data` is a string using `isinstance()`. If so, serializes it to a binary file using `pickle.dump()`. Silently handles any file I/O exceptions.\n\nBoth functions include proper error handling and use context managers for safe file operations.",
+  "stop_reason": "end_turn",
+  "session_id": "69bc77f8-a9d1-4d1a-968d-17916544a6bd",
+  "total_cost_usd": 0.027232750000000007,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7195,
+    "cache_read_input_tokens": 83050,
+    "output_tokens": 1864,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7195,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 246,
+        "cache_read_input_tokens": 30009,
+        "cache_creation_input_tokens": 1281,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1281
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 524,
+      "outputTokens": 1882,
+      "cacheReadInputTokens": 83050,
+      "cacheCreationInputTokens": 7195,
+      "webSearchRequests": 0,
+      "costUSD": 0.027232750000000007,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f9eb4fa1-c379-4ce0-ab0e-cb6c8e4351c1"
+}

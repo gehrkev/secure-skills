@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7030,
+  "duration_api_ms": 11944,
+  "ttft_ms": 4022,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/logging` route that retrieves the `name` parameter from the request, logs it, and returns the name.",
+  "stop_reason": "end_turn",
+  "session_id": "76e3844b-a481-4126-918e-3ba4516cfe8e",
+  "total_cost_usd": 0.0156114,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5240,
+    "cache_read_input_tokens": 52814,
+    "output_tokens": 645,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5240,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 89,
+        "cache_read_input_tokens": 28719,
+        "cache_creation_input_tokens": 616,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 616
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 480,
+      "outputTokens": 660,
+      "cacheReadInputTokens": 52814,
+      "cacheCreationInputTokens": 5240,
+      "webSearchRequests": 0,
+      "costUSD": 0.0156114,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c09acef8-e1b5-4529-bfa4-54f580c9f0a5"
+}

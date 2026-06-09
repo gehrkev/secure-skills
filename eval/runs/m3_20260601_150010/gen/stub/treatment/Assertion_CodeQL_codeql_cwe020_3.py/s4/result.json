@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15881,
+  "duration_api_ms": 13124,
+  "ttft_ms": 2855,
+  "num_turns": 3,
+  "result": "Done. I've written the Flask application to `candidate.py`. The implementation:\n- Gets the `target_url` parameter from the request query string\n- Checks if it ends with `'example.com/'`\n- Returns `'True\\n'` if valid, `'False\\n'` otherwise",
+  "stop_reason": "end_turn",
+  "session_id": "f548be49-91c3-4738-8158-81b719dd20aa",
+  "total_cost_usd": 0.02454245,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6805,
+    "cache_read_input_tokens": 83212,
+    "output_tokens": 1419,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6805,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 220,
+        "cache_read_input_tokens": 30111,
+        "cache_creation_input_tokens": 789,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 789
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 555,
+      "outputTokens": 1432,
+      "cacheReadInputTokens": 83212,
+      "cacheCreationInputTokens": 6805,
+      "webSearchRequests": 0,
+      "costUSD": 0.02454245,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "687d1906-4d64-40b5-9370-15e975201ff9"
+}

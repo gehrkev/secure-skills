@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11435,
+  "duration_api_ms": 12288,
+  "ttft_ms": 9286,
+  "num_turns": 2,
+  "result": "Done! I've written a Python function that uses regex to validate URLs matching the pattern `(www|beta).example.com/`. The function returns `True` for valid URLs like `www.example.com/` or `beta.example.com/`, and `False` otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "60764d16-9e70-48e2-9921-ecce3dcb8f7f",
+  "total_cost_usd": 0.0188935,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5710,
+    "cache_read_input_tokens": 52830,
+    "output_tokens": 1183,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5710,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 173,
+        "cache_read_input_tokens": 28735,
+        "cache_creation_input_tokens": 1070,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1070
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 488,
+      "outputTokens": 1197,
+      "cacheReadInputTokens": 52830,
+      "cacheCreationInputTokens": 5710,
+      "webSearchRequests": 0,
+      "costUSD": 0.0188935,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3c5d7291-1826-4f86-b9f6-1e0cfc3985b4"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14374,
+  "duration_api_ms": 15331,
+  "ttft_ms": 11425,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a Flask route that:\n\n1. Extracts the `X-Forwarded-For` header from the request\n2. Parses the first IP address from the header (handling comma-separated values)\n3. Validates it's a valid IP address\n4. Checks if the IP is a local IP using `is_private` or `is_loopback`\n5. Raises an exception if it's not a local IP\n6. Returns the header value on success",
+  "stop_reason": "end_turn",
+  "session_id": "94e9d37c-3c1b-4ede-8935-a18f2a6895ef",
+  "total_cost_usd": 0.0256875,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6726,
+    "cache_read_input_tokens": 52870,
+    "output_tokens": 2277,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6726,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 283,
+        "cache_read_input_tokens": 28775,
+        "cache_creation_input_tokens": 2046,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2046
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 508,
+      "outputTokens": 2297,
+      "cacheReadInputTokens": 52870,
+      "cacheCreationInputTokens": 6726,
+      "webSearchRequests": 0,
+      "costUSD": 0.0256875,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5251bb71-7d97-4acd-9b43-3a38c927d28e"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7520,
+  "duration_api_ms": 8711,
+  "ttft_ms": 5243,
+  "num_turns": 2,
+  "result": "Done. The function retrieves the `certificate` and `known_hash` from the request query parameters, hashes the certificate using SHA256, and returns `'True'` if the hashes match, `'False'` otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "3e56ac36-a2c7-410f-b5a9-e5d7afb8c9a3",
+  "total_cost_usd": 0.0180046,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5644,
+    "cache_read_input_tokens": 52936,
+    "output_tokens": 1009,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5644,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 165,
+        "cache_read_input_tokens": 28841,
+        "cache_creation_input_tokens": 898,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 898
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 541,
+      "outputTokens": 1023,
+      "cacheReadInputTokens": 52936,
+      "cacheCreationInputTokens": 5644,
+      "webSearchRequests": 0,
+      "costUSD": 0.0180046,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b192991b-c559-4bd4-9892-d20e2e4006c1"
+}

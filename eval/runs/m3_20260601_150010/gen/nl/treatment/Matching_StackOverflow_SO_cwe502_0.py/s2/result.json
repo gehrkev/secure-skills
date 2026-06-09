@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16778,
+  "duration_api_ms": 14729,
+  "ttft_ms": 2388,
+  "num_turns": 3,
+  "result": "Done. The Flask route has been written to `candidate.py`. It creates a `/load_config` endpoint that accepts a hex-encoded config parameter, converts it to bytes, and deserializes it using pickle.",
+  "stop_reason": "end_turn",
+  "session_id": "3793251f-3dc7-4381-8d24-282246190442",
+  "total_cost_usd": 0.023647099999999997,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6544,
+    "cache_read_input_tokens": 82691,
+    "output_tokens": 1323,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6544,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 158,
+        "cache_read_input_tokens": 29702,
+        "cache_creation_input_tokens": 937,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 937
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 1340,
+      "cacheReadInputTokens": 82691,
+      "cacheCreationInputTokens": 6544,
+      "webSearchRequests": 0,
+      "costUSD": 0.023647099999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ecda2cad-973a-49b5-be3f-611414bf670f"
+}

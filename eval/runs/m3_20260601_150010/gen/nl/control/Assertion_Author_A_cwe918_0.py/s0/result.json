@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6881,
+  "duration_api_ms": 7688,
+  "ttft_ms": 4289,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a Flask endpoint at `/get_github_info` that accepts a GitHub username as a query parameter, queries the GitHub API, and returns the user information as JSON.",
+  "stop_reason": "end_turn",
+  "session_id": "07e4b74e-9bbc-4dd8-a78b-c540c287922b",
+  "total_cost_usd": 0.017400950000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5495,
+    "cache_read_input_tokens": 52852,
+    "output_tokens": 936,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5495,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 161,
+        "cache_read_input_tokens": 28757,
+        "cache_creation_input_tokens": 833,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 833
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 497,
+      "outputTokens": 950,
+      "cacheReadInputTokens": 52852,
+      "cacheCreationInputTokens": 5495,
+      "webSearchRequests": 0,
+      "costUSD": 0.017400950000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a10c7bc7-8ba5-4fbc-9509-463193c124dd"
+}

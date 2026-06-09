@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9668,
+  "duration_api_ms": 10610,
+  "ttft_ms": 6458,
+  "num_turns": 2,
+  "result": "Done. I've written the `candidate.py` file with the completed `client_ip()` function that:\n- Retrieves the X-Forwarded-For header from the request\n- Extracts the first IP address (the original client IP)\n- Validates it's a private/local IP using `ipaddress.ip_address()` and the `.is_private` property\n- Raises an exception if the IP is not local\n- Returns the X-Forwarded-For header if validation passes",
+  "stop_reason": "end_turn",
+  "session_id": "149bb9c4-3667-40ca-90aa-d1fbe30f8d4c",
+  "total_cost_usd": 0.0194659,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5818,
+    "cache_read_input_tokens": 52944,
+    "output_tokens": 1253,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5818,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 242,
+        "cache_read_input_tokens": 28849,
+        "cache_creation_input_tokens": 1064,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1064
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 544,
+      "outputTokens": 1271,
+      "cacheReadInputTokens": 52944,
+      "cacheCreationInputTokens": 5818,
+      "webSearchRequests": 0,
+      "costUSD": 0.0194659,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "943db38a-450b-49cb-9990-a8572d3f2554"
+}

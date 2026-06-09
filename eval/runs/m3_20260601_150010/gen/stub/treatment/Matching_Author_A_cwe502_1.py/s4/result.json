@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23443,
+  "duration_api_ms": 19334,
+  "ttft_ms": 2637,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with the completed Flask route that gets the 'config' parameter from the request, decodes it from hex, unmarshals it, and returns the result.",
+  "stop_reason": "end_turn",
+  "session_id": "9d61710f-cb18-4046-80a3-fb3cd8270d7d",
+  "total_cost_usd": 0.026971549999999997,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7283,
+    "cache_read_input_tokens": 83298,
+    "output_tokens": 1783,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7283,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 172,
+        "cache_read_input_tokens": 30209,
+        "cache_creation_input_tokens": 1169,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1169
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 548,
+      "outputTokens": 1798,
+      "cacheReadInputTokens": 83298,
+      "cacheCreationInputTokens": 7283,
+      "webSearchRequests": 0,
+      "costUSD": 0.026971549999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "783a05f2-9324-4d62-b1bc-1301ce0a82c8"
+}

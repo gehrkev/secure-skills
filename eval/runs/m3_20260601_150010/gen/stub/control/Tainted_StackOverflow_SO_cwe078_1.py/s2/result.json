@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 13191,
+  "duration_api_ms": 14361,
+  "ttft_ms": 10959,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with the implementation that retrieves the package name from the request, installs it via pip, and returns it.",
+  "stop_reason": "end_turn",
+  "session_id": "eb25cacb-9516-4c57-b071-6e4004f7ede2",
+  "total_cost_usd": 0.0224106,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6356,
+    "cache_read_input_tokens": 52886,
+    "output_tokens": 1716,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6356,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 115,
+        "cache_read_input_tokens": 28791,
+        "cache_creation_input_tokens": 1660,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1660
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 517,
+      "outputTokens": 1732,
+      "cacheReadInputTokens": 52886,
+      "cacheCreationInputTokens": 6356,
+      "webSearchRequests": 0,
+      "costUSD": 0.0224106,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3eb2d12a-bdd2-4f54-a4d1-7f590f373a13"
+}

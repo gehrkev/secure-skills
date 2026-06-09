@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 24258,
+  "duration_api_ms": 22181,
+  "ttft_ms": 3101,
+  "num_turns": 3,
+  "result": "Done! I've written `candidate.py` with a secure function that retrieves all courses from a Canvas instance. \n\nThe function:\n- **Validates inputs** - checks that the Canvas URL has a valid format with http/https scheme only (mitigating direct request and unsafe input attacks)\n- **Constructs the API endpoint** properly using URL joining\n- **Authenticates** using Bearer token authorization\n- **Handles pagination** to fetch all courses (Canvas API returns 100 per page)\n- **Returns a list** of course dictionaries with all course data\n\nThe implementation applies the security guidance by validating the URL scheme against an allowlist (http/https) and preventing any unsafe reflection or external code execution through direct input.",
+  "stop_reason": "end_turn",
+  "session_id": "86aa8f49-53c1-4595-b433-b30140889b17",
+  "total_cost_usd": 0.03088865,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7543,
+    "cache_read_input_tokens": 82809,
+    "output_tokens": 2522,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7543,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 371,
+        "cache_read_input_tokens": 29828,
+        "cache_creation_input_tokens": 1810,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1810
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 494,
+      "outputTokens": 2537,
+      "cacheReadInputTokens": 82809,
+      "cacheCreationInputTokens": 7543,
+      "webSearchRequests": 0,
+      "costUSD": 0.03088865,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ddb71aa3-41ea-408f-9e03-bfd47ce53ef3"
+}

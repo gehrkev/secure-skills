@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17600,
+  "duration_api_ms": 14997,
+  "ttft_ms": 2548,
+  "num_turns": 3,
+  "result": "Done! I've written the completed Flask route handler to `candidate.py`. The function:\n- Retrieves the 'name' parameter from the request query string\n- Checks if the name is not 'admin'\n- Logs the user name using debug logging if it passes the check\n- Returns an empty response",
+  "stop_reason": "end_turn",
+  "session_id": "4ecd7fc1-a997-436d-ae11-4510af0a1a9a",
+  "total_cost_usd": 0.0253161,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6954,
+    "cache_read_input_tokens": 83146,
+    "output_tokens": 1540,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6954,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 201,
+        "cache_read_input_tokens": 30085,
+        "cache_creation_input_tokens": 964,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 964
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 534,
+      "outputTokens": 1555,
+      "cacheReadInputTokens": 83146,
+      "cacheCreationInputTokens": 6954,
+      "webSearchRequests": 0,
+      "costUSD": 0.0253161,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "efdef342-0ada-4dd1-a942-076257d6eca7"
+}

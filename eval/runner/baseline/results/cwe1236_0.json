@@ -1,0 +1,11 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_drvwc3lh.py",
+  "target_cwe": "CWE-1236",
+  "findings": [],
+  "summary": {
+    "total_findings": 0,
+    "by_cwe": {}
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-i9glscx7/results.sarif"
+}

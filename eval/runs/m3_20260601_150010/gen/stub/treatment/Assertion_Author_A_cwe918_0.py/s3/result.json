@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23510,
+  "duration_api_ms": 20289,
+  "ttft_ms": 3145,
+  "num_turns": 3,
+  "result": "Done. The code includes:\n- Input validation using regex to prevent SSRF attacks (only allows valid GitHub username characters)\n- Proper error handling for missing or invalid usernames\n- Safe HTTP request handling with exception catching\n- JSON response format",
+  "stop_reason": "end_turn",
+  "session_id": "c8740b0f-e245-481c-b20b-16e70d9f706a",
+  "total_cost_usd": 0.031061449999999997,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7927,
+    "cache_read_input_tokens": 83347,
+    "output_tokens": 2440,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7927,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 213,
+        "cache_read_input_tokens": 30258,
+        "cache_creation_input_tokens": 1764,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1764
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 548,
+      "outputTokens": 2454,
+      "cacheReadInputTokens": 83347,
+      "cacheCreationInputTokens": 7927,
+      "webSearchRequests": 0,
+      "costUSD": 0.031061449999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "efec9e6a-0281-4f57-be86-e6421a506e12"
+}

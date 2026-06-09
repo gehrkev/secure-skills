@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8890,
+  "duration_api_ms": 9837,
+  "ttft_ms": 6668,
+  "num_turns": 2,
+  "result": "Done. The `upload()` function gets the XML string from the `xml_src` query parameter, parses it with ElementTree, and returns it as a string.",
+  "stop_reason": "end_turn",
+  "session_id": "7e7ffceb-bff1-48fd-8e4b-891b9511e8d9",
+  "total_cost_usd": 0.01762275,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5587,
+    "cache_read_input_tokens": 52920,
+    "output_tokens": 949,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5587,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 153,
+        "cache_read_input_tokens": 28825,
+        "cache_creation_input_tokens": 857,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 857
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 532,
+      "outputTokens": 963,
+      "cacheReadInputTokens": 52920,
+      "cacheCreationInputTokens": 5587,
+      "webSearchRequests": 0,
+      "costUSD": 0.01762275,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6f9deb83-8cd5-4ce4-9e14-bc28b7fad11e"
+}

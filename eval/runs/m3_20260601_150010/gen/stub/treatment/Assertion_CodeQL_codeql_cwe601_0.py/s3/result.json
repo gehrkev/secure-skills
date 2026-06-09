@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 29554,
+  "duration_api_ms": 27448,
+  "ttft_ms": 3102,
+  "num_turns": 3,
+  "result": "Done. I've written the secure login implementation to `candidate.py` with the following security features:\n\n- **CWE-916**: Uses `check_password_hash` to securely verify hashed passwords instead of plaintext comparison\n- **CWE-384**: Calls `session.clear()` before setting a new session to prevent session fixation attacks\n- **CWE-798**: Sets a cryptographically strong secret key using `secrets.token_hex(32)`\n- Validates input before querying the database\n- Handles both GET (renders form) and POST (processes login) requests\n- Redirects to the `next` parameter after successful authentication",
+  "stop_reason": "end_turn",
+  "session_id": "2ebd74c9-8734-4f24-9a2d-38d0ac1b6a42",
+  "total_cost_usd": 0.039856749999999996,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 9611,
+    "cache_read_input_tokens": 84250,
+    "output_tokens": 3722,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9611,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 325,
+        "cache_read_input_tokens": 30799,
+        "cache_creation_input_tokens": 2907,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2907
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 728,
+      "outputTokens": 3738,
+      "cacheReadInputTokens": 84250,
+      "cacheCreationInputTokens": 9611,
+      "webSearchRequests": 0,
+      "costUSD": 0.039856749999999996,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e0be2eb0-b00f-476e-b55e-45952639ced6"
+}

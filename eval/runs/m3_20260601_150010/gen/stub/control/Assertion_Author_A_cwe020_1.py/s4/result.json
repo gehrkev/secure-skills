@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6115,
+  "duration_api_ms": 8095,
+  "ttft_ms": 2963,
+  "num_turns": 2,
+  "result": "Done. I've completed the `check_url()` function to retrieve the `target_url` parameter from the request, check if it ends with '.com/', and return 'True' or 'False' accordingly.",
+  "stop_reason": "end_turn",
+  "session_id": "2ec7ed8f-6b1a-401f-ab10-6ff4097091dc",
+  "total_cost_usd": 0.01589795,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5315,
+    "cache_read_input_tokens": 52932,
+    "output_tokens": 671,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5315,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 160,
+        "cache_read_input_tokens": 28837,
+        "cache_creation_input_tokens": 573,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 573
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 536,
+      "outputTokens": 685,
+      "cacheReadInputTokens": 52932,
+      "cacheCreationInputTokens": 5315,
+      "webSearchRequests": 0,
+      "costUSD": 0.01589795,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "32d62332-69b8-4a22-a2dc-f2bf50910b73"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16222,
+  "duration_api_ms": 13766,
+  "ttft_ms": 2316,
+  "num_turns": 3,
+  "result": "Done. The Flask search function has been written to `candidate.py`. It retrieves the 'query' parameter from the request and uses regex to check for the presence of either 'www.example.com/' or 'beta.example.com/' in the query string, returning the appropriate response message.",
+  "stop_reason": "end_turn",
+  "session_id": "4145eca3-ba78-40bb-bf9e-1a8675e74861",
+  "total_cost_usd": 0.0263875,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7208,
+    "cache_read_input_tokens": 83405,
+    "output_tokens": 1679,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7208,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 228,
+        "cache_read_input_tokens": 30294,
+        "cache_creation_input_tokens": 1009,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1009
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 562,
+      "outputTokens": 1695,
+      "cacheReadInputTokens": 83405,
+      "cacheCreationInputTokens": 7208,
+      "webSearchRequests": 0,
+      "costUSD": 0.0263875,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c1bca40e-b58e-4604-99fc-85265e212912"
+}

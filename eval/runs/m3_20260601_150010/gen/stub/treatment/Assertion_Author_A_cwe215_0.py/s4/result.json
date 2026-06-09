@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23885,
+  "duration_api_ms": 19634,
+  "ttft_ms": 4747,
+  "num_turns": 3,
+  "result": "Done. I've written the Flask route implementation to `candidate.py`. The `/median` endpoint:\n\n- Retrieves the \"numbers\" query parameter from the POST request\n- Parses it as comma-separated numeric values\n- Calculates the median using `statistics.median()`\n- Returns a JSON object with the \"message\" key containing the median value\n- Includes input validation with appropriate error responses for invalid or missing data",
+  "stop_reason": "end_turn",
+  "session_id": "1c82b773-3cc6-4be4-ba04-68e533f93ac5",
+  "total_cost_usd": 0.029769050000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7781,
+    "cache_read_input_tokens": 83868,
+    "output_tokens": 2190,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7781,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 232,
+        "cache_read_input_tokens": 30597,
+        "cache_creation_input_tokens": 1279,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1279
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 641,
+      "outputTokens": 2203,
+      "cacheReadInputTokens": 83868,
+      "cacheCreationInputTokens": 7781,
+      "webSearchRequests": 0,
+      "costUSD": 0.029769050000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "aa0131f0-6069-4995-bb49-1d9cc23a3aaa"
+}

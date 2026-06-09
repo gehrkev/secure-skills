@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 31877,
+  "duration_api_ms": 32832,
+  "ttft_ms": 23053,
+  "num_turns": 2,
+  "result": "Done. The `login()` function is now implemented to:\n- Handle GET requests by rendering the login form\n- Handle POST requests by validating credentials against the database\n- Create a session and redirect to the \"next\" URL on successful authentication\n- Render the form with an \"Authentication failed\" error message on failed authentication",
+  "stop_reason": "end_turn",
+  "session_id": "6de347c7-7682-41a1-8a33-eb6bdec4e89c",
+  "total_cost_usd": 0.038950849999999995,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 9217,
+    "cache_read_input_tokens": 53296,
+    "output_tokens": 4261,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9217,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 205,
+        "cache_read_input_tokens": 29201,
+        "cache_creation_input_tokens": 4111,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 4111
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 720,
+      "outputTokens": 4276,
+      "cacheReadInputTokens": 53296,
+      "cacheCreationInputTokens": 9217,
+      "webSearchRequests": 0,
+      "costUSD": 0.038950849999999995,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "19fde797-ca7b-4c9d-9be8-ab2731170343"
+}

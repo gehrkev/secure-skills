@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10210,
+  "duration_api_ms": 11418,
+  "ttft_ms": 7999,
+  "num_turns": 2,
+  "result": "Done. The `candidate.py` file has been created with the `unmarshal_config_data()` function that retrieves the hex-encoded config from the request, decodes it, and returns the unmarshalled data.",
+  "stop_reason": "end_turn",
+  "session_id": "40d5dc3b-19cf-4ca4-9306-3a7e3f4002d8",
+  "total_cost_usd": 0.01894985,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5809,
+    "cache_read_input_tokens": 52936,
+    "output_tokens": 1156,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5809,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 154,
+        "cache_read_input_tokens": 28841,
+        "cache_creation_input_tokens": 1063,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1063
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 540,
+      "outputTokens": 1171,
+      "cacheReadInputTokens": 52936,
+      "cacheCreationInputTokens": 5809,
+      "webSearchRequests": 0,
+      "costUSD": 0.01894985,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0cb8744c-e054-4ec8-8cae-c77a691af950"
+}

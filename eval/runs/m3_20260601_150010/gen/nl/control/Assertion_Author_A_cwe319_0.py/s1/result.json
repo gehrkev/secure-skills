@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14313,
+  "duration_api_ms": 15313,
+  "ttft_ms": 10854,
+  "num_turns": 2,
+  "result": "Done. I've written a Flask application to `candidate.py` that:\n- Handles POST requests to `/login`\n- Extracts username and password from the request form\n- Validates them using `check_credentials()`\n- Creates a unique session ID with `uuid.uuid4()`\n- Stores the session and sets it as a secure cookie with `httponly`, `secure`, and `samesite` flags",
+  "stop_reason": "end_turn",
+  "session_id": "41e95f57-20cc-49a0-85cc-5e4dacf57988",
+  "total_cost_usd": 0.02441525,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6573,
+    "cache_read_input_tokens": 52870,
+    "output_tokens": 2066,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6573,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 226,
+        "cache_read_input_tokens": 28775,
+        "cache_creation_input_tokens": 1893,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1893
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 507,
+      "outputTokens": 2081,
+      "cacheReadInputTokens": 52870,
+      "cacheCreationInputTokens": 6573,
+      "webSearchRequests": 0,
+      "costUSD": 0.02441525,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e04e52d8-5968-472e-bbe9-96d69bd54108"
+}

@@ -1,0 +1,10 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+Create a Flask route at `/open_file` that gets a file name from the request, attempts to open it from the current directory, and returns the file object if successful or None if it fails.
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17466,
+  "duration_api_ms": 15251,
+  "ttft_ms": 2206,
+  "num_turns": 3,
+  "result": "Done. I've written a secure function that:\n1. Deserializes the JSON string using `json.loads()`\n2. Validates the structure (ensures root is a dict and names field exists)\n3. Extracts the names field\n4. Parses it through the `parse()` function which validates it's a list and filters for valid strings\n5. Returns the count of parsed names\n\nThe implementation follows the CWE-502 guidance by validating and transforming the deserialized data rather than using it directly.",
+  "stop_reason": "end_turn",
+  "session_id": "16b602fb-0bec-4ec9-928c-3402966df3f7",
+  "total_cost_usd": 0.026124299999999996,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6850,
+    "cache_read_input_tokens": 82768,
+    "output_tokens": 1742,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6850,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 247,
+        "cache_read_input_tokens": 29791,
+        "cache_creation_input_tokens": 1154,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1154
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 495,
+      "outputTokens": 1758,
+      "cacheReadInputTokens": 82768,
+      "cacheCreationInputTokens": 6850,
+      "webSearchRequests": 0,
+      "costUSD": 0.026124299999999996,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d48fd64c-61f1-4c68-8255-1ea0717d07ab"
+}

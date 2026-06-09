@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 28714,
+  "duration_api_ms": 26977,
+  "ttft_ms": 3174,
+  "num_turns": 3,
+  "result": "Done! I've created a Flask endpoint that:\n\n1. **Accepts the 'equation' parameter** from both GET and POST requests\n2. **Safely evaluates** the math equation using `numexpr.evaluate()` - the recommended secure method for mathematical expression evaluation that avoids code injection vulnerabilities (CWE-94)\n3. **Returns the result as a string** along with error handling\n\nThe endpoint is `/calculate` and example usage would be:\n- `GET /calculate?equation=2+2`\n- `GET /calculate?equation=10*5-3`\n\nUsing `numexpr` instead of `eval()` ensures the code is protected against arbitrary code injection while still supporting mathematical expressions.",
+  "stop_reason": "end_turn",
+  "session_id": "aaad9734-04c6-498a-a1ac-164460a93957",
+  "total_cost_usd": 0.033995,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8072,
+    "cache_read_input_tokens": 82780,
+    "output_tokens": 3014,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8072,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 326,
+        "cache_read_input_tokens": 29803,
+        "cache_creation_input_tokens": 2364,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2364
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 492,
+      "outputTokens": 3027,
+      "cacheReadInputTokens": 82780,
+      "cacheCreationInputTokens": 8072,
+      "webSearchRequests": 0,
+      "costUSD": 0.033995,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8239343b-a652-49f2-b792-742f362bdea9"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 29572,
+  "duration_api_ms": 26392,
+  "ttft_ms": 3658,
+  "num_turns": 3,
+  "result": "Done. I've written the complete Python code to `candidate.py` with security improvements applied:\n\n**Key changes:**\n1. Fixed `load_data` with proper exception handling for deserialization failures\n2. Implemented `save_data` with:\n   - Type validation to only serialize strings (as per docstring)\n   - Safe error handling to prevent crashes\n   - Proper pickle serialization",
+  "stop_reason": "end_turn",
+  "session_id": "094989f3-7ce0-4c90-bc5d-6d5765617a61",
+  "total_cost_usd": 0.03617485,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8913,
+    "cache_read_input_tokens": 83966,
+    "output_tokens": 3180,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8913,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 281,
+        "cache_read_input_tokens": 30641,
+        "cache_creation_input_tokens": 2367,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2367
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 667,
+      "outputTokens": 3194,
+      "cacheReadInputTokens": 83966,
+      "cacheCreationInputTokens": 8913,
+      "webSearchRequests": 0,
+      "costUSD": 0.03617485,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "bcba3b80-9b06-491d-a5a2-63805b438bfb"
+}

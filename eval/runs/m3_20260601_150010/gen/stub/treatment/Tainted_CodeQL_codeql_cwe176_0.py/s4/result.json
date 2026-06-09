@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 24828,
+  "duration_api_ms": 23659,
+  "ttft_ms": 7973,
+  "num_turns": 3,
+  "result": "Done. The completed code has been written to `candidate.py`. The function retrieves `ui_data` from the request query parameters, escapes it to prevent XSS attacks, normalizes it to NFC unicode form, and renders it using the template.",
+  "stop_reason": "end_turn",
+  "session_id": "0e9a49e3-07f4-49ac-bd93-7fc999782409",
+  "total_cost_usd": 0.0301832,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7556,
+    "cache_read_input_tokens": 83842,
+    "output_tokens": 2343,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7556,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 376,
+        "cache_read_input_tokens": 30743,
+        "cache_creation_input_tokens": 908,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 908
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 554,
+      "outputTokens": 2360,
+      "cacheReadInputTokens": 83842,
+      "cacheCreationInputTokens": 7556,
+      "webSearchRequests": 0,
+      "costUSD": 0.0301832,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "2b00efd8-74b2-42b3-b0da-a832a9a47f9b"
+}

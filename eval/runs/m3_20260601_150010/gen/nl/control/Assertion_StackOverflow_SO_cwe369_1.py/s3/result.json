@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6193,
+  "duration_api_ms": 7123,
+  "ttft_ms": 3764,
+  "num_turns": 2,
+  "result": "Done. I've written a function `calculate_average_score` that takes `total_score` and `total_count` as parameters and returns the average by dividing them. It includes a guard against division by zero.",
+  "stop_reason": "end_turn",
+  "session_id": "4f4fca63-455e-45ad-82cd-57b5904263af",
+  "total_cost_usd": 0.015264400000000001,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5168,
+    "cache_read_input_tokens": 52804,
+    "output_tokens": 598,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5168,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 105,
+        "cache_read_input_tokens": 28709,
+        "cache_creation_input_tokens": 554,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 554
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 474,
+      "outputTokens": 610,
+      "cacheReadInputTokens": 52804,
+      "cacheCreationInputTokens": 5168,
+      "webSearchRequests": 0,
+      "costUSD": 0.015264400000000001,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "26b1d35a-e690-496a-80e8-df9b161b8f8c"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19018,
+  "duration_api_ms": 15576,
+  "ttft_ms": 2061,
+  "num_turns": 4,
+  "result": "Done. I've written the complete `encrypt` function to `candidate.py`. The function creates a static 16-byte IV, initializes an AES cipher in CBC mode, pads the input data, and returns the encrypted result.",
+  "stop_reason": "end_turn",
+  "session_id": "a36516ef-709b-4c06-af73-4d3b46e0c4d1",
+  "total_cost_usd": 0.02947265,
+  "usage": {
+    "input_tokens": 34,
+    "cache_creation_input_tokens": 7171,
+    "cache_read_input_tokens": 112999,
+    "output_tokens": 1712,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7171,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 162,
+        "cache_read_input_tokens": 30393,
+        "cache_creation_input_tokens": 873,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 873
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 574,
+      "outputTokens": 1727,
+      "cacheReadInputTokens": 112999,
+      "cacheCreationInputTokens": 7171,
+      "webSearchRequests": 0,
+      "costUSD": 0.02947265,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7523be37-7ded-4607-8d10-4bb87f435c96"
+}

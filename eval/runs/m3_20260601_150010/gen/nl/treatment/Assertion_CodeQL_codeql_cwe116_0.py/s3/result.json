@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19325,
+  "duration_api_ms": 16554,
+  "ttft_ms": 1862,
+  "num_turns": 3,
+  "result": "Done! I've created the `candidate.py` file with a function that uses regex to remove all script tags and their contents from HTML. The function:\n\n- Uses the regex pattern `<script[^>]*>.*?</script>` to match script tags with any attributes\n- Handles tags in any case using the `re.IGNORECASE` flag\n- Handles multi-line script content using the `re.DOTALL` flag (makes `.` match newlines)\n- Replaces all matches with empty strings to strip them out",
+  "stop_reason": "end_turn",
+  "session_id": "e831492b-fb1a-4eee-9a2b-e0f4b6c47d69",
+  "total_cost_usd": 0.02475525,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6659,
+    "cache_read_input_tokens": 82915,
+    "output_tokens": 1512,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6659,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 341,
+        "cache_read_input_tokens": 29916,
+        "cache_creation_input_tokens": 838,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 838
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 505,
+      "outputTokens": 1527,
+      "cacheReadInputTokens": 82915,
+      "cacheCreationInputTokens": 6659,
+      "webSearchRequests": 0,
+      "costUSD": 0.02475525,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "37befb98-b48c-4ec3-aae1-bb57b688d483"
+}

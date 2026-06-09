@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18928,
+  "duration_api_ms": 20036,
+  "ttft_ms": 16604,
+  "num_turns": 2,
+  "result": "Done. The Flask endpoint has been written to `candidate.py`. It accepts a `path` query parameter, deletes the file if it exists, and returns the appropriate message.",
+  "stop_reason": "end_turn",
+  "session_id": "1153fa0a-4da7-47aa-8411-460f07e20fcb",
+  "total_cost_usd": 0.029807049999999995,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 7485,
+    "cache_read_input_tokens": 52888,
+    "output_tokens": 2916,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7485,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 185,
+        "cache_read_input_tokens": 28793,
+        "cache_creation_input_tokens": 2787,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2787
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 517,
+      "outputTokens": 2929,
+      "cacheReadInputTokens": 52888,
+      "cacheCreationInputTokens": 7485,
+      "webSearchRequests": 0,
+      "costUSD": 0.029807049999999995,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "11a86629-e3cf-48cd-bd6c-4c4259474e30"
+}

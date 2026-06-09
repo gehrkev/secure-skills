@@ -1,0 +1,11 @@
+# Dependências pinned do SALLM para a checagem `imports_clean` (functional.py).
+# União das dependências dos 100 `_requirements.txt` do SALLM:
+#   Flask/Flask-SQLAlchemy/pycryptodome aparecem em 100/100; requests/canvasapi
+#   em 1 prompt cada. Sem este venv, qualquer candidato que importe Flask falha
+#   por dependência ausente (não por defeito de código).
+# Reconstrua com: bash eval/runner/eval/setup_env.sh
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+pycryptodome==3.19.0
+requests==2.31.0
+canvasapi==3.2.0

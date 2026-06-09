@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10793,
+  "duration_api_ms": 11890,
+  "ttft_ms": 5145,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/getcookie` route that retrieves the 'cookie' parameter from the request and sets it as a cookie in the response.",
+  "stop_reason": "end_turn",
+  "session_id": "a29c5a09-7019-4d9b-af5d-56ac3ff5ccc1",
+  "total_cost_usd": 0.016694,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5380,
+    "cache_read_input_tokens": 52830,
+    "output_tokens": 824,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5380,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 146,
+        "cache_read_input_tokens": 28735,
+        "cache_creation_input_tokens": 740,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 740
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 486,
+      "outputTokens": 840,
+      "cacheReadInputTokens": 52830,
+      "cacheCreationInputTokens": 5380,
+      "webSearchRequests": 0,
+      "costUSD": 0.016694,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "962449d3-806b-4efc-9235-f44dabf2e6a4"
+}

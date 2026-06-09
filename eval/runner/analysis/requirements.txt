@@ -1,0 +1,16 @@
+# Ambiente do notebook de reprodução visual dos resultados M3.
+# Uso:
+#   python3 -m venv eval/runner/analysis/.venv
+#   eval/runner/analysis/.venv/bin/pip install -r eval/runner/analysis/requirements.txt
+#   eval/runner/analysis/.venv/bin/jupyter lab   (ou: code -> selecione este kernel)
+#
+# Os dois scripts stdlib (explore_m3.py, cost_rollup.py) NÃO precisam deste venv;
+# rodam em qualquer python. Este venv é só para o notebook (pandas/seaborn/GLMM).
+
+pandas>=2.2
+seaborn>=0.13
+matplotlib>=3.8
+statsmodels>=0.14
+scipy>=1.11
+jupyterlab>=4.0
+ipykernel>=6.29

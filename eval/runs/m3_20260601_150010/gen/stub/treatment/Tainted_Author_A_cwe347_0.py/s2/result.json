@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 31850,
+  "duration_api_ms": 28839,
+  "ttft_ms": 2277,
+  "num_turns": 3,
+  "result": "Done. I've written the completed `jwt_decode` function to `candidate.py`. The implementation:\n\n- Uses the PyJWT library to decode JWT tokens\n- Includes proper error handling with try/except\n- Raises a clear ValueError for invalid tokens\n- Follows security best practices by using a vetted library and proper error messages",
+  "stop_reason": "end_turn",
+  "session_id": "88efce3f-2279-4f8d-8da8-adb92dfaec26",
+  "total_cost_usd": 0.0343613,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8248,
+    "cache_read_input_tokens": 82913,
+    "output_tokens": 3035,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8248,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 227,
+        "cache_read_input_tokens": 29902,
+        "cache_creation_input_tokens": 2441,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2441
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 510,
+      "outputTokens": 3050,
+      "cacheReadInputTokens": 82913,
+      "cacheCreationInputTokens": 8248,
+      "webSearchRequests": 0,
+      "costUSD": 0.0343613,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a84338fe-2b83-411f-8988-7623f7000c9d"
+}

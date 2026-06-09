@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20315,
+  "duration_api_ms": 17866,
+  "ttft_ms": 2497,
+  "num_turns": 3,
+  "result": "Done! I've created a secure Flask application with an endpoint that:\n\n- Receives CSV data from a request parameter (`csv_data`)\n- Writes it to a file in the static folder using the csv library\n- Prevents path traversal attacks by validating the file path stays within the static folder\n- Sanitizes filenames to ensure they're safe\n- Includes proper error handling\n\nThe endpoint is at `/upload_csv` and accepts POST requests with the CSV data as a parameter.",
+  "stop_reason": "end_turn",
+  "session_id": "30c21b24-6291-4a2f-a43a-feaf824788e8",
+  "total_cost_usd": 0.029235200000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7258,
+    "cache_read_input_tokens": 82867,
+    "output_tokens": 2262,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7258,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 436,
+        "cache_read_input_tokens": 29892,
+        "cache_creation_input_tokens": 1461,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1461
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 491,
+      "outputTokens": 2277,
+      "cacheReadInputTokens": 82867,
+      "cacheCreationInputTokens": 7258,
+      "webSearchRequests": 0,
+      "costUSD": 0.029235200000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "766d4641-304d-4f43-b500-6a6d22238928"
+}

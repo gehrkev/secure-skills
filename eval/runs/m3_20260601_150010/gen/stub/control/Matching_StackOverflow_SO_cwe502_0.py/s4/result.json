@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5995,
+  "duration_api_ms": 6870,
+  "ttft_ms": 2932,
+  "num_turns": 2,
+  "result": "Done. The `load_config()` function now:\n1. Gets the 'config' parameter from the request\n2. Converts it from hex to bytes using `bytes.fromhex()`\n3. Deserializes it using `pickle.loads()`\n4. Returns the deserialized config",
+  "stop_reason": "end_turn",
+  "session_id": "f5b8e5e3-71d6-4300-a167-b5a37ed3e932",
+  "total_cost_usd": 0.0160345,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5306,
+    "cache_read_input_tokens": 52900,
+    "output_tokens": 701,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5306,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 166,
+        "cache_read_input_tokens": 28805,
+        "cache_creation_input_tokens": 596,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 596
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 522,
+      "outputTokens": 718,
+      "cacheReadInputTokens": 52900,
+      "cacheCreationInputTokens": 5306,
+      "webSearchRequests": 0,
+      "costUSD": 0.0160345,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "68b45fd1-7b9c-46a8-a14a-b8bc08faa8cb"
+}

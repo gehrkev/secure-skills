@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 13645,
+  "duration_api_ms": 14654,
+  "ttft_ms": 10694,
+  "num_turns": 2,
+  "result": "Done. The function:\n- Gets `target_url` from request query parameters\n- Validates it's not external by rejecting URLs starting with `http://`, `https://`, or `//`\n- Defaults to `/` if an external URL is detected\n- Returns a 302 redirect response with the Location header set",
+  "stop_reason": "end_turn",
+  "session_id": "63bb1f1f-119d-48e7-a478-595b4a70265e",
+  "total_cost_usd": 0.0240506,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6596,
+    "cache_read_input_tokens": 52956,
+    "output_tokens": 1977,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6596,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 204,
+        "cache_read_input_tokens": 28861,
+        "cache_creation_input_tokens": 1830,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1830
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 550,
+      "outputTokens": 1992,
+      "cacheReadInputTokens": 52956,
+      "cacheCreationInputTokens": 6596,
+      "webSearchRequests": 0,
+      "costUSD": 0.0240506,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3033f99d-14f1-4bce-8b0e-4ddbc7f68b77"
+}

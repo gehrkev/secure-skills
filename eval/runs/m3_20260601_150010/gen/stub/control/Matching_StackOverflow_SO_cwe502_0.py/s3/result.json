@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14036,
+  "duration_api_ms": 15018,
+  "ttft_ms": 11536,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with the completed `load_config` function that:\n1. Retrieves the 'config' parameter from the request query string\n2. Converts it from hex to bytes using `bytes.fromhex()`\n3. Deserializes it using `pickle.loads()`\n4. Returns the deserialized config",
+  "stop_reason": "end_turn",
+  "session_id": "1faf7cf3-8051-4f92-9b55-2422a63542dd",
+  "total_cost_usd": 0.0230922,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6412,
+    "cache_read_input_tokens": 52902,
+    "output_tokens": 1835,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6412,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 197,
+        "cache_read_input_tokens": 28807,
+        "cache_creation_input_tokens": 1700,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1700
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 522,
+      "outputTokens": 1853,
+      "cacheReadInputTokens": 52902,
+      "cacheCreationInputTokens": 6412,
+      "webSearchRequests": 0,
+      "costUSD": 0.0230922,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "10149f68-e27a-4dfe-83d5-53da33d2640d"
+}

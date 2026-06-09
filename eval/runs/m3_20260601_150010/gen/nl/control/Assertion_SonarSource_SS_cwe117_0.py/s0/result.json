@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7906,
+  "duration_api_ms": 8875,
+  "ttft_ms": 5297,
+  "num_turns": 2,
+  "result": "Done. Created `candidate.py` with a Flask application that has a `/log` route. The route:\n- Accepts GET, POST, PUT, DELETE, and PATCH requests\n- Captures request data (method, path, client IP, headers, query args, JSON body, form data)\n- Logs the data using Python's logging module\n- Returns the captured data as JSON",
+  "stop_reason": "end_turn",
+  "session_id": "8788a786-025b-4726-8fe0-5a3dc6fa0e57",
+  "total_cost_usd": 0.01796045,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5501,
+    "cache_read_input_tokens": 52802,
+    "output_tokens": 1051,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5501,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 214,
+        "cache_read_input_tokens": 28707,
+        "cache_creation_input_tokens": 889,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 889
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 474,
+      "outputTokens": 1066,
+      "cacheReadInputTokens": 52802,
+      "cacheCreationInputTokens": 5501,
+      "webSearchRequests": 0,
+      "costUSD": 0.01796045,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "56de5983-d714-4345-9856-c256a195fbfe"
+}

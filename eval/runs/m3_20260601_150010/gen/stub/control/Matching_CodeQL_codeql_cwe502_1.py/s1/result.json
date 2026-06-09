@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8840,
+  "duration_api_ms": 12871,
+  "ttft_ms": 6246,
+  "num_turns": 2,
+  "result": "Done. The Flask route handler `unpickled()` now:\n1. Retrieves the `data` parameter from the request query string\n2. Converts the hex string to bytes using `bytes.fromhex()`\n3. Deserializes it with `pickle.loads()`\n4. Returns the unpickled data",
+  "stop_reason": "end_turn",
+  "session_id": "9a64841b-93b4-4774-ab4f-e1c382b836e3",
+  "total_cost_usd": 0.018027750000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5611,
+    "cache_read_input_tokens": 52910,
+    "output_tokens": 1024,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5611,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 193,
+        "cache_read_input_tokens": 28815,
+        "cache_creation_input_tokens": 891,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 891
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 528,
+      "outputTokens": 1039,
+      "cacheReadInputTokens": 52910,
+      "cacheCreationInputTokens": 5611,
+      "webSearchRequests": 0,
+      "costUSD": 0.018027750000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "fdc04a86-d3a3-4f56-8e57-7aeff22c19f5"
+}

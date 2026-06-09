@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20416,
+  "duration_api_ms": 17454,
+  "ttft_ms": 3023,
+  "num_turns": 3,
+  "result": "Done! I've created a Flask endpoint at `/get_average_score` that:\n\n- Accepts both POST (JSON) and GET requests\n- Extracts `total_score` and `total_count` from the request\n- Validates inputs are present and numeric\n- **Protects against divide-by-zero** by checking if `total_count` is zero (per CWE-369 guidance)\n- Returns the average score as JSON with appropriate error handling\n\nThe endpoint returns 400 status for invalid inputs and 500 for unexpected errors, with descriptive error messages for debugging.",
+  "stop_reason": "end_turn",
+  "session_id": "15218e1d-b7ca-43e2-a8ec-b8cf20dadc6d",
+  "total_cost_usd": 0.02422585,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6651,
+    "cache_read_input_tokens": 82971,
+    "output_tokens": 1408,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6651,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 319,
+        "cache_read_input_tokens": 29976,
+        "cache_creation_input_tokens": 770,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 770
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 500,
+      "outputTokens": 1423,
+      "cacheReadInputTokens": 82971,
+      "cacheCreationInputTokens": 6651,
+      "webSearchRequests": 0,
+      "costUSD": 0.02422585,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "121ad321-ee49-4015-8a78-c7ef1ed8db36"
+}

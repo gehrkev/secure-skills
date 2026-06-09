@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5538,
+  "duration_api_ms": 6365,
+  "ttft_ms": 3080,
+  "num_turns": 2,
+  "result": "Done. I've written the `unmarshal_data()` function to `candidate.py`. The function:\n1. Gets the 'data' parameter from the request query string\n2. Converts the hex string to bytes using `bytes.fromhex()`\n3. Unmarshals the bytes using `marshal.loads()`\n4. Returns the result",
+  "stop_reason": "end_turn",
+  "session_id": "e689e565-57d4-4c86-b13e-2f6f1eac3fec",
+  "total_cost_usd": 0.016424750000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5367,
+    "cache_read_input_tokens": 52930,
+    "output_tokens": 762,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5367,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 195,
+        "cache_read_input_tokens": 28835,
+        "cache_creation_input_tokens": 627,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 627
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 538,
+      "outputTokens": 777,
+      "cacheReadInputTokens": 52930,
+      "cacheCreationInputTokens": 5367,
+      "webSearchRequests": 0,
+      "costUSD": 0.016424750000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0551011d-fbcd-4b50-9691-eeb33637fdf6"
+}

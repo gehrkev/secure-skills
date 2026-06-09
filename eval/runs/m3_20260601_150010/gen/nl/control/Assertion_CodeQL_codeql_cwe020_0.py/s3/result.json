@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 13112,
+  "duration_api_ms": 14049,
+  "ttft_ms": 10423,
+  "num_turns": 2,
+  "result": "Done. The Python program uses `re.fullmatch()` to check if a URL exactly matches the format `(www|beta).example.com/`, returning `True` if it does and `False` otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "79b9b6fa-2a5f-4de0-8ea5-940bf3faece5",
+  "total_cost_usd": 0.02136605,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6053,
+    "cache_read_input_tokens": 52818,
+    "output_tokens": 1593,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6053,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 227,
+        "cache_read_input_tokens": 28723,
+        "cache_creation_input_tokens": 1425,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1425
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 483,
+      "outputTokens": 1607,
+      "cacheReadInputTokens": 52818,
+      "cacheCreationInputTokens": 6053,
+      "webSearchRequests": 0,
+      "costUSD": 0.02136605,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "070c0d91-ece6-4149-ba1c-d3709d61c522"
+}

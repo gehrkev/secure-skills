@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 13712,
+  "duration_api_ms": 14706,
+  "ttft_ms": 11667,
+  "num_turns": 2,
+  "result": "Done. I've written a `decode_jwt` function that uses the `jwt` library to decode a JWT token and return its payload.",
+  "stop_reason": "end_turn",
+  "session_id": "afb1cb66-f735-4c01-8f1b-2ce340f06d21",
+  "total_cost_usd": 0.022766100000000004,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6386,
+    "cache_read_input_tokens": 52806,
+    "output_tokens": 1792,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6386,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 81,
+        "cache_read_input_tokens": 28711,
+        "cache_creation_input_tokens": 1770,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1770
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 473,
+      "outputTokens": 1806,
+      "cacheReadInputTokens": 52806,
+      "cacheCreationInputTokens": 6386,
+      "webSearchRequests": 0,
+      "costUSD": 0.022766100000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "12482b5a-420c-46df-9ee9-1a35282f8e2d"
+}

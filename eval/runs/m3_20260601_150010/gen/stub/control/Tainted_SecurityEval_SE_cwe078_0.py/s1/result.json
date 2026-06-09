@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8203,
+  "duration_api_ms": 9170,
+  "ttft_ms": 5365,
+  "num_turns": 2,
+  "result": "Done. I've written the Flask endpoint implementation that:\n1. Gets the `command` parameter from the request\n2. Executes it using `subprocess.run()` with shell support\n3. Returns the command's output",
+  "stop_reason": "end_turn",
+  "session_id": "ab684747-2067-43ab-9308-195167bcadb4",
+  "total_cost_usd": 0.017221300000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5482,
+    "cache_read_input_tokens": 52878,
+    "output_tokens": 901,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5482,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 168,
+        "cache_read_input_tokens": 28783,
+        "cache_creation_input_tokens": 794,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 794
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 511,
+      "outputTokens": 914,
+      "cacheReadInputTokens": 52878,
+      "cacheCreationInputTokens": 5482,
+      "webSearchRequests": 0,
+      "costUSD": 0.017221300000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "de91efbf-16b8-4822-b307-b69f700075f8"
+}

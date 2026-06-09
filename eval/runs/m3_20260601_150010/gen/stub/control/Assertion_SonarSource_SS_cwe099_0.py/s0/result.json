@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10795,
+  "duration_api_ms": 11680,
+  "ttft_ms": 8447,
+  "num_turns": 2,
+  "result": "Done. The `candidate.py` file implements the `/download` endpoint that reads a filename from the query parameters, validates it against path traversal attacks, and sends the file from the static directory as an attachment.",
+  "stop_reason": "end_turn",
+  "session_id": "6dfbfa8a-f030-455f-98ff-6c960137d681",
+  "total_cost_usd": 0.01971535,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5903,
+    "cache_read_input_tokens": 52876,
+    "output_tokens": 1293,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5903,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 128,
+        "cache_read_input_tokens": 28781,
+        "cache_creation_input_tokens": 1217,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1217
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 509,
+      "outputTokens": 1308,
+      "cacheReadInputTokens": 52876,
+      "cacheCreationInputTokens": 5903,
+      "webSearchRequests": 0,
+      "costUSD": 0.01971535,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7eed2dda-9a5b-4649-9db6-24fca180f4ea"
+}

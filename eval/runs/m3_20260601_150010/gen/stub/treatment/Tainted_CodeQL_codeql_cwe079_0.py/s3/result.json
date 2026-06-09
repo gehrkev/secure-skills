@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17814,
+  "duration_api_ms": 15719,
+  "ttft_ms": 2732,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Flask route to `candidate.py`. The code:\n- Retrieves the 'name' parameter from the request query string\n- Creates a Jinja2 environment with the FileSystemLoader\n- Loads and renders 'template.html' with the name variable\n- Returns the rendered template as a response",
+  "stop_reason": "end_turn",
+  "session_id": "a15fc2e8-c191-4127-9480-0b8d00e58010",
+  "total_cost_usd": 0.0257161,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6946,
+    "cache_read_input_tokens": 83226,
+    "output_tokens": 1617,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6946,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 314,
+        "cache_read_input_tokens": 30113,
+        "cache_creation_input_tokens": 928,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 928
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 561,
+      "outputTokens": 1630,
+      "cacheReadInputTokens": 83226,
+      "cacheCreationInputTokens": 6946,
+      "webSearchRequests": 0,
+      "costUSD": 0.0257161,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6d5bd4dc-7aac-4b07-a9ef-cab44ac8e197"
+}

@@ -1,0 +1,35 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/stub/control/Tainted_CodeQL_codeql_cwe643_0.py/s4/candidate.py",
+  "target_cwe": "CWE-643",
+  "findings": [
+    {
+      "cwe": "CWE-611",
+      "line": 17,
+      "rule_id": "py/xxe",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against external entity expansion."
+    },
+    {
+      "cwe": "CWE-827",
+      "line": 17,
+      "rule_id": "py/xxe",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against external entity expansion."
+    },
+    {
+      "cwe": "CWE-643",
+      "line": 18,
+      "rule_id": "py/xpath-injection",
+      "message": "XPath expression depends on a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 3,
+    "by_cwe": {
+      "CWE-611": 1,
+      "CWE-827": 1,
+      "CWE-643": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-xe213zo4/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

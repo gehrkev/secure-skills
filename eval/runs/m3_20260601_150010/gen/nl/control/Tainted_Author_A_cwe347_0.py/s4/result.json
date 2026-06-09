@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11884,
+  "duration_api_ms": 12836,
+  "ttft_ms": 9277,
+  "num_turns": 2,
+  "result": "Done. I've written a function `encode_jwt` that takes a payload dictionary and returns an encoded JWT token string using the jwt library.",
+  "stop_reason": "end_turn",
+  "session_id": "d3117511-d733-46bb-aa21-ce889459ebff",
+  "total_cost_usd": 0.019679449999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5845,
+    "cache_read_input_tokens": 52802,
+    "output_tokens": 1310,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5845,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 134,
+        "cache_read_input_tokens": 28707,
+        "cache_creation_input_tokens": 1233,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1233
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 473,
+      "outputTokens": 1324,
+      "cacheReadInputTokens": 52802,
+      "cacheCreationInputTokens": 5845,
+      "webSearchRequests": 0,
+      "costUSD": 0.019679449999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5e5d945c-0f93-4b5a-89ab-5cf3831a1251"
+}

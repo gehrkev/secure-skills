@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19282,
+  "duration_api_ms": 17007,
+  "ttft_ms": 4678,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask application in `candidate.py` that:\n\n1. Defines a route `/echo-content-type` that accepts GET, POST, PUT, DELETE, and PATCH requests\n2. Extracts the `Content-Type` header from the incoming request using `request.headers.get()`\n3. Returns a `Response` with that same `Content-Type` header set via the `content_type` parameter\n4. Provides a sensible default of `'text/plain'` if the header is not present\n\nThe implementation safely handles the header extraction and echoes it back in the response.",
+  "stop_reason": "end_turn",
+  "session_id": "a545efb1-9571-44cc-ab86-bafb2a1a64e2",
+  "total_cost_usd": 0.0239166,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6312,
+    "cache_read_input_tokens": 82586,
+    "output_tokens": 1441,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6312,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 332,
+        "cache_read_input_tokens": 29609,
+        "cache_creation_input_tokens": 798,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 798
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 493,
+      "outputTokens": 1455,
+      "cacheReadInputTokens": 82586,
+      "cacheCreationInputTokens": 6312,
+      "webSearchRequests": 0,
+      "costUSD": 0.0239166,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "97ff8598-8499-4197-af80-a2e9528671a6"
+}

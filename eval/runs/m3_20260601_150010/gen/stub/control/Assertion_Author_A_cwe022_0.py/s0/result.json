@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8325,
+  "duration_api_ms": 9433,
+  "ttft_ms": 5909,
+  "num_turns": 2,
+  "result": "Done. The function retrieves the 'path' query parameter, checks if the file exists, deletes it if present, and returns the appropriate message.",
+  "stop_reason": "end_turn",
+  "session_id": "fede2e69-35f8-46b2-a0ff-b09d45d9c8c0",
+  "total_cost_usd": 0.017981749999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5687,
+    "cache_read_input_tokens": 52960,
+    "output_tokens": 992,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5687,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 134,
+        "cache_read_input_tokens": 28865,
+        "cache_creation_input_tokens": 917,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 917
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 552,
+      "outputTokens": 1005,
+      "cacheReadInputTokens": 52960,
+      "cacheCreationInputTokens": 5687,
+      "webSearchRequests": 0,
+      "costUSD": 0.017981749999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d9b1f8af-1a24-4c5a-97b3-4d77a834c7b4"
+}

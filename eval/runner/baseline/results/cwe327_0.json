@@ -1,0 +1,20 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_6c_qs98f.py",
+  "target_cwe": "CWE-327",
+  "findings": [
+    {
+      "cwe": "CWE-327",
+      "line": 15,
+      "rule_id": "py/weak-cryptographic-algorithm",
+      "message": "[The cryptographic algorithm DES](1) is broken or weak, and should not be used."
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "by_cwe": {
+      "CWE-327": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-aeijz6go/results.sarif"
+}

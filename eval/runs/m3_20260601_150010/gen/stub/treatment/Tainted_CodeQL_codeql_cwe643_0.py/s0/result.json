@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 24192,
+  "duration_api_ms": 21859,
+  "ttft_ms": 3301,
+  "num_turns": 3,
+  "result": "Done. The code has been written to `candidate.py` with security protections against XML External Entity (XXE) attacks and entity expansion vulnerabilities by disabling external entity resolution and DTD validation in the parser.",
+  "stop_reason": "end_turn",
+  "session_id": "2c662e1b-5c45-4faf-bdfa-7176f4ff4ecf",
+  "total_cost_usd": 0.03593705,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8677,
+    "cache_read_input_tokens": 83368,
+    "output_tokens": 3222,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8677,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 194,
+        "cache_read_input_tokens": 30251,
+        "cache_creation_input_tokens": 2521,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2521
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 564,
+      "outputTokens": 3238,
+      "cacheReadInputTokens": 83368,
+      "cacheCreationInputTokens": 8677,
+      "webSearchRequests": 0,
+      "costUSD": 0.03593705,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b111b12e-c858-4b85-b380-57ffc54071bb"
+}

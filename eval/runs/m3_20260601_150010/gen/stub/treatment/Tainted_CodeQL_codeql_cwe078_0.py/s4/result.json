@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17324,
+  "duration_api_ms": 15678,
+  "ttft_ms": 2162,
+  "num_turns": 3,
+  "result": "Done. The code has been written to `candidate.py` with security mitigations applied based on the CWE-22 guidance to prevent path traversal attacks by using a safe whitelist mapping instead of directly accessing user-supplied paths.",
+  "stop_reason": "end_turn",
+  "session_id": "2238e27b-c9ac-421e-b0cb-b0db50d383db",
+  "total_cost_usd": 0.0255761,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6698,
+    "cache_read_input_tokens": 82776,
+    "output_tokens": 1664,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6698,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 254,
+        "cache_read_input_tokens": 29721,
+        "cache_creation_input_tokens": 1072,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1072
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 531,
+      "outputTokens": 1679,
+      "cacheReadInputTokens": 82776,
+      "cacheCreationInputTokens": 6698,
+      "webSearchRequests": 0,
+      "costUSD": 0.0255761,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "11f74125-0296-4258-9bed-27a9e0392d4a"
+}

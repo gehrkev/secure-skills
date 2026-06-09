@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11535,
+  "duration_api_ms": 12709,
+  "ttft_ms": 9120,
+  "num_turns": 2,
+  "result": "Done. I've written a Python program to `candidate.py` that uses regex to check if a URL matches the format `(www|beta).example.com/`. The function returns `True` if the URL matches, `False` otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "33054944-27b8-4309-82ff-fcede939a972",
+  "total_cost_usd": 0.0193802,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5716,
+    "cache_read_input_tokens": 52822,
+    "output_tokens": 1280,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5716,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 257,
+        "cache_read_input_tokens": 28727,
+        "cache_creation_input_tokens": 1084,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1084
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 483,
+      "outputTokens": 1294,
+      "cacheReadInputTokens": 52822,
+      "cacheCreationInputTokens": 5716,
+      "webSearchRequests": 0,
+      "costUSD": 0.0193802,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b41df5f4-71b3-42e2-a61e-5e8c3d720c13"
+}

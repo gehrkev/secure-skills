@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17644,
+  "duration_api_ms": 15750,
+  "ttft_ms": 2104,
+  "num_turns": 3,
+  "result": "Done. I've created a secure Flask endpoint that:\n\n1. **Prevents SSRF attacks** by validating URLs against an allowed domains whitelist before fetching\n2. **Accepts a `url` parameter** from the request\n3. **Downloads the file** from the validated URL with timeout protection\n4. **Returns the URL** in a JSON response on success\n\nThe endpoint validates scheme (HTTP/HTTPS only), domain whitelist, and includes error handling for invalid or inaccessible URLs.",
+  "stop_reason": "end_turn",
+  "session_id": "e1dd4d17-fca4-4d59-905a-3c5954cd6ed8",
+  "total_cost_usd": 0.026511,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6932,
+    "cache_read_input_tokens": 82760,
+    "output_tokens": 1801,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6932,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 237,
+        "cache_read_input_tokens": 29789,
+        "cache_creation_input_tokens": 1238,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1238
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1816,
+      "cacheReadInputTokens": 82760,
+      "cacheCreationInputTokens": 6932,
+      "webSearchRequests": 0,
+      "costUSD": 0.026511,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0144b4d9-5f4b-4651-8305-f6fd4e2c8d23"
+}

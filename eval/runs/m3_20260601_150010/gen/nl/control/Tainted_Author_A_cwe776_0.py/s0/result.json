@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7511,
+  "duration_api_ms": 9017,
+  "ttft_ms": 4641,
+  "num_turns": 2,
+  "result": "Done! I've created `candidate.py` with a Flask application that:\n\n- Defines an endpoint `/parse-xml` that accepts GET and POST requests\n- Retrieves XML data from the `xml_src` request parameter\n- Parses the XML string using `xml.etree.ElementTree.fromstring()`\n- Returns the parsed XML as a string\n- Handles errors (missing data, invalid XML) with appropriate responses",
+  "stop_reason": "end_turn",
+  "session_id": "c52ce576-2973-41a0-b070-80dae23182b7",
+  "total_cost_usd": 0.01751975,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5451,
+    "cache_read_input_tokens": 52840,
+    "output_tokens": 969,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5451,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 225,
+        "cache_read_input_tokens": 28745,
+        "cache_creation_input_tokens": 801,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 801
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 492,
+      "outputTokens": 986,
+      "cacheReadInputTokens": 52840,
+      "cacheCreationInputTokens": 5451,
+      "webSearchRequests": 0,
+      "costUSD": 0.01751975,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "614f46be-8cce-4c88-ab4d-bc61cc651ead"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6948,
+  "duration_api_ms": 8144,
+  "ttft_ms": 4519,
+  "num_turns": 2,
+  "result": "Done. Created `candidate.py` with an SSL context using `ssl.create_default_context()`, which sets up standard secure defaults from the ssl module.",
+  "stop_reason": "end_turn",
+  "session_id": "a628c06c-1300-4f7b-b614-d89a0cdf1309",
+  "total_cost_usd": 0.0150958,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5100,
+    "cache_read_input_tokens": 52788,
+    "output_tokens": 580,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5100,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 138,
+        "cache_read_input_tokens": 28693,
+        "cache_creation_input_tokens": 502,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 502
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 467,
+      "outputTokens": 595,
+      "cacheReadInputTokens": 52788,
+      "cacheCreationInputTokens": 5100,
+      "webSearchRequests": 0,
+      "costUSD": 0.0150958,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "26ce98b5-4847-4230-9c9b-b8c0ba99c03a"
+}

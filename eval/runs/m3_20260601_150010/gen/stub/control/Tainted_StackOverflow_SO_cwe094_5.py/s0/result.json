@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 13592,
+  "duration_api_ms": 14500,
+  "ttft_ms": 9577,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with a complete implementation of the `get_value()` function that:\n\n1. Extracts the `key` parameter from the request query string\n2. Retrieves the object from JSON request body (or form data as fallback)\n3. Gets the value associated with the key from the object\n4. Returns it as a string",
+  "stop_reason": "end_turn",
+  "session_id": "3f548cc6-b9a3-400c-916c-0932e89c12a8",
+  "total_cost_usd": 0.0238236,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6652,
+    "cache_read_input_tokens": 53076,
+    "output_tokens": 1902,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6652,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 190,
+        "cache_read_input_tokens": 28981,
+        "cache_creation_input_tokens": 1766,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1766
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 611,
+      "outputTokens": 1918,
+      "cacheReadInputTokens": 53076,
+      "cacheCreationInputTokens": 6652,
+      "webSearchRequests": 0,
+      "costUSD": 0.0238236,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "34c009cc-5a52-4d1c-910e-ade20969217f"
+}

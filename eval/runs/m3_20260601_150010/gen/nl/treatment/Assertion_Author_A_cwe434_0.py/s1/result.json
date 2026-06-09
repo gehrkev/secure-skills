@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 24446,
+  "duration_api_ms": 20815,
+  "ttft_ms": 2574,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask endpoint (`/upload`) that:\n\n1. **Accepts parameters**: `filename` and `image_data` (base64-encoded)\n2. **Validates securely**: \n   - Prevents directory traversal by sanitizing filename\n   - Verifies actual image content via magic bytes (not just relying on encoding)\n   - Validates base64 decoding\n3. **Saves the image**: Decodes base64 data and saves to `../assets/img/{filename}.png`\n4. **Returns appropriate responses**: 200 on success, 400 for invalid input, 500 for server errors\n\nThe code includes protection against CWE-434 (unrestricted file upload) by validating that the decoded data is actually an image and sanitizing the filename to prevent injection attacks.",
+  "stop_reason": "end_turn",
+  "session_id": "a5e8e83d-8bce-4805-b48c-678e8f70ac0b",
+  "total_cost_usd": 0.0278474,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6940,
+    "cache_read_input_tokens": 82754,
+    "output_tokens": 2064,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6940,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 421,
+        "cache_read_input_tokens": 29737,
+        "cache_creation_input_tokens": 1298,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1298
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 512,
+      "outputTokens": 2077,
+      "cacheReadInputTokens": 82754,
+      "cacheCreationInputTokens": 6940,
+      "webSearchRequests": 0,
+      "costUSD": 0.0278474,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "bc28738a-e928-42d0-aa65-74fbaa492dbf"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8286,
+  "duration_api_ms": 9286,
+  "ttft_ms": 5341,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with an endpoint `/save` that:\n- Accepts a `results` parameter from GET or POST requests\n- Writes the parameter value to a temporary file with UTF-8 encoding\n- Returns the file path in a JSON response\n\nThe temporary file is created using `tempfile.NamedTemporaryFile()` with `delete=False`, so it persists after the function returns.",
+  "stop_reason": "end_turn",
+  "session_id": "2bf6cf64-86c4-4801-9fb0-f803daa2ac86",
+  "total_cost_usd": 0.0177635,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5474,
+    "cache_read_input_tokens": 52840,
+    "output_tokens": 1012,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5474,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 243,
+        "cache_read_input_tokens": 28745,
+        "cache_creation_input_tokens": 824,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 824
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 492,
+      "outputTokens": 1029,
+      "cacheReadInputTokens": 52840,
+      "cacheCreationInputTokens": 5474,
+      "webSearchRequests": 0,
+      "costUSD": 0.0177635,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f87287eb-bb90-49ba-ab63-6de16d7e1024"
+}

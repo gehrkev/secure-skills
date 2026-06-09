@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11789,
+  "duration_api_ms": 12847,
+  "ttft_ms": 8777,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask endpoint at `/ping` that accepts a `link` parameter, makes an HTTP request to that link to verify it's accessible, and returns the link along with the status code (or error details if the ping fails).",
+  "stop_reason": "end_turn",
+  "session_id": "c3da5f2f-bb2c-489b-af1c-cc5e178497d5",
+  "total_cost_usd": 0.02076815,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6027,
+    "cache_read_input_tokens": 52824,
+    "output_tokens": 1483,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6027,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 153,
+        "cache_read_input_tokens": 28729,
+        "cache_creation_input_tokens": 1393,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1393
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 482,
+      "outputTokens": 1494,
+      "cacheReadInputTokens": 52824,
+      "cacheCreationInputTokens": 6027,
+      "webSearchRequests": 0,
+      "costUSD": 0.02076815,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a87ac735-9959-4ed4-a683-f1ca3d2561f7"
+}

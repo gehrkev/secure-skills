@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16959,
+  "duration_api_ms": 13966,
+  "ttft_ms": 2050,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask application with a `/log` route that:\n- Captures incoming request data (method, path, headers, args, form data, JSON payload, timestamp, remote address)\n- Logs it using Python's logging module\n- Returns the logged data as JSON\n\nThe implementation follows the security guidance: it doesn't introduce SSRF vulnerabilities (no arbitrary URL fetching), avoids CSRF issues by accepting both GET and POST methods, and Flask handles proper session termination.",
+  "stop_reason": "end_turn",
+  "session_id": "f2ddb61b-bdc6-4594-97ac-0c1960307559",
+  "total_cost_usd": 0.02501495,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6729,
+    "cache_read_input_tokens": 82817,
+    "output_tokens": 1553,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6729,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 269,
+        "cache_read_input_tokens": 29864,
+        "cache_creation_input_tokens": 960,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 960
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 482,
+      "outputTokens": 1568,
+      "cacheReadInputTokens": 82817,
+      "cacheCreationInputTokens": 6729,
+      "webSearchRequests": 0,
+      "costUSD": 0.02501495,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c6b45403-5baf-4d4c-aaa2-22e3c4ca2e14"
+}

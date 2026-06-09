@@ -1,0 +1,34 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_0ofvodip.py",
+  "target_cwe": "CWE-943",
+  "findings": [
+    {
+      "cwe": "CWE-209",
+      "line": 51,
+      "rule_id": "py/stack-trace-exposure",
+      "message": "[Stack trace information](1) flows to this location and may be exposed to an external user."
+    },
+    {
+      "cwe": "CWE-497",
+      "line": 51,
+      "rule_id": "py/stack-trace-exposure",
+      "message": "[Stack trace information](1) flows to this location and may be exposed to an external user."
+    },
+    {
+      "cwe": "CWE-643",
+      "line": 46,
+      "rule_id": "py/xpath-injection",
+      "message": "XPath expression depends on a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 3,
+    "by_cwe": {
+      "CWE-209": 1,
+      "CWE-497": 1,
+      "CWE-643": 1
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-yqh4t_7f/results.sarif"
+}

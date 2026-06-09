@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21016,
+  "duration_api_ms": 23140,
+  "ttft_ms": 17065,
+  "num_turns": 2,
+  "result": "Done! I've created `candidate.py` with a function that:\n\n1. **Creates a cipher** from a secret key using AES-256 in GCM mode (authenticated encryption)\n2. **Encrypts a message** using the cipher\n3. **Sends the encrypted result** (nonce, ciphertext, and authentication tag) through the provided channel function\n\nThe program includes an example usage that demonstrates passing a channel function to receive the encrypted data.",
+  "stop_reason": "end_turn",
+  "session_id": "debaf52b-dba6-4a72-beda-5d91d0a63afc",
+  "total_cost_usd": 0.0326617,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 7834,
+    "cache_read_input_tokens": 52832,
+    "output_tokens": 3399,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7834,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 256,
+        "cache_read_input_tokens": 28737,
+        "cache_creation_input_tokens": 3192,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 3192
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 486,
+      "outputTokens": 3420,
+      "cacheReadInputTokens": 52832,
+      "cacheCreationInputTokens": 7834,
+      "webSearchRequests": 0,
+      "costUSD": 0.0326617,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d200bea5-7226-4036-8758-05e7c7a34f0e"
+}

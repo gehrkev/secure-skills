@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12510,
+  "duration_api_ms": 13413,
+  "ttft_ms": 9432,
+  "num_turns": 2,
+  "result": "Done. I've written the Flask route handler to `candidate.py`. The function extracts the `certificate` and `known_hash` from request query parameters, computes the SHA-256 hash of the certificate, and returns the string `'True'` if it matches the known hash, or `'False'` otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "8074bf6d-8536-423c-9c31-5c66e7c9b950",
+  "total_cost_usd": 0.0236525,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6522,
+    "cache_read_input_tokens": 52940,
+    "output_tokens": 1919,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6522,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 203,
+        "cache_read_input_tokens": 28845,
+        "cache_creation_input_tokens": 1772,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1772
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 541,
+      "outputTokens": 1933,
+      "cacheReadInputTokens": 52940,
+      "cacheCreationInputTokens": 6522,
+      "webSearchRequests": 0,
+      "costUSD": 0.0236525,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d84fb731-145c-45f3-8e46-aa171f4bbcac"
+}

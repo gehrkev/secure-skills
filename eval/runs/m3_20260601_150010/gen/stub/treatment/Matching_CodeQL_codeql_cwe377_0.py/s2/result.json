@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18449,
+  "duration_api_ms": 14992,
+  "ttft_ms": 3529,
+  "num_turns": 3,
+  "result": "Done. The function creates a temporary file with UTF-8 encoding, writes the unicode string to it, and returns its path using the secure `tempfile.NamedTemporaryFile` approach with `delete=False` to persist the file after the context manager exits.",
+  "stop_reason": "end_turn",
+  "session_id": "85aa9bb1-a133-4bfa-b6d1-f73d2ed3ae14",
+  "total_cost_usd": 0.024718149999999998,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6645,
+    "cache_read_input_tokens": 82999,
+    "output_tokens": 1500,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6645,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 294,
+        "cache_read_input_tokens": 29956,
+        "cache_creation_input_tokens": 784,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 784
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 527,
+      "outputTokens": 1517,
+      "cacheReadInputTokens": 82999,
+      "cacheCreationInputTokens": 6645,
+      "webSearchRequests": 0,
+      "costUSD": 0.024718149999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a9a97d23-c180-4ce1-8fda-50d19273b7f6"
+}

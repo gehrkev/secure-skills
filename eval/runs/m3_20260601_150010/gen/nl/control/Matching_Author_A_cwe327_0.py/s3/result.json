@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8536,
+  "duration_api_ms": 9610,
+  "ttft_ms": 4110,
+  "num_turns": 2,
+  "result": "Done. Created a Flask app with a `/verify` endpoint that accepts `certificate` and `known_hash` from a JSON POST request, hashes the certificate using SHA256, and returns `True` if the hashes match, `False` otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "8a34c2bd-1399-4b11-b75d-9898060d8cbd",
+  "total_cost_usd": 0.016954900000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5410,
+    "cache_read_input_tokens": 52834,
+    "output_tokens": 870,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5410,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 157,
+        "cache_read_input_tokens": 28739,
+        "cache_creation_input_tokens": 766,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 766
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 489,
+      "outputTokens": 884,
+      "cacheReadInputTokens": 52834,
+      "cacheCreationInputTokens": 5410,
+      "webSearchRequests": 0,
+      "costUSD": 0.016954900000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1ba8184d-bcd7-4e3a-844d-38d354259227"
+}

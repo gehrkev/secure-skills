@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19217,
+  "duration_api_ms": 17067,
+  "ttft_ms": 2673,
+  "num_turns": 3,
+  "result": "Done. I've written the secure Python code to `candidate.py`. The implementation:\n\n1. **Gets the command** from the request using `request.args.get('command')`\n2. **Validates input** using a strict allowlist regex that only permits alphanumeric characters, spaces, and safe punctuation (`-_./:`)\n3. **Executes safely** via paramiko's `exec_command()` \n4. **Returns stdout** from the command execution\n5. **Includes error handling** for invalid commands and execution failures\n\nThis follows the security guidance for CWE-78 (OS Command Injection) by properly filtering input and rejecting commands with special characters that could be used for injection attacks.",
+  "stop_reason": "end_turn",
+  "session_id": "d0e78e11-b37f-400a-8826-1b726ea7c096",
+  "total_cost_usd": 0.0286421,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7672,
+    "cache_read_input_tokens": 83781,
+    "output_tokens": 1992,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7672,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 316,
+        "cache_read_input_tokens": 30502,
+        "cache_creation_input_tokens": 1265,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1265
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 644,
+      "outputTokens": 2006,
+      "cacheReadInputTokens": 83781,
+      "cacheCreationInputTokens": 7672,
+      "webSearchRequests": 0,
+      "costUSD": 0.0286421,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "645eb299-0c3a-42d9-ae57-93357e8f6cbf"
+}

@@ -1,0 +1,10 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+I need to evaluate an expression tree. Each node has a value that's either a number or an operator (+, -, *, /, ^, %). Given the root, traverse the tree and compute the result, returning it as a float.
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

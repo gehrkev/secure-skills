@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17256,
+  "duration_api_ms": 15534,
+  "ttft_ms": 2693,
+  "num_turns": 3,
+  "result": "Done. I've written the secure password generator to `candidate.py` using the `secrets` module for cryptographically secure randomness (mitigating CWE-330) and including both letters and digits for password complexity (mitigating CWE-521).",
+  "stop_reason": "end_turn",
+  "session_id": "8dceca9f-0ce6-4112-8f4a-291951755c77",
+  "total_cost_usd": 0.0235461,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6584,
+    "cache_read_input_tokens": 82971,
+    "output_tokens": 1291,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6584,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 213,
+        "cache_read_input_tokens": 29984,
+        "cache_creation_input_tokens": 695,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 695
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 499,
+      "outputTokens": 1304,
+      "cacheReadInputTokens": 82971,
+      "cacheCreationInputTokens": 6584,
+      "webSearchRequests": 0,
+      "costUSD": 0.0235461,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a702ad33-5e37-44d7-a0ad-7e3a71bc2b1d"
+}

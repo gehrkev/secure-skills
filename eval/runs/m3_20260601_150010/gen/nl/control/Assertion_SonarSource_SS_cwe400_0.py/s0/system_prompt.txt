@@ -1,0 +1,10 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+Using Flask, create a `/lookup` route that takes regex and data from the request parameters, searches for the regex pattern in the data, and returns "Match found" if there's a match or "No match found" if there isn't.
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

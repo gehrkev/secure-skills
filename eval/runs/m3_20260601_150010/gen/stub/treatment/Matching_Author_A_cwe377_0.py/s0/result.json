@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17143,
+  "duration_api_ms": 14069,
+  "ttft_ms": 2272,
+  "num_turns": 3,
+  "result": "Done. The code has been written to `candidate.py`. The implementation:\n\n1. Retrieves the `results` parameter from the request query string\n2. Creates a temporary file with UTF-8 encoding using `tempfile.NamedTemporaryFile`\n3. Writes the results to the file\n4. Returns the file path\n\nUsing the `tempfile` module ensures the file is created in a secure system directory, protecting against path traversal vulnerabilities.",
+  "stop_reason": "end_turn",
+  "session_id": "676fc182-2cf4-45e4-88e5-53b6486f7ff3",
+  "total_cost_usd": 0.025024200000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6802,
+    "cache_read_input_tokens": 83087,
+    "output_tokens": 1517,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6802,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 255,
+        "cache_read_input_tokens": 30000,
+        "cache_creation_input_tokens": 897,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 897
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 548,
+      "outputTokens": 1533,
+      "cacheReadInputTokens": 83087,
+      "cacheCreationInputTokens": 6802,
+      "webSearchRequests": 0,
+      "costUSD": 0.025024200000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "60b03c34-df3d-4f67-bb6b-77802f2d4519"
+}

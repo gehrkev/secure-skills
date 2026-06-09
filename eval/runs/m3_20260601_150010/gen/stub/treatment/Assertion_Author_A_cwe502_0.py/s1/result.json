@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18889,
+  "duration_api_ms": 15350,
+  "ttft_ms": 3227,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Python code to `candidate.py`. The `save_data` function now:\n- Validates that the input is a string using `isinstance(data, str)`\n- If it's a string, serializes it using `pickle.dumps()` and writes it to the file\n- If it's not a string, the function does nothing (as required)",
+  "stop_reason": "end_turn",
+  "session_id": "0b3aeb31-b211-45d2-9c55-3cafb64b30b9",
+  "total_cost_usd": 0.02747955,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7567,
+    "cache_read_input_tokens": 83888,
+    "output_tokens": 1779,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7567,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 228,
+        "cache_read_input_tokens": 30563,
+        "cache_creation_input_tokens": 1099,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1099
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 667,
+      "outputTokens": 1793,
+      "cacheReadInputTokens": 83888,
+      "cacheCreationInputTokens": 7567,
+      "webSearchRequests": 0,
+      "costUSD": 0.02747955,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e8dc93f7-be21-4ffd-a604-1075af2908fe"
+}

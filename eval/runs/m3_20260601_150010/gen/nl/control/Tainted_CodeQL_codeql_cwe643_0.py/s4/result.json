@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11505,
+  "duration_api_ms": 12509,
+  "ttft_ms": 7570,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask endpoint at `/xpath` that accepts `xml_src` and `xpath` as request parameters, parses the XML using lxml, executes the XPath query, and returns the results as JSON. It handles both GET and POST requests and includes error handling for invalid XML and missing parameters.",
+  "stop_reason": "end_turn",
+  "session_id": "c6547793-d804-4efc-a008-148d451e288d",
+  "total_cost_usd": 0.023174550000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6371,
+    "cache_read_input_tokens": 52838,
+    "output_tokens": 1871,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6371,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 198,
+        "cache_read_input_tokens": 28743,
+        "cache_creation_input_tokens": 1723,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1723
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 492,
+      "outputTokens": 1887,
+      "cacheReadInputTokens": 52838,
+      "cacheCreationInputTokens": 6371,
+      "webSearchRequests": 0,
+      "costUSD": 0.023174550000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "18a61b34-4569-468f-9739-954bc29787a3"
+}

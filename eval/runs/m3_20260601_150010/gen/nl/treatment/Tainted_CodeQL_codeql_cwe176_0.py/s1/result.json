@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17718,
+  "duration_api_ms": 16263,
+  "ttft_ms": 2798,
+  "num_turns": 3,
+  "result": "Done! I've created the Flask route in `candidate.py`. The route:\n- Retrieves the `ui_data` parameter from the query string\n- Escapes it using Flask's `escape()` function to prevent HTML/XSS vulnerabilities\n- Normalizes it by removing extra whitespace\n- Renders it using the `result.html` template with the processed data",
+  "stop_reason": "end_turn",
+  "session_id": "f1ed8c59-fc67-4b6a-b8d0-fce1bc84d136",
+  "total_cost_usd": 0.0256387,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6790,
+    "cache_read_input_tokens": 82822,
+    "output_tokens": 1659,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6790,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 244,
+        "cache_read_input_tokens": 29833,
+        "cache_creation_input_tokens": 1052,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1052
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 499,
+      "outputTokens": 1674,
+      "cacheReadInputTokens": 82822,
+      "cacheCreationInputTokens": 6790,
+      "webSearchRequests": 0,
+      "costUSD": 0.0256387,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b8e44f34-bdd9-4931-b532-5db1bd20717d"
+}

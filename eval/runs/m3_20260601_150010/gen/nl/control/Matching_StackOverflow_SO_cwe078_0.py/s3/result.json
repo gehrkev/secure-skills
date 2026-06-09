@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9487,
+  "duration_api_ms": 10416,
+  "ttft_ms": 6646,
+  "num_turns": 2,
+  "result": "Done! I've written a Flask application with the `/execute_bash` route that:\n\n- Accepts GET and POST requests\n- Extracts the `command` parameter from the request\n- Executes it using `subprocess.run` with `shell=True`\n- Returns JSON with the output, stderr, and return code",
+  "stop_reason": "end_turn",
+  "session_id": "97f041ff-5797-4892-9de3-48dcc2a8b23b",
+  "total_cost_usd": 0.019466400000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5764,
+    "cache_read_input_tokens": 52844,
+    "output_tokens": 1284,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5764,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 233,
+        "cache_read_input_tokens": 28749,
+        "cache_creation_input_tokens": 1110,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1110
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 492,
+      "outputTokens": 1297,
+      "cacheReadInputTokens": 52844,
+      "cacheCreationInputTokens": 5764,
+      "webSearchRequests": 0,
+      "costUSD": 0.019466400000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "842c997e-234b-41d6-afa3-27d1d71eff60"
+}

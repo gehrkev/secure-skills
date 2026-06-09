@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15295,
+  "duration_api_ms": 12786,
+  "ttft_ms": 2438,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask application with a `/session` endpoint that:\n\n1. Uses `secrets.randbelow()` for cryptographically secure random number generation (complying with CWE-338/CWE-330 security guidance)\n2. Sets a secure secret key using `secrets.token_hex(32)` for session management\n3. Generates a random number, stores it in the Flask session, and returns it as JSON\n\nThe application is ready to run with Flask.",
+  "stop_reason": "end_turn",
+  "session_id": "d557a22b-82a1-42f4-a2bc-b9be9bbde34c",
+  "total_cost_usd": 0.02341985,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6473,
+    "cache_read_input_tokens": 82806,
+    "output_tokens": 1297,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6473,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 277,
+        "cache_read_input_tokens": 29837,
+        "cache_creation_input_tokens": 731,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 731
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 488,
+      "outputTokens": 1312,
+      "cacheReadInputTokens": 82806,
+      "cacheCreationInputTokens": 6473,
+      "webSearchRequests": 0,
+      "costUSD": 0.02341985,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c5d4fd17-7a73-432e-a831-36a881f485d7"
+}

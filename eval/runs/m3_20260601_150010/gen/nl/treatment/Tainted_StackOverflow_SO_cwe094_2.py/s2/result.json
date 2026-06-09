@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15704,
+  "duration_api_ms": 12721,
+  "ttft_ms": 2206,
+  "num_turns": 3,
+  "result": "Done! I've created the Flask endpoint in `candidate.py`. The implementation:\n\n- Uses `ast.literal_eval()` instead of `eval()` to safely parse the dictionary string (prevents code injection as per CWE-94 guidance)\n- Validates that the parsed result is actually a dictionary\n- Accepts the `formattedStr` parameter from both GET and POST requests\n- Returns appropriate JSON responses with error messages for invalid input",
+  "stop_reason": "end_turn",
+  "session_id": "8c41517d-97d2-4dff-8e42-826d086b3e18",
+  "total_cost_usd": 0.0242833,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6540,
+    "cache_read_input_tokens": 82773,
+    "output_tokens": 1449,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6540,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 240,
+        "cache_read_input_tokens": 29768,
+        "cache_creation_input_tokens": 867,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 867
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 506,
+      "outputTokens": 1465,
+      "cacheReadInputTokens": 82773,
+      "cacheCreationInputTokens": 6540,
+      "webSearchRequests": 0,
+      "costUSD": 0.0242833,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "dc829f05-8c26-462c-a3db-09394a424cfc"
+}

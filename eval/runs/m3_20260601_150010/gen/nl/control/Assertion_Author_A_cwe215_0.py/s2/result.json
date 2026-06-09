@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11216,
+  "duration_api_ms": 12144,
+  "ttft_ms": 8500,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a Flask application that:\n- Listens for POST requests at `/median`\n- Reads comma-separated numbers from the `numbers` query parameter\n- Calculates the median using Python's `statistics.median()`\n- Returns JSON with the result in a `message` key",
+  "stop_reason": "end_turn",
+  "session_id": "3d588c58-c4f9-4436-b87e-600c3a0b622c",
+  "total_cost_usd": 0.0207433,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5982,
+    "cache_read_input_tokens": 52848,
+    "output_tokens": 1483,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5982,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 220,
+        "cache_read_input_tokens": 28753,
+        "cache_creation_input_tokens": 1324,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1324
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 496,
+      "outputTokens": 1497,
+      "cacheReadInputTokens": 52848,
+      "cacheCreationInputTokens": 5982,
+      "webSearchRequests": 0,
+      "costUSD": 0.0207433,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "99ab46bc-c926-4067-91b1-e0c8c1664cd4"
+}

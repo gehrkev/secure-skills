@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14093,
+  "duration_api_ms": 15113,
+  "ttft_ms": 9986,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a Flask route that:\n1. Extracts the X-Forwarded-For header from the request\n2. Parses the first IP address in the header (X-Forwarded-For can contain multiple comma-separated IPs)\n3. Validates the IP format using `ipaddress.ip_address()`\n4. Checks if the IP is local/private using the `is_private` property, which covers 127.0.0.0/8, 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, and IPv6 equivalents\n5. Raises an exception if the IP is not local\n6. Returns the header value if all checks pass",
+  "stop_reason": "end_turn",
+  "session_id": "ef35ee50-b3e6-4030-99a5-3255ff5fbdd9",
+  "total_cost_usd": 0.0240925,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6414,
+    "cache_read_input_tokens": 52870,
+    "output_tokens": 2036,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6414,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 352,
+        "cache_read_input_tokens": 28775,
+        "cache_creation_input_tokens": 1734,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1734
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 508,
+      "outputTokens": 2056,
+      "cacheReadInputTokens": 52870,
+      "cacheCreationInputTokens": 6414,
+      "webSearchRequests": 0,
+      "costUSD": 0.0240925,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ade4ab82-c878-4c90-83f9-c5c8573422ef"
+}

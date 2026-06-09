@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23003,
+  "duration_api_ms": 19811,
+  "ttft_ms": 2943,
+  "num_turns": 3,
+  "result": "Done! I've created a secure Flask endpoint at `/echo_name` that:\n\n- Accepts both GET and POST requests\n- Retrieves the `name` parameter from query args or form data\n- Validates the parameter is present and safe (alphanumeric, spaces, hyphens, apostrophes only)\n- Returns a greeting in the format `Hello <name>!`\n- Returns appropriate error responses for missing or invalid input\n\nThe security validation prevents injection attacks by restricting the name to safe characters and enforcing reasonable length limits.",
+  "stop_reason": "end_turn",
+  "session_id": "1a4a642c-1fb2-478f-b69d-24a9c2c401f8",
+  "total_cost_usd": 0.027470750000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7137,
+    "cache_read_input_tokens": 82955,
+    "output_tokens": 1939,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7137,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 319,
+        "cache_read_input_tokens": 29978,
+        "cache_creation_input_tokens": 1254,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1254
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 494,
+      "outputTokens": 1952,
+      "cacheReadInputTokens": 82955,
+      "cacheCreationInputTokens": 7137,
+      "webSearchRequests": 0,
+      "costUSD": 0.027470750000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "75582738-dc67-4431-8ce7-6ebd032e1857"
+}

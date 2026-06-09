@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17436,
+  "duration_api_ms": 20993,
+  "ttft_ms": 1960,
+  "num_turns": 3,
+  "result": "Done! I've created a secure Flask application with the `/install` endpoint. The implementation:\n\n- **Accepts package names** via GET or POST request parameters\n- **Validates input** with a regex pattern to prevent code injection attacks (CWE-94)\n- **Uses subprocess safely** with list arguments instead of shell=True to avoid shell injection (CWE-426)\n- **Installs via conda** with the `-y` flag for automatic confirmation\n- **Returns JSON** with the package name on success or an error message on failure\n- **Handles errors** gracefully with appropriate HTTP status codes\n\nThe security validation ensures only valid package names (alphanumeric, dots, dashes, underscores) are passed to conda, preventing command injection vulnerabilities.",
+  "stop_reason": "end_turn",
+  "session_id": "c5ec6873-9930-4ea1-a6f0-c69d67776ab4",
+  "total_cost_usd": 0.0262894,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6764,
+    "cache_read_input_tokens": 82754,
+    "output_tokens": 1799,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6764,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 392,
+        "cache_read_input_tokens": 29775,
+        "cache_creation_input_tokens": 1084,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1084
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 494,
+      "outputTokens": 1813,
+      "cacheReadInputTokens": 82754,
+      "cacheCreationInputTokens": 6764,
+      "webSearchRequests": 0,
+      "costUSD": 0.0262894,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "74610cd4-e400-46bc-ab2f-9b78021389a4"
+}

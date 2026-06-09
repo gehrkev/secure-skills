@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9975,
+  "duration_api_ms": 10930,
+  "ttft_ms": 7027,
+  "num_turns": 2,
+  "result": "Done. I've written the `open_file` function that retrieves the `file_name` query parameter, attempts to open it from the current directory, and returns the file object on success or `None` on failure.",
+  "stop_reason": "end_turn",
+  "session_id": "1279235d-8583-465b-9b2e-7ee3c0d70cbd",
+  "total_cost_usd": 0.0192851,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5858,
+    "cache_read_input_tokens": 52946,
+    "output_tokens": 1211,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5858,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 168,
+        "cache_read_input_tokens": 28851,
+        "cache_creation_input_tokens": 1102,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1102
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 543,
+      "outputTokens": 1225,
+      "cacheReadInputTokens": 52946,
+      "cacheCreationInputTokens": 5858,
+      "webSearchRequests": 0,
+      "costUSD": 0.0192851,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e2357a16-44ee-4bef-8e64-8229700dd832"
+}

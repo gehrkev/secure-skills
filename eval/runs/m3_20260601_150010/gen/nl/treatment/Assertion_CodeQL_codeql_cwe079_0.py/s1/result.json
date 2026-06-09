@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16777,
+  "duration_api_ms": 14409,
+  "ttft_ms": 2390,
+  "num_turns": 3,
+  "result": "Done! I've created the Flask endpoint at `/echo_name` that:\n\n1. Gets the `name` parameter from the request query string\n2. Validates that the parameter is provided\n3. Escapes the name to prevent XSS vulnerabilities (per the security guidance)\n4. Returns a greeting in the format 'Hello <name>!'\n\nThe endpoint is now ready in `candidate.py`.",
+  "stop_reason": "end_turn",
+  "session_id": "f94c10f9-841e-443a-b160-4a0a52210cec",
+  "total_cost_usd": 0.02502745,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6827,
+    "cache_read_input_tokens": 82947,
+    "output_tokens": 1528,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6827,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 234,
+        "cache_read_input_tokens": 29968,
+        "cache_creation_input_tokens": 954,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 954
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 494,
+      "outputTokens": 1541,
+      "cacheReadInputTokens": 82947,
+      "cacheCreationInputTokens": 6827,
+      "webSearchRequests": 0,
+      "costUSD": 0.02502745,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "bad5d78e-f878-43f6-9529-8668d534b633"
+}

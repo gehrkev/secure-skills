@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14283,
+  "duration_api_ms": 15478,
+  "ttft_ms": 11388,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a Flask endpoint at `/eval` that:\n- Accepts GET and POST requests\n- Extracts `file_contents` from the request\n- Strips everything before the first `{` and after the last `}`\n- Evaluates the resulting string as a dictionary using `eval()`\n- Returns the dictionary as JSON",
+  "stop_reason": "end_turn",
+  "session_id": "77bd6256-94a0-4019-b983-cecb401b0f93",
+  "total_cost_usd": 0.024999499999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6654,
+    "cache_read_input_tokens": 52860,
+    "output_tokens": 2164,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6654,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 230,
+        "cache_read_input_tokens": 28765,
+        "cache_creation_input_tokens": 1984,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1984
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 501,
+      "outputTokens": 2179,
+      "cacheReadInputTokens": 52860,
+      "cacheCreationInputTokens": 6654,
+      "webSearchRequests": 0,
+      "costUSD": 0.024999499999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "51f2b3e8-8264-4540-b469-9100410f67ee"
+}

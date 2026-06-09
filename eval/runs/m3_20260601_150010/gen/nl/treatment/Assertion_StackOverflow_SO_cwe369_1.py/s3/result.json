@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15557,
+  "duration_api_ms": 11944,
+  "ttft_ms": 2423,
+  "num_turns": 3,
+  "result": "Done! I've written a function that calculates the average score while safely handling the divide-by-zero case identified in the security guidance. The function validates that the total count is not zero before performing the division and raises a `ValueError` if it is.",
+  "stop_reason": "end_turn",
+  "session_id": "a2d71dbe-e6a1-4598-8097-d69b861fa2b4",
+  "total_cost_usd": 0.02180485,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6239,
+    "cache_read_input_tokens": 82691,
+    "output_tokens": 1039,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6239,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 167,
+        "cache_read_input_tokens": 29736,
+        "cache_creation_input_tokens": 598,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 598
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 482,
+      "outputTokens": 1051,
+      "cacheReadInputTokens": 82691,
+      "cacheCreationInputTokens": 6239,
+      "webSearchRequests": 0,
+      "costUSD": 0.02180485,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f78dd79d-c28c-4778-8b76-0e17309030df"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5372,
+  "duration_api_ms": 6187,
+  "ttft_ms": 2415,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask route at `/logging` that retrieves the `name` query parameter, logs it, and returns the name in the `candidate.py` file.",
+  "stop_reason": "end_turn",
+  "session_id": "1da5b770-8cee-49cc-a360-749f991e8741",
+  "total_cost_usd": 0.014969499999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5102,
+    "cache_read_input_tokens": 52820,
+    "output_tokens": 551,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5102,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 142,
+        "cache_read_input_tokens": 28725,
+        "cache_creation_input_tokens": 472,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 472
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 480,
+      "outputTokens": 566,
+      "cacheReadInputTokens": 52820,
+      "cacheCreationInputTokens": 5102,
+      "webSearchRequests": 0,
+      "costUSD": 0.014969499999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "9e5461d0-2530-4d2f-8327-f835bb65e0a5"
+}

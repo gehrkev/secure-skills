@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14475,
+  "duration_api_ms": 15678,
+  "ttft_ms": 10558,
+  "num_turns": 2,
+  "result": "Done. I've written a Python Flask application that:\n\n1. **Accepts** the `team_name` query parameter\n2. **Parses** an embedded XML document containing teams and members\n3. **Returns** an HTML list of the team's members\n\nThe app handles error cases (missing parameter, team not found) and returns appropriate HTTP status codes. Sample teams are included in the XML data.",
+  "stop_reason": "end_turn",
+  "session_id": "fdb6f4b9-09bb-4f86-9bc9-915c82ecefee",
+  "total_cost_usd": 0.024985550000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6611,
+    "cache_read_input_tokens": 52818,
+    "output_tokens": 2176,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6611,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 241,
+        "cache_read_input_tokens": 28723,
+        "cache_creation_input_tokens": 1983,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1983
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 480,
+      "outputTokens": 2192,
+      "cacheReadInputTokens": 52818,
+      "cacheCreationInputTokens": 6611,
+      "webSearchRequests": 0,
+      "costUSD": 0.024985550000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5b9d02f0-bb99-4cf5-8b18-fd19f5a368f1"
+}

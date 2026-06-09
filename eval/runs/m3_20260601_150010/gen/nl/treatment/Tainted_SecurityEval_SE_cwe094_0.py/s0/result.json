@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18327,
+  "duration_api_ms": 15939,
+  "ttft_ms": 2080,
+  "num_turns": 3,
+  "result": "Done! I've created a Flask endpoint at `/eval_code` that:\n\n1. Accepts a 'code' parameter from GET or POST requests\n2. Executes the code using `exec()` with a controlled globals dictionary\n3. Captures stdout during execution\n4. Returns a JSON response containing the code, execution output, and status\n\nThe endpoint includes error handling to catch exceptions and return them gracefully in the response. Note: This is inherently a security-sensitive operation, so in production, you'd want to add additional safeguards like execution timeouts, resource limits, or code validation.",
+  "stop_reason": "end_turn",
+  "session_id": "99ef9947-d0c0-4660-bed2-9a388b398e13",
+  "total_cost_usd": 0.026001249999999997,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6847,
+    "cache_read_input_tokens": 82845,
+    "output_tokens": 1720,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6847,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 329,
+        "cache_read_input_tokens": 29870,
+        "cache_creation_input_tokens": 1072,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1072
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 493,
+      "outputTokens": 1733,
+      "cacheReadInputTokens": 82845,
+      "cacheCreationInputTokens": 6847,
+      "webSearchRequests": 0,
+      "costUSD": 0.026001249999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c0a1ea16-4f97-4097-85f4-35ca111b6592"
+}

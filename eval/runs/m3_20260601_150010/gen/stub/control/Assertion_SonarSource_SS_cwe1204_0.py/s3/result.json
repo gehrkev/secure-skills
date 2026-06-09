@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8615,
+  "duration_api_ms": 9627,
+  "ttft_ms": 5934,
+  "num_turns": 2,
+  "result": "Done. The `encrypt` function has been implemented with:\n- A static initialization vector (16 zero bytes)\n- AES cipher in CBC mode\n- Data padding to block size\n- Encryption and return of the encrypted data",
+  "stop_reason": "end_turn",
+  "session_id": "d4514cb9-b913-4b64-8291-edde0b3f6a59",
+  "total_cost_usd": 0.0180179,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5678,
+    "cache_read_input_tokens": 52974,
+    "output_tokens": 999,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5678,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 167,
+        "cache_read_input_tokens": 28879,
+        "cache_creation_input_tokens": 894,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 894
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 558,
+      "outputTokens": 1013,
+      "cacheReadInputTokens": 52974,
+      "cacheCreationInputTokens": 5678,
+      "webSearchRequests": 0,
+      "costUSD": 0.0180179,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "167c044d-c0f3-431c-b647-43faad1fe418"
+}

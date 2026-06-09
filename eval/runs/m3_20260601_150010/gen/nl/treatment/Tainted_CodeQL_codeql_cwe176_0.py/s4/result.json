@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21511,
+  "duration_api_ms": 18528,
+  "ttft_ms": 2888,
+  "num_turns": 3,
+  "result": "Done! I've created `candidate.py` with a Flask route for `/result` that:\n\n1. **Retrieves** the `ui_data` parameter from GET or POST requests\n2. **Escapes** it using `markupsafe.escape()` to prevent XSS vulnerabilities\n3. **Normalizes** it by stripping whitespace and collapsing multiple spaces using regex\n4. **Renders** the `result.html` template with the processed data\n\nThe code follows secure practices by properly escaping user input before rendering it in the template.",
+  "stop_reason": "end_turn",
+  "session_id": "be2dc3b9-6e84-4dc0-a0b8-04a4d57f0d46",
+  "total_cost_usd": 0.0276232,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7070,
+    "cache_read_input_tokens": 82767,
+    "output_tokens": 1987,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7070,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 301,
+        "cache_read_input_tokens": 29776,
+        "cache_creation_input_tokens": 1389,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1389
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 499,
+      "outputTokens": 2002,
+      "cacheReadInputTokens": 82767,
+      "cacheCreationInputTokens": 7070,
+      "webSearchRequests": 0,
+      "costUSD": 0.0276232,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "afda0bcc-756c-4cd2-bbdc-d8778fa84b74"
+}

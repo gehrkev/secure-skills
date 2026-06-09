@@ -1,0 +1,21 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/stub/control/Assertion_SonarSource_SS_cwe601_0.py/s4/candidate.py",
+  "target_cwe": "CWE-601",
+  "findings": [
+    {
+      "cwe": "CWE-601",
+      "line": 24,
+      "rule_id": "py/url-redirection",
+      "message": "Untrusted URL redirection depends on a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "by_cwe": {
+      "CWE-601": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-vx2tuwuk/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

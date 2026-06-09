@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16230,
+  "duration_api_ms": 13414,
+  "ttft_ms": 2716,
+  "num_turns": 3,
+  "result": "Done. I've generated the secure Python code and written it to `candidate.py`. The implementation:\n\n1. **Prevents SQL injection (CWE-89)** by using parameterized queries with `?` placeholders instead of string concatenation\n2. Gets the title from request parameters safely\n3. Queries the database and returns the post's content\n4. Includes error handling for missing parameters and missing posts",
+  "stop_reason": "end_turn",
+  "session_id": "28821d5e-51b7-495d-97ea-26d22916cfe8",
+  "total_cost_usd": 0.0259661,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7146,
+    "cache_read_input_tokens": 83456,
+    "output_tokens": 1606,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7146,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 217,
+        "cache_read_input_tokens": 30317,
+        "cache_creation_input_tokens": 924,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 924
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 573,
+      "outputTokens": 1623,
+      "cacheReadInputTokens": 83456,
+      "cacheCreationInputTokens": 7146,
+      "webSearchRequests": 0,
+      "costUSD": 0.0259661,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5455647d-27a1-4068-9b1a-1e100b9b9974"
+}

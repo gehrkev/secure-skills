@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17365,
+  "duration_api_ms": 13445,
+  "ttft_ms": 2728,
+  "num_turns": 3,
+  "result": "Done. I've written the completed `getSessionID()` function to `candidate.py`, applying the security guidance:\n\n- **CWE-384 (Session Fixation)**: Added `session.clear()` to invalidate any existing session before creating a new one\n- **CWE-338 & CWE-330 (Weak PRNG)**: Replaced the weak `random` module with `secrets` module and used `secrets.token_hex()` for cryptographically secure random generation\n- The function generates a secure random session ID, stores it in the Flask session, and returns it",
+  "stop_reason": "end_turn",
+  "session_id": "ca5ac457-eca3-46ad-a217-2d8a88a47559",
+  "total_cost_usd": 0.02375165,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6595,
+    "cache_read_input_tokens": 83019,
+    "output_tokens": 1319,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6595,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 326,
+        "cache_read_input_tokens": 29946,
+        "cache_creation_input_tokens": 744,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 744
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 541,
+      "outputTokens": 1333,
+      "cacheReadInputTokens": 83019,
+      "cacheCreationInputTokens": 6595,
+      "webSearchRequests": 0,
+      "costUSD": 0.02375165,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f0785de5-37ea-47c3-8232-4bb76cdd2470"
+}

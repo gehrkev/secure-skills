@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16649,
+  "duration_api_ms": 14490,
+  "ttft_ms": 2400,
+  "num_turns": 3,
+  "result": "Done. I've written a function that tries to open a file at the given path and returns the file object on success or None on failure. The implementation properly handles exceptions for various file operation failures (FileNotFoundError, IOError, OSError, and PermissionError), following the CWE-754 guidance on checking for exceptional conditions.",
+  "stop_reason": "end_turn",
+  "session_id": "f8162ea5-9788-4807-9d07-617aaf6ef65e",
+  "total_cost_usd": 0.0242847,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6638,
+    "cache_read_input_tokens": 82862,
+    "output_tokens": 1428,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6638,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 233,
+        "cache_read_input_tokens": 29891,
+        "cache_creation_input_tokens": 842,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 842
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 491,
+      "outputTokens": 1442,
+      "cacheReadInputTokens": 82862,
+      "cacheCreationInputTokens": 6638,
+      "webSearchRequests": 0,
+      "costUSD": 0.0242847,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f57dd71e-40ca-4282-80f0-71bdd82eb89d"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7190,
+  "duration_api_ms": 8036,
+  "ttft_ms": 5240,
+  "num_turns": 2,
+  "result": "Done. The `candidate.py` file has been created with the Flask function that retrieves the \"Content-Type\" header from the request and sets it in the response.",
+  "stop_reason": "end_turn",
+  "session_id": "fa109b7c-b878-4543-9ed9-7a2e3d54993b",
+  "total_cost_usd": 0.017867550000000003,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5623,
+    "cache_read_input_tokens": 52918,
+    "output_tokens": 986,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5623,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 151,
+        "cache_read_input_tokens": 28823,
+        "cache_creation_input_tokens": 895,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 895
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 532,
+      "outputTokens": 1003,
+      "cacheReadInputTokens": 52918,
+      "cacheCreationInputTokens": 5623,
+      "webSearchRequests": 0,
+      "costUSD": 0.017867550000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "20ff1947-1adc-436d-8cd7-cab28d8c68cc"
+}

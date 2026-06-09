@@ -1,0 +1,27 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_6v55u8be.py",
+  "target_cwe": "CWE-348",
+  "findings": [
+    {
+      "cwe": "CWE-116",
+      "line": 16,
+      "rule_id": "py/reflective-xss",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-79",
+      "line": 16,
+      "rule_id": "py/reflective-xss",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 2,
+    "by_cwe": {
+      "CWE-116": 1,
+      "CWE-79": 1
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-4adi7gwn/results.sarif"
+}

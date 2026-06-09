@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15953,
+  "duration_api_ms": 13648,
+  "ttft_ms": 2542,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Flask application to `candidate.py`. The function:\n\n1. Gets the username from the request's `name` query parameter\n2. Logs it at debug level only if it's not \"admin\" \n3. Returns a simple response\n\nThis follows the security guidance by avoiding sensitive information exposure and only logging what's necessary.",
+  "stop_reason": "end_turn",
+  "session_id": "b797bc84-254d-48a9-b29a-3bcd4ba49bb6",
+  "total_cost_usd": 0.02408505,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6721,
+    "cache_read_input_tokens": 83098,
+    "output_tokens": 1353,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6721,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 240,
+        "cache_read_input_tokens": 30039,
+        "cache_creation_input_tokens": 777,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 777
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 534,
+      "outputTokens": 1368,
+      "cacheReadInputTokens": 83098,
+      "cacheCreationInputTokens": 6721,
+      "webSearchRequests": 0,
+      "costUSD": 0.02408505,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "2c42cae4-fde8-451d-bbbe-ab4116639c13"
+}

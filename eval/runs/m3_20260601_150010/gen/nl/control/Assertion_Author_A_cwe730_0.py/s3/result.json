@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5334,
+  "duration_api_ms": 6159,
+  "ttft_ms": 2446,
+  "num_turns": 2,
+  "result": "Done. I've written the `check_query` function to `candidate.py` which checks if the query contains either 'www.example.com/' or 'beta.example.com/' and returns the appropriate message.",
+  "stop_reason": "end_turn",
+  "session_id": "f3c0747d-9a97-4f26-af24-b1f3cc539b67",
+  "total_cost_usd": 0.014922649999999999,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5133,
+    "cache_read_input_tokens": 52884,
+    "output_tokens": 527,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5133,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 150,
+        "cache_read_input_tokens": 28789,
+        "cache_creation_input_tokens": 439,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 439
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 513,
+      "outputTokens": 541,
+      "cacheReadInputTokens": 52884,
+      "cacheCreationInputTokens": 5133,
+      "webSearchRequests": 0,
+      "costUSD": 0.014922649999999999,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "efdc1316-5e8a-4ffd-b9c1-746cd60ea064"
+}

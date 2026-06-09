@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16640,
+  "duration_api_ms": 14621,
+  "ttft_ms": 3118,
+  "num_turns": 3,
+  "result": "Done. I've written the `SSHStreamReader` implementation to `candidate.py`. The implementation reads exactly the requested number of bytes from the stream in a loop, raising `EOFError` if fewer bytes are available than requested, with proper security handling of buffer boundaries and resource consumption.",
+  "stop_reason": "end_turn",
+  "session_id": "13f48351-6848-4cb0-bd9b-ffbf827fa0e8",
+  "total_cost_usd": 0.026165,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7318,
+    "cache_read_input_tokens": 83665,
+    "output_tokens": 1590,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7318,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 188,
+        "cache_read_input_tokens": 30434,
+        "cache_creation_input_tokens": 979,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 979
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 621,
+      "outputTokens": 1606,
+      "cacheReadInputTokens": 83665,
+      "cacheCreationInputTokens": 7318,
+      "webSearchRequests": 0,
+      "costUSD": 0.026165,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ab97e661-745a-4a20-b342-43b22aaffcff"
+}

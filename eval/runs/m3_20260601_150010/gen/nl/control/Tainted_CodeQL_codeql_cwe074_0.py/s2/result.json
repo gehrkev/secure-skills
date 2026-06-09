@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10203,
+  "duration_api_ms": 11194,
+  "ttft_ms": 5648,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a Flask application that:\n\n- Defines an `/execute` endpoint accepting both GET and POST requests\n- Extracts the `command` parameter from the request\n- Uses Paramiko to establish an SSH connection to a remote server\n- Executes the command remotely\n- Returns the command output and any errors as JSON\n\nThe connection details (hostname, port, username, password) are configured as constants and should be updated with your actual SSH server credentials.",
+  "stop_reason": "end_turn",
+  "session_id": "3dd8031a-73d6-49c8-a511-f48dd1ceb7d9",
+  "total_cost_usd": 0.020192349999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5835,
+    "cache_read_input_tokens": 52836,
+    "output_tokens": 1412,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5835,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 266,
+        "cache_read_input_tokens": 28741,
+        "cache_creation_input_tokens": 1189,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1189
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1425,
+      "cacheReadInputTokens": 52836,
+      "cacheCreationInputTokens": 5835,
+      "webSearchRequests": 0,
+      "costUSD": 0.020192349999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "72a2b703-a5f3-4557-b85b-2818e24ce21d"
+}

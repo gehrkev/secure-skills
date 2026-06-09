@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18029,
+  "duration_api_ms": 15840,
+  "ttft_ms": 2962,
+  "num_turns": 3,
+  "result": "Done. I've written the `filterScriptTags` function to `candidate.py`. The implementation uses `re.sub()` with a regex pattern to remove all `<script>` tags (and their content) from the input, handling case variations and attributes. The pattern is `<script[^>]*>.*?</script>` with `IGNORECASE` and `DOTALL` flags.",
+  "stop_reason": "end_turn",
+  "session_id": "8094c2f9-2701-49b3-b124-0e86ea4b4f3a",
+  "total_cost_usd": 0.025685600000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6884,
+    "cache_read_input_tokens": 83156,
+    "output_tokens": 1633,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6884,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 279,
+        "cache_read_input_tokens": 30103,
+        "cache_creation_input_tokens": 876,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 876
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 1647,
+      "cacheReadInputTokens": 83156,
+      "cacheCreationInputTokens": 6884,
+      "webSearchRequests": 0,
+      "costUSD": 0.025685600000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a9408b75-2ff7-4c6c-972e-1993dd032d27"
+}

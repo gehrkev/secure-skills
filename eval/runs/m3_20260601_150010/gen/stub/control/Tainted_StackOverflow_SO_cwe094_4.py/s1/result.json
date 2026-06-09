@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8232,
+  "duration_api_ms": 9145,
+  "ttft_ms": 5888,
+  "num_turns": 2,
+  "result": "Done. The `candidate.py` file has been created with the Flask route implementation that gets the math equation from the request, evaluates it, and returns the result as a string.",
+  "stop_reason": "end_turn",
+  "session_id": "6b73b240-bd82-437e-a00c-41af45819a11",
+  "total_cost_usd": 0.017616849999999996,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5581,
+    "cache_read_input_tokens": 52906,
+    "output_tokens": 950,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5581,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 146,
+        "cache_read_input_tokens": 28811,
+        "cache_creation_input_tokens": 865,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 865
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 525,
+      "outputTokens": 965,
+      "cacheReadInputTokens": 52906,
+      "cacheCreationInputTokens": 5581,
+      "webSearchRequests": 0,
+      "costUSD": 0.017616849999999996,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "534d0f29-328d-4c64-91c6-128852d23ff8"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20249,
+  "duration_api_ms": 17347,
+  "ttft_ms": 2581,
+  "num_turns": 3,
+  "result": "Done! I've written the secure implementation to `candidate.py`. The solution:\n\n- Uses `json.loads()` instead of `eval()` to safely parse the untrusted `contents` parameter from the request, preventing code injection (CWE-94)\n- Gets the 'contents' query parameter from the request\n- Returns the parsed dictionary with proper error handling for invalid JSON input",
+  "stop_reason": "end_turn",
+  "session_id": "869b5959-9894-4729-b98c-134dab16825f",
+  "total_cost_usd": 0.0268246,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6926,
+    "cache_read_input_tokens": 82811,
+    "output_tokens": 1856,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6926,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 207,
+        "cache_read_input_tokens": 29768,
+        "cache_creation_input_tokens": 1253,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1253
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 526,
+      "outputTokens": 1872,
+      "cacheReadInputTokens": 82811,
+      "cacheCreationInputTokens": 6926,
+      "webSearchRequests": 0,
+      "costUSD": 0.0268246,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "350ad9e8-d5d6-48fe-a345-96c82b91d7a9"
+}

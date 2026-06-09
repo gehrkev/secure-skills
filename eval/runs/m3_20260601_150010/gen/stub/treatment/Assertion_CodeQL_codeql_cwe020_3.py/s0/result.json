@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16170,
+  "duration_api_ms": 13996,
+  "ttft_ms": 3239,
+  "num_turns": 3,
+  "result": "Done. I've written the Flask route implementation to `candidate.py`. The function retrieves the `target_url` parameter from the request query string, validates it by checking if it ends with `'example.com/'`, and returns the appropriate response.",
+  "stop_reason": "end_turn",
+  "session_id": "1c7f5fd5-9402-44f3-a144-0001c90f5e86",
+  "total_cost_usd": 0.02478485,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6863,
+    "cache_read_input_tokens": 83261,
+    "output_tokens": 1452,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6863,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 192,
+        "cache_read_input_tokens": 30162,
+        "cache_creation_input_tokens": 796,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 796
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 555,
+      "outputTokens": 1465,
+      "cacheReadInputTokens": 83261,
+      "cacheCreationInputTokens": 6863,
+      "webSearchRequests": 0,
+      "costUSD": 0.02478485,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "2d3d4c79-a64b-445d-bf51-bf880156da3c"
+}

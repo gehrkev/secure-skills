@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8866,
+  "duration_api_ms": 9816,
+  "ttft_ms": 6084,
+  "num_turns": 2,
+  "result": "Done. I've written a Flask application to `candidate.py` with a `/load_config` route that:\n- Accepts a hex-encoded `config` parameter from the request\n- Converts it from hex to bytes using `bytes.fromhex()`\n- Deserializes it using `pickle.loads()`\n- Returns the deserialized data or an error message if conversion/deserialization fails",
+  "stop_reason": "end_turn",
+  "session_id": "0ff9397f-e55d-4a13-b237-990c4fb57870",
+  "total_cost_usd": 0.01786525,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5513,
+    "cache_read_input_tokens": 52840,
+    "output_tokens": 1021,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5513,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 219,
+        "cache_read_input_tokens": 28745,
+        "cache_creation_input_tokens": 863,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 863
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1040,
+      "cacheReadInputTokens": 52840,
+      "cacheCreationInputTokens": 5513,
+      "webSearchRequests": 0,
+      "costUSD": 0.01786525,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "448c16fd-1b61-4307-8ce7-e29e4f4598f9"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5580,
+  "duration_api_ms": 6458,
+  "ttft_ms": 3322,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with the `log_username` function that logs the provided username as a warning using the logger's `warning()` method.",
+  "stop_reason": "end_turn",
+  "session_id": "ea50e801-61e4-432f-b913-abcac47c7167",
+  "total_cost_usd": 0.015446200000000004,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5228,
+    "cache_read_input_tokens": 52842,
+    "output_tokens": 612,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5228,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 98,
+        "cache_read_input_tokens": 28747,
+        "cache_creation_input_tokens": 576,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 576
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 492,
+      "outputTokens": 627,
+      "cacheReadInputTokens": 52842,
+      "cacheCreationInputTokens": 5228,
+      "webSearchRequests": 0,
+      "costUSD": 0.015446200000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8f976082-7bc4-46d9-b096-ccb20f4e55bf"
+}

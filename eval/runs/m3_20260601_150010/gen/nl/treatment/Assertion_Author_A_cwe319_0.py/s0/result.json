@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 24758,
+  "duration_api_ms": 22582,
+  "ttft_ms": 2555,
+  "num_turns": 3,
+  "result": "Done. I've written the Flask login handler to `candidate.py` with the following security features:\n\n- **Unique session ID**: Generated using `secrets.token_urlsafe(32)` for cryptographic strength (prevents session fixation)\n- **Secure cookie**: Set with `secure=True`, `httponly=True`, and `samesite='Lax'` (prevents CSRF and XSS attacks)\n- **Explicit variable initialization**: Variables are initialized to `None` rather than relying on implicit defaults (prevents CWE-1188)\n- **Proper validation**: Credentials are validated with the existing `check_credentials` function before creating a session\n- **Appropriate error handling**: Returns 401 for invalid credentials",
+  "stop_reason": "end_turn",
+  "session_id": "4df77f76-bec1-45cf-8abd-77df8458086a",
+  "total_cost_usd": 0.03258705,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7797,
+    "cache_read_input_tokens": 83008,
+    "output_tokens": 2790,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7797,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 534,
+        "cache_read_input_tokens": 29985,
+        "cache_creation_input_tokens": 1907,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1907
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 515,
+      "outputTokens": 2805,
+      "cacheReadInputTokens": 83008,
+      "cacheCreationInputTokens": 7797,
+      "webSearchRequests": 0,
+      "costUSD": 0.03258705,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a0e92944-bdb7-4a23-b558-a26f6a40c6a7"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20190,
+  "duration_api_ms": 17276,
+  "ttft_ms": 2876,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a Flask application that:\n- Defines a `/install` route accepting the `package` request parameter\n- Safely invokes pip using `subprocess.run()` with the fully-qualified Python path (`sys.executable`) and `-m pip` module invocation\n- Returns the package name in JSON format\n- Follows the security guidance by avoiding reliance on PATH environment variable resolution",
+  "stop_reason": "end_turn",
+  "session_id": "09534ee3-ff3e-4e02-8486-e21ff33c845f",
+  "total_cost_usd": 0.027588200000000004,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7084,
+    "cache_read_input_tokens": 82852,
+    "output_tokens": 1974,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7084,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 280,
+        "cache_read_input_tokens": 29867,
+        "cache_creation_input_tokens": 1312,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1312
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 1990,
+      "cacheReadInputTokens": 82852,
+      "cacheCreationInputTokens": 7084,
+      "webSearchRequests": 0,
+      "costUSD": 0.027588200000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e0586f86-eda4-4e4e-94ac-3d2297b9d9a9"
+}

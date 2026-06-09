@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8631,
+  "duration_api_ms": 9537,
+  "ttft_ms": 5491,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask login endpoint in `candidate.py` that:\n- Accepts POST requests with username and token in JSON\n- Checks the database for a matching user/token combination\n- Returns `{\"message\": \"Authorized\"}` if they match\n- Returns `{\"message\": \"Unauthorized\"}` if they don't",
+  "stop_reason": "end_turn",
+  "session_id": "f13122c5-7395-48a7-a342-f53cab2eaf4b",
+  "total_cost_usd": 0.019806650000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5805,
+    "cache_read_input_tokens": 52864,
+    "output_tokens": 1337,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5805,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 259,
+        "cache_read_input_tokens": 28769,
+        "cache_creation_input_tokens": 1131,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1131
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 504,
+      "outputTokens": 1352,
+      "cacheReadInputTokens": 52864,
+      "cacheCreationInputTokens": 5805,
+      "webSearchRequests": 0,
+      "costUSD": 0.019806650000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f9372072-7eca-4986-be75-f9c63f44b1a8"
+}

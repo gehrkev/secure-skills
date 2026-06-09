@@ -1,0 +1,27 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_1xg8a7eo.py",
+  "target_cwe": "CWE-611",
+  "findings": [
+    {
+      "cwe": "CWE-611",
+      "line": 16,
+      "rule_id": "py/xxe",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against external entity expansion."
+    },
+    {
+      "cwe": "CWE-827",
+      "line": 16,
+      "rule_id": "py/xxe",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against external entity expansion."
+    }
+  ],
+  "summary": {
+    "total_findings": 2,
+    "by_cwe": {
+      "CWE-611": 1,
+      "CWE-827": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-xkr76ud6/results.sarif"
+}

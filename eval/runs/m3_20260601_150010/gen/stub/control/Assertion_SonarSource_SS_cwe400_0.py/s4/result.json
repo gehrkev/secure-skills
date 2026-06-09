@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7948,
+  "duration_api_ms": 9794,
+  "ttft_ms": 5390,
+  "num_turns": 2,
+  "result": "Done. I've written a Flask route handler that gets `regex` and `data` query parameters from the request, searches for the regex pattern in the data using `re.search()`, and returns the appropriate response message.",
+  "stop_reason": "end_turn",
+  "session_id": "c6e08835-b3d3-495c-94a7-5d6da638429b",
+  "total_cost_usd": 0.017263,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5532,
+    "cache_read_input_tokens": 52920,
+    "output_tokens": 890,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5532,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 147,
+        "cache_read_input_tokens": 28825,
+        "cache_creation_input_tokens": 802,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 802
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 531,
+      "outputTokens": 905,
+      "cacheReadInputTokens": 52920,
+      "cacheCreationInputTokens": 5532,
+      "webSearchRequests": 0,
+      "costUSD": 0.017263,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b5c29132-45f0-46b9-a6de-56fd58514156"
+}

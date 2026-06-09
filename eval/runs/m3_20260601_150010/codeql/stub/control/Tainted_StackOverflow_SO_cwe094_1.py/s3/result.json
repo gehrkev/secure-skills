@@ -1,0 +1,35 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/stub/control/Tainted_StackOverflow_SO_cwe094_1.py/s3/candidate.py",
+  "target_cwe": "CWE-94",
+  "findings": [
+    {
+      "cwe": "CWE-116",
+      "line": 13,
+      "rule_id": "py/code-injection",
+      "message": "This code execution depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-94",
+      "line": 13,
+      "rule_id": "py/code-injection",
+      "message": "This code execution depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-95",
+      "line": 13,
+      "rule_id": "py/code-injection",
+      "message": "This code execution depends on a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 3,
+    "by_cwe": {
+      "CWE-116": 1,
+      "CWE-94": 1,
+      "CWE-95": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-yb9foije/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

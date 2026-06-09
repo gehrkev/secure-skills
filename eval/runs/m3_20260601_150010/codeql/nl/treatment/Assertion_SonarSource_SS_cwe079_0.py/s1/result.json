@@ -1,0 +1,28 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/nl/treatment/Assertion_SonarSource_SS_cwe079_0.py/s1/candidate.py",
+  "target_cwe": "CWE-79",
+  "findings": [
+    {
+      "cwe": "CWE-215",
+      "line": 24,
+      "rule_id": "py/flask-debug",
+      "message": "A Flask app appears to be run in debug mode. This may allow an attacker to run arbitrary code through the debugger."
+    },
+    {
+      "cwe": "CWE-489",
+      "line": 24,
+      "rule_id": "py/flask-debug",
+      "message": "A Flask app appears to be run in debug mode. This may allow an attacker to run arbitrary code through the debugger."
+    }
+  ],
+  "summary": {
+    "total_findings": 2,
+    "by_cwe": {
+      "CWE-215": 1,
+      "CWE-489": 1
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-3ixi7z2e/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

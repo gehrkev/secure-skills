@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 26048,
+  "duration_api_ms": 23535,
+  "ttft_ms": 2449,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask endpoint at `/unpickled` that:\n\n1. **Takes hex-encoded pickled data** from the `data` request parameter (supports both GET and POST)\n2. **Converts from hex to bytes** using `binascii.unhexlify`\n3. **Safely unpickles** using a `RestrictedUnpickler` class with an allowlist of safe built-in types\n4. **Returns the deserialized data** as JSON\n\nThe security mitigation addresses **CWE-502 (Deserialization of Untrusted Data)** by restricting deserialization to only safe built-in types (dict, list, tuple, set, str, int, float, bool, bytes, bytearray, frozenset), preventing arbitrary code execution from malicious pickle payloads.",
+  "stop_reason": "end_turn",
+  "session_id": "28ea1f7f-2c18-4b6f-8e3a-1ab87fcf2cc3",
+  "total_cost_usd": 0.037620749999999994,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8609,
+    "cache_read_input_tokens": 82885,
+    "output_tokens": 3599,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8609,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 406,
+        "cache_read_input_tokens": 29882,
+        "cache_creation_input_tokens": 2822,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2822
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 506,
+      "outputTokens": 3613,
+      "cacheReadInputTokens": 82885,
+      "cacheCreationInputTokens": 8609,
+      "webSearchRequests": 0,
+      "costUSD": 0.037620749999999994,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "64efc0a6-b6a3-49ad-b00c-8f9f26fe14c8"
+}

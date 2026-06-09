@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8874,
+  "duration_api_ms": 10516,
+  "ttft_ms": 5827,
+  "num_turns": 2,
+  "result": "Done. The `compute_tree` function recursively evaluates the expression tree by:\n1. Returning leaf node values as floats\n2. Recursively computing left and right subtrees\n3. Applying the operator stored in each internal node\n\nSupports all requested operators: `+`, `-`, `*`, `/`, `^` (exponentiation), `%` (modulo).",
+  "stop_reason": "end_turn",
+  "session_id": "4eda5287-3257-4e8a-8c32-602921d7bcca",
+  "total_cost_usd": 0.019655350000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5915,
+    "cache_read_input_tokens": 53016,
+    "output_tokens": 1262,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5915,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 228,
+        "cache_read_input_tokens": 28921,
+        "cache_creation_input_tokens": 1089,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1089
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 580,
+      "outputTokens": 1276,
+      "cacheReadInputTokens": 53016,
+      "cacheCreationInputTokens": 5915,
+      "webSearchRequests": 0,
+      "costUSD": 0.019655350000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b400f44a-8171-4c02-a33e-f6d277265f51"
+}

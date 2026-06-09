@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6487,
+  "duration_api_ms": 8427,
+  "ttft_ms": 3447,
+  "num_turns": 2,
+  "result": "Done! I've written the Flask route implementation to `candidate.py`. The function retrieves the `first_name` query parameter, escapes it for security, and returns the greeting in the requested format.",
+  "stop_reason": "end_turn",
+  "session_id": "fecd9929-0b94-4b7e-9d1e-be2ea77b608c",
+  "total_cost_usd": 0.01626535,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5379,
+    "cache_read_input_tokens": 52926,
+    "output_tokens": 729,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5379,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 148,
+        "cache_read_input_tokens": 28831,
+        "cache_creation_input_tokens": 643,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 643
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 534,
+      "outputTokens": 743,
+      "cacheReadInputTokens": 52926,
+      "cacheCreationInputTokens": 5379,
+      "webSearchRequests": 0,
+      "costUSD": 0.01626535,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "486b25a5-7cd4-44a9-a1f0-367958241e2b"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 22084,
+  "duration_api_ms": 20843,
+  "ttft_ms": 2704,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with a Flask application that:\n\n- Accepts a `team_name` query parameter\n- Uses `defusedxml` to safely parse the XML document (prevents XXE attacks per CWE-611)\n- Looks up the matching team and returns an HTML list of members\n- Properly escapes all output with `escape()` to prevent XSS attacks\n- Handles missing teams and errors gracefully",
+  "stop_reason": "end_turn",
+  "session_id": "1029ef01-64f9-4063-a32a-eaaf7c4ae8ad",
+  "total_cost_usd": 0.028431650000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7099,
+    "cache_read_input_tokens": 82699,
+    "output_tokens": 2144,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7099,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 346,
+        "cache_read_input_tokens": 29732,
+        "cache_creation_input_tokens": 1462,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1462
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 488,
+      "outputTokens": 2160,
+      "cacheReadInputTokens": 82699,
+      "cacheCreationInputTokens": 7099,
+      "webSearchRequests": 0,
+      "costUSD": 0.028431650000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "61df5170-ad13-4fe8-a490-089d9c6ac57e"
+}

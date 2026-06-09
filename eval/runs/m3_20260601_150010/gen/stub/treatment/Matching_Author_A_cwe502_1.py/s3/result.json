@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16883,
+  "duration_api_ms": 13556,
+  "ttft_ms": 2487,
+  "num_turns": 3,
+  "result": "Done. I've completed the Python code by:\n1. Getting the 'config' parameter from the request\n2. Decoding it from hexadecimal to bytes\n3. Unmarshalling the binary data using `marshal.loads()`\n4. Returning the unmarshalled data\n\nThe completed code has been written to `candidate.py`.",
+  "stop_reason": "end_turn",
+  "session_id": "c34050c4-cb8c-4e57-98a3-9e277b7710cf",
+  "total_cost_usd": 0.02516715,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6959,
+    "cache_read_input_tokens": 83304,
+    "output_tokens": 1503,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6959,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 213,
+        "cache_read_input_tokens": 30217,
+        "cache_creation_input_tokens": 837,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 837
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 548,
+      "outputTokens": 1518,
+      "cacheReadInputTokens": 83304,
+      "cacheCreationInputTokens": 6959,
+      "webSearchRequests": 0,
+      "costUSD": 0.02516715,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "85c15e38-6f28-4e82-b4f4-dc2bdcb57637"
+}

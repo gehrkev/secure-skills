@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- Artefatos recriados pelo bootstrap de cada skill (não versionar) ---
+# ambientes virtuais (secure: chromadb+deps; análise: pandas/seaborn/statsmodels)
+.venv/
+# base vetorial ChromaDB da skill secure (reconstruída a partir dos XMLs baixados)
+chroma_db/
+# XMLs do MITRE CWE baixados pelo build da base de conhecimento
+.claude/skills/secure/knowledge_base/raw_data/
+# venv com dependências do SALLM para a checagem funcional
+eval/runner/eval/functional_venv/
+# saída do smoke de verificação VERIFY-1 (regenerada por verify1_smoke.sh)
+eval/runner/verify1/out/
+# imagem Docker do CodeQL: vive no Docker, não no repositório
+
+# --- Artefatos de runtime / backups ---
+users.db
+eval/runs_backups/
+eval-backups/
+
+# --- Estado interno do Claude Code (não é deliverable) ---
+.claude/projects/
+.claude/settings.local.json

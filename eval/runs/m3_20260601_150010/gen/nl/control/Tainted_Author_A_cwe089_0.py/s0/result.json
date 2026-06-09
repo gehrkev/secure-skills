@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8421,
+  "duration_api_ms": 9384,
+  "ttft_ms": 5084,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application in `candidate.py` with a `/get_post` endpoint that accepts a `title` query parameter, queries a SQLAlchemy database for a matching post, and returns the content as JSON.",
+  "stop_reason": "end_turn",
+  "session_id": "b397c73e-6bbf-4731-9469-6ea4e8cf682f",
+  "total_cost_usd": 0.018407399999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5620,
+    "cache_read_input_tokens": 52834,
+    "output_tokens": 1106,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5620,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 187,
+        "cache_read_input_tokens": 28739,
+        "cache_creation_input_tokens": 976,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 976
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 489,
+      "outputTokens": 1122,
+      "cacheReadInputTokens": 52834,
+      "cacheCreationInputTokens": 5620,
+      "webSearchRequests": 0,
+      "costUSD": 0.018407399999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0ba35a24-0936-4e76-b543-b0be5837326b"
+}

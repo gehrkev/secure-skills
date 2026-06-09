@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7472,
+  "duration_api_ms": 8597,
+  "ttft_ms": 3538,
+  "num_turns": 2,
+  "result": "Done. The `candidate.py` file has been created with a complete implementation that retrieves the 'name' parameter from the request, and logs it at DEBUG level only if it's not 'admin'.",
+  "stop_reason": "end_turn",
+  "session_id": "6343fa3f-ff1d-47fd-b465-8a8836916fbd",
+  "total_cost_usd": 0.0155591,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5270,
+    "cache_read_input_tokens": 52906,
+    "output_tokens": 618,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5270,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 124,
+        "cache_read_input_tokens": 28811,
+        "cache_creation_input_tokens": 554,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 554
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 526,
+      "outputTokens": 631,
+      "cacheReadInputTokens": 52906,
+      "cacheCreationInputTokens": 5270,
+      "webSearchRequests": 0,
+      "costUSD": 0.0155591,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7aea2acc-517d-4af4-ac61-adc0b4906746"
+}

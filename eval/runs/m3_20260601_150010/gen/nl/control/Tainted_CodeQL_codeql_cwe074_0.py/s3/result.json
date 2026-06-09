@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15947,
+  "duration_api_ms": 17024,
+  "ttft_ms": 10974,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/execute` endpoint that:\n\n- Accepts a `command` parameter via GET (`?command=...`) or POST (JSON body)\n- Uses Paramiko to SSH into a remote server and execute the command\n- Returns the command's standard output as JSON, with stderr included if present\n- Handles SSH authentication and connection errors with appropriate HTTP status codes\n\nUpdate the `SSH_CONFIG` dictionary with your remote server credentials before running.",
+  "stop_reason": "end_turn",
+  "session_id": "244e984b-c679-47c3-9232-63a078763612",
+  "total_cost_usd": 0.02669985,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6849,
+    "cache_read_input_tokens": 52836,
+    "output_tokens": 2459,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6849,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 297,
+        "cache_read_input_tokens": 28741,
+        "cache_creation_input_tokens": 2203,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2203
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 2473,
+      "cacheReadInputTokens": 52836,
+      "cacheCreationInputTokens": 6849,
+      "webSearchRequests": 0,
+      "costUSD": 0.02669985,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6dc18f3d-ea27-4bc6-b222-2606176f6661"
+}

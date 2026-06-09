@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14447,
+  "duration_api_ms": 15914,
+  "ttft_ms": 11539,
+  "num_turns": 2,
+  "result": "Done. The function:\n- Retrieves `file_contents` from query parameters\n- Finds the first `{` and last `}` in the string\n- Extracts that substring\n- Uses `ast.literal_eval()` to safely evaluate it as a dictionary\n- Returns the result, or an empty dict if no braces are found",
+  "stop_reason": "end_turn",
+  "session_id": "12952bcb-618d-4a19-a511-7c5f2120db7c",
+  "total_cost_usd": 0.0229368,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6384,
+    "cache_read_input_tokens": 52918,
+    "output_tokens": 1810,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6384,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 212,
+        "cache_read_input_tokens": 28823,
+        "cache_creation_input_tokens": 1656,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1656
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 1827,
+      "cacheReadInputTokens": 52918,
+      "cacheCreationInputTokens": 6384,
+      "webSearchRequests": 0,
+      "costUSD": 0.0229368,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0fa5e9bf-8886-471f-8f5b-0b935d4a73e2"
+}

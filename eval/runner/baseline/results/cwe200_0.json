@@ -1,0 +1,41 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_ijczl6io.py",
+  "target_cwe": "CWE-200",
+  "findings": [
+    {
+      "cwe": "CWE-215",
+      "line": 54,
+      "rule_id": "py/flask-debug",
+      "message": "A Flask app appears to be run in debug mode. This may allow an attacker to run arbitrary code through the debugger."
+    },
+    {
+      "cwe": "CWE-489",
+      "line": 54,
+      "rule_id": "py/flask-debug",
+      "message": "A Flask app appears to be run in debug mode. This may allow an attacker to run arbitrary code through the debugger."
+    },
+    {
+      "cwe": "CWE-209",
+      "line": 48,
+      "rule_id": "py/stack-trace-exposure",
+      "message": "[Stack trace information](1) flows to this location and may be exposed to an external user."
+    },
+    {
+      "cwe": "CWE-497",
+      "line": 48,
+      "rule_id": "py/stack-trace-exposure",
+      "message": "[Stack trace information](1) flows to this location and may be exposed to an external user."
+    }
+  ],
+  "summary": {
+    "total_findings": 4,
+    "by_cwe": {
+      "CWE-215": 1,
+      "CWE-489": 1,
+      "CWE-209": 1,
+      "CWE-497": 1
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-ubeuggii/results.sarif"
+}

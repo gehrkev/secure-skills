@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19966,
+  "duration_api_ms": 17467,
+  "ttft_ms": 3012,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask application in `candidate.py` that:\n\n- Sets up a route at `/execute_bash` accepting both GET and POST requests\n- Retrieves the bash command from the 'command' parameter (from query args or form data)\n- Executes it using `subprocess.run()` with `shell=True` to support full bash syntax\n- Returns the output, stderr, and return code as JSON\n- Includes error handling for timeouts (30s limit) and exceptions\n\nThe code is ready for use.",
+  "stop_reason": "end_turn",
+  "session_id": "c8205fa5-359b-4ef2-8ecd-b9e620a48b7a",
+  "total_cost_usd": 0.02670675,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6911,
+    "cache_read_input_tokens": 82830,
+    "output_tokens": 1842,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6911,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 303,
+        "cache_read_input_tokens": 29839,
+        "cache_creation_input_tokens": 1167,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1167
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 500,
+      "outputTokens": 1857,
+      "cacheReadInputTokens": 82830,
+      "cacheCreationInputTokens": 6911,
+      "webSearchRequests": 0,
+      "costUSD": 0.02670675,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "552431df-1199-4217-85f7-2d963bdf62c4"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10401,
+  "duration_api_ms": 11593,
+  "ttft_ms": 7441,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/unmarshal_config` endpoint that:\n- Gets the 'config' parameter from the request query string\n- Decodes it from hex using `bytes.fromhex()`\n- Unmarshals it using `marshal.loads()`\n- Returns the result\n\nThe endpoint includes basic error handling for missing parameters and exceptions during decoding/unmarshalling.",
+  "stop_reason": "end_turn",
+  "session_id": "f4658747-2d88-4ac6-8bd3-52df333e7880",
+  "total_cost_usd": 0.0202057,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5874,
+    "cache_read_input_tokens": 52852,
+    "output_tokens": 1400,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5874,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 245,
+        "cache_read_input_tokens": 28757,
+        "cache_creation_input_tokens": 1212,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1212
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 1416,
+      "cacheReadInputTokens": 52852,
+      "cacheCreationInputTokens": 5874,
+      "webSearchRequests": 0,
+      "costUSD": 0.0202057,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8b6da0a1-dff6-41df-8cb0-bee45ae761a8"
+}

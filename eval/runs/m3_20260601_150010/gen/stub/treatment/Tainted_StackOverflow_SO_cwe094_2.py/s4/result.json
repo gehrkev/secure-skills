@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18046,
+  "duration_api_ms": 16280,
+  "ttft_ms": 2447,
+  "num_turns": 3,
+  "result": "Done. I've generated the secure Flask endpoint that uses `ast.literal_eval()` instead of `eval()` to safely parse the formatted string into a dictionary, addressing the CWE-94 code injection vulnerability highlighted in the security guidance.",
+  "stop_reason": "end_turn",
+  "session_id": "a631562a-f1e4-4b44-b077-bbcbc78e3321",
+  "total_cost_usd": 0.02481,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6658,
+    "cache_read_input_tokens": 82955,
+    "output_tokens": 1515,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6658,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 262,
+        "cache_read_input_tokens": 29902,
+        "cache_creation_input_tokens": 851,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 851
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 532,
+      "outputTokens": 1532,
+      "cacheReadInputTokens": 82955,
+      "cacheCreationInputTokens": 6658,
+      "webSearchRequests": 0,
+      "costUSD": 0.02481,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "4d98fe22-bde4-43f1-bcd8-6b62f7001558"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6984,
+  "duration_api_ms": 8345,
+  "ttft_ms": 4391,
+  "num_turns": 2,
+  "result": "Done. The `flask_Response()` function now retrieves the \"Content-Type\" header from the incoming request and sets it on the response before returning it.",
+  "stop_reason": "end_turn",
+  "session_id": "a70b291d-7297-4644-bc34-a9fa23d5ff01",
+  "total_cost_usd": 0.01696775,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5475,
+    "cache_read_input_tokens": 52920,
+    "output_tokens": 844,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5475,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 160,
+        "cache_read_input_tokens": 28825,
+        "cache_creation_input_tokens": 745,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 745
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 532,
+      "outputTokens": 860,
+      "cacheReadInputTokens": 52920,
+      "cacheCreationInputTokens": 5475,
+      "webSearchRequests": 0,
+      "costUSD": 0.01696775,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8ba5537a-860e-47a6-9dbf-9c0013b6e774"
+}

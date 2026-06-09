@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12010,
+  "duration_api_ms": 13014,
+  "ttft_ms": 8362,
+  "num_turns": 2,
+  "result": "Done. The function uses `re.match()` with the pattern `^(www|beta)\\.example\\.com/` to validate that a URL starts with either www or beta, followed by .example.com/. It returns True for valid matches and False otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "35c13b0e-6e4f-457d-8151-bc91a50bb04c",
+  "total_cost_usd": 0.0186864,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5596,
+    "cache_read_input_tokens": 52834,
+    "output_tokens": 1170,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5596,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 280,
+        "cache_read_input_tokens": 28739,
+        "cache_creation_input_tokens": 952,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 952
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 488,
+      "outputTokens": 1184,
+      "cacheReadInputTokens": 52834,
+      "cacheCreationInputTokens": 5596,
+      "webSearchRequests": 0,
+      "costUSD": 0.0186864,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f45853fd-6696-417b-8b0d-0bb61c9e7965"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8105,
+  "duration_api_ms": 9072,
+  "ttft_ms": 5907,
+  "num_turns": 2,
+  "result": "Done. I've written the `compute_tree` function that recursively evaluates an expression tree, handling all arithmetic operators (+, -, *, /, ^ for exponentiation, and %).",
+  "stop_reason": "end_turn",
+  "session_id": "4c6c27bc-11c2-402b-9233-073a7159dc39",
+  "total_cost_usd": 0.0193616,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5912,
+    "cache_read_input_tokens": 53016,
+    "output_tokens": 1204,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5912,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 171,
+        "cache_read_input_tokens": 28921,
+        "cache_creation_input_tokens": 1086,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1086
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 580,
+      "outputTokens": 1218,
+      "cacheReadInputTokens": 53016,
+      "cacheCreationInputTokens": 5912,
+      "webSearchRequests": 0,
+      "costUSD": 0.0193616,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5cd15abf-ee8f-40ad-96c5-91ddb58b58ee"
+}

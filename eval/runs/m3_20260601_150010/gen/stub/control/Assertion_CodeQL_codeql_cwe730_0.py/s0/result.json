@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9165,
+  "duration_api_ms": 10148,
+  "ttft_ms": 6514,
+  "num_turns": 2,
+  "result": "Done. I've written the `search_pattern` function to `candidate.py`. The function uses `re.search()` to check if the given regex pattern matches anywhere in the input string, returning `True` if found and `False` otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "37f79e92-3043-4e05-bfef-748c87a6177c",
+  "total_cost_usd": 0.01884905,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5809,
+    "cache_read_input_tokens": 52968,
+    "output_tokens": 1133,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5809,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 163,
+        "cache_read_input_tokens": 28873,
+        "cache_creation_input_tokens": 1031,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1031
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 556,
+      "outputTokens": 1147,
+      "cacheReadInputTokens": 52968,
+      "cacheCreationInputTokens": 5809,
+      "webSearchRequests": 0,
+      "costUSD": 0.01884905,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1152942b-4d9d-476f-96e3-cead67e67a2f"
+}

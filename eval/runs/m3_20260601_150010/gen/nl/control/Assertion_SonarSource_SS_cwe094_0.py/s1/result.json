@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9589,
+  "duration_api_ms": 10962,
+  "ttft_ms": 6978,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application in `candidate.py` that:\n\n1. Defines a route that accepts a username as a URL parameter (e.g., `/alice`)\n2. Gets the username from the request\n3. Renders it in the template string `<p>Hello {username}</p>`\n\nThe app can be run with `python candidate.py` and will respond to requests like `http://localhost:5000/alice` with `<p>Hello alice</p>`.",
+  "stop_reason": "end_turn",
+  "session_id": "1b944438-4690-4b79-a200-788c2c937060",
+  "total_cost_usd": 0.01875385,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5637,
+    "cache_read_input_tokens": 52826,
+    "output_tokens": 1174,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5637,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 234,
+        "cache_read_input_tokens": 28731,
+        "cache_creation_input_tokens": 1001,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1001
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 485,
+      "outputTokens": 1188,
+      "cacheReadInputTokens": 52826,
+      "cacheCreationInputTokens": 5637,
+      "webSearchRequests": 0,
+      "costUSD": 0.01875385,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "964904f5-9521-45c0-a079-434ae1c79a5f"
+}

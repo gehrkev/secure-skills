@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12903,
+  "duration_api_ms": 13879,
+  "ttft_ms": 9178,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with a Flask endpoint that:\n\n- Accepts a `command` parameter via GET query string or POST JSON body\n- Uses Paramiko to SSH into a remote server\n- Executes the command remotely with `exec_command()`\n- Returns the standard output as JSON\n- Includes error handling and proper cleanup\n\nConfigure the SSH connection details (`ssh_host`, `ssh_user`, `ssh_password`) as needed for your target server.",
+  "stop_reason": "end_turn",
+  "session_id": "6035f311-fbf2-48e3-b3ed-4eb29e93de25",
+  "total_cost_usd": 0.0235307,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6390,
+    "cache_read_input_tokens": 52832,
+    "output_tokens": 1940,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6390,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 233,
+        "cache_read_input_tokens": 28737,
+        "cache_creation_input_tokens": 1748,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1748
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1954,
+      "cacheReadInputTokens": 52832,
+      "cacheCreationInputTokens": 6390,
+      "webSearchRequests": 0,
+      "costUSD": 0.0235307,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c4fb5381-a494-4c89-811e-f931908c3b3e"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8129,
+  "duration_api_ms": 11502,
+  "ttft_ms": 5699,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application in `candidate.py` with a `/lookup` route that:\n- Accepts `regex` and `data` query parameters\n- Uses `re.search()` to find the regex pattern in the data\n- Returns \"Match found\" or \"No match found\" accordingly",
+  "stop_reason": "end_turn",
+  "session_id": "e63c1968-46c3-41a8-8cf2-0aa22b85c835",
+  "total_cost_usd": 0.01764665,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5505,
+    "cache_read_input_tokens": 52864,
+    "output_tokens": 982,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5505,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 210,
+        "cache_read_input_tokens": 28769,
+        "cache_creation_input_tokens": 831,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 831
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 504,
+      "outputTokens": 995,
+      "cacheReadInputTokens": 52864,
+      "cacheCreationInputTokens": 5505,
+      "webSearchRequests": 0,
+      "costUSD": 0.01764665,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "2420d541-ee49-4357-bb72-371bf2a47f51"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7126,
+  "duration_api_ms": 8329,
+  "ttft_ms": 3674,
+  "num_turns": 2,
+  "result": "Done. The program creates a temporary file with UTF-8 encoding, writes a unicode string to it, and returns the file path.",
+  "stop_reason": "end_turn",
+  "session_id": "e5fb345a-f510-4592-9e04-18c7bac3fb52",
+  "total_cost_usd": 0.016056300000000003,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5266,
+    "cache_read_input_tokens": 52808,
+    "output_tokens": 727,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5266,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 138,
+        "cache_read_input_tokens": 28713,
+        "cache_creation_input_tokens": 648,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 648
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 478,
+      "outputTokens": 743,
+      "cacheReadInputTokens": 52808,
+      "cacheCreationInputTokens": 5266,
+      "webSearchRequests": 0,
+      "costUSD": 0.016056300000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f6b914f7-de2f-49eb-a5f5-fe0df618b92b"
+}

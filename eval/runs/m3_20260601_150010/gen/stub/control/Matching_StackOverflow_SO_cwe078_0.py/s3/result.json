@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12068,
+  "duration_api_ms": 13044,
+  "ttft_ms": 9797,
+  "num_turns": 2,
+  "result": "Done. The function extracts the `command` query parameter from the request, executes it using `subprocess.run()`, and returns a dictionary with the command, stdout, stderr, and return code.",
+  "stop_reason": "end_turn",
+  "session_id": "0c98f7d6-dbbd-47dc-8a69-04999deba5ae",
+  "total_cost_usd": 0.0217795,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6234,
+    "cache_read_input_tokens": 52900,
+    "output_tokens": 1621,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6234,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 158,
+        "cache_read_input_tokens": 28805,
+        "cache_creation_input_tokens": 1524,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1524
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 522,
+      "outputTokens": 1635,
+      "cacheReadInputTokens": 52900,
+      "cacheCreationInputTokens": 6234,
+      "webSearchRequests": 0,
+      "costUSD": 0.0217795,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "33ca6013-a832-4b7a-b6ea-f7e0dc30da71"
+}

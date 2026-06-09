@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9657,
+  "duration_api_ms": 10608,
+  "ttft_ms": 7557,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with a Flask endpoint that retrieves a query parameter, loads the HTML template, replaces the `{{param}}` placeholder with the parameter value, and returns the rendered template as an HTML response.",
+  "stop_reason": "end_turn",
+  "session_id": "a7f579c7-7caf-44ed-8571-e1f39a958146",
+  "total_cost_usd": 0.019865499999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5942,
+    "cache_read_input_tokens": 52920,
+    "output_tokens": 1307,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5942,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 151,
+        "cache_read_input_tokens": 28825,
+        "cache_creation_input_tokens": 1212,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1212
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 531,
+      "outputTokens": 1323,
+      "cacheReadInputTokens": 52920,
+      "cacheCreationInputTokens": 5942,
+      "webSearchRequests": 0,
+      "costUSD": 0.019865499999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5937ba1e-7703-4171-a55a-73d86ae6db19"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 25937,
+  "duration_api_ms": 23253,
+  "ttft_ms": 2119,
+  "num_turns": 3,
+  "result": "Done. I've written a Flask endpoint at `/eval_code` that safely evaluates code using `ast.literal_eval()` instead of the dangerous `eval()` function, following the CWE-94 security guidance. The endpoint accepts a 'code' parameter from the request, evaluates it, and returns both the code and result as JSON.",
+  "stop_reason": "end_turn",
+  "session_id": "96619d9a-d0bb-4d5f-8f94-5459d708ff45",
+  "total_cost_usd": 0.027390649999999996,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7133,
+    "cache_read_input_tokens": 82864,
+    "output_tokens": 1925,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7133,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 254,
+        "cache_read_input_tokens": 29889,
+        "cache_creation_input_tokens": 1339,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1339
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 493,
+      "outputTokens": 1939,
+      "cacheReadInputTokens": 82864,
+      "cacheCreationInputTokens": 7133,
+      "webSearchRequests": 0,
+      "costUSD": 0.027390649999999996,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "bafc6eb8-d43a-43c1-aefd-aeb3a9c16bcd"
+}

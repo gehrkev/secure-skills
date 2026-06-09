@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16370,
+  "duration_api_ms": 12421,
+  "ttft_ms": 2288,
+  "num_turns": 3,
+  "result": "Done. The `candidate.py` file has been created with the complete implementation. The `search()` function uses regex to check if the query contains either 'www.example.com/' or 'beta.example.com/', returning the appropriate success or failure message.",
+  "stop_reason": "end_turn",
+  "session_id": "56573bf5-b316-4fd4-9d31-121d562bd745",
+  "total_cost_usd": 0.0249284,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6864,
+    "cache_read_input_tokens": 83214,
+    "output_tokens": 1483,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6864,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 218,
+        "cache_read_input_tokens": 30137,
+        "cache_creation_input_tokens": 822,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 822
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 542,
+      "outputTokens": 1497,
+      "cacheReadInputTokens": 83214,
+      "cacheCreationInputTokens": 6864,
+      "webSearchRequests": 0,
+      "costUSD": 0.0249284,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "eabe58c4-817a-4c11-bdce-0c25d054a1b5"
+}

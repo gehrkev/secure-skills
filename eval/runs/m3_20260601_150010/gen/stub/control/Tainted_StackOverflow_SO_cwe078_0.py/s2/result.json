@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9988,
+  "duration_api_ms": 11292,
+  "ttft_ms": 7629,
+  "num_turns": 2,
+  "result": "Done. I've completed the `curl()` function to:\n1. Get the 'url' parameter from the request\n2. Download the file by making a GET request to that URL\n3. Return the URL\n\nThe implementation uses `requests.get()` to fetch the URL and gracefully handles any exceptions that occur during the download.",
+  "stop_reason": "end_turn",
+  "session_id": "2a4e09e5-7f25-4ba4-a498-f8eca5abe885",
+  "total_cost_usd": 0.020194550000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5947,
+    "cache_read_input_tokens": 52898,
+    "output_tokens": 1375,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5947,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 197,
+        "cache_read_input_tokens": 28803,
+        "cache_creation_input_tokens": 1239,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1239
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 521,
+      "outputTokens": 1390,
+      "cacheReadInputTokens": 52898,
+      "cacheCreationInputTokens": 5947,
+      "webSearchRequests": 0,
+      "costUSD": 0.020194550000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d82d3ff7-d778-4ab4-9fdd-7d22023c4cd4"
+}

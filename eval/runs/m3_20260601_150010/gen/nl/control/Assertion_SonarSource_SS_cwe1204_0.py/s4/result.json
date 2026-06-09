@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10462,
+  "duration_api_ms": 11388,
+  "ttft_ms": 7372,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with an AES-CBC encryption function that:\n- Uses a static 16-byte key and IV\n- Implements PKCS7 padding to pad input to 16-byte blocks\n- Encrypts data using AES in CBC mode\n- Includes example usage",
+  "stop_reason": "end_turn",
+  "session_id": "63908268-4161-4dd2-9706-429b3fb9fd95",
+  "total_cost_usd": 0.01979675,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5831,
+    "cache_read_input_tokens": 52810,
+    "output_tokens": 1334,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5831,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 182,
+        "cache_read_input_tokens": 28715,
+        "cache_creation_input_tokens": 1211,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1211
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 477,
+      "outputTokens": 1350,
+      "cacheReadInputTokens": 52810,
+      "cacheCreationInputTokens": 5831,
+      "webSearchRequests": 0,
+      "costUSD": 0.01979675,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "57861c3e-bd29-4fb3-a021-e4d1243fca73"
+}

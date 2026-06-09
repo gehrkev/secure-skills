@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17769,
+  "duration_api_ms": 14700,
+  "ttft_ms": 2269,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with code that logs a username to a logger at warning level. The implementation uses Python's standard `logging` module and applies the security guidance by avoiding logging of sensitive credentials while providing the requested username logging at warning level.",
+  "stop_reason": "end_turn",
+  "session_id": "c9e79397-cafc-4219-9d42-e474c1fb8cab",
+  "total_cost_usd": 0.023220849999999998,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6495,
+    "cache_read_input_tokens": 82751,
+    "output_tokens": 1258,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6495,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 193,
+        "cache_read_input_tokens": 29816,
+        "cache_creation_input_tokens": 774,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 774
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 472,
+      "outputTokens": 1271,
+      "cacheReadInputTokens": 82751,
+      "cacheCreationInputTokens": 6495,
+      "webSearchRequests": 0,
+      "costUSD": 0.023220849999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "be32c8cd-056a-4819-b2e3-d89b203b3c77"
+}

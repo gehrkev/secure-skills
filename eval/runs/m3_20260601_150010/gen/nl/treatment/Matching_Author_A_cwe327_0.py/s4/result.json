@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 26467,
+  "duration_api_ms": 23712,
+  "ttft_ms": 2159,
+  "num_turns": 3,
+  "result": "Done! I've created the Flask `/verify` endpoint in `candidate.py`. The implementation:\n\n- Uses **POST** (not GET) to follow CSRF protection guidance (CWE-352)\n- Accepts JSON with `certificate` and `known_hash` parameters\n- Computes SHA256 hash of the certificate and compares it with the known hash\n- Returns `true` if they match, `false` otherwise\n- Handles both string and binary certificate formats\n- Includes proper validation for missing parameters",
+  "stop_reason": "end_turn",
+  "session_id": "5194328d-41b3-4bd1-acb4-8500a6ed5e5e",
+  "total_cost_usd": 0.03536845,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8211,
+    "cache_read_input_tokens": 82677,
+    "output_tokens": 3255,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8211,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 325,
+        "cache_read_input_tokens": 29692,
+        "cache_creation_input_tokens": 2614,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2614
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 497,
+      "outputTokens": 3268,
+      "cacheReadInputTokens": 82677,
+      "cacheCreationInputTokens": 8211,
+      "webSearchRequests": 0,
+      "costUSD": 0.03536845,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b12610a8-c4c9-4908-8309-37ed8d510c76"
+}

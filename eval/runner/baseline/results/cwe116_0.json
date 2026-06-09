@@ -1,0 +1,41 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_ihczn81h.py",
+  "target_cwe": "CWE-116",
+  "findings": [
+    {
+      "cwe": "CWE-116",
+      "line": 13,
+      "rule_id": "py/bad-tag-filter",
+      "message": "This regular expression does not match upper case <SCRIPT> tags."
+    },
+    {
+      "cwe": "CWE-185",
+      "line": 13,
+      "rule_id": "py/bad-tag-filter",
+      "message": "This regular expression does not match upper case <SCRIPT> tags."
+    },
+    {
+      "cwe": "CWE-186",
+      "line": 13,
+      "rule_id": "py/bad-tag-filter",
+      "message": "This regular expression does not match upper case <SCRIPT> tags."
+    },
+    {
+      "cwe": "CWE-20",
+      "line": 13,
+      "rule_id": "py/bad-tag-filter",
+      "message": "This regular expression does not match upper case <SCRIPT> tags."
+    }
+  ],
+  "summary": {
+    "total_findings": 4,
+    "by_cwe": {
+      "CWE-116": 1,
+      "CWE-185": 1,
+      "CWE-186": 1,
+      "CWE-20": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-dk8fkbet/results.sarif"
+}

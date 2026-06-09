@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17257,
+  "duration_api_ms": 13835,
+  "ttft_ms": 2655,
+  "num_turns": 3,
+  "result": "Done. The solution is written to `candidate.py`. The function retrieves the hex-encoded data from the request parameter, converts it to bytes, and returns the deserialized pickle object.",
+  "stop_reason": "end_turn",
+  "session_id": "88f76e34-f999-4a95-85d4-6007cb203490",
+  "total_cost_usd": 0.02494515,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6909,
+    "cache_read_input_tokens": 83149,
+    "output_tokens": 1475,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6909,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 131,
+        "cache_read_input_tokens": 30090,
+        "cache_creation_input_tokens": 914,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 914
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 534,
+      "outputTokens": 1492,
+      "cacheReadInputTokens": 83149,
+      "cacheCreationInputTokens": 6909,
+      "webSearchRequests": 0,
+      "costUSD": 0.02494515,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "594d473f-6a01-4ae2-b780-7b388fbcd153"
+}

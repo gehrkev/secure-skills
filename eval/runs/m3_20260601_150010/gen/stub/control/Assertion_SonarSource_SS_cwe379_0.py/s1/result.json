@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6825,
+  "duration_api_ms": 7933,
+  "ttft_ms": 3765,
+  "num_turns": 2,
+  "result": "Done. The `candidate.py` file has been written with the `write_results` function implementation. It creates a temporary file with UTF-8 encoding, writes the results to it, and returns the file path.",
+  "stop_reason": "end_turn",
+  "session_id": "1ab223bf-ca92-4fc3-afdb-82061c04ddb3",
+  "total_cost_usd": 0.0163865,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5402,
+    "cache_read_input_tokens": 52920,
+    "output_tokens": 748,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5402,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 137,
+        "cache_read_input_tokens": 28825,
+        "cache_creation_input_tokens": 672,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 672
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 532,
+      "outputTokens": 762,
+      "cacheReadInputTokens": 52920,
+      "cacheCreationInputTokens": 5402,
+      "webSearchRequests": 0,
+      "costUSD": 0.0163865,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1c81e05e-eb99-4f96-9e1b-c82836a60d4e"
+}

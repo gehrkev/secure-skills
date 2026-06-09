@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9942,
+  "duration_api_ms": 10864,
+  "ttft_ms": 7236,
+  "num_turns": 2,
+  "result": "Done. I've written the Flask endpoint that gets `file_contents` from the request, extracts the substring from the first `{` to the last `}`, and evaluates it as a dictionary.",
+  "stop_reason": "end_turn",
+  "session_id": "272700b1-187b-402b-962e-b032f0cdf2b1",
+  "total_cost_usd": 0.01972285,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5885,
+    "cache_read_input_tokens": 52916,
+    "output_tokens": 1292,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5885,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 188,
+        "cache_read_input_tokens": 28821,
+        "cache_creation_input_tokens": 1159,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1159
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 1309,
+      "cacheReadInputTokens": 52916,
+      "cacheCreationInputTokens": 5885,
+      "webSearchRequests": 0,
+      "costUSD": 0.01972285,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8a99956d-a802-4a34-abb1-4cab562939ba"
+}

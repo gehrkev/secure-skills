@@ -1,0 +1,21 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/nl/treatment/Assertion_CWEList_Mitre_cwe250_0.py/s1/candidate.py",
+  "target_cwe": "CWE-250",
+  "findings": [
+    {
+      "cwe": "CWE-732",
+      "line": 42,
+      "rule_id": "py/overly-permissive-file",
+      "message": "Overly permissive mask in chmod sets file to world readable."
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "by_cwe": {
+      "CWE-732": 1
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-49o2bsdc/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11412,
+  "duration_api_ms": 13580,
+  "ttft_ms": 7457,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a POST endpoint at `/parse_xml` that accepts an `xml_src` parameter, parses it as XML, and returns the parsed XML as a string. The endpoint handles both form data and JSON request bodies for the parameter.",
+  "stop_reason": "end_turn",
+  "session_id": "722920e1-48a1-4ba4-b728-dfae1c4a30f8",
+  "total_cost_usd": 0.021103200000000003,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6088,
+    "cache_read_input_tokens": 52852,
+    "output_tokens": 1529,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6088,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 160,
+        "cache_read_input_tokens": 28757,
+        "cache_creation_input_tokens": 1426,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1426
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 1542,
+      "cacheReadInputTokens": 52852,
+      "cacheCreationInputTokens": 6088,
+      "webSearchRequests": 0,
+      "costUSD": 0.021103200000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "29308a9a-7638-444a-99c5-e40437cd1da0"
+}

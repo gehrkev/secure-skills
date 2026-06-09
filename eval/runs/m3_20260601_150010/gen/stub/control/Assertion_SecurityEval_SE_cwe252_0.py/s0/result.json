@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10243,
+  "duration_api_ms": 11162,
+  "ttft_ms": 7437,
+  "num_turns": 2,
+  "result": "Done. I've completed the `total_names` function to parse a JSON string, extract the names field, parse it with the `parse()` method, and return the count of names.",
+  "stop_reason": "end_turn",
+  "session_id": "b894c60f-5b80-43a7-9d9d-e819b134b9a3",
+  "total_cost_usd": 0.0209916,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6220,
+    "cache_read_input_tokens": 53076,
+    "output_tokens": 1446,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6220,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 174,
+        "cache_read_input_tokens": 28981,
+        "cache_creation_input_tokens": 1334,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1334
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 609,
+      "outputTokens": 1460,
+      "cacheReadInputTokens": 53076,
+      "cacheCreationInputTokens": 6220,
+      "webSearchRequests": 0,
+      "costUSD": 0.0209916,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "bad4272b-7a48-489e-944a-aeab7668b0c2"
+}

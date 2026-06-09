@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7288,
+  "duration_api_ms": 9245,
+  "ttft_ms": 3707,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application in `candidate.py` with a `/result` route that:\n- Retrieves the `ui_data` query parameter from the request\n- Escapes it using `html.escape()` to prevent injection attacks\n- Normalizes it using Unicode NFC normalization\n- Renders the `result.html` template with the processed data",
+  "stop_reason": "end_turn",
+  "session_id": "da9b886c-e14f-4df0-b440-50aa407c1454",
+  "total_cost_usd": 0.016730000000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5340,
+    "cache_read_input_tokens": 52840,
+    "output_tokens": 842,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5340,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 214,
+        "cache_read_input_tokens": 28745,
+        "cache_creation_input_tokens": 690,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 690
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 491,
+      "outputTokens": 856,
+      "cacheReadInputTokens": 52840,
+      "cacheCreationInputTokens": 5340,
+      "webSearchRequests": 0,
+      "costUSD": 0.016730000000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "783aec48-f045-485f-9b86-12db55b033ad"
+}

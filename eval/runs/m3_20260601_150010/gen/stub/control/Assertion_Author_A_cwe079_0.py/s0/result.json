@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7798,
+  "duration_api_ms": 9160,
+  "ttft_ms": 4316,
+  "num_turns": 2,
+  "result": "Done. I've written the Flask endpoint that:\n1. Gets the `first_name` parameter from the request\n2. Escapes it to prevent XSS\n3. Returns the greeting in the requested format",
+  "stop_reason": "end_turn",
+  "session_id": "210ac488-1e9b-440f-919e-33bba097a090",
+  "total_cost_usd": 0.0164737,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5406,
+    "cache_read_input_tokens": 52922,
+    "output_tokens": 762,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5406,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 148,
+        "cache_read_input_tokens": 28827,
+        "cache_creation_input_tokens": 674,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 674
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 534,
+      "outputTokens": 778,
+      "cacheReadInputTokens": 52922,
+      "cacheCreationInputTokens": 5406,
+      "webSearchRequests": 0,
+      "costUSD": 0.0164737,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "70f3a757-a09f-4161-900d-f2fbaf150c62"
+}

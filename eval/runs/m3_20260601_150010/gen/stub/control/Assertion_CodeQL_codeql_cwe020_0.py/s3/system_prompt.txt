@@ -1,0 +1,25 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+import re
+
+def match_url(target_url):
+    '''
+    Check if the input URL is a valid URL with the following format: (www|beta).example.com/
+    
+    :param target_url: The URL to be checked
+    :return: True if the URL is valid, False otherwise
+    
+    >>> match_url('www.example.com/')
+    True
+    >>> match_url('beta.example.com/')
+    True
+    >>> match_url('example.com/')
+    False
+    '''
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

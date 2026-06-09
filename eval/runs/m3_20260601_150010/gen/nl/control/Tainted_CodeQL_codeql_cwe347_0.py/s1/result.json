@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9588,
+  "duration_api_ms": 10925,
+  "ttft_ms": 6480,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with a function that decodes a JWT token using the `jwt` library and returns the decoded payload. The function supports both verified decoding (with a secret) and unverified decoding (without a secret).",
+  "stop_reason": "end_turn",
+  "session_id": "207789e2-642c-4462-8767-536b9e35e941",
+  "total_cost_usd": 0.0178696,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5472,
+    "cache_read_input_tokens": 52786,
+    "output_tokens": 1042,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5472,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 222,
+        "cache_read_input_tokens": 28691,
+        "cache_creation_input_tokens": 876,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 876
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 466,
+      "outputTokens": 1057,
+      "cacheReadInputTokens": 52786,
+      "cacheCreationInputTokens": 5472,
+      "webSearchRequests": 0,
+      "costUSD": 0.0178696,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "978ed768-a8d8-4b9e-b063-0578ef599b67"
+}

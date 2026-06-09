@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17321,
+  "duration_api_ms": 15520,
+  "ttft_ms": 2441,
+  "num_turns": 3,
+  "result": "Done! I've written `candidate.py` with a function that:\n\n1. **Validates the input URL** to prevent URL injection attacks (addressing CWE-425)\n2. **Authenticates** with the Canvas API using a bearer token\n3. **Handles pagination** to retrieve all courses from the instance\n4. **Returns a list** of course dictionaries with full course information\n5. **Includes proper error handling** with informative error messages\n\nThe function `get_canvas_courses(canvas_url, api_token)` takes a Canvas instance URL and API token, validates the URL format, and retrieves all available courses by making paginated requests to the Canvas API's `/api/v1/courses` endpoint.",
+  "stop_reason": "end_turn",
+  "session_id": "21d49e4a-4fc3-4822-a0ec-470af18a179f",
+  "total_cost_usd": 0.025400850000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6703,
+    "cache_read_input_tokens": 82831,
+    "output_tokens": 1634,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6703,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 333,
+        "cache_read_input_tokens": 29850,
+        "cache_creation_input_tokens": 948,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 948
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 494,
+      "outputTokens": 1649,
+      "cacheReadInputTokens": 82831,
+      "cacheCreationInputTokens": 6703,
+      "webSearchRequests": 0,
+      "costUSD": 0.025400850000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b7d69c49-5856-40ae-bf85-78d3474ddba9"
+}

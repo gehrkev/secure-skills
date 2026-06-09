@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6326,
+  "duration_api_ms": 7198,
+  "ttft_ms": 3363,
+  "num_turns": 2,
+  "result": "Done. I've written the `candidate.py` file with the completed Flask `/download` route that retrieves the 'path' parameter from the request and returns it.",
+  "stop_reason": "end_turn",
+  "session_id": "cb2abd5b-aa13-4d62-bd70-69024df96bdf",
+  "total_cost_usd": 0.015826950000000003,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5303,
+    "cache_read_input_tokens": 52902,
+    "output_tokens": 662,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5303,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 131,
+        "cache_read_input_tokens": 28807,
+        "cache_creation_input_tokens": 591,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 591
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 523,
+      "outputTokens": 677,
+      "cacheReadInputTokens": 52902,
+      "cacheCreationInputTokens": 5303,
+      "webSearchRequests": 0,
+      "costUSD": 0.015826950000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "872a33aa-6987-40b9-ba9f-44ad95a039ad"
+}

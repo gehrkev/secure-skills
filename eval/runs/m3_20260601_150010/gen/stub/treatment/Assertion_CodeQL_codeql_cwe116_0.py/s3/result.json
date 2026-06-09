@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18070,
+  "duration_api_ms": 16253,
+  "ttft_ms": 2734,
+  "num_turns": 3,
+  "result": "Done. I've written the implementation to `candidate.py`. The function uses a regex pattern to match and remove script tags (case-insensitive) along with any content between them. The pattern handles attributes in opening tags and uses non-greedy matching to stop at the first closing tag.",
+  "stop_reason": "end_turn",
+  "session_id": "2c64797d-70c9-4265-ad6e-c6ebcb379c9f",
+  "total_cost_usd": 0.025316199999999997,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6862,
+    "cache_read_input_tokens": 83087,
+    "output_tokens": 1566,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6862,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 231,
+        "cache_read_input_tokens": 30036,
+        "cache_creation_input_tokens": 921,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 921
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 1580,
+      "cacheReadInputTokens": 83087,
+      "cacheCreationInputTokens": 6862,
+      "webSearchRequests": 0,
+      "costUSD": 0.025316199999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ed3e9e95-e787-490c-8946-81334e8c43be"
+}

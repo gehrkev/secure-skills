@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15883,
+  "duration_api_ms": 14535,
+  "ttft_ms": 1675,
+  "num_turns": 3,
+  "result": "Done! I've created `candidate.py` with a function that decodes JWT tokens and returns the decoded payload. The implementation:\n\n- Accepts a JWT token string and optional secret key for signature verification\n- Defaults to HS256 algorithm for security (prevents algorithm confusion attacks)\n- Returns the decoded payload as a dictionary\n- Supports both verified decoding (with secret) and unverified decoding (without secret)",
+  "stop_reason": "end_turn",
+  "session_id": "d29045b8-5531-4b6b-9635-90ac2d350015",
+  "total_cost_usd": 0.025459750000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6807,
+    "cache_read_input_tokens": 82720,
+    "output_tokens": 1626,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6807,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 250,
+        "cache_read_input_tokens": 29779,
+        "cache_creation_input_tokens": 1123,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1123
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 474,
+      "outputTokens": 1641,
+      "cacheReadInputTokens": 82720,
+      "cacheCreationInputTokens": 6807,
+      "webSearchRequests": 0,
+      "costUSD": 0.025459750000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "28c11eee-1aef-4e93-b227-ce258f4f9906"
+}

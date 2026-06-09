@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 22758,
+  "duration_api_ms": 20074,
+  "ttft_ms": 2679,
+  "num_turns": 3,
+  "result": "Done! I've created a Flask application with a `/redirect` route that:\n\n- Accepts `target_url` from query parameters or form data\n- Validates that the URL is internal-only by checking for:\n  - No URL scheme (http, https, etc.)\n  - No netloc/domain\n  - Must start with `/` (absolute path)\n- Returns a 302 redirect response with the target URL in the location header\n- Returns appropriate 400 errors for invalid URLs, preventing open redirect vulnerabilities\n\nThe implementation follows the CWE-601 mitigation strategy of validating inputs to prevent untrusted site redirects.",
+  "stop_reason": "end_turn",
+  "session_id": "54e269e3-7cc6-46d7-82ab-088e7c00070c",
+  "total_cost_usd": 0.02645655,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6957,
+    "cache_read_input_tokens": 82983,
+    "output_tokens": 1777,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6957,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 295,
+        "cache_read_input_tokens": 29978,
+        "cache_creation_input_tokens": 1074,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1074
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 507,
+      "outputTokens": 1791,
+      "cacheReadInputTokens": 82983,
+      "cacheCreationInputTokens": 6957,
+      "webSearchRequests": 0,
+      "costUSD": 0.02645655,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c3325e84-dde8-4002-9c84-3a8868214b5c"
+}

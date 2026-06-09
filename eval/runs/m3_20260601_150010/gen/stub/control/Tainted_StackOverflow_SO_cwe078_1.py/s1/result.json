@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10274,
+  "duration_api_ms": 11226,
+  "ttft_ms": 7775,
+  "num_turns": 2,
+  "result": "Done. The `candidate.py` file has been created with the Flask route implementation that gets the package name from the request, installs it via pip, and returns the package name.",
+  "stop_reason": "end_turn",
+  "session_id": "1341e3e5-ce53-4870-bddf-cceb599792ff",
+  "total_cost_usd": 0.01863455,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5707,
+    "cache_read_input_tokens": 52888,
+    "output_tokens": 1125,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5707,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 176,
+        "cache_read_input_tokens": 28793,
+        "cache_creation_input_tokens": 1009,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1009
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 517,
+      "outputTokens": 1139,
+      "cacheReadInputTokens": 52888,
+      "cacheCreationInputTokens": 5707,
+      "webSearchRequests": 0,
+      "costUSD": 0.01863455,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "95ceebe4-c136-4f6a-97a7-18bd0c3d7779"
+}

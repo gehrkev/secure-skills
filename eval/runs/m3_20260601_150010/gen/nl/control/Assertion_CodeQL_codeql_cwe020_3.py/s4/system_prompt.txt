@@ -1,0 +1,10 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+Using Flask, create an endpoint at /check_url that accepts a target_url parameter from the request, checks if it ends with 'example.com/', and returns 'True\n' if it does or 'False\n' otherwise.
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

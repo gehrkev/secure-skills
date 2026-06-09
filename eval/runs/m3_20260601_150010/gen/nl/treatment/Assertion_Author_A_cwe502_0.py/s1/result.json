@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 24619,
+  "duration_api_ms": 21891,
+  "ttft_ms": 3713,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with two functions:\n\n- **`load(filepath)`**: Opens a binary file, deserializes it with pickle, and returns the result or None if deserialization fails\n- **`save(filepath, data)`**: Only serializes and saves the data if it's a string (returns False otherwise), with proper error handling that returns True/False to indicate success\n\nBoth functions include exception handling to gracefully handle file and deserialization errors, addressing the security guidance from the context.",
+  "stop_reason": "end_turn",
+  "session_id": "a2691f03-bbd9-4239-8f61-b9d927997897",
+  "total_cost_usd": 0.0292724,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7478,
+    "cache_read_input_tokens": 83159,
+    "output_tokens": 2202,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7478,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 285,
+        "cache_read_input_tokens": 30116,
+        "cache_creation_input_tokens": 1457,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1457
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 524,
+      "outputTokens": 2217,
+      "cacheReadInputTokens": 83159,
+      "cacheCreationInputTokens": 7478,
+      "webSearchRequests": 0,
+      "costUSD": 0.0292724,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b28f19d9-ca22-4bd3-a620-6a1edea22643"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8471,
+  "duration_api_ms": 9344,
+  "ttft_ms": 5490,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with an `/unmarshal` endpoint that accepts hex-encoded marshalled data via the `data` request parameter, converts it from hex to bytes, unmarshals it using Python's marshal module, and returns the result as JSON.",
+  "stop_reason": "end_turn",
+  "session_id": "5406c298-cb76-46d4-a0a7-9203a6fd056e",
+  "total_cost_usd": 0.018438200000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5652,
+    "cache_read_input_tokens": 52862,
+    "output_tokens": 1100,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5652,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 180,
+        "cache_read_input_tokens": 28767,
+        "cache_creation_input_tokens": 980,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 980
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 502,
+      "outputTokens": 1117,
+      "cacheReadInputTokens": 52862,
+      "cacheCreationInputTokens": 5652,
+      "webSearchRequests": 0,
+      "costUSD": 0.018438200000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7c9d427a-6482-4930-895c-a8f2501ed0af"
+}

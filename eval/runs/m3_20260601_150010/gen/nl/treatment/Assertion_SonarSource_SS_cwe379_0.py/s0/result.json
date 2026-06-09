@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15220,
+  "duration_api_ms": 13126,
+  "ttft_ms": 2131,
+  "num_turns": 3,
+  "result": "Done. I've created a secure function that:\n- Uses Python's `tempfile.NamedTemporaryFile` to safely create a temporary file\n- Writes the unicode string with UTF-8 encoding explicitly specified\n- Returns the file path so it can be accessed after the function returns\n\nThe function is written to `candidate.py`.",
+  "stop_reason": "end_turn",
+  "session_id": "3c51ceb7-970d-4979-88d3-48e85de1c902",
+  "total_cost_usd": 0.023632550000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6513,
+    "cache_read_input_tokens": 82863,
+    "output_tokens": 1326,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6513,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 238,
+        "cache_read_input_tokens": 29892,
+        "cache_creation_input_tokens": 716,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 716
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1343,
+      "cacheReadInputTokens": 82863,
+      "cacheCreationInputTokens": 6513,
+      "webSearchRequests": 0,
+      "costUSD": 0.023632550000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8d934e7f-be91-4669-975e-a6f24f9d08df"
+}

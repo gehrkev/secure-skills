@@ -1,0 +1,52 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_zgod7o3i.py",
+  "target_cwe": "CWE-94",
+  "findings": [
+    {
+      "cwe": "CWE-116",
+      "line": 38,
+      "rule_id": "py/code-injection",
+      "message": "This code execution depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-94",
+      "line": 38,
+      "rule_id": "py/code-injection",
+      "message": "This code execution depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-95",
+      "line": 38,
+      "rule_id": "py/code-injection",
+      "message": "This code execution depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-116",
+      "line": 43,
+      "rule_id": "py/code-injection",
+      "message": "This code execution depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-94",
+      "line": 43,
+      "rule_id": "py/code-injection",
+      "message": "This code execution depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-95",
+      "line": 43,
+      "rule_id": "py/code-injection",
+      "message": "This code execution depends on a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 6,
+    "by_cwe": {
+      "CWE-116": 2,
+      "CWE-94": 2,
+      "CWE-95": 2
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-8e51f6_a/results.sarif"
+}

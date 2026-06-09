@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18051,
+  "duration_api_ms": 15791,
+  "ttft_ms": 2352,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with a secure implementation that:\n\n- **Prevents XXE attacks** (CWE-776/611): Configures the XML parser with `resolve_entities=False` to disable DTD and external entity expansion\n- **Validates input**: Checks that both required parameters ('xml' and 'xslt') are provided before processing\n- **Handles errors gracefully**: Returns error messages with appropriate HTTP status codes",
+  "stop_reason": "end_turn",
+  "session_id": "7b2546f5-a5d2-47c4-adb4-91a9a3221add",
+  "total_cost_usd": 0.026280949999999997,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7099,
+    "cache_read_input_tokens": 83292,
+    "output_tokens": 1686,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7099,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 261,
+        "cache_read_input_tokens": 30167,
+        "cache_creation_input_tokens": 1027,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1027
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 568,
+      "outputTokens": 1702,
+      "cacheReadInputTokens": 83292,
+      "cacheCreationInputTokens": 7099,
+      "webSearchRequests": 0,
+      "costUSD": 0.026280949999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e31d1b41-5f94-4c7f-9677-d020d3d94741"
+}

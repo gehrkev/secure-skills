@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23106,
+  "duration_api_ms": 21067,
+  "ttft_ms": 2336,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with two functions:\n\n1. **`encode_payload_to_jwt`** - Takes a payload dictionary and encodes it into a JWT token using a secret key\n2. **`decode_jwt_token`** - Takes a JWT token string and decodes it back to the payload\n\nBoth functions use the `HS256` algorithm for signing/verification and require a secret key, following security best practices for JWT handling as outlined in the CWE-502 guidance.",
+  "stop_reason": "end_turn",
+  "session_id": "cb97579b-ebd1-49f9-8432-6125126aaec0",
+  "total_cost_usd": 0.02876885,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7333,
+    "cache_read_input_tokens": 82766,
+    "output_tokens": 2155,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7333,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 262,
+        "cache_read_input_tokens": 29813,
+        "cache_creation_input_tokens": 1615,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1615
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 481,
+      "outputTokens": 2169,
+      "cacheReadInputTokens": 82766,
+      "cacheCreationInputTokens": 7333,
+      "webSearchRequests": 0,
+      "costUSD": 0.02876885,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f90fb734-92d8-4637-86b5-f00be9ba940d"
+}

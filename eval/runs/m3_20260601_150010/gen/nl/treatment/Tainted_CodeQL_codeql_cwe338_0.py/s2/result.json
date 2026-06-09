@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15956,
+  "duration_api_ms": 13179,
+  "ttft_ms": 2261,
+  "num_turns": 3,
+  "result": "Done! I've created `candidate.py` with a Python script that generates a random 8-character password including numbers, using cryptographically secure random generation (`secrets` module) as recommended by the security guidance to mitigate CWE-338 and CWE-330.",
+  "stop_reason": "end_turn",
+  "session_id": "67429479-078b-4240-830b-d665b8217829",
+  "total_cost_usd": 0.02267385,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6271,
+    "cache_read_input_tokens": 82611,
+    "output_tokens": 1205,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6271,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 235,
+        "cache_read_input_tokens": 29672,
+        "cache_creation_input_tokens": 694,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 694
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 474,
+      "outputTokens": 1220,
+      "cacheReadInputTokens": 82611,
+      "cacheCreationInputTokens": 6271,
+      "webSearchRequests": 0,
+      "costUSD": 0.02267385,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ccae675a-1630-4d12-a6f5-52602b8a8521"
+}

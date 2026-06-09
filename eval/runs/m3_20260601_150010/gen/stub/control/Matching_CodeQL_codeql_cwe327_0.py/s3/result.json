@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12538,
+  "duration_api_ms": 13555,
+  "ttft_ms": 10162,
+  "num_turns": 2,
+  "result": "Done. The function creates an AES cipher in EAX mode, encrypts the message, and sends the nonce, authentication tag, and ciphertext over the channel.",
+  "stop_reason": "end_turn",
+  "session_id": "1ac50c45-e46f-4dc3-9587-990aade2e350",
+  "total_cost_usd": 0.021687599999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6252,
+    "cache_read_input_tokens": 52936,
+    "output_tokens": 1593,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6252,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 149,
+        "cache_read_input_tokens": 28841,
+        "cache_creation_input_tokens": 1506,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1506
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 539,
+      "outputTokens": 1608,
+      "cacheReadInputTokens": 52936,
+      "cacheCreationInputTokens": 6252,
+      "webSearchRequests": 0,
+      "costUSD": 0.021687599999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1e167ce9-d43f-4772-9196-248700de1b1c"
+}

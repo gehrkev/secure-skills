@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16187,
+  "duration_api_ms": 17119,
+  "ttft_ms": 13490,
+  "num_turns": 2,
+  "result": "Done. Created `candidate.py` with a Flask app that has an `/unpickled` endpoint. It takes the hex-encoded pickled data from the `data` request parameter, converts it to bytes, unpickles it, and returns the deserialized data.",
+  "stop_reason": "end_turn",
+  "session_id": "43d50325-b502-4423-a99b-2b1f64df1d7b",
+  "total_cost_usd": 0.024481749999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6619,
+    "cache_read_input_tokens": 52850,
+    "output_tokens": 2071,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6619,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 172,
+        "cache_read_input_tokens": 28755,
+        "cache_creation_input_tokens": 1959,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1959
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 2085,
+      "cacheReadInputTokens": 52850,
+      "cacheCreationInputTokens": 6619,
+      "webSearchRequests": 0,
+      "costUSD": 0.024481749999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "88fb984f-5441-47d6-8cb3-f2c532fab804"
+}

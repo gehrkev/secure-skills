@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9089,
+  "duration_api_ms": 9979,
+  "ttft_ms": 6692,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with the `filterScriptTags` function that removes script tags using regex substitution.",
+  "stop_reason": "end_turn",
+  "session_id": "903e4e0d-a249-49a2-bca7-3a78311e1491",
+  "total_cost_usd": 0.0176624,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5552,
+    "cache_read_input_tokens": 52904,
+    "output_tokens": 969,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5552,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 189,
+        "cache_read_input_tokens": 28809,
+        "cache_creation_input_tokens": 838,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 838
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 522,
+      "outputTokens": 982,
+      "cacheReadInputTokens": 52904,
+      "cacheCreationInputTokens": 5552,
+      "webSearchRequests": 0,
+      "costUSD": 0.0176624,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "590d7281-c672-44c8-a34e-47143f0bfa40"
+}

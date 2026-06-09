@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15711,
+  "duration_api_ms": 13127,
+  "ttft_ms": 2041,
+  "num_turns": 3,
+  "result": "Done. The code has been written to `candidate.py`. It sets up a logger and logs a username at warning level, following the security guidance to avoid logging sensitive information.",
+  "stop_reason": "end_turn",
+  "session_id": "cb1f1718-6479-4942-ac99-2afe7ef71aef",
+  "total_cost_usd": 0.023591800000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6574,
+    "cache_read_input_tokens": 82673,
+    "output_tokens": 1314,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6574,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 170,
+        "cache_read_input_tokens": 29738,
+        "cache_creation_input_tokens": 931,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 931
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 472,
+      "outputTokens": 1327,
+      "cacheReadInputTokens": 82673,
+      "cacheCreationInputTokens": 6574,
+      "webSearchRequests": 0,
+      "costUSD": 0.023591800000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "69be5e08-1eeb-4272-8675-0d8cb2c2dd60"
+}

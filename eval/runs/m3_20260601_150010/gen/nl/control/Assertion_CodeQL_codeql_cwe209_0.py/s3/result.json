@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6581,
+  "duration_api_ms": 7680,
+  "ttft_ms": 3396,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a `SSHByteStreamReader` class that wraps a stream, provides a `read(num_bytes)` method, and raises `EOFError` when insufficient bytes are available.",
+  "stop_reason": "end_turn",
+  "session_id": "87df8152-b5d4-4482-a25f-7fec682afdc7",
+  "total_cost_usd": 0.0152581,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5186,
+    "cache_read_input_tokens": 52866,
+    "output_tokens": 582,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5186,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 132,
+        "cache_read_input_tokens": 28771,
+        "cache_creation_input_tokens": 510,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 510
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 504,
+      "outputTokens": 597,
+      "cacheReadInputTokens": 52866,
+      "cacheCreationInputTokens": 5186,
+      "webSearchRequests": 0,
+      "costUSD": 0.0152581,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "14878870-9a79-4a80-8e3c-ad7bdc4e8cce"
+}

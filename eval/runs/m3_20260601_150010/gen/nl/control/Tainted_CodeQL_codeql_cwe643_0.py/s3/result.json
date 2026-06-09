@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11167,
+  "duration_api_ms": 12575,
+  "ttft_ms": 6125,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask endpoint at `candidate.py` that:\n\n- Accepts `xml_src` and `xpath` as request parameters (supports both query string and form data)\n- Parses the XML using lxml\n- Executes the XPath query against the parsed XML\n- Returns results as JSON, handling different result types (strings, booleans, numbers, and XML elements)\n- Includes proper error handling for invalid XML and XPath syntax\n\nThe endpoint is accessible at `/xpath` and supports both GET and POST requests.",
+  "stop_reason": "end_turn",
+  "session_id": "e37c16d3-89e1-48d1-a8da-bf0e94827145",
+  "total_cost_usd": 0.02174475,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6035,
+    "cache_read_input_tokens": 52840,
+    "output_tokens": 1670,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6035,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 334,
+        "cache_read_input_tokens": 28745,
+        "cache_creation_input_tokens": 1385,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1385
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 492,
+      "outputTokens": 1685,
+      "cacheReadInputTokens": 52840,
+      "cacheCreationInputTokens": 6035,
+      "webSearchRequests": 0,
+      "costUSD": 0.02174475,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "dc8697b7-1b23-402f-8ee7-c477cdc95be7"
+}

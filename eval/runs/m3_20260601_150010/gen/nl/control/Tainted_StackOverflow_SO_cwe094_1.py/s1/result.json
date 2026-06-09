@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8803,
+  "duration_api_ms": 9777,
+  "ttft_ms": 3524,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a Flask application that has an `/execute` endpoint. It accepts the 'code' parameter, executes the Python code using `exec()`, and returns 'Executed'.",
+  "stop_reason": "end_turn",
+  "session_id": "4a479388-fe1e-4b13-8e94-c491220f1687",
+  "total_cost_usd": 0.01571865,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5197,
+    "cache_read_input_tokens": 52824,
+    "output_tokens": 676,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5197,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 173,
+        "cache_read_input_tokens": 28729,
+        "cache_creation_input_tokens": 563,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 563
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 485,
+      "outputTokens": 691,
+      "cacheReadInputTokens": 52824,
+      "cacheCreationInputTokens": 5197,
+      "webSearchRequests": 0,
+      "costUSD": 0.01571865,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "458f66c8-0199-476d-bfd1-5b7e9eae19eb"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9136,
+  "duration_api_ms": 10128,
+  "ttft_ms": 5631,
+  "num_turns": 2,
+  "result": "Done. The function retrieves the username and password from request parameters, uses `usermod` to change the password (hashed with openssl), and returns them as a comma-separated string.",
+  "stop_reason": "end_turn",
+  "session_id": "a4d06715-6f3e-4245-a5ad-4240c8a1a61f",
+  "total_cost_usd": 0.0172225,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5558,
+    "cache_read_input_tokens": 52940,
+    "output_tokens": 875,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5558,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 125,
+        "cache_read_input_tokens": 28845,
+        "cache_creation_input_tokens": 808,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 808
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 541,
+      "outputTokens": 888,
+      "cacheReadInputTokens": 52940,
+      "cacheCreationInputTokens": 5558,
+      "webSearchRequests": 0,
+      "costUSD": 0.0172225,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1a600ceb-262a-425c-a2b9-f883d06f687d"
+}

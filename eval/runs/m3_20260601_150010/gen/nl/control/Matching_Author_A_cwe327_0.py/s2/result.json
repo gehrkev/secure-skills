@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12774,
+  "duration_api_ms": 14063,
+  "ttft_ms": 9684,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/verify` endpoint that:\n\n- Accepts `certificate` and `known_hash` parameters via query string (GET) or JSON body (POST)\n- Computes the SHA256 hash of the certificate\n- Returns `True` if the hashes match, `False` otherwise\n- Returns `False` if either parameter is missing",
+  "stop_reason": "end_turn",
+  "session_id": "ac7ed4e2-bd01-4195-bf4a-cee85494bd16",
+  "total_cost_usd": 0.022561150000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6243,
+    "cache_read_input_tokens": 52834,
+    "output_tokens": 1784,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6243,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 242,
+        "cache_read_input_tokens": 28739,
+        "cache_creation_input_tokens": 1599,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1599
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 489,
+      "outputTokens": 1797,
+      "cacheReadInputTokens": 52834,
+      "cacheCreationInputTokens": 6243,
+      "webSearchRequests": 0,
+      "costUSD": 0.022561150000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c085c81b-3ea2-4a85-910d-1e274a35eec1"
+}

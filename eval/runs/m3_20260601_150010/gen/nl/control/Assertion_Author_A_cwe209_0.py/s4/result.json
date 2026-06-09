@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12194,
+  "duration_api_ms": 13144,
+  "ttft_ms": 8857,
+  "num_turns": 2,
+  "result": "Done. I've written a Flask-based login endpoint to `candidate.py` that:\n\n- Accepts POST requests with JSON body containing `username` and `token`\n- Verifies credentials against a SQLite database\n- Returns `{\"message\": \"Authentication successful\"}` with HTTP 200 if credentials match\n- Returns `{\"message\": \"Authentication failed\"}` with HTTP 401 if they don't match\n- Includes database initialization with sample test users",
+  "stop_reason": "end_turn",
+  "session_id": "19a6524a-d5a0-4025-9c46-ab460823f837",
+  "total_cost_usd": 0.022533499999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6262,
+    "cache_read_input_tokens": 52860,
+    "output_tokens": 1770,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6262,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 233,
+        "cache_read_input_tokens": 28765,
+        "cache_creation_input_tokens": 1592,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1592
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 500,
+      "outputTokens": 1784,
+      "cacheReadInputTokens": 52860,
+      "cacheCreationInputTokens": 6262,
+      "webSearchRequests": 0,
+      "costUSD": 0.022533499999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6cfda3b9-5d79-4ce4-9ece-a28d1aa7f850"
+}

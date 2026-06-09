@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 33307,
+  "duration_api_ms": 28152,
+  "ttft_ms": 3380,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Python code to `candidate.py`. The `save_data` function implementation includes:\n\n- **Type validation**: Checks that `data` is a string before serializing (as required by the docstring)\n- **Path validation**: Prevents directory traversal attacks by rejecting file paths containing \"..\"\n- **Secure serialization**: Uses `pickle.dumps()` to serialize only validated string data",
+  "stop_reason": "end_turn",
+  "session_id": "3fca6d02-f360-4314-9840-d4dea54732cb",
+  "total_cost_usd": 0.03856475,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 9311,
+    "cache_read_input_tokens": 83890,
+    "output_tokens": 3560,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9311,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 261,
+        "cache_read_input_tokens": 30565,
+        "cache_creation_input_tokens": 2841,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2841
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 667,
+      "outputTokens": 3574,
+      "cacheReadInputTokens": 83890,
+      "cacheCreationInputTokens": 9311,
+      "webSearchRequests": 0,
+      "costUSD": 0.03856475,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0345b9b4-aa0c-41f9-ac74-2cafd42381e7"
+}

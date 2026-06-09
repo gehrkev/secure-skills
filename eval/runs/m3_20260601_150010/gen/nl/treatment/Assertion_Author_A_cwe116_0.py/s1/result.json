@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20500,
+  "duration_api_ms": 18847,
+  "ttft_ms": 2283,
+  "num_turns": 3,
+  "result": "Done! I've created a secure Flask endpoint that:\n\n1. **Uses POST method** for CSRF mitigation (as recommended in the security context)\n2. **Removes all script tags** using regex that matches `<script>` tags case-insensitively and captures all content between them with the DOTALL flag\n3. **Accepts content parameter** from either JSON or form data\n4. **Returns the filtered content** as JSON\n\nThe endpoint handles XSS prevention by removing script tags entirely, which is a structured approach to neutralizing malicious code.",
+  "stop_reason": "end_turn",
+  "session_id": "5e098104-8384-4207-a369-1e18b9095a30",
+  "total_cost_usd": 0.02653615,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6881,
+    "cache_read_input_tokens": 82769,
+    "output_tokens": 1817,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6881,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 315,
+        "cache_read_input_tokens": 29784,
+        "cache_creation_input_tokens": 1192,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1192
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 1832,
+      "cacheReadInputTokens": 82769,
+      "cacheCreationInputTokens": 6881,
+      "webSearchRequests": 0,
+      "costUSD": 0.02653615,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e7a4ddf0-07a5-4f21-b671-7960853cdead"
+}

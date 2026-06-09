@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5130,
+  "duration_api_ms": 5990,
+  "ttft_ms": 2223,
+  "num_turns": 2,
+  "result": "Done. I've written the `calculate_average_score()` function to `candidate.py`. It takes the total score and total count as parameters and returns their quotient, with a guard against division by zero.",
+  "stop_reason": "end_turn",
+  "session_id": "d466ba86-0156-487a-b4eb-942fe0bbbd83",
+  "total_cost_usd": 0.01387085,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 4925,
+    "cache_read_input_tokens": 52806,
+    "output_tokens": 380,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 4925,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 133,
+        "cache_read_input_tokens": 28711,
+        "cache_creation_input_tokens": 309,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 309
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 474,
+      "outputTokens": 392,
+      "cacheReadInputTokens": 52806,
+      "cacheCreationInputTokens": 4925,
+      "webSearchRequests": 0,
+      "costUSD": 0.01387085,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0a1cac87-209f-4032-a02b-cac82a91a2ca"
+}

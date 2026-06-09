@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10766,
+  "duration_api_ms": 11878,
+  "ttft_ms": 4961,
+  "num_turns": 2,
+  "result": "Done! I've created `candidate.py` with:\n\n- **`load(filepath)`** \u2014 Opens a binary file, deserializes it with pickle, and returns the result or None if deserialization fails\n- **`save(data, filepath)`** \u2014 Serializes data to a binary file using pickle, but only if the input is a string",
+  "stop_reason": "end_turn",
+  "session_id": "bff2dab9-a1fc-4d58-9493-9024c9fe1f05",
+  "total_cost_usd": 0.01747,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5468,
+    "cache_read_input_tokens": 52890,
+    "output_tokens": 951,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5468,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 241,
+        "cache_read_input_tokens": 28795,
+        "cache_creation_input_tokens": 768,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 768
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 516,
+      "outputTokens": 966,
+      "cacheReadInputTokens": 52890,
+      "cacheCreationInputTokens": 5468,
+      "webSearchRequests": 0,
+      "costUSD": 0.01747,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "fcaa16d9-7206-415b-bf39-f79561b95429"
+}

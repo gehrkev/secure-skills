@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 25542,
+  "duration_api_ms": 22640,
+  "ttft_ms": 2337,
+  "num_turns": 3,
+  "result": "Done. The implementation retrieves the XML data from the `xml_src` request parameter, parses it securely with entity expansion disabled to prevent XXE attacks (CWE-776), and returns the XML as a string. Error handling is included for invalid XML.",
+  "stop_reason": "end_turn",
+  "session_id": "ec92e8a9-7fe9-4ae8-965a-3bea413b70d5",
+  "total_cost_usd": 0.034392599999999995,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8424,
+    "cache_read_input_tokens": 83136,
+    "output_tokens": 2987,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8424,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 201,
+        "cache_read_input_tokens": 30055,
+        "cache_creation_input_tokens": 2464,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2464
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 544,
+      "outputTokens": 3001,
+      "cacheReadInputTokens": 83136,
+      "cacheCreationInputTokens": 8424,
+      "webSearchRequests": 0,
+      "costUSD": 0.034392599999999995,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7c8c9157-fff3-4de1-8ce0-9be87b65818d"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18196,
+  "duration_api_ms": 15948,
+  "ttft_ms": 2473,
+  "num_turns": 3,
+  "result": "Done. The Flask application has been written to `candidate.py`. It:\n\n1. Creates a GET endpoint at `/upload`\n2. Retrieves the `xml_src` parameter from the query string\n3. Parses the XML string using `xml.etree.ElementTree`\n4. Returns the parsed XML as a string\n5. Returns a 400 error if the XML is invalid",
+  "stop_reason": "end_turn",
+  "session_id": "2ca33fa1-7062-403d-95cc-73474d2fb520",
+  "total_cost_usd": 0.0268447,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7106,
+    "cache_read_input_tokens": 82902,
+    "output_tokens": 1819,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7106,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 192,
+        "cache_read_input_tokens": 29909,
+        "cache_creation_input_tokens": 1292,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1292
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 502,
+      "outputTokens": 1834,
+      "cacheReadInputTokens": 82902,
+      "cacheCreationInputTokens": 7106,
+      "webSearchRequests": 0,
+      "costUSD": 0.0268447,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1eadfc20-ae34-4e1e-9d7a-5c6a80bb1894"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8921,
+  "duration_api_ms": 9999,
+  "ttft_ms": 6164,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with an `/install` endpoint that accepts a package name parameter, installs it using conda, and returns the package name. The endpoint supports both GET and POST requests and includes basic error handling.",
+  "stop_reason": "end_turn",
+  "session_id": "af54a5c4-8b29-4b24-b368-e0a3a761ce5e",
+  "total_cost_usd": 0.018119200000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5592,
+    "cache_read_input_tokens": 52832,
+    "output_tokens": 1057,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5592,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 166,
+        "cache_read_input_tokens": 28737,
+        "cache_creation_input_tokens": 950,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 950
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 486,
+      "outputTokens": 1072,
+      "cacheReadInputTokens": 52832,
+      "cacheCreationInputTokens": 5592,
+      "webSearchRequests": 0,
+      "costUSD": 0.018119200000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8975bfcb-f120-43ca-b69c-94837d238e4d"
+}

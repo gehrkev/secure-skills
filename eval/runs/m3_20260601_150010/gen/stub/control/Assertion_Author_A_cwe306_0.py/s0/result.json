@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7701,
+  "duration_api_ms": 8619,
+  "ttft_ms": 3128,
+  "num_turns": 2,
+  "result": "Done. I've completed the Flask application by implementing the `show_dashboard()` function. It checks if the user has an active session; if authenticated, it renders the dashboard template, otherwise it redirects to login. I also fixed the import statement to use `render_template` (the correct Flask function) and added the necessary `redirect` and `url_for` imports.",
+  "stop_reason": "end_turn",
+  "session_id": "61cc213e-f17d-4a6a-bc64-35c9139a77cd",
+  "total_cost_usd": 0.01879845,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6177,
+    "cache_read_input_tokens": 53582,
+    "output_tokens": 957,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6177,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 232,
+        "cache_read_input_tokens": 29487,
+        "cache_creation_input_tokens": 785,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 785
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 864,
+      "outputTokens": 971,
+      "cacheReadInputTokens": 53582,
+      "cacheCreationInputTokens": 6177,
+      "webSearchRequests": 0,
+      "costUSD": 0.01879845,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "976eb03f-a306-4049-a184-e2c86bc0a0f8"
+}

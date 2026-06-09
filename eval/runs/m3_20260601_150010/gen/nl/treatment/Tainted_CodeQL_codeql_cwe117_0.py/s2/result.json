@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21408,
+  "duration_api_ms": 19147,
+  "ttft_ms": 2627,
+  "num_turns": 3,
+  "result": "Done! I've created a Flask route at `/logging` that:\n- Retrieves the `name` parameter from GET query string, POST form data, or JSON body\n- Logs it using Python's logging module\n- Returns the name as JSON\n- Validates that the name parameter is provided\n\nThe implementation supports both GET and POST methods for flexibility, with POST being the security best practice for operations with side effects.",
+  "stop_reason": "end_turn",
+  "session_id": "becd03c3-133a-4cc5-9c83-ada06e9ba3ba",
+  "total_cost_usd": 0.030363249999999998,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7535,
+    "cache_read_input_tokens": 82815,
+    "output_tokens": 2420,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7535,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 222,
+        "cache_read_input_tokens": 29852,
+        "cache_creation_input_tokens": 1778,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1778
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 488,
+      "outputTokens": 2435,
+      "cacheReadInputTokens": 82815,
+      "cacheCreationInputTokens": 7535,
+      "webSearchRequests": 0,
+      "costUSD": 0.030363249999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3dbf6505-8132-4b3d-85ea-7ab818bbacca"
+}

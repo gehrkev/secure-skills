@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18658,
+  "duration_api_ms": 16626,
+  "ttft_ms": 2424,
+  "num_turns": 3,
+  "result": "Done. The `verify` function uses `hmac.compare_digest()` for timing-safe signature comparison, which prevents timing attacks and properly validates the integrity check value as guided by the security knowledge.",
+  "stop_reason": "end_turn",
+  "session_id": "dd4ab270-267e-4b88-b102-ff55ac7b2b53",
+  "total_cost_usd": 0.02531345,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7067,
+    "cache_read_input_tokens": 83397,
+    "output_tokens": 1494,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7067,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 191,
+        "cache_read_input_tokens": 30226,
+        "cache_creation_input_tokens": 936,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 936
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 590,
+      "outputTokens": 1510,
+      "cacheReadInputTokens": 83397,
+      "cacheCreationInputTokens": 7067,
+      "webSearchRequests": 0,
+      "costUSD": 0.02531345,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7b9d2136-f720-4b54-8e0a-ce17d04aa11e"
+}

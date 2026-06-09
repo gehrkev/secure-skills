@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8395,
+  "duration_api_ms": 9525,
+  "ttft_ms": 5802,
+  "num_turns": 2,
+  "result": "Done. I've written the complete `candidate.py` file with the `save_data` function implemented. It checks if the input is a string and only serializes/writes to the file if the type check passes.",
+  "stop_reason": "end_turn",
+  "session_id": "88ed9316-9e45-4ebe-9fb2-beac0fa59296",
+  "total_cost_usd": 0.0188993,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5946,
+    "cache_read_input_tokens": 53178,
+    "output_tokens": 1084,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5946,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 189,
+        "cache_read_input_tokens": 29083,
+        "cache_creation_input_tokens": 958,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 958
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 659,
+      "outputTokens": 1098,
+      "cacheReadInputTokens": 53178,
+      "cacheCreationInputTokens": 5946,
+      "webSearchRequests": 0,
+      "costUSD": 0.0188993,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "976fc795-b59d-4963-b708-52056e4cd2a7"
+}

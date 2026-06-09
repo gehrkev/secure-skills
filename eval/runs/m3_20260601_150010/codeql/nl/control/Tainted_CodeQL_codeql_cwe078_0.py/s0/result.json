@@ -1,0 +1,79 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/nl/control/Tainted_CodeQL_codeql_cwe078_0.py/s0/candidate.py",
+  "target_cwe": "CWE-78",
+  "findings": [
+    {
+      "cwe": "CWE-22",
+      "line": 12,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-23",
+      "line": 12,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-36",
+      "line": 12,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-73",
+      "line": 12,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-99",
+      "line": 12,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-22",
+      "line": 13,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-23",
+      "line": 13,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-36",
+      "line": 13,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-73",
+      "line": 13,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-99",
+      "line": 13,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 10,
+    "by_cwe": {
+      "CWE-22": 2,
+      "CWE-23": 2,
+      "CWE-36": 2,
+      "CWE-73": 2,
+      "CWE-99": 2
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-ntkh0t3_/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

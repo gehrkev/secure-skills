@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19219,
+  "duration_api_ms": 16937,
+  "ttft_ms": 3165,
+  "num_turns": 3,
+  "result": "Done! I've created a secure Flask endpoint at `/session` that:\n\n1. Uses the `secrets` module for cryptographically secure random number generation (mitigates CWE-338 and CWE-330)\n2. Stores the random number in the Flask session (mitigates CWE-384 with Flask's signed session cookies)\n3. Sets a secure secret key using cryptographically secure random bytes\n4. Returns the generated number as JSON\n\nThe endpoint generates a fresh random number on each request, stores it server-side in the session, and returns it to the client.",
+  "stop_reason": "end_turn",
+  "session_id": "9cfcc184-34c8-40f1-b259-2d6b6e6e359b",
+  "total_cost_usd": 0.027986700000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7166,
+    "cache_read_input_tokens": 83012,
+    "output_tokens": 2033,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7166,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 323,
+        "cache_read_input_tokens": 30041,
+        "cache_creation_input_tokens": 1220,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1220
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 488,
+      "outputTokens": 2048,
+      "cacheReadInputTokens": 83012,
+      "cacheCreationInputTokens": 7166,
+      "webSearchRequests": 0,
+      "costUSD": 0.027986700000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "2d90a2c9-741f-44b3-ae02-a953c6e33f0d"
+}

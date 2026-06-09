@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9474,
+  "duration_api_ms": 11457,
+  "ttft_ms": 7253,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with a Flask function that retrieves the 'cookie' from the request and sets it in the response.",
+  "stop_reason": "end_turn",
+  "session_id": "58beb7d6-42fe-4df0-ad46-47acccc5ebe3",
+  "total_cost_usd": 0.020025599999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5964,
+    "cache_read_input_tokens": 52906,
+    "output_tokens": 1336,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5964,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 149,
+        "cache_read_input_tokens": 28811,
+        "cache_creation_input_tokens": 1248,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1248
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 525,
+      "outputTokens": 1351,
+      "cacheReadInputTokens": 52906,
+      "cacheCreationInputTokens": 5964,
+      "webSearchRequests": 0,
+      "costUSD": 0.020025599999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "9bb64416-8d0b-462a-9775-32b9719b3299"
+}

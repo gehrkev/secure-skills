@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18210,
+  "duration_api_ms": 15858,
+  "ttft_ms": 2062,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Flask route handler to `candidate.py`. The code implements the secure pattern from the CWE-22 mitigation guidance by using a fixed mapping of IDs to file paths, which prevents path traversal attacks. It validates the input against the mapping, checks file existence, and returns the file safely using `send_file`.",
+  "stop_reason": "end_turn",
+  "session_id": "10596531-764c-47b1-b9c2-7f64710341b8",
+  "total_cost_usd": 0.024386750000000006,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6529,
+    "cache_read_input_tokens": 82795,
+    "output_tokens": 1470,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6529,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 230,
+        "cache_read_input_tokens": 29738,
+        "cache_creation_input_tokens": 886,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 886
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 531,
+      "outputTokens": 1483,
+      "cacheReadInputTokens": 82795,
+      "cacheCreationInputTokens": 6529,
+      "webSearchRequests": 0,
+      "costUSD": 0.024386750000000006,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ebbe3899-7805-4518-b10b-9a12b3c7d0fd"
+}

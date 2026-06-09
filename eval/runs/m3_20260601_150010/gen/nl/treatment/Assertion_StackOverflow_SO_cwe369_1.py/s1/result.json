@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12412,
+  "duration_api_ms": 10621,
+  "ttft_ms": 2461,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a function that calculates the average score. The implementation includes validation to prevent division by zero (CWE-369), raising a `ValueError` if the total count is zero, as recommended by the security guidance.",
+  "stop_reason": "end_turn",
+  "session_id": "37831f41-2ac2-4d7b-855f-ec18ba04b85c",
+  "total_cost_usd": 0.021240650000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6123,
+    "cache_read_input_tokens": 82699,
+    "output_tokens": 955,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6123,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 199,
+        "cache_read_input_tokens": 29744,
+        "cache_creation_input_tokens": 474,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 474
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 482,
+      "outputTokens": 967,
+      "cacheReadInputTokens": 82699,
+      "cacheCreationInputTokens": 6123,
+      "webSearchRequests": 0,
+      "costUSD": 0.021240650000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "32f9d481-2cad-4f65-a384-d52e0a88579a"
+}

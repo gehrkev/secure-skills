@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20622,
+  "duration_api_ms": 17828,
+  "ttft_ms": 2298,
+  "num_turns": 3,
+  "result": "Done. I've created a secure login route in `candidate.py` that:\n\n- **Validates credentials** against the database using `check_password_hash`\n- **Prevents open redirects** with `is_safe_redirect_url()` to validate the next URL\n- **Prevents session fixation** by calling `session.clear()` before setting new session data\n- **Handles authentication failure** by rendering `login.html` with the \"Authentication failed\" error message\n- **Creates a session** for authenticated users and redirects to the next URL (defaults to `/`)\n\nThe code uses Flask's built-in session management and the Werkzeug security utilities for safe password handling.",
+  "stop_reason": "end_turn",
+  "session_id": "50c28873-e356-4795-aca6-b9fd3ee36389",
+  "total_cost_usd": 0.02566005,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6803,
+    "cache_read_input_tokens": 83003,
+    "output_tokens": 1654,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6803,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 366,
+        "cache_read_input_tokens": 29976,
+        "cache_creation_input_tokens": 922,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 922
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 516,
+      "outputTokens": 1668,
+      "cacheReadInputTokens": 83003,
+      "cacheCreationInputTokens": 6803,
+      "webSearchRequests": 0,
+      "costUSD": 0.02566005,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3c74a78a-334c-4960-886c-e598c2830321"
+}

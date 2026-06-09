@@ -1,0 +1,35 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/nl/control/Tainted_CodeQL_codeql_cwe338_0.py/s0/candidate.py",
+  "target_cwe": "CWE-338",
+  "findings": [
+    {
+      "cwe": "CWE-312",
+      "line": 12,
+      "rule_id": "py/clear-text-logging-sensitive-data",
+      "message": "This expression logs [sensitive data (password)](1) as clear text."
+    },
+    {
+      "cwe": "CWE-359",
+      "line": 12,
+      "rule_id": "py/clear-text-logging-sensitive-data",
+      "message": "This expression logs [sensitive data (password)](1) as clear text."
+    },
+    {
+      "cwe": "CWE-532",
+      "line": 12,
+      "rule_id": "py/clear-text-logging-sensitive-data",
+      "message": "This expression logs [sensitive data (password)](1) as clear text."
+    }
+  ],
+  "summary": {
+    "total_findings": 3,
+    "by_cwe": {
+      "CWE-312": 1,
+      "CWE-359": 1,
+      "CWE-532": 1
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-pwl460ot/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11347,
+  "duration_api_ms": 12338,
+  "ttft_ms": 5023,
+  "num_turns": 2,
+  "result": "Done. I've written the `write_results` function to `candidate.py`. The implementation uses `tempfile.NamedTemporaryFile()` to create a temporary file with UTF-8 encoding, writes the results to it, and returns the file path.",
+  "stop_reason": "end_turn",
+  "session_id": "cb18688e-0f48-4523-be25-9931f0b3cf96",
+  "total_cost_usd": 0.0173565,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5526,
+    "cache_read_input_tokens": 52920,
+    "output_tokens": 911,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5526,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 176,
+        "cache_read_input_tokens": 28825,
+        "cache_creation_input_tokens": 796,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 796
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 532,
+      "outputTokens": 925,
+      "cacheReadInputTokens": 52920,
+      "cacheCreationInputTokens": 5526,
+      "webSearchRequests": 0,
+      "costUSD": 0.0173565,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6ce02b58-2287-46c5-8193-977f8d3363b2"
+}

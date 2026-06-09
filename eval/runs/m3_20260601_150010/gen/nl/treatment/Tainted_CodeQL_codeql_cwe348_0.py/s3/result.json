@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18488,
+  "duration_api_ms": 16226,
+  "ttft_ms": 2586,
+  "num_turns": 3,
+  "result": "Done. I've written the Flask endpoint to `candidate.py`. The implementation:\n\n- Retrieves the `X-Forwarded-For` header from the request\n- Extracts and validates the IP address (handling comma-separated proxy chains)\n- Checks if the IP is local using `ipaddress.ip_address()` with `is_loopback` and `is_private` properties\n- Raises exceptions for missing headers, invalid IPs, or non-local addresses\n- Returns the header value if the IP is local\n\nThe use of the `ipaddress` module prevents SSRF attacks by strictly validating that only local/private IPs are accepted.",
+  "stop_reason": "end_turn",
+  "session_id": "8ee66e32-9bb3-4229-bbd3-18baf5d15288",
+  "total_cost_usd": 0.0274732,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7138,
+    "cache_read_input_tokens": 83007,
+    "output_tokens": 1931,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7138,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 309,
+        "cache_read_input_tokens": 29988,
+        "cache_creation_input_tokens": 1245,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1245
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 515,
+      "outputTokens": 1947,
+      "cacheReadInputTokens": 83007,
+      "cacheCreationInputTokens": 7138,
+      "webSearchRequests": 0,
+      "costUSD": 0.0274732,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "057ff298-dd8e-4de5-b72b-c2181efed273"
+}

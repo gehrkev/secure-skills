@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8084,
+  "duration_api_ms": 9059,
+  "ttft_ms": 5307,
+  "num_turns": 2,
+  "result": "Done. The `execute_bash()` function has been completed to:\n- Extract the `command` parameter from the request query string\n- Execute it using `subprocess.run()` with `shell=True`\n- Return a JSON response containing the command, stdout, stderr, and return code\n- Handle errors gracefully with appropriate HTTP status codes",
+  "stop_reason": "end_turn",
+  "session_id": "d6b450b3-5b2a-4035-a145-ce00421e0b08",
+  "total_cost_usd": 0.017988249999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5561,
+    "cache_read_input_tokens": 52900,
+    "output_tokens": 1030,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5561,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 236,
+        "cache_read_input_tokens": 28805,
+        "cache_creation_input_tokens": 851,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 851
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 522,
+      "outputTokens": 1045,
+      "cacheReadInputTokens": 52900,
+      "cacheCreationInputTokens": 5561,
+      "webSearchRequests": 0,
+      "costUSD": 0.017988249999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d176dd4c-f41d-4387-a299-d52cf2d6f9f4"
+}

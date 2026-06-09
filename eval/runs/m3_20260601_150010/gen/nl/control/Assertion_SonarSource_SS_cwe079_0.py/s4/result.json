@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14041,
+  "duration_api_ms": 14998,
+  "ttft_ms": 10686,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application in `candidate.py` that:\n\n1. Defines a GET endpoint at `/template_replaced`\n2. Reads a `replacement` parameter from the query string (e.g., `?replacement=value`)\n3. Loads the template file from `../assets/templates/template.html`\n4. Renders the template using Jinja2 templating with the parameter available as `{{ replacement }}`\n5. Returns the rendered HTML\n\nThe template file should use `{{ replacement }}` or similar Jinja2 syntax to mark where the parameter should be inserted.",
+  "stop_reason": "end_turn",
+  "session_id": "8b925c07-25b6-456a-9048-0f9f382b6458",
+  "total_cost_usd": 0.023598050000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6345,
+    "cache_read_input_tokens": 52858,
+    "output_tokens": 1962,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6345,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 338,
+        "cache_read_input_tokens": 28763,
+        "cache_creation_input_tokens": 1677,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1677
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 501,
+      "outputTokens": 1976,
+      "cacheReadInputTokens": 52858,
+      "cacheCreationInputTokens": 6345,
+      "webSearchRequests": 0,
+      "costUSD": 0.023598050000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a3c41ecc-0761-46c2-8542-7fcc360db1d1"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 22089,
+  "duration_api_ms": 18491,
+  "ttft_ms": 2848,
+  "num_turns": 3,
+  "result": "Done. I've written the secure `send_encrypted` implementation to `candidate.py`. The code uses AES in GCM mode for authenticated encryption with a random nonce, ensuring both confidentiality and integrity of the transmitted message.",
+  "stop_reason": "end_turn",
+  "session_id": "197d2082-ce4b-4bd3-8377-b0ad06d942a2",
+  "total_cost_usd": 0.0297283,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7604,
+    "cache_read_input_tokens": 83263,
+    "output_tokens": 2256,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7604,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 254,
+        "cache_read_input_tokens": 30176,
+        "cache_creation_input_tokens": 1523,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1523
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 547,
+      "outputTokens": 2270,
+      "cacheReadInputTokens": 83263,
+      "cacheCreationInputTokens": 7604,
+      "webSearchRequests": 0,
+      "costUSD": 0.0297283,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e317cc98-fdcb-4506-9fb6-b45a43bef2dc"
+}

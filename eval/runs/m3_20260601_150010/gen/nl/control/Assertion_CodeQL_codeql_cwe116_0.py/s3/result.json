@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10330,
+  "duration_api_ms": 11410,
+  "ttft_ms": 7037,
+  "num_turns": 2,
+  "result": "Done. I've written a Python function that uses regex to remove all `<script>...</script>` tags and their contents from HTML. The function uses `re.sub()` with a pattern that matches script tags (with optional attributes) and everything between the opening and closing tags, supporting multiline content and case-insensitive matching.",
+  "stop_reason": "end_turn",
+  "session_id": "62b8e2bd-84b0-48db-acee-557b9325218c",
+  "total_cost_usd": 0.01814365,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5509,
+    "cache_read_input_tokens": 52854,
+    "output_tokens": 1080,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5509,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 294,
+        "cache_read_input_tokens": 28759,
+        "cache_creation_input_tokens": 845,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 845
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 497,
+      "outputTokens": 1095,
+      "cacheReadInputTokens": 52854,
+      "cacheCreationInputTokens": 5509,
+      "webSearchRequests": 0,
+      "costUSD": 0.01814365,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "86b3c536-01b4-41da-ac09-388dc7b1ad47"
+}

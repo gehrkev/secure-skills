@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18002,
+  "duration_api_ms": 15997,
+  "ttft_ms": 2376,
+  "num_turns": 3,
+  "result": "Done. I've written the JWT decode implementation to `candidate.py`. The function uses the PyJWT library to safely decode the JWT payload without signature verification, with proper error handling for invalid tokens.",
+  "stop_reason": "end_turn",
+  "session_id": "b3d43fcb-290d-450b-a498-838f281fd1dd",
+  "total_cost_usd": 0.0256206,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6982,
+    "cache_read_input_tokens": 83011,
+    "output_tokens": 1603,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6982,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 136,
+        "cache_read_input_tokens": 29992,
+        "cache_creation_input_tokens": 1085,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1085
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 512,
+      "outputTokens": 1616,
+      "cacheReadInputTokens": 83011,
+      "cacheCreationInputTokens": 6982,
+      "webSearchRequests": 0,
+      "costUSD": 0.0256206,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c2d626b9-8947-4891-b619-71402b2e4437"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17548,
+  "duration_api_ms": 14831,
+  "ttft_ms": 3096,
+  "num_turns": 3,
+  "result": "Done. The code safely extracts JSON between the first `{` and last `}`, then parses it using `json.loads()` instead of `eval()` to prevent code injection vulnerabilities as warned by the CWE-94 guidance.",
+  "stop_reason": "end_turn",
+  "session_id": "9cfc2c48-e6ed-4fb7-bfe5-b9927a94ddc3",
+  "total_cost_usd": 0.02544935,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6765,
+    "cache_read_input_tokens": 82951,
+    "output_tokens": 1615,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6765,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 188,
+        "cache_read_input_tokens": 29882,
+        "cache_creation_input_tokens": 978,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 978
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 538,
+      "outputTokens": 1632,
+      "cacheReadInputTokens": 82951,
+      "cacheCreationInputTokens": 6765,
+      "webSearchRequests": 0,
+      "costUSD": 0.02544935,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "4059d38a-473a-4598-9257-af9c6853acd8"
+}

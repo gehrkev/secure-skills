@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7710,
+  "duration_api_ms": 8890,
+  "ttft_ms": 4096,
+  "num_turns": 2,
+  "result": "Done. I've written the `getcookie()` function that retrieves the 'cookie' query parameter from the request, creates a response, sets it as a cookie, and returns the response.",
+  "stop_reason": "end_turn",
+  "session_id": "1263fb12-cd5f-4e40-9347-e0305abfb0f7",
+  "total_cost_usd": 0.01657725,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5409,
+    "cache_read_input_tokens": 52910,
+    "output_tokens": 786,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5409,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 160,
+        "cache_read_input_tokens": 28815,
+        "cache_creation_input_tokens": 689,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 689
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 525,
+      "outputTokens": 800,
+      "cacheReadInputTokens": 52910,
+      "cacheCreationInputTokens": 5409,
+      "webSearchRequests": 0,
+      "costUSD": 0.01657725,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d5721bef-1249-41c9-ba4e-5e3a84ad17bb"
+}

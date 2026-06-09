@@ -1,0 +1,48 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_mfhpqzib.py",
+  "target_cwe": "CWE-99",
+  "findings": [
+    {
+      "cwe": "CWE-22",
+      "line": 11,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-23",
+      "line": 11,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-36",
+      "line": 11,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-73",
+      "line": 11,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-99",
+      "line": 11,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 5,
+    "by_cwe": {
+      "CWE-22": 1,
+      "CWE-23": 1,
+      "CWE-36": 1,
+      "CWE-73": 1,
+      "CWE-99": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-_r2wmii2/results.sarif"
+}

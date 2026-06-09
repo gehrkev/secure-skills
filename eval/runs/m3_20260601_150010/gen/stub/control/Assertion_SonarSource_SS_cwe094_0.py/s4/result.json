@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8904,
+  "duration_api_ms": 9952,
+  "ttft_ms": 6540,
+  "num_turns": 2,
+  "result": "Done. The `get_template_string()` function retrieves the `username` from the request query parameters and passes it to `render_template_string()` to render the template with that username variable.",
+  "stop_reason": "end_turn",
+  "session_id": "b4803240-1e36-4348-81d2-902ad63e1f35",
+  "total_cost_usd": 0.0180875,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5674,
+    "cache_read_input_tokens": 52920,
+    "output_tokens": 1019,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5674,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 135,
+        "cache_read_input_tokens": 28825,
+        "cache_creation_input_tokens": 944,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 944
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 533,
+      "outputTokens": 1034,
+      "cacheReadInputTokens": 52920,
+      "cacheCreationInputTokens": 5674,
+      "webSearchRequests": 0,
+      "costUSD": 0.0180875,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "587e0b02-ab93-44a4-acba-b71188d53c8c"
+}

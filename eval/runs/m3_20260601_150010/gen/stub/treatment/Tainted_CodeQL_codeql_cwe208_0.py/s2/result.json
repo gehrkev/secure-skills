@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16325,
+  "duration_api_ms": 14175,
+  "ttft_ms": 2146,
+  "num_turns": 3,
+  "result": "Done. The `verify` function is implemented to compute the expected signature using SHA-256 and compare it with the provided signature using `hmac.compare_digest()` for timing-safe validation, following the security guidance on proper integrity check implementation (CWE-354).",
+  "stop_reason": "end_turn",
+  "session_id": "0a776264-d031-41c8-9142-8aa500e1465a",
+  "total_cost_usd": 0.0260925,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7198,
+    "cache_read_input_tokens": 83400,
+    "output_tokens": 1617,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7198,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 177,
+        "cache_read_input_tokens": 30233,
+        "cache_creation_input_tokens": 1060,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1060
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 590,
+      "outputTokens": 1633,
+      "cacheReadInputTokens": 83400,
+      "cacheCreationInputTokens": 7198,
+      "webSearchRequests": 0,
+      "costUSD": 0.0260925,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3affccec-cebf-402e-be5c-00a6bebf4bd4"
+}

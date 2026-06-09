@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 24646,
+  "duration_api_ms": 23146,
+  "ttft_ms": 2648,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a secure implementation of the XSLT query endpoint that mitigates XXE vulnerabilities (CWE-611) and XML entity expansion attacks (CWE-776) by using `resolve_entities=False` when parsing XML and XSLT documents.",
+  "stop_reason": "end_turn",
+  "session_id": "98bc1fd9-1e46-4336-b968-f4bb7eb9f384",
+  "total_cost_usd": 0.03442955,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8185,
+    "cache_read_input_tokens": 83053,
+    "output_tokens": 3047,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8185,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 292,
+        "cache_read_input_tokens": 29924,
+        "cache_creation_input_tokens": 2356,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2356
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 568,
+      "outputTokens": 3065,
+      "cacheReadInputTokens": 83053,
+      "cacheCreationInputTokens": 8185,
+      "webSearchRequests": 0,
+      "costUSD": 0.03442955,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "73033f26-bd66-49d8-94ad-4934e63dbe13"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10373,
+  "duration_api_ms": 11933,
+  "ttft_ms": 7610,
+  "num_turns": 2,
+  "result": "Done. The Flask endpoint is written to `candidate.py`. It accepts POST requests with `filename` and `image_data` parameters, decodes the base64 image, creates the output directory if needed, and saves the file to `../assets/img/{filename}.png` with a 200 status response.",
+  "stop_reason": "end_turn",
+  "session_id": "23dbf40b-3c07-49f5-98a7-7715408ecf80",
+  "total_cost_usd": 0.02037415,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5959,
+    "cache_read_input_tokens": 52864,
+    "output_tokens": 1414,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5959,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 180,
+        "cache_read_input_tokens": 28769,
+        "cache_creation_input_tokens": 1285,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1285
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 504,
+      "outputTokens": 1427,
+      "cacheReadInputTokens": 52864,
+      "cacheCreationInputTokens": 5959,
+      "webSearchRequests": 0,
+      "costUSD": 0.02037415,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ccc80394-def0-4d76-9046-3fed3d8f5273"
+}

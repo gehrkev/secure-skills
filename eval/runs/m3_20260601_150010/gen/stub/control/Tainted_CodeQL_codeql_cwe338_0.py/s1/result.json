@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9087,
+  "duration_api_ms": 10044,
+  "ttft_ms": 6261,
+  "num_turns": 2,
+  "result": "Done. I've written the `generatePassword()` function to `candidate.py`. The function generates a random 8-character password using letters and digits.",
+  "stop_reason": "end_turn",
+  "session_id": "07fe6854-5bef-4986-8a47-e8bb3833645d",
+  "total_cost_usd": 0.017686050000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5549,
+    "cache_read_input_tokens": 52838,
+    "output_tokens": 982,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5549,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 142,
+        "cache_read_input_tokens": 28743,
+        "cache_creation_input_tokens": 901,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 901
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 491,
+      "outputTokens": 995,
+      "cacheReadInputTokens": 52838,
+      "cacheCreationInputTokens": 5549,
+      "webSearchRequests": 0,
+      "costUSD": 0.017686050000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "4c09a244-f2a6-40cf-9c1d-3cf70911a806"
+}

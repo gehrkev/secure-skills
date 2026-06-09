@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16160,
+  "duration_api_ms": 13583,
+  "ttft_ms": 3731,
+  "num_turns": 3,
+  "result": "Done. The `check_url` function is implemented to verify that a URL ends with 'example.com/' and written to `candidate.py`.",
+  "stop_reason": "end_turn",
+  "session_id": "f02cd326-090f-4336-9993-34df32632fb7",
+  "total_cost_usd": 0.02427195,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6835,
+    "cache_read_input_tokens": 83362,
+    "output_tokens": 1355,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6835,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 94,
+        "cache_read_input_tokens": 30269,
+        "cache_creation_input_tokens": 661,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 661
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 552,
+      "outputTokens": 1368,
+      "cacheReadInputTokens": 83362,
+      "cacheCreationInputTokens": 6835,
+      "webSearchRequests": 0,
+      "costUSD": 0.02427195,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "24300422-8eb2-4729-9b56-f5e45415fe14"
+}

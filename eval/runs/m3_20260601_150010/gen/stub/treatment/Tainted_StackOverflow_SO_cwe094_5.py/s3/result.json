@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23996,
+  "duration_api_ms": 21816,
+  "ttft_ms": 4415,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with the `get_value()` function implementation. The function:\n- Gets the `key` from query parameters\n- Gets the object from JSON request body\n- Returns the value for that key as a string\n- Safely avoids code injection by using `request.get_json()` instead of `eval()`\n- Handles edge cases by validating inputs and returning empty string if key or object is missing",
+  "stop_reason": "end_turn",
+  "session_id": "0188bff3-6455-498a-bcea-38302f92b379",
+  "total_cost_usd": 0.033881350000000005,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8355,
+    "cache_read_input_tokens": 83686,
+    "output_tokens": 2875,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8355,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 247,
+        "cache_read_input_tokens": 30457,
+        "cache_creation_input_tokens": 1993,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1993
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 619,
+      "outputTokens": 2890,
+      "cacheReadInputTokens": 83686,
+      "cacheCreationInputTokens": 8355,
+      "webSearchRequests": 0,
+      "costUSD": 0.033881350000000005,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c95a209b-907c-4518-8a8a-f1a102c22652"
+}

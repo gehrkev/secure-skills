@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12604,
+  "duration_api_ms": 13475,
+  "ttft_ms": 9175,
+  "num_turns": 2,
+  "result": "Done! I've created `candidate.py` with a Flask route that:\n\n1. Extracts the `X-Forwarded-For` header from the request\n2. Parses the first IP address from the header (since it can contain multiple comma-separated IPs)\n3. Validates that the IP is local (private or loopback) using Python's `ipaddress` module\n4. Raises an exception if the IP is not local\n5. Returns the original header value if validation passes",
+  "stop_reason": "end_turn",
+  "session_id": "fa76945f-bc12-41c4-a2d5-7674b6cccb6e",
+  "total_cost_usd": 0.02430665,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6505,
+    "cache_read_input_tokens": 52874,
+    "output_tokens": 2056,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6505,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 289,
+        "cache_read_input_tokens": 28779,
+        "cache_creation_input_tokens": 1821,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1821
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 508,
+      "outputTokens": 2076,
+      "cacheReadInputTokens": 52874,
+      "cacheCreationInputTokens": 6505,
+      "webSearchRequests": 0,
+      "costUSD": 0.02430665,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7e113162-62f9-4273-bccc-dcc34d200163"
+}

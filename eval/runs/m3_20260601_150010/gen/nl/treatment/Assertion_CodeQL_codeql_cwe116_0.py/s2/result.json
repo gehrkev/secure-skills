@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18046,
+  "duration_api_ms": 15145,
+  "ttft_ms": 2230,
+  "num_turns": 3,
+  "result": "Done! I've written a function that uses regex to remove all `<script>...</script>` tags and their contents from HTML. The solution:\n\n- Uses the regex pattern `<script\\b[^>]*>.*?</script>` to match script tags with any attributes and content\n- Applies `re.IGNORECASE` to handle uppercase/mixed-case tags\n- Applies `re.DOTALL` to match newlines within script content\n- Returns the HTML string with all script tags stripped out\n\nThe function addresses the security context around XSS prevention by completely removing script tags rather than attempting to parse or validate them.",
+  "stop_reason": "end_turn",
+  "session_id": "29d2615b-ded7-49d5-946d-43551ad86204",
+  "total_cost_usd": 0.02480885,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6657,
+    "cache_read_input_tokens": 82926,
+    "output_tokens": 1523,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6657,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 353,
+        "cache_read_input_tokens": 29925,
+        "cache_creation_input_tokens": 827,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 827
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 505,
+      "outputTokens": 1538,
+      "cacheReadInputTokens": 82926,
+      "cacheCreationInputTokens": 6657,
+      "webSearchRequests": 0,
+      "costUSD": 0.02480885,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d9fef9b2-132b-4f24-8be9-cb1384fa6a76"
+}

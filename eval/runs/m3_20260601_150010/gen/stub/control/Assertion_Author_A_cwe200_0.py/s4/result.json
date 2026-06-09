@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7828,
+  "duration_api_ms": 8914,
+  "ttft_ms": 3562,
+  "num_turns": 2,
+  "result": "Done. The `/login` endpoint now queries the database for a user matching both the provided username and token, returning \"Authorized\" if found or \"Unauthorized\" otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "fd1cd0d1-1d7a-48e3-91f0-e0c92c4bcf7b",
+  "total_cost_usd": 0.019280099999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6262,
+    "cache_read_input_tokens": 53476,
+    "output_tokens": 1046,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6262,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 127,
+        "cache_read_input_tokens": 29381,
+        "cache_creation_input_tokens": 976,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 976
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 810,
+      "outputTokens": 1059,
+      "cacheReadInputTokens": 53476,
+      "cacheCreationInputTokens": 6262,
+      "webSearchRequests": 0,
+      "costUSD": 0.019280099999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e8a34124-86f7-42a5-8bbd-5ab4721604d5"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9495,
+  "duration_api_ms": 10627,
+  "ttft_ms": 3742,
+  "num_turns": 2,
+  "result": "Done. I've written a Python program to `candidate.py` that checks if a certificate matches a known hash. The solution includes:\n\n- `check_certificate_hash()` function that computes the certificate hash using hashlib and compares it to the provided known_hash\n- Supports any hashlib algorithm (defaults to SHA256)\n- Handles both raw bytes and file paths as input\n- Case-insensitive comparison for hash values\n- Example usage demonstrating the functionality",
+  "stop_reason": "end_turn",
+  "session_id": "6575b6c7-b1a1-44f9-bf65-f389277153fa",
+  "total_cost_usd": 0.017758950000000003,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5419,
+    "cache_read_input_tokens": 52822,
+    "output_tokens": 1029,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5419,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 291,
+        "cache_read_input_tokens": 28727,
+        "cache_creation_input_tokens": 787,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 787
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 483,
+      "outputTokens": 1044,
+      "cacheReadInputTokens": 52822,
+      "cacheCreationInputTokens": 5419,
+      "webSearchRequests": 0,
+      "costUSD": 0.017758950000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7950e829-b4fb-4181-bd15-651afde924a7"
+}

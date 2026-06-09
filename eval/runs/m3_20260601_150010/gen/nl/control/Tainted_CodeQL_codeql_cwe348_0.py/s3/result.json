@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15468,
+  "duration_api_ms": 16901,
+  "ttft_ms": 12397,
+  "num_turns": 2,
+  "result": "Done. I've written a Flask application with a `/client_ip` endpoint that retrieves the x-forwarded-for header, validates the IP address, checks if it's local (private or loopback), and raises an exception if it's not.",
+  "stop_reason": "end_turn",
+  "session_id": "7fe6ac4a-a14e-4bf8-a102-4c3d0d1b5154",
+  "total_cost_usd": 0.02603815,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6831,
+    "cache_read_input_tokens": 52874,
+    "output_tokens": 2326,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6831,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 232,
+        "cache_read_input_tokens": 28779,
+        "cache_creation_input_tokens": 2147,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2147
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 507,
+      "outputTokens": 2341,
+      "cacheReadInputTokens": 52874,
+      "cacheCreationInputTokens": 6831,
+      "webSearchRequests": 0,
+      "costUSD": 0.02603815,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7e1e43b8-eb0f-41bf-a224-235a473ca3f2"
+}

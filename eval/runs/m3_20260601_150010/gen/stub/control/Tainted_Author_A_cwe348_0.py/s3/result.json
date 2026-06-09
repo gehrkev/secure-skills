@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15065,
+  "duration_api_ms": 15875,
+  "ttft_ms": 12258,
+  "num_turns": 2,
+  "result": "Done. The implementation extracts the X-Forwarded-For header, validates the client IP, checks that it's local (private or loopback), raises an exception if not, and returns the header.",
+  "stop_reason": "end_turn",
+  "session_id": "33e78a5e-2e80-4fd9-b42a-a9f182ef6bac",
+  "total_cost_usd": 0.027246950000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 7071,
+    "cache_read_input_tokens": 52942,
+    "output_tokens": 2494,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7071,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 225,
+        "cache_read_input_tokens": 28847,
+        "cache_creation_input_tokens": 2319,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2319
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 544,
+      "outputTokens": 2514,
+      "cacheReadInputTokens": 52942,
+      "cacheCreationInputTokens": 7071,
+      "webSearchRequests": 0,
+      "costUSD": 0.027246950000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "07f79712-78a3-4cbf-bbd1-59f6f0183bc5"
+}

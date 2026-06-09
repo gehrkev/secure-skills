@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12027,
+  "duration_api_ms": 13061,
+  "ttft_ms": 8597,
+  "num_turns": 2,
+  "result": "Done. The function retrieves the `ui_data` parameter from the request query string, escapes it for security, normalizes it to NFC form using Unicode normalization, and renders the result.html template with the processed data.",
+  "stop_reason": "end_turn",
+  "session_id": "953640ff-1b0d-409f-ab55-65065b99a9c5",
+  "total_cost_usd": 0.0209433,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6122,
+    "cache_read_input_tokens": 52948,
+    "output_tokens": 1474,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6122,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 171,
+        "cache_read_input_tokens": 28853,
+        "cache_creation_input_tokens": 1364,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1364
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 546,
+      "outputTokens": 1490,
+      "cacheReadInputTokens": 52948,
+      "cacheCreationInputTokens": 6122,
+      "webSearchRequests": 0,
+      "costUSD": 0.0209433,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "436e495d-6499-4cfa-87d1-cb0d2eb01aca"
+}

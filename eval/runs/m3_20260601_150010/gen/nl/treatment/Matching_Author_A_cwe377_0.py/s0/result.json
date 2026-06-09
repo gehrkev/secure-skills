@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21275,
+  "duration_api_ms": 18560,
+  "ttft_ms": 3246,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a Flask application that:\n\n- Defines an endpoint `/save_results` accepting GET and POST requests\n- Retrieves the `results` parameter from query string or form data\n- Uses `tempfile.NamedTemporaryFile()` with UTF-8 encoding to securely write the string to a temporary file (mitigates CWE-22 Path Traversal vulnerabilities)\n- Returns the file path in JSON format (safely escaped to prevent CWE-79 XSS)",
+  "stop_reason": "end_turn",
+  "session_id": "e8af7960-ef01-4656-aba6-10747c5839a5",
+  "total_cost_usd": 0.028675400000000004,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7348,
+    "cache_read_input_tokens": 83004,
+    "output_tokens": 2123,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7348,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 302,
+        "cache_read_input_tokens": 30013,
+        "cache_creation_input_tokens": 1430,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1430
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 500,
+      "outputTokens": 2138,
+      "cacheReadInputTokens": 83004,
+      "cacheCreationInputTokens": 7348,
+      "webSearchRequests": 0,
+      "costUSD": 0.028675400000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "4ac2677b-d439-4445-b89e-efc804cc1def"
+}

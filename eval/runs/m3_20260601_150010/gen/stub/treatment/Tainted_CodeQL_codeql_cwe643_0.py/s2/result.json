@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 51125,
+  "duration_api_ms": 49501,
+  "ttft_ms": 2697,
+  "num_turns": 3,
+  "result": "Done. I've written the secure implementation to `candidate.py`. The code:\n\n1. **Prevents XXE attacks** by disabling external entity resolution in the XML parser with `resolve_entities=False`\n2. **Safely handles XPath queries** using lxml's built-in xpath method with user-supplied expressions\n3. **Validates input** by checking for required parameters and handling parsing errors\n4. **Returns appropriate responses** - plain text for string results, XML serialization for element results",
+  "stop_reason": "end_turn",
+  "session_id": "964c3d15-eb01-4a3e-a7d0-c54404c9023e",
+  "total_cost_usd": 0.0332212,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8192,
+    "cache_read_input_tokens": 83322,
+    "output_tokens": 2802,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8192,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 311,
+        "cache_read_input_tokens": 30203,
+        "cache_creation_input_tokens": 2084,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2084
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 564,
+      "outputTokens": 2817,
+      "cacheReadInputTokens": 83322,
+      "cacheCreationInputTokens": 8192,
+      "webSearchRequests": 0,
+      "costUSD": 0.0332212,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3bed3732-68b0-4ba5-905f-18c6256a9e7f"
+}

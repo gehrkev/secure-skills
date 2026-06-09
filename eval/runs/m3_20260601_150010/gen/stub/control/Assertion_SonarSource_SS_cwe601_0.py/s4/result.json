@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16408,
+  "duration_api_ms": 17446,
+  "ttft_ms": 12951,
+  "num_turns": 2,
+  "result": "Done. The implementation extracts `target_url` from query parameters, validates it's not pointing to an external domain by parsing the URL and comparing the host against `request.host`, and returns a 302 redirect. External URLs or missing targets redirect to home safely.",
+  "stop_reason": "end_turn",
+  "session_id": "288cbfbc-7325-4310-ad89-5f4cab9149f9",
+  "total_cost_usd": 0.02596665,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6877,
+    "cache_read_input_tokens": 52954,
+    "output_tokens": 2290,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6877,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 231,
+        "cache_read_input_tokens": 28859,
+        "cache_creation_input_tokens": 2113,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2113
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 550,
+      "outputTokens": 2305,
+      "cacheReadInputTokens": 52954,
+      "cacheCreationInputTokens": 6877,
+      "webSearchRequests": 0,
+      "costUSD": 0.02596665,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c61b8370-04f0-46ec-af60-7b1ffd090265"
+}

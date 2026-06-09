@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20125,
+  "duration_api_ms": 21680,
+  "ttft_ms": 13396,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a Flask application that:\n- Defines an endpoint at `/unpickled`\n- Accepts the `data` parameter from GET or POST requests\n- Converts the hex string to bytes using `bytes.fromhex()`\n- Deserializes the pickle data using `pickle.loads()`\n- Returns the deserialized data as JSON",
+  "stop_reason": "end_turn",
+  "session_id": "36e90828-bd4b-42fb-9531-8381424594a0",
+  "total_cost_usd": 0.0264459,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6898,
+    "cache_read_input_tokens": 52854,
+    "output_tokens": 2392,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6898,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 220,
+        "cache_read_input_tokens": 28759,
+        "cache_creation_input_tokens": 2234,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2234
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 2408,
+      "cacheReadInputTokens": 52854,
+      "cacheCreationInputTokens": 6898,
+      "webSearchRequests": 0,
+      "costUSD": 0.0264459,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b7cdf977-7c8f-4cfd-b8be-fe743b123c70"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9999,
+  "duration_api_ms": 10901,
+  "ttft_ms": 6980,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with an endpoint at `/parse_string_to_dict` that:\n\n- Accepts GET and POST requests\n- Retrieves the `formattedStr` parameter from the request\n- Uses `ast.literal_eval()` to safely evaluate it as a Python dictionary\n- Returns the result as JSON\n- Includes error handling for missing parameters or invalid input",
+  "stop_reason": "end_turn",
+  "session_id": "a5848261-73d2-4760-b5b9-cd85a125c62d",
+  "total_cost_usd": 0.020091949999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5867,
+    "cache_read_input_tokens": 52852,
+    "output_tokens": 1379,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5867,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 231,
+        "cache_read_input_tokens": 28757,
+        "cache_creation_input_tokens": 1205,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1205
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 1395,
+      "cacheReadInputTokens": 52852,
+      "cacheCreationInputTokens": 5867,
+      "webSearchRequests": 0,
+      "costUSD": 0.020091949999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d03a30d4-1dfa-4636-b787-ee469fec3ba7"
+}

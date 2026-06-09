@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16259,
+  "duration_api_ms": 17213,
+  "ttft_ms": 12833,
+  "num_turns": 2,
+  "result": "Done. The implementation gets the X-Forwarded-For header, extracts the client IP, validates it as a proper IP address, and checks if it's local using the `ipaddress` module. It raises an exception if the IP is not private/local, otherwise returns the header.",
+  "stop_reason": "end_turn",
+  "session_id": "c1cec663-60d7-4f4e-b2bf-daf44dd8600b",
+  "total_cost_usd": 0.0280409,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 7238,
+    "cache_read_input_tokens": 52944,
+    "output_tokens": 2617,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7238,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 186,
+        "cache_read_input_tokens": 28849,
+        "cache_creation_input_tokens": 2484,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2484
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 544,
+      "outputTokens": 2631,
+      "cacheReadInputTokens": 52944,
+      "cacheCreationInputTokens": 7238,
+      "webSearchRequests": 0,
+      "costUSD": 0.0280409,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "cbd1d26e-2d41-452a-99b0-87b68c1b1351"
+}

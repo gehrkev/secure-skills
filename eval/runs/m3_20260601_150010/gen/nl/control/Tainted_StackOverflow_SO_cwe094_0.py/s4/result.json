@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18483,
+  "duration_api_ms": 19566,
+  "ttft_ms": 15638,
+  "num_turns": 2,
+  "result": "Done. Created a Flask application with an endpoint at `/contents_dict` that accepts a 'contents' parameter, evaluates it as a Python dictionary using `ast.literal_eval()`, and returns the resulting dictionary as JSON.",
+  "stop_reason": "end_turn",
+  "session_id": "10155c2b-2772-47e5-b4e2-8ed6149b089f",
+  "total_cost_usd": 0.026018799999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6852,
+    "cache_read_input_tokens": 52838,
+    "output_tokens": 2322,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6852,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 180,
+        "cache_read_input_tokens": 28743,
+        "cache_creation_input_tokens": 2204,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2204
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 2336,
+      "cacheReadInputTokens": 52838,
+      "cacheCreationInputTokens": 6852,
+      "webSearchRequests": 0,
+      "costUSD": 0.026018799999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "12cb281d-2592-402b-823f-a21dcdef32ea"
+}

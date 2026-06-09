@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 102223,
+  "duration_api_ms": 103078,
+  "ttft_ms": 99388,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/redirect` route that:\n\n- Accepts a `target_url` query parameter\n- Validates the URL is not external by checking if it has a network location (domain) using `urlparse`\n- Returns a 302 redirect response if valid, or a 400 error if the URL is external or missing",
+  "stop_reason": "end_turn",
+  "session_id": "66682cee-d0ae-4f25-989a-27b297e0a9bb",
+  "total_cost_usd": 0.01969245,
+  "usage": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 2013,
+    "cache_read_input_tokens": 28761,
+    "output_tokens": 214,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2013,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 214,
+        "cache_read_input_tokens": 28761,
+        "cache_creation_input_tokens": 2013,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2013
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 499,
+      "outputTokens": 2185,
+      "cacheReadInputTokens": 57522,
+      "cacheCreationInputTokens": 2013,
+      "webSearchRequests": 0,
+      "costUSD": 0.01969245,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0bf99a97-2c07-4f0f-a3a6-a268d189135d"
+}

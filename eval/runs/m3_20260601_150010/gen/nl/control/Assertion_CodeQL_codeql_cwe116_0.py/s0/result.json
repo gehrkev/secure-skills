@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6334,
+  "duration_api_ms": 7214,
+  "ttft_ms": 3128,
+  "num_turns": 2,
+  "result": "Done. I've written a function that uses regex to remove all `<script>...</script>` tags and their contents from HTML. The pattern handles case-insensitive tags and multiline content within script tags.",
+  "stop_reason": "end_turn",
+  "session_id": "9dd643f3-ed50-4132-873b-7d0a863fb307",
+  "total_cost_usd": 0.016114500000000004,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5226,
+    "cache_read_input_tokens": 52850,
+    "output_tokens": 745,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5226,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 240,
+        "cache_read_input_tokens": 28755,
+        "cache_creation_input_tokens": 566,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 566
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 497,
+      "outputTokens": 760,
+      "cacheReadInputTokens": 52850,
+      "cacheCreationInputTokens": 5226,
+      "webSearchRequests": 0,
+      "costUSD": 0.016114500000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "2bd87914-584f-41d9-abca-2842e25c5d7a"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18380,
+  "duration_api_ms": 15311,
+  "ttft_ms": 2131,
+  "num_turns": 3,
+  "result": "Done. I've written the complete Flask route handler to `candidate.py` that:\n\n1. **Gets the title** from request parameters (`request.args.get('title')`)\n2. **Validates input** (ensures title is provided)\n3. **Queries safely** using a parameterized query with `?` placeholder to prevent SQL injection (CWE-89)\n4. **Returns the post's content** on success or an appropriate error response\n\nThe parameterized query approach (`cursor.execute('... WHERE title = ?', (title,))`) ensures the user input is treated as data, not code, preventing SQL injection attacks.",
+  "stop_reason": "end_turn",
+  "session_id": "f1d2ca27-bcfb-454c-931a-80b4ad856b94",
+  "total_cost_usd": 0.026174350000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7087,
+    "cache_read_input_tokens": 83266,
+    "output_tokens": 1668,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7087,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 267,
+        "cache_read_input_tokens": 30135,
+        "cache_creation_input_tokens": 1047,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1047
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 569,
+      "outputTokens": 1684,
+      "cacheReadInputTokens": 83266,
+      "cacheCreationInputTokens": 7087,
+      "webSearchRequests": 0,
+      "costUSD": 0.026174350000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "341f1995-5858-4e02-8a72-41042e30d0be"
+}

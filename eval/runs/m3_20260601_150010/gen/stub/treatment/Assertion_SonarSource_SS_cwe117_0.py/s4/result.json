@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17046,
+  "duration_api_ms": 17043,
+  "ttft_ms": 2893,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with a secure Flask endpoint that logs safe request data (method, path, remote address) without exposing sensitive information, follows the error handling guidance by avoiding detailed error messages, and returns the logged data.",
+  "stop_reason": "end_turn",
+  "session_id": "3d154b3a-640f-4eac-955f-97985281bfac",
+  "total_cost_usd": 0.0248976,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6858,
+    "cache_read_input_tokens": 82991,
+    "output_tokens": 1491,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6858,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 181,
+        "cache_read_input_tokens": 29988,
+        "cache_creation_input_tokens": 965,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 965
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 506,
+      "outputTokens": 1504,
+      "cacheReadInputTokens": 82991,
+      "cacheCreationInputTokens": 6858,
+      "webSearchRequests": 0,
+      "costUSD": 0.0248976,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a78214b6-000b-43a7-8672-ef2ff997487a"
+}

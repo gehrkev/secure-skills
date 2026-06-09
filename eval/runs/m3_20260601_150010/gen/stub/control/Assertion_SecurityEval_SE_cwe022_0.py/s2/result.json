@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7504,
+  "duration_api_ms": 8527,
+  "ttft_ms": 4277,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with the `delateImage` function implemented to delete the image at the given path if it exists.",
+  "stop_reason": "end_turn",
+  "session_id": "07bca6a6-09ac-4452-9096-f569c36b9161",
+  "total_cost_usd": 0.01604125,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5317,
+    "cache_read_input_tokens": 52870,
+    "output_tokens": 708,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5317,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 131,
+        "cache_read_input_tokens": 28775,
+        "cache_creation_input_tokens": 637,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 637
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 508,
+      "outputTokens": 720,
+      "cacheReadInputTokens": 52870,
+      "cacheCreationInputTokens": 5317,
+      "webSearchRequests": 0,
+      "costUSD": 0.01604125,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "689187d5-bf01-4374-8b00-4d3df40cf513"
+}

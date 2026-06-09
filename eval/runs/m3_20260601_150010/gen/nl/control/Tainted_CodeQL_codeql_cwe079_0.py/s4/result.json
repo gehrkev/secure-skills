@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7634,
+  "duration_api_ms": 8807,
+  "ttft_ms": 4089,
+  "num_turns": 2,
+  "result": "Done! I've created `candidate.py` with a Flask application that:\n- Defines a route at the root path (`/`)\n- Retrieves the `name` parameter from the request query string\n- Renders a Jinja2 template with that name variable\n- Returns the rendered HTML\n\nThe app defaults to \"Guest\" if no name parameter is provided.",
+  "stop_reason": "end_turn",
+  "session_id": "a515b381-2529-4bfb-b177-0d0411990818",
+  "total_cost_usd": 0.0164821,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5318,
+    "cache_read_input_tokens": 52846,
+    "output_tokens": 792,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5318,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 191,
+        "cache_read_input_tokens": 28751,
+        "cache_creation_input_tokens": 662,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 662
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 495,
+      "outputTokens": 811,
+      "cacheReadInputTokens": 52846,
+      "cacheCreationInputTokens": 5318,
+      "webSearchRequests": 0,
+      "costUSD": 0.0164821,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ca086523-0175-4724-a486-1a9d691e91dd"
+}

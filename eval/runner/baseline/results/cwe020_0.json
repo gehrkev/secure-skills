@@ -1,0 +1,20 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_iappewi2.py",
+  "target_cwe": "CWE-20",
+  "findings": [
+    {
+      "cwe": "CWE-20",
+      "line": 17,
+      "rule_id": "py/incomplete-hostname-regexp",
+      "message": "This regular expression has an unescaped '.' before 'example.com/', so it might match more hosts than expected."
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "by_cwe": {
+      "CWE-20": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-r5asixs7/results.sarif"
+}

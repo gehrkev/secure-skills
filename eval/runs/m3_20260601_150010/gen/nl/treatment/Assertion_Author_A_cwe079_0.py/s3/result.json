@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15471,
+  "duration_api_ms": 12904,
+  "ttft_ms": 2011,
+  "num_turns": 3,
+  "result": "Done! I've created the Flask application and written it to `candidate.py`. The code creates a route at `/first_name` that accepts a `first_name` parameter from the request and returns the greeting in the format you specified.",
+  "stop_reason": "end_turn",
+  "session_id": "4bcb6519-2105-4277-9d18-9aaccfac14a9",
+  "total_cost_usd": 0.02289,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6462,
+    "cache_read_input_tokens": 82875,
+    "output_tokens": 1188,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6462,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 180,
+        "cache_read_input_tokens": 29872,
+        "cache_creation_input_tokens": 685,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 685
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 505,
+      "outputTokens": 1204,
+      "cacheReadInputTokens": 82875,
+      "cacheCreationInputTokens": 6462,
+      "webSearchRequests": 0,
+      "costUSD": 0.02289,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "86146245-40da-416d-81b5-5b3ea3c21151"
+}

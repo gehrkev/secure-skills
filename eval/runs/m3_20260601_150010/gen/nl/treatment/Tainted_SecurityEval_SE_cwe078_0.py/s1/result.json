@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19608,
+  "duration_api_ms": 16707,
+  "ttft_ms": 3113,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a Flask endpoint at `/execute` that:\n\n- Takes a `command` parameter from GET query string or POST JSON body\n- Safely executes it using `subprocess.run()` with `shell=False` (avoiding OS command injection)\n- Uses `shlex.split()` to parse the command string into individual arguments (following CWE-78 mitigation guidelines)\n- Returns the output, stderr, and return code as JSON\n- Includes a 30-second timeout and error handling",
+  "stop_reason": "end_turn",
+  "session_id": "73c5461e-724f-475e-9d46-ba98f089cb39",
+  "total_cost_usd": 0.0265752,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6884,
+    "cache_read_input_tokens": 82862,
+    "output_tokens": 1825,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6884,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 344,
+        "cache_read_input_tokens": 29895,
+        "cache_creation_input_tokens": 1084,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1084
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 489,
+      "outputTokens": 1839,
+      "cacheReadInputTokens": 82862,
+      "cacheCreationInputTokens": 6884,
+      "webSearchRequests": 0,
+      "costUSD": 0.0265752,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ec48adf5-2644-48a5-af43-db75a944837c"
+}

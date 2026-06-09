@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7835,
+  "duration_api_ms": 8778,
+  "ttft_ms": 5853,
+  "num_turns": 2,
+  "result": "Done. The function uses a regex pattern `^(www|beta)\\.example\\.com/$` to match URLs that start with either \"www\" or \"beta\", followed by \".example.com/\".",
+  "stop_reason": "end_turn",
+  "session_id": "71a85189-a9c2-4cd0-a81d-da2d9f5edbe7",
+  "total_cost_usd": 0.017798349999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5667,
+    "cache_read_input_tokens": 53006,
+    "output_tokens": 954,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5667,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 161,
+        "cache_read_input_tokens": 28911,
+        "cache_creation_input_tokens": 851,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 851
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 574,
+      "outputTokens": 968,
+      "cacheReadInputTokens": 53006,
+      "cacheCreationInputTokens": 5667,
+      "webSearchRequests": 0,
+      "costUSD": 0.017798349999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6d29d73a-aa95-4104-8c48-4e907fa6074e"
+}

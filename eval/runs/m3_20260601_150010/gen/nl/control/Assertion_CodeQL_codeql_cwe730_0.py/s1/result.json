@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7929,
+  "duration_api_ms": 8787,
+  "ttft_ms": 5660,
+  "num_turns": 2,
+  "result": "Done. I've written the function to `candidate.py`. It uses a regex pattern to match URLs that start with either \"www\" or \"beta\", followed by \".example.com/\". The function returns True for valid matches and False otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "2950ca3d-0a90-4821-b82a-ae81d03ed4ae",
+  "total_cost_usd": 0.01690515,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5339,
+    "cache_read_input_tokens": 52834,
+    "output_tokens": 878,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5339,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 245,
+        "cache_read_input_tokens": 28739,
+        "cache_creation_input_tokens": 695,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 695
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 488,
+      "outputTokens": 892,
+      "cacheReadInputTokens": 52834,
+      "cacheCreationInputTokens": 5339,
+      "webSearchRequests": 0,
+      "costUSD": 0.01690515,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "28db04c3-a7d9-407e-b0dc-70e8af2776fd"
+}

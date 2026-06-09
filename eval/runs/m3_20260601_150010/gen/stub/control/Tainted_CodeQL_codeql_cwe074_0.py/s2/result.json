@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7410,
+  "duration_api_ms": 8468,
+  "ttft_ms": 4868,
+  "num_turns": 2,
+  "result": "Done. The `exec_command()` function now:\n1. Retrieves the `command` parameter from the request\n2. Executes it via the paramiko SSH client\n3. Returns the decoded stdout output",
+  "stop_reason": "end_turn",
+  "session_id": "99e66feb-0850-4fb9-87b8-1d58732ff174",
+  "total_cost_usd": 0.01774485,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5769,
+    "cache_read_input_tokens": 53126,
+    "output_tokens": 903,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5769,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 130,
+        "cache_read_input_tokens": 29031,
+        "cache_creation_input_tokens": 833,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 833
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 636,
+      "outputTokens": 917,
+      "cacheReadInputTokens": 53126,
+      "cacheCreationInputTokens": 5769,
+      "webSearchRequests": 0,
+      "costUSD": 0.01774485,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1364b721-1437-48e2-a2fd-ef3329373df0"
+}

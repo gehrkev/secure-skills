@@ -1,0 +1,20 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_j7aceqc6.py",
+  "target_cwe": "CWE-377",
+  "findings": [
+    {
+      "cwe": "CWE-377",
+      "line": 13,
+      "rule_id": "py/insecure-temporary-file",
+      "message": "Call to deprecated function tempfile.mktemp may be insecure."
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "by_cwe": {
+      "CWE-377": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-_4vtjw33/results.sarif"
+}

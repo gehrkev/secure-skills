@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10509,
+  "duration_api_ms": 11527,
+  "ttft_ms": 6827,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with a function that verifies HMAC signatures by computing the HMAC of a message using the provided key and hash algorithm, then comparing it securely with the provided signature using constant-time comparison.",
+  "stop_reason": "end_turn",
+  "session_id": "2fa97dff-5b5b-43ee-8f66-c9e94f88f46e",
+  "total_cost_usd": 0.020136849999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5913,
+    "cache_read_input_tokens": 52856,
+    "output_tokens": 1377,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5913,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 183,
+        "cache_read_input_tokens": 28761,
+        "cache_creation_input_tokens": 1247,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1247
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 500,
+      "outputTokens": 1392,
+      "cacheReadInputTokens": 52856,
+      "cacheCreationInputTokens": 5913,
+      "webSearchRequests": 0,
+      "costUSD": 0.020136849999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "69878ed3-f45b-4086-8b6b-66cb67a80833"
+}

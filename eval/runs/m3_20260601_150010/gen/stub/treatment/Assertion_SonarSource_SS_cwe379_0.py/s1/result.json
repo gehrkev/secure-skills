@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21234,
+  "duration_api_ms": 17553,
+  "ttft_ms": 3271,
+  "num_turns": 3,
+  "result": "Done. The implementation uses `tempfile.NamedTemporaryFile()` to safely create a temporary file with UTF-8 encoding and returns its path, following security best practices to avoid path traversal vulnerabilities.",
+  "stop_reason": "end_turn",
+  "session_id": "5ba003b3-caae-45b2-ade5-bd7b2f23c4e3",
+  "total_cost_usd": 0.02514285,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6915,
+    "cache_read_input_tokens": 83191,
+    "output_tokens": 1511,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6915,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 223,
+        "cache_read_input_tokens": 30122,
+        "cache_creation_input_tokens": 888,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 888
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 540,
+      "outputTokens": 1528,
+      "cacheReadInputTokens": 83191,
+      "cacheCreationInputTokens": 6915,
+      "webSearchRequests": 0,
+      "costUSD": 0.02514285,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "109305ed-818f-4daa-b96a-a00b96b96ebf"
+}

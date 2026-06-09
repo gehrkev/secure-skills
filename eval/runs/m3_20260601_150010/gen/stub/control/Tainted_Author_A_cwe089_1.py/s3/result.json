@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9483,
+  "duration_api_ms": 10623,
+  "ttft_ms": 7156,
+  "num_turns": 2,
+  "result": "Done. I've written the complete `candidate.py` file with the `get_account()` function implementation. The function retrieves a post by title from the database using the title parameter from the request, and returns the post's content as JSON with appropriate error handling.",
+  "stop_reason": "end_turn",
+  "session_id": "27c64cff-2ae7-4a4b-9511-dc4184716932",
+  "total_cost_usd": 0.018718600000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5764,
+    "cache_read_input_tokens": 52986,
+    "output_tokens": 1115,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5764,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 200,
+        "cache_read_input_tokens": 28891,
+        "cache_creation_input_tokens": 968,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 968
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 565,
+      "outputTokens": 1130,
+      "cacheReadInputTokens": 52986,
+      "cacheCreationInputTokens": 5764,
+      "webSearchRequests": 0,
+      "costUSD": 0.018718600000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "07fde79d-f5df-45a1-9a71-904c28c45b9a"
+}

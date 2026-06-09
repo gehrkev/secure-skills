@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11338,
+  "duration_api_ms": 12250,
+  "ttft_ms": 8951,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with an endpoint at `/curl` that:\n- Takes a `url` query parameter from the request\n- Downloads the file from that URL using the requests library\n- Returns the downloaded file content to the client",
+  "stop_reason": "end_turn",
+  "session_id": "8402ed9c-f3bb-468d-a223-129c6572f8d2",
+  "total_cost_usd": 0.02020275,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5923,
+    "cache_read_input_tokens": 52820,
+    "output_tokens": 1392,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5923,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 158,
+        "cache_read_input_tokens": 28725,
+        "cache_creation_input_tokens": 1293,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1293
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 482,
+      "outputTokens": 1407,
+      "cacheReadInputTokens": 52820,
+      "cacheCreationInputTokens": 5923,
+      "webSearchRequests": 0,
+      "costUSD": 0.02020275,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "31b3abbf-02c0-4405-b1b4-0391c718b462"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8831,
+  "duration_api_ms": 10183,
+  "ttft_ms": 4834,
+  "num_turns": 2,
+  "result": "Done. The function generates a SHA256 fingerprint by hashing the key and IV together.",
+  "stop_reason": "end_turn",
+  "session_id": "5138c728-2dac-4072-a2d0-279cfa5641c4",
+  "total_cost_usd": 0.016344699999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5390,
+    "cache_read_input_tokens": 52892,
+    "output_tokens": 746,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5390,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 117,
+        "cache_read_input_tokens": 28797,
+        "cache_creation_input_tokens": 688,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 688
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 518,
+      "outputTokens": 760,
+      "cacheReadInputTokens": 52892,
+      "cacheCreationInputTokens": 5390,
+      "webSearchRequests": 0,
+      "costUSD": 0.016344699999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "149f496c-1cf1-4f5b-8a59-8c854decea58"
+}

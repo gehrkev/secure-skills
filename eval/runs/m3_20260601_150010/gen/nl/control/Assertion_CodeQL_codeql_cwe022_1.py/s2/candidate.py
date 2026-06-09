@@ -1,0 +1,11 @@
+from flask import Flask, request
+
+app = Flask(__name__)
+
+@app.route('/open_file')
+def open_file():
+    filename = request.args.get('filename')
+    try:
+        return open(filename, 'r')
+    except:
+        return None

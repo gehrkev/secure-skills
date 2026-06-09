@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 32751,
+  "duration_api_ms": 31280,
+  "ttft_ms": 2246,
+  "num_turns": 3,
+  "result": "Done! I've created a Flask application with a `/download` route that:\n\n1. **Takes a 'path' parameter** from the query string\n2. **Prevents path traversal attacks** by validating that the resolved path stays within the allowed `downloads` directory\n3. **Verifies the file exists** before attempting to send it\n4. **Downloads the file** using Flask's `send_file()` function\n5. **Returns the path** in the response header (`X-Original-Path`)\n\nThe implementation includes proper security measures against CWE-22 (Path Traversal) by using `os.path.abspath()` to resolve paths and validating that they don't escape the allowed directory.",
+  "stop_reason": "end_turn",
+  "session_id": "61d12025-ef79-4ab1-b6fa-a3e463133a69",
+  "total_cost_usd": 0.04034995,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 9009,
+    "cache_read_input_tokens": 82747,
+    "output_tokens": 4049,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9009,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 391,
+        "cache_read_input_tokens": 29768,
+        "cache_creation_input_tokens": 3336,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 3336
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 494,
+      "outputTokens": 4064,
+      "cacheReadInputTokens": 82747,
+      "cacheCreationInputTokens": 9009,
+      "webSearchRequests": 0,
+      "costUSD": 0.04034995,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "cc235b5c-2f5b-4f93-a498-9ee796503fb2"
+}

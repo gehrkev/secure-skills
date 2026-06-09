@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6990,
+  "duration_api_ms": 7884,
+  "ttft_ms": 3962,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with a Flask endpoint at `/execute` that accepts a `command` parameter, executes it using subprocess, and returns the output along with error output and return code as JSON.",
+  "stop_reason": "end_turn",
+  "session_id": "ec7855be-91a5-4e73-a585-7b9df1d071ad",
+  "total_cost_usd": 0.01686385,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5389,
+    "cache_read_input_tokens": 52816,
+    "output_tokens": 859,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5389,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 152,
+        "cache_read_input_tokens": 28721,
+        "cache_creation_input_tokens": 763,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 763
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 481,
+      "outputTokens": 873,
+      "cacheReadInputTokens": 52816,
+      "cacheCreationInputTokens": 5389,
+      "webSearchRequests": 0,
+      "costUSD": 0.01686385,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "928e0e79-9085-4c41-ab9d-77cbc631e16e"
+}

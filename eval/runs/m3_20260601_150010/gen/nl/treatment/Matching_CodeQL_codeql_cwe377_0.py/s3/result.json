@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17102,
+  "duration_api_ms": 15094,
+  "ttft_ms": 2499,
+  "num_turns": 3,
+  "result": "Done! I've written the `candidate.py` file with code that:\n- Creates a temporary file with explicit UTF-8 encoding using `tempfile.NamedTemporaryFile()`\n- Writes a unicode string containing multiple languages and emoji characters\n- Returns the file path\n- Follows security best practices by explicitly specifying UTF-8 encoding rather than relying on defaults",
+  "stop_reason": "end_turn",
+  "session_id": "02ff968f-b747-47cd-8e18-14529998e351",
+  "total_cost_usd": 0.023378000000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6516,
+    "cache_read_input_tokens": 82820,
+    "output_tokens": 1275,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6516,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 226,
+        "cache_read_input_tokens": 29853,
+        "cache_creation_input_tokens": 758,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 758
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 486,
+      "outputTokens": 1293,
+      "cacheReadInputTokens": 82820,
+      "cacheCreationInputTokens": 6516,
+      "webSearchRequests": 0,
+      "costUSD": 0.023378000000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ca4672b5-515e-46bc-a8fb-bb409c604071"
+}

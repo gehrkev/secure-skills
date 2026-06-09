@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15759,
+  "duration_api_ms": 13570,
+  "ttft_ms": 2096,
+  "num_turns": 3,
+  "result": "Done. I've written the function to `candidate.py`. The function uses a simple, efficient regex pattern `^[^.]+\\.[^.]+\\.[^.]+$` that matches three parts separated by dots, where each part is one or more non-dot characters. The pattern avoids ReDoS vulnerabilities by eliminating unnecessary backtracking and nested quantifiers.",
+  "stop_reason": "end_turn",
+  "session_id": "71b3b616-5527-40d4-a9f2-e2a4bd638554",
+  "total_cost_usd": 0.024601249999999998,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6701,
+    "cache_read_input_tokens": 83000,
+    "output_tokens": 1469,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6701,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 311,
+        "cache_read_input_tokens": 29997,
+        "cache_creation_input_tokens": 799,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 799
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 505,
+      "outputTokens": 1484,
+      "cacheReadInputTokens": 83000,
+      "cacheCreationInputTokens": 6701,
+      "webSearchRequests": 0,
+      "costUSD": 0.024601249999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "cc161dc0-f276-4ab8-b8be-ac116681ef9c"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 27876,
+  "duration_api_ms": 25679,
+  "ttft_ms": 2521,
+  "num_turns": 3,
+  "result": "Done. The code is written to `candidate.py` with proper security measures:\n- **XSS protection**: Parameter values are HTML-escaped using `html.escape()`\n- **Path safety**: Template path is hardcoded with `Path` for secure file access\n- **Content-Type**: Response header is set to `text/html; charset=utf-8` for proper rendering",
+  "stop_reason": "end_turn",
+  "session_id": "385a4fda-fceb-4c31-a82c-08452511b143",
+  "total_cost_usd": 0.036345249999999996,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8713,
+    "cache_read_input_tokens": 83250,
+    "output_tokens": 3303,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8713,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 229,
+        "cache_read_input_tokens": 30181,
+        "cache_creation_input_tokens": 2627,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2627
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 539,
+      "outputTokens": 3318,
+      "cacheReadInputTokens": 83250,
+      "cacheCreationInputTokens": 8713,
+      "webSearchRequests": 0,
+      "costUSD": 0.036345249999999996,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "687282ae-14bf-4038-a93e-cdf4bbd15404"
+}

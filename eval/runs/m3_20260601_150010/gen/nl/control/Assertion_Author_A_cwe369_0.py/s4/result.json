@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10392,
+  "duration_api_ms": 11329,
+  "ttft_ms": 6082,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with the `/get_average_score` endpoint that:\n\n- Accepts both GET and POST requests\n- Extracts `total_score` and `total_count` from the request (query parameters for GET, JSON body for POST)\n- Calculates and returns the average score as JSON\n- Includes error handling for missing parameters, invalid types, and division by zero\n\nThe file has been written to `candidate.py`.",
+  "stop_reason": "end_turn",
+  "session_id": "2d34a576-abc6-416e-8164-557feefcd312",
+  "total_cost_usd": 0.01944495,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5759,
+    "cache_read_input_tokens": 52842,
+    "output_tokens": 1279,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5759,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 226,
+        "cache_read_input_tokens": 28747,
+        "cache_creation_input_tokens": 1107,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1107
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 492,
+      "outputTokens": 1294,
+      "cacheReadInputTokens": 52842,
+      "cacheCreationInputTokens": 5759,
+      "webSearchRequests": 0,
+      "costUSD": 0.01944495,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b79591fc-06e3-4a27-afd3-30e910a50d33"
+}

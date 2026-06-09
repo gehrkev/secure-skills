@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 22627,
+  "duration_api_ms": 18216,
+  "ttft_ms": 2565,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with secure implementation that:\n\n1. **Validates the canvas_url** to prevent SSRF attacks (checks for valid URL scheme and netloc, only allows HTTP/HTTPS)\n2. **Retrieves the API token securely** from environment variables rather than as a parameter\n3. **Uses the Canvas API** to authenticate and fetch courses\n4. **Returns a list of courses** from the Canvas instance",
+  "stop_reason": "end_turn",
+  "session_id": "dd5cd69a-5493-415a-98e6-7af0be08ba4c",
+  "total_cost_usd": 0.027418200000000004,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7286,
+    "cache_read_input_tokens": 83207,
+    "output_tokens": 1879,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7286,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 258,
+        "cache_read_input_tokens": 30154,
+        "cache_creation_input_tokens": 1227,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1227
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 1892,
+      "cacheReadInputTokens": 83207,
+      "cacheCreationInputTokens": 7286,
+      "webSearchRequests": 0,
+      "costUSD": 0.027418200000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1dd340f6-2d0d-4897-97ff-9f5d8fd30697"
+}

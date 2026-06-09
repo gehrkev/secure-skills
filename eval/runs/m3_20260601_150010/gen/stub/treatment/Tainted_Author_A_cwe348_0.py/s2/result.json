@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23859,
+  "duration_api_ms": 20387,
+  "ttft_ms": 2374,
+  "num_turns": 3,
+  "result": "Done. I've written the secure implementation to `candidate.py`. The code:\n\n1. **Validates** the X-Forwarded-For header exists\n2. **Extracts** the client IP (first IP in the comma-separated list)\n3. **Parses** it using Python's `ipaddress` module for robust validation\n4. **Checks** if it's a private/local IP using `is_private` (covers 127.0.0.0/8, 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, and IPv6 private ranges)\n5. **Raises** an exception if the IP is not local (preventing SSRF-like attacks)\n6. **Returns** the header on success\n\nThis addresses the SSRF security concerns by strictly validating that the source IP is local before accepting it.",
+  "stop_reason": "end_turn",
+  "session_id": "e8a88ee6-9437-41d9-aee0-51d827228431",
+  "total_cost_usd": 0.033609799999999995,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8240,
+    "cache_read_input_tokens": 83278,
+    "output_tokens": 2865,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8240,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 353,
+        "cache_read_input_tokens": 30181,
+        "cache_creation_input_tokens": 2154,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2154
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 552,
+      "outputTokens": 2886,
+      "cacheReadInputTokens": 83278,
+      "cacheCreationInputTokens": 8240,
+      "webSearchRequests": 0,
+      "costUSD": 0.033609799999999995,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a7c74f01-924a-40d7-b3fc-9be013abb2b3"
+}

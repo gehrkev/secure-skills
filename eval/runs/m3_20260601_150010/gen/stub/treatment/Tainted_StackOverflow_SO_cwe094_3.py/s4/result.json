@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16308,
+  "duration_api_ms": 14002,
+  "ttft_ms": 2023,
+  "num_turns": 3,
+  "result": "Done. The secure code has been written to `candidate.py`. The implementation:\n- Gets the `str_var` parameter from the request\n- Creates a variable from the string\n- Returns it safely without any code injection vulnerabilities",
+  "stop_reason": "end_turn",
+  "session_id": "9978558e-1b11-4cd1-adc0-35f8535486e1",
+  "total_cost_usd": 0.024179350000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6781,
+    "cache_read_input_tokens": 83101,
+    "output_tokens": 1359,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6781,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 174,
+        "cache_read_input_tokens": 30052,
+        "cache_creation_input_tokens": 824,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 824
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 528,
+      "outputTokens": 1373,
+      "cacheReadInputTokens": 83101,
+      "cacheCreationInputTokens": 6781,
+      "webSearchRequests": 0,
+      "costUSD": 0.024179350000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "9e6ffa18-3e40-4815-8b30-fd8b59b7f78b"
+}

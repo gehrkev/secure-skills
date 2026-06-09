@@ -1,0 +1,74 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_mzh78d2f.py",
+  "target_cwe": "CWE-91",
+  "findings": [
+    {
+      "cwe": "CWE-22",
+      "line": 18,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-23",
+      "line": 18,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-36",
+      "line": 18,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-73",
+      "line": 18,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-99",
+      "line": 18,
+      "rule_id": "py/path-injection",
+      "message": "This path depends on a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-611",
+      "line": 18,
+      "rule_id": "py/xxe",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against external entity expansion."
+    },
+    {
+      "cwe": "CWE-827",
+      "line": 18,
+      "rule_id": "py/xxe",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against external entity expansion."
+    },
+    {
+      "cwe": "CWE-611",
+      "line": 19,
+      "rule_id": "py/xxe",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against external entity expansion."
+    },
+    {
+      "cwe": "CWE-827",
+      "line": 19,
+      "rule_id": "py/xxe",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against external entity expansion."
+    }
+  ],
+  "summary": {
+    "total_findings": 9,
+    "by_cwe": {
+      "CWE-22": 1,
+      "CWE-23": 1,
+      "CWE-36": 1,
+      "CWE-73": 1,
+      "CWE-99": 1,
+      "CWE-611": 2,
+      "CWE-827": 2
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-0hn9mclc/results.sarif"
+}

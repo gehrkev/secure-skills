@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9475,
+  "duration_api_ms": 10541,
+  "ttft_ms": 7189,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with an endpoint at `/contents_dict` that:\n- Accepts GET and POST requests\n- Gets the 'contents' parameter from query parameters, form data, or JSON body\n- Evaluates it as a dictionary using `eval()`\n- Returns the resulting dictionary as JSON",
+  "stop_reason": "end_turn",
+  "session_id": "07ed8063-b3bb-4ab3-9d9a-23d596707bcf",
+  "total_cost_usd": 0.01923005,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5773,
+    "cache_read_input_tokens": 52838,
+    "output_tokens": 1233,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5773,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 166,
+        "cache_read_input_tokens": 28743,
+        "cache_creation_input_tokens": 1125,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1125
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1248,
+      "cacheReadInputTokens": 52838,
+      "cacheCreationInputTokens": 5773,
+      "webSearchRequests": 0,
+      "costUSD": 0.01923005,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7486b126-158f-411e-a1c7-8a3d13e11955"
+}

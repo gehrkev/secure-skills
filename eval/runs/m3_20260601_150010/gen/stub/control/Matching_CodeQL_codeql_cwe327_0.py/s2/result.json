@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11083,
+  "duration_api_ms": 11980,
+  "ttft_ms": 7845,
+  "num_turns": 2,
+  "result": "Done. I've implemented the `send_encrypted` function that creates an AES cipher in CBC mode, encrypts the message with proper padding, and sends the IV prepended to the ciphertext over the channel.",
+  "stop_reason": "end_turn",
+  "session_id": "7537b083-53fe-4c2d-9279-88e6eeac0a72",
+  "total_cost_usd": 0.020067199999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5984,
+    "cache_read_input_tokens": 52932,
+    "output_tokens": 1338,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5984,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 150,
+        "cache_read_input_tokens": 28837,
+        "cache_creation_input_tokens": 1242,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1242
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 539,
+      "outputTokens": 1351,
+      "cacheReadInputTokens": 52932,
+      "cacheCreationInputTokens": 5984,
+      "webSearchRequests": 0,
+      "costUSD": 0.020067199999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "231deea0-c1cf-421f-b14a-23e38cf3ef61"
+}

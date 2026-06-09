@@ -1,0 +1,13 @@
+from flask import Flask, request, make_response
+
+app = Flask(__name__)
+
+@app.route('/getcookie')
+def get_cookie():
+    cookie_value = request.args.get('cookie')
+    response = make_response('OK')
+    response.set_cookie('cookie', cookie_value)
+    return response
+
+if __name__ == '__main__':
+    app.run()

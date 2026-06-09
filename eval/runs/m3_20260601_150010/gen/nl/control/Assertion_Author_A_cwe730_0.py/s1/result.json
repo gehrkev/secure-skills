@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5014,
+  "duration_api_ms": 6135,
+  "ttft_ms": 2495,
+  "num_turns": 2,
+  "result": "Done. I've written the function to `candidate.py`. It checks if the query contains either domain string and returns the appropriate message.",
+  "stop_reason": "end_turn",
+  "session_id": "a91106d8-e5d9-4493-b301-f0169fe9f7ce",
+  "total_cost_usd": 0.014718699999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5122,
+    "cache_read_input_tokens": 52882,
+    "output_tokens": 488,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5122,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 119,
+        "cache_read_input_tokens": 28787,
+        "cache_creation_input_tokens": 430,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 430
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 513,
+      "outputTokens": 503,
+      "cacheReadInputTokens": 52882,
+      "cacheCreationInputTokens": 5122,
+      "webSearchRequests": 0,
+      "costUSD": 0.014718699999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "81ae1710-6680-4007-9c8b-cc7b2da4416c"
+}

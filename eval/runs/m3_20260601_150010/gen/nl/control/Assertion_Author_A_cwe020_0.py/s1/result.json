@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9382,
+  "duration_api_ms": 10261,
+  "ttft_ms": 6482,
+  "num_turns": 2,
+  "result": "Done! I've written a function that uses regex to validate the x.y.z format. The pattern `^(\\w+)\\.(\\w+)\\.(\\w+)$` matches exactly three parts of word characters separated by dots, anchoring to the start and end of the string to ensure no extra content.",
+  "stop_reason": "end_turn",
+  "session_id": "885e656d-4aea-46a7-ae65-eba5de33486f",
+  "total_cost_usd": 0.018255550000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5603,
+    "cache_read_input_tokens": 52848,
+    "output_tokens": 1079,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5603,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 194,
+        "cache_read_input_tokens": 28753,
+        "cache_creation_input_tokens": 945,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 945
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 497,
+      "outputTokens": 1094,
+      "cacheReadInputTokens": 52848,
+      "cacheCreationInputTokens": 5603,
+      "webSearchRequests": 0,
+      "costUSD": 0.018255550000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3403a7f2-400a-4fc2-aabe-0812a45bbdb4"
+}

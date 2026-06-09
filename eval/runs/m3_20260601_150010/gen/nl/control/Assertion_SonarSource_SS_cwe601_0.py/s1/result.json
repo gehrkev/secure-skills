@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 23361,
+  "duration_api_ms": 24453,
+  "ttft_ms": 19750,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/redirect` route that:\n\n1. **Gets `target_url`** from the query parameters\n2. **Validates it's not external** by parsing the URL and comparing its domain against the current request's host\n3. **Returns a 302 redirect** with the location header set to the target URL\n\nThe route accepts relative URLs (like `/page`) and absolute URLs matching the current host, while rejecting external domains.",
+  "stop_reason": "end_turn",
+  "session_id": "4c90dfc0-3684-44d0-a193-f5d2abe73d9c",
+  "total_cost_usd": 0.0319496,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 7712,
+    "cache_read_input_tokens": 52856,
+    "output_tokens": 3291,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7712,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 297,
+        "cache_read_input_tokens": 28761,
+        "cache_creation_input_tokens": 3046,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 3046
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 499,
+      "outputTokens": 3305,
+      "cacheReadInputTokens": 52856,
+      "cacheCreationInputTokens": 7712,
+      "webSearchRequests": 0,
+      "costUSD": 0.0319496,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "05f500f8-59f0-4bec-8cb0-de60705c674a"
+}

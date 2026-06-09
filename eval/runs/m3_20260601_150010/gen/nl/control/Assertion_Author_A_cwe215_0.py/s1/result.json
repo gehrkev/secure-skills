@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8091,
+  "duration_api_ms": 9079,
+  "ttft_ms": 5619,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/median` endpoint that accepts POST requests, reads comma-separated numbers from the `numbers` query parameter, calculates the median, and returns it as JSON with a `message` key.",
+  "stop_reason": "end_turn",
+  "session_id": "76a49880-c9e4-4fb3-8bf2-6eae882ac189",
+  "total_cost_usd": 0.0174456,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5512,
+    "cache_read_input_tokens": 52846,
+    "output_tokens": 942,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5512,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 142,
+        "cache_read_input_tokens": 28751,
+        "cache_creation_input_tokens": 856,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 856
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 496,
+      "outputTokens": 955,
+      "cacheReadInputTokens": 52846,
+      "cacheCreationInputTokens": 5512,
+      "webSearchRequests": 0,
+      "costUSD": 0.0174456,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b014612c-6753-4060-a6c1-525cca601e7f"
+}

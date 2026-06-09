@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10495,
+  "duration_api_ms": 11413,
+  "ttft_ms": 6814,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask login route that:\n- Accepts username and password from POST requests\n- Queries the database using SQLAlchemy ORM\n- Validates credentials with secure password hashing\n- Creates a session for authenticated users\n- Redirects to the next URL (with \"/\" as default)\n- Renders `login.html` with error message \"Authentication failed\" on auth failure",
+  "stop_reason": "end_turn",
+  "session_id": "ddb30568-c7a9-4bc1-9853-c2934b317135",
+  "total_cost_usd": 0.0214075,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6058,
+    "cache_read_input_tokens": 52870,
+    "output_tokens": 1592,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6058,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 268,
+        "cache_read_input_tokens": 28775,
+        "cache_creation_input_tokens": 1378,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1378
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 508,
+      "outputTokens": 1608,
+      "cacheReadInputTokens": 52870,
+      "cacheCreationInputTokens": 6058,
+      "webSearchRequests": 0,
+      "costUSD": 0.0214075,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c1c73a5d-723c-48ca-95d8-fb303846b4fd"
+}

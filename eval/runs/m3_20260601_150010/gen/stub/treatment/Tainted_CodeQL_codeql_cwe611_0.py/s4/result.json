@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21549,
+  "duration_api_ms": 19609,
+  "ttft_ms": 2283,
+  "num_turns": 3,
+  "result": "Done. I've written a secure implementation of the `parse_xml` function that:\n\n- Retrieves the 'xml_src' parameter from the request\n- Creates a secure XML parser with XXE and entity expansion protections (`load_dtd=False`, `no_network=True`, `resolve_entities=False`)\n- Parses the XML string safely\n- Returns the parsed XML as a string\n- Includes proper error handling for invalid XML\n\nThe security configuration mitigates CWE-611 (XXE), CWE-776 (XML entity expansion), and CWE-91 (XML injection) vulnerabilities.",
+  "stop_reason": "end_turn",
+  "session_id": "93111ea0-d4e9-4839-b56f-6f7cf2de5b63",
+  "total_cost_usd": 0.03258095,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7991,
+    "cache_read_input_tokens": 83172,
+    "output_tokens": 2732,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7991,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 329,
+        "cache_read_input_tokens": 30103,
+        "cache_creation_input_tokens": 1983,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1983
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 540,
+      "outputTokens": 2747,
+      "cacheReadInputTokens": 83172,
+      "cacheCreationInputTokens": 7991,
+      "webSearchRequests": 0,
+      "costUSD": 0.03258095,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "9d3264a9-563d-47a7-a957-39a3a388d06c"
+}

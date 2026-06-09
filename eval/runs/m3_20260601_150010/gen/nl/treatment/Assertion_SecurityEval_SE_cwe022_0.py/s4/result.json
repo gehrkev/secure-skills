@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 30245,
+  "duration_api_ms": 27653,
+  "ttft_ms": 2169,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with a secure implementation that:\n\n1. **Validates file type** \u2014 Checks the file has an image extension before deletion (CWE-434)\n2. **Uses explicit paths** \u2014 Converts to absolute paths and validates with `os.path.abspath()` (CWE-427)\n3. **Prevents path traversal** \u2014 Ensures the file is within the current directory by checking relative path doesn't start with `..` (CWE-426)\n4. **Handles cleanup safely** \u2014 Checks existence before deletion and catches `OSError` exceptions (CWE-459)",
+  "stop_reason": "end_turn",
+  "session_id": "28d185bc-5400-4a35-8934-312a7182d439",
+  "total_cost_usd": 0.042214,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 9444,
+    "cache_read_input_tokens": 82810,
+    "output_tokens": 4315,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9444,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 344,
+        "cache_read_input_tokens": 29853,
+        "cache_creation_input_tokens": 3686,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 3686
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 483,
+      "outputTokens": 4329,
+      "cacheReadInputTokens": 82810,
+      "cacheCreationInputTokens": 9444,
+      "webSearchRequests": 0,
+      "costUSD": 0.042214,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "dfa6fc43-7a8b-4f69-90ed-a43d94d37cf4"
+}

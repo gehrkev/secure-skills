@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19207,
+  "duration_api_ms": 16177,
+  "ttft_ms": 2509,
+  "num_turns": 3,
+  "result": "Done. The code has been written to `candidate.py`. The implementation:\n\n- Retrieves the `X-Forwarded-For` header from the request\n- Parses the first IP (handling multiple comma-separated IPs)\n- Validates it as a proper IP address\n- Checks that it's a private/local IP using `ipaddress.ip_address().is_private`\n- Raises `ValueError` if the IP is not local\n- Returns the original header if validation passes",
+  "stop_reason": "end_turn",
+  "session_id": "638e5b37-b68b-41c0-91de-62f176996100",
+  "total_cost_usd": 0.027605199999999996,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7328,
+    "cache_read_input_tokens": 83282,
+    "output_tokens": 1898,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7328,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 295,
+        "cache_read_input_tokens": 30187,
+        "cache_creation_input_tokens": 1236,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1236
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 552,
+      "outputTokens": 1913,
+      "cacheReadInputTokens": 83282,
+      "cacheCreationInputTokens": 7328,
+      "webSearchRequests": 0,
+      "costUSD": 0.027605199999999996,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c657998b-2371-45ad-9194-da2ba7b2a0bb"
+}

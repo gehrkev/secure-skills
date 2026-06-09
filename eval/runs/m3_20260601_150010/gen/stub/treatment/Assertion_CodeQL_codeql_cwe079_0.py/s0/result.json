@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16810,
+  "duration_api_ms": 13553,
+  "ttft_ms": 3330,
+  "num_turns": 3,
+  "result": "Done. I've generated the Flask route that:\n1. Retrieves the `name` parameter from the request query string\n2. Uses `escape()` to sanitize the input against XSS attacks (as indicated by the security context)\n3. Returns the formatted response `'Hello <name>!'`",
+  "stop_reason": "end_turn",
+  "session_id": "4f375662-1bd2-4913-a064-b1a19859e08a",
+  "total_cost_usd": 0.025165599999999996,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6794,
+    "cache_read_input_tokens": 83181,
+    "output_tokens": 1550,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6794,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 191,
+        "cache_read_input_tokens": 30130,
+        "cache_creation_input_tokens": 759,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 759
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 1565,
+      "cacheReadInputTokens": 83181,
+      "cacheCreationInputTokens": 6794,
+      "webSearchRequests": 0,
+      "costUSD": 0.025165599999999996,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f27bf336-a116-44bc-868f-ee734202e4c2"
+}

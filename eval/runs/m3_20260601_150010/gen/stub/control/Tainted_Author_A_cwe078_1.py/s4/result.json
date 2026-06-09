@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5829,
+  "duration_api_ms": 7439,
+  "ttft_ms": 2964,
+  "num_turns": 2,
+  "result": "Done. I've written the completed Flask application to `candidate.py` with the `executeCommand` function that retrieves the command parameter from the request, executes it using `subprocess.call`, and returns the command.",
+  "stop_reason": "end_turn",
+  "session_id": "3cbf77c9-b592-4de9-bff8-0ba30b1563c5",
+  "total_cost_usd": 0.015550500000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5266,
+    "cache_read_input_tokens": 52900,
+    "output_tokens": 617,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5266,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 121,
+        "cache_read_input_tokens": 28805,
+        "cache_creation_input_tokens": 556,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 556
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 523,
+      "outputTokens": 631,
+      "cacheReadInputTokens": 52900,
+      "cacheCreationInputTokens": 5266,
+      "webSearchRequests": 0,
+      "costUSD": 0.015550500000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "174f9c8c-fac8-4086-ab54-0c109b597e11"
+}

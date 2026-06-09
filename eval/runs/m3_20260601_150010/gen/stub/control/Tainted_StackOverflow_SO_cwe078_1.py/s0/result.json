@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5870,
+  "duration_api_ms": 6682,
+  "ttft_ms": 3378,
+  "num_turns": 2,
+  "result": "Done. I've written the complete `install_package()` function that gets the package name from the request, installs it using pip, and returns the package name.",
+  "stop_reason": "end_turn",
+  "session_id": "56ee1f9c-5930-4cf7-8d10-292e08c5ae7d",
+  "total_cost_usd": 0.01602725,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5329,
+    "cache_read_input_tokens": 52890,
+    "output_tokens": 698,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5329,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 130,
+        "cache_read_input_tokens": 28795,
+        "cache_creation_input_tokens": 629,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 629
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 517,
+      "outputTokens": 712,
+      "cacheReadInputTokens": 52890,
+      "cacheCreationInputTokens": 5329,
+      "webSearchRequests": 0,
+      "costUSD": 0.01602725,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c667e0a4-eaa4-481c-916a-c6083982cea3"
+}

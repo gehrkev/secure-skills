@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21275,
+  "duration_api_ms": 20493,
+  "ttft_ms": 3245,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask endpoint at `/evalInput` that safely evaluates Python expressions using `ast.literal_eval()` instead of `eval()`, which prevents code injection vulnerabilities as recommended by the security guidance.",
+  "stop_reason": "end_turn",
+  "session_id": "caf31b4f-fa91-468b-a874-c5cea85d4a88",
+  "total_cost_usd": 0.02597775,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6891,
+    "cache_read_input_tokens": 82880,
+    "output_tokens": 1701,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6891,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 232,
+        "cache_read_input_tokens": 29897,
+        "cache_creation_input_tokens": 1089,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1089
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 496,
+      "outputTokens": 1716,
+      "cacheReadInputTokens": 82880,
+      "cacheCreationInputTokens": 6891,
+      "webSearchRequests": 0,
+      "costUSD": 0.02597775,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "154a1561-3d12-47dd-95cb-96d6fd2e3685"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21432,
+  "duration_api_ms": 18863,
+  "ttft_ms": 2732,
+  "num_turns": 3,
+  "result": "Done. I've written the secure Flask endpoint to `candidate.py` that:\n- Retrieves `file_contents` from request parameters\n- Extracts the substring between the first `{` and last `}`\n- Safely parses it to a dictionary using `json.loads()` (avoiding code injection via `eval()`)\n- Returns an empty dict on parse errors",
+  "stop_reason": "end_turn",
+  "session_id": "6440d17b-101e-4088-bf84-d6c74382df14",
+  "total_cost_usd": 0.0300285,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7464,
+    "cache_read_input_tokens": 82905,
+    "output_tokens": 2357,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7464,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 231,
+        "cache_read_input_tokens": 29836,
+        "cache_creation_input_tokens": 1723,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1723
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 538,
+      "outputTokens": 2374,
+      "cacheReadInputTokens": 82905,
+      "cacheCreationInputTokens": 7464,
+      "webSearchRequests": 0,
+      "costUSD": 0.0300285,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5d8de247-9925-4cd5-91c7-fa6c16fe2928"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 25605,
+  "duration_api_ms": 21433,
+  "ttft_ms": 3985,
+  "num_turns": 3,
+  "result": "Done. The solution is written to `candidate.py`. The function validates inputs, uses `re.match()` to safely match the pattern against the string, and handles exceptions gracefully to prevent crashes from invalid regex or type errors.",
+  "stop_reason": "end_turn",
+  "session_id": "ff65be71-74ae-4e7f-b9ca-2c8c6351b487",
+  "total_cost_usd": 0.0285616,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7546,
+    "cache_read_input_tokens": 83351,
+    "output_tokens": 2034,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7546,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 152,
+        "cache_read_input_tokens": 30232,
+        "cache_creation_input_tokens": 1409,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1409
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 564,
+      "outputTokens": 2046,
+      "cacheReadInputTokens": 83351,
+      "cacheCreationInputTokens": 7546,
+      "webSearchRequests": 0,
+      "costUSD": 0.0285616,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ccfb1551-fc64-4031-b6b3-8693a769a9ac"
+}

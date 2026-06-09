@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8308,
+  "duration_api_ms": 9613,
+  "ttft_ms": 4138,
+  "num_turns": 2,
+  "result": "Done. I've written the complete Flask route handler to `candidate.py`. The function:\n- Retrieves the `results` parameter from the request query string\n- Creates a temporary file with UTF-8 encoding\n- Writes the results to the file\n- Returns the temporary file's path",
+  "stop_reason": "end_turn",
+  "session_id": "adee7a93-132d-455e-9ed9-d12552b28967",
+  "total_cost_usd": 0.0169486,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5424,
+    "cache_read_input_tokens": 52936,
+    "output_tokens": 853,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5424,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 232,
+        "cache_read_input_tokens": 28841,
+        "cache_creation_input_tokens": 678,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 678
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 540,
+      "outputTokens": 867,
+      "cacheReadInputTokens": 52936,
+      "cacheCreationInputTokens": 5424,
+      "webSearchRequests": 0,
+      "costUSD": 0.0169486,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f54ccdfb-9e26-4c43-be60-0bfbb01ed147"
+}

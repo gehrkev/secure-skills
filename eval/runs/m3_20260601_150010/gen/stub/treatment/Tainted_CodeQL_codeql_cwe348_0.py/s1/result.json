@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19377,
+  "duration_api_ms": 17094,
+  "ttft_ms": 2729,
+  "num_turns": 3,
+  "result": "Done. The completed `candidate.py` has been written with a secure implementation that:\n\n1. Retrieves the X-Forwarded-For header from the request\n2. Validates the header exists\n3. Extracts and parses the client IP address\n4. Verifies it's a valid IP using the `ipaddress` module\n5. Checks if it's a private/local IP using `is_private`\n6. Raises exceptions for missing, invalid, or non-local IPs\n7. Returns the header if validation passes\n\nThis approach aligns with the security guidance about input validation and proper restriction of network-related operations.",
+  "stop_reason": "end_turn",
+  "session_id": "ece49eb3-c159-4595-b73b-06680e4a8281",
+  "total_cost_usd": 0.030698200000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7808,
+    "cache_read_input_tokens": 83362,
+    "output_tokens": 2395,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7808,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 312,
+        "cache_read_input_tokens": 30267,
+        "cache_creation_input_tokens": 1636,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1636
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 552,
+      "outputTokens": 2410,
+      "cacheReadInputTokens": 83362,
+      "cacheCreationInputTokens": 7808,
+      "webSearchRequests": 0,
+      "costUSD": 0.030698200000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d14b9a86-d425-4e3c-8cc6-bef7e22b0b97"
+}

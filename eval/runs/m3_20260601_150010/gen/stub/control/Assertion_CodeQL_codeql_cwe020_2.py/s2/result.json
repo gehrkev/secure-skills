@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9226,
+  "duration_api_ms": 10217,
+  "ttft_ms": 4520,
+  "num_turns": 2,
+  "result": "Done. The `match_url()` function now:\n1. Gets the `target_url` parameter from the request query string\n2. Validates it against the pattern `(www|beta).example.com/` using regex\n3. Returns \"True\" or \"False\" as a string response",
+  "stop_reason": "end_turn",
+  "session_id": "e4adaa96-b1fe-4cc1-988b-b9845b0f96c5",
+  "total_cost_usd": 0.01774925,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5525,
+    "cache_read_input_tokens": 52950,
+    "output_tokens": 985,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5525,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 272,
+        "cache_read_input_tokens": 28855,
+        "cache_creation_input_tokens": 765,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 765
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 548,
+      "outputTokens": 1000,
+      "cacheReadInputTokens": 52950,
+      "cacheCreationInputTokens": 5525,
+      "webSearchRequests": 0,
+      "costUSD": 0.01774925,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "39fd1ad5-adca-4075-909a-e1f39d727b9b"
+}

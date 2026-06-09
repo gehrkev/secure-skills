@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11474,
+  "duration_api_ms": 12491,
+  "ttft_ms": 7423,
+  "num_turns": 2,
+  "result": "Done. The program accepts a `team_name` query parameter, loads an XML document containing teams and members, looks up the specified team, and returns an HTML-formatted list of its members.",
+  "stop_reason": "end_turn",
+  "session_id": "bd7b1c17-5cf6-4644-98af-d3083492cc02",
+  "total_cost_usd": 0.020377649999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5909,
+    "cache_read_input_tokens": 52814,
+    "output_tokens": 1431,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5909,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 196,
+        "cache_read_input_tokens": 28719,
+        "cache_creation_input_tokens": 1285,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1285
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 480,
+      "outputTokens": 1446,
+      "cacheReadInputTokens": 52814,
+      "cacheCreationInputTokens": 5909,
+      "webSearchRequests": 0,
+      "costUSD": 0.020377649999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "53f589b3-8ce8-43ef-a2a8-0f4d3fd98f8c"
+}

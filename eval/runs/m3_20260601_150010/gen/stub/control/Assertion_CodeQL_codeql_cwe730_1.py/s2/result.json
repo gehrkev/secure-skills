@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8834,
+  "duration_api_ms": 9837,
+  "ttft_ms": 6010,
+  "num_turns": 2,
+  "result": "Done. I've written the complete Flask search function to `candidate.py`. The implementation:\n- Retrieves the `query` parameter from the request\n- Checks if it contains either `www.example.com/` or `beta.example.com/`\n- Returns the appropriate success or failure message with the query text",
+  "stop_reason": "end_turn",
+  "session_id": "2a31c5aa-db68-4ba3-a8b6-382b4dab0792",
+  "total_cost_usd": 0.0192827,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5874,
+    "cache_read_input_tokens": 52962,
+    "output_tokens": 1202,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5874,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 160,
+        "cache_read_input_tokens": 28867,
+        "cache_creation_input_tokens": 1102,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1102
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 554,
+      "outputTokens": 1218,
+      "cacheReadInputTokens": 52962,
+      "cacheCreationInputTokens": 5874,
+      "webSearchRequests": 0,
+      "costUSD": 0.0192827,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "2c793d72-f613-4417-8af8-2b20e2c3b082"
+}

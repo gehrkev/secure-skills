@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6594,
+  "duration_api_ms": 8772,
+  "ttft_ms": 3104,
+  "num_turns": 2,
+  "result": "Done. I've written the `match_url` function to `candidate.py`. The implementation uses a regex pattern to validate that the URL matches the format `(www|beta).example.com/`, returning `True` for valid URLs and `False` otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "f75dcbfb-1e70-48b3-83cc-f0617a1a6b99",
+  "total_cost_usd": 0.0166194,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5448,
+    "cache_read_input_tokens": 53004,
+    "output_tokens": 773,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5448,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 196,
+        "cache_read_input_tokens": 28909,
+        "cache_creation_input_tokens": 634,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 634
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 574,
+      "outputTokens": 787,
+      "cacheReadInputTokens": 53004,
+      "cacheCreationInputTokens": 5448,
+      "webSearchRequests": 0,
+      "costUSD": 0.0166194,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "975f0320-1a71-43d4-9837-a691f428be22"
+}

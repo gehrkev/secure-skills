@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 22610,
+  "duration_api_ms": 18390,
+  "ttft_ms": 3099,
+  "num_turns": 3,
+  "result": "Done. The `candidate.py` file has been written with the `do_login()` function properly implemented, including secure session handling with a cryptographically strong session ID and secure cookie attributes.",
+  "stop_reason": "end_turn",
+  "session_id": "18ce2dcf-ae9d-4198-9201-c693caa7bc99",
+  "total_cost_usd": 0.031056800000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8302,
+    "cache_read_input_tokens": 84243,
+    "output_tokens": 2292,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8302,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 236,
+        "cache_read_input_tokens": 30822,
+        "cache_creation_input_tokens": 1575,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1575
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 715,
+      "outputTokens": 2308,
+      "cacheReadInputTokens": 84243,
+      "cacheCreationInputTokens": 8302,
+      "webSearchRequests": 0,
+      "costUSD": 0.031056800000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3758058a-b158-4705-af96-f4d530a70c1d"
+}

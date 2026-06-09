@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12117,
+  "duration_api_ms": 13372,
+  "ttft_ms": 8385,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/xslt` endpoint that:\n\n- Accepts `xml` and `xslt` (XPath query) parameters from GET or POST requests\n- Parses the XML using lxml's etree\n- Applies the XPath query to the parsed XML\n- Returns results as JSON, handling both primitive values and XML elements\n- Includes error handling for XML parsing and XPath evaluation issues",
+  "stop_reason": "end_turn",
+  "session_id": "7e9d0457-0085-40c1-8aec-f04aeac60a09",
+  "total_cost_usd": 0.02288825,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6321,
+    "cache_read_input_tokens": 52860,
+    "output_tokens": 1822,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6321,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 221,
+        "cache_read_input_tokens": 28765,
+        "cache_creation_input_tokens": 1651,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1651
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 501,
+      "outputTokens": 1840,
+      "cacheReadInputTokens": 52860,
+      "cacheCreationInputTokens": 6321,
+      "webSearchRequests": 0,
+      "costUSD": 0.02288825,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c438e2ad-db0a-4147-9643-965781a26eb4"
+}

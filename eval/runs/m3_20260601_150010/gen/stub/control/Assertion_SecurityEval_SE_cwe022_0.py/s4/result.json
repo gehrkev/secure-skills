@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6460,
+  "duration_api_ms": 7289,
+  "ttft_ms": 3430,
+  "num_turns": 2,
+  "result": "Done. I've written the `delateImage` function to `candidate.py`. The function checks if the file exists at the given path and deletes it using `os.remove()` if found.",
+  "stop_reason": "end_turn",
+  "session_id": "a8882fac-256c-4102-bce4-a99ba02624e6",
+  "total_cost_usd": 0.0163229,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5314,
+    "cache_read_input_tokens": 52874,
+    "output_tokens": 764,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5314,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 196,
+        "cache_read_input_tokens": 28779,
+        "cache_creation_input_tokens": 630,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 630
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 508,
+      "outputTokens": 777,
+      "cacheReadInputTokens": 52874,
+      "cacheCreationInputTokens": 5314,
+      "webSearchRequests": 0,
+      "costUSD": 0.0163229,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "9e9ac2a0-2a93-4058-b349-52b8dd53dbf8"
+}

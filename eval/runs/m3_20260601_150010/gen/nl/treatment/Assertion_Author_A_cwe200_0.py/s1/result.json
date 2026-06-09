@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18190,
+  "duration_api_ms": 15782,
+  "ttft_ms": 2378,
+  "num_turns": 3,
+  "result": "Done. I've created a Flask login endpoint that:\n\n1. **Accepts JSON input** with username and token from the request\n2. **Queries the database** using parameterized queries (preventing SQL injection per CWE guidance)\n3. **Explicitly initializes variables** (`authorized = False`) to prevent default-value vulnerabilities per CWE-1188\n4. **Returns proper JSON responses** with \"Authorized\" (200) or \"Unauthorized\" (401) status\n5. **Uses SQLite** for database operations with `sqlite3.Row` factory for clean data access\n6. **Includes error handling** with exception catching to avoid exposing internal errors\n7. **Initializes the database** with a users table on first run\n\nThe endpoint is available at `POST /login` and follows security best practices from the retrieved guidance.",
+  "stop_reason": "end_turn",
+  "session_id": "48e95aea-550f-4e72-832e-4a33b62a4b35",
+  "total_cost_usd": 0.025838450000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6707,
+    "cache_read_input_tokens": 82927,
+    "output_tokens": 1715,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6707,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 458,
+        "cache_read_input_tokens": 29912,
+        "cache_creation_input_tokens": 890,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 890
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 512,
+      "outputTokens": 1730,
+      "cacheReadInputTokens": 82927,
+      "cacheCreationInputTokens": 6707,
+      "webSearchRequests": 0,
+      "costUSD": 0.025838450000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e9f370d7-e6ab-4aa7-9eab-c74151835c58"
+}

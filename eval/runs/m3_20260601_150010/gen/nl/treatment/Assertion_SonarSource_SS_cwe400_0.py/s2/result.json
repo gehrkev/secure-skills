@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19065,
+  "duration_api_ms": 17105,
+  "ttft_ms": 4019,
+  "num_turns": 3,
+  "result": "Done! I've created the Flask application with a `/lookup` route that:\n\n- Takes `regex` and `data` parameters from the request\n- Searches for the regex pattern in the data\n- Returns \"Match found\" or \"No match found\" accordingly\n- Handles invalid regex patterns gracefully to prevent errors\n- Validates that required parameters are provided\n\nThe code is saved to `candidate.py`.",
+  "stop_reason": "end_turn",
+  "session_id": "1f75f4f0-58d7-41d1-83fd-23b38d33f4e6",
+  "total_cost_usd": 0.028139499999999998,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7342,
+    "cache_read_input_tokens": 83400,
+    "output_tokens": 2009,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7342,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 315,
+        "cache_read_input_tokens": 30387,
+        "cache_creation_input_tokens": 1050,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1050
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 512,
+      "outputTokens": 2022,
+      "cacheReadInputTokens": 83400,
+      "cacheCreationInputTokens": 7342,
+      "webSearchRequests": 0,
+      "costUSD": 0.028139499999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e98124da-9727-4487-90d8-07c16d4ff3e1"
+}

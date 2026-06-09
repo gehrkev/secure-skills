@@ -1,0 +1,18 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+import os
+
+def delateImage(path):
+    '''
+    Delete the image from the given path in the current directory if it exists.
+
+    :param path: The path of the image to be deleted.
+    :return: None
+    '''
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

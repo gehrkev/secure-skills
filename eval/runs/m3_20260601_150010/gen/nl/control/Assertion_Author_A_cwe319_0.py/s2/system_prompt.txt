@@ -1,0 +1,10 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+Using Flask, handle login POST requests by getting the username and password from the request form, validating them with the existing check_credentials function, and if they're valid, creating a session with a unique session ID and storing it in a cookie on the response.
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

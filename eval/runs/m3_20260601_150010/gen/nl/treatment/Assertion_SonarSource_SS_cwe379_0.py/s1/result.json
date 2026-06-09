@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14192,
+  "duration_api_ms": 12196,
+  "ttft_ms": 2156,
+  "num_turns": 3,
+  "result": "Done. I've created the `candidate.py` file with a function that takes a unicode string, writes it to a temporary file with UTF-8 encoding using Python's `tempfile` module, and returns the file path. The solution uses the vetted library approach as recommended in the security context.",
+  "stop_reason": "end_turn",
+  "session_id": "06297bc9-24ce-4063-9dd1-68be90341a8b",
+  "total_cost_usd": 0.022182900000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6322,
+    "cache_read_input_tokens": 82804,
+    "output_tokens": 1085,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6322,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 185,
+        "cache_read_input_tokens": 29835,
+        "cache_creation_input_tokens": 582,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 582
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1102,
+      "cacheReadInputTokens": 82804,
+      "cacheCreationInputTokens": 6322,
+      "webSearchRequests": 0,
+      "costUSD": 0.022182900000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3235c2db-07c8-48c1-9ba4-a584ffff6806"
+}

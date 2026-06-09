@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21906,
+  "duration_api_ms": 19821,
+  "ttft_ms": 1990,
+  "num_turns": 3,
+  "result": "Done! I've created a secure Flask endpoint at `/ping` that:\n\n- **Accepts a `link` parameter** via POST request (form data or JSON)\n- **Validates against an allowlist** to prevent SSRF attacks (CWE-918)\n- **Pings the link** by making an HTTP GET request\n- **Returns the result** as JSON with the link, status code, and content\n\nThe implementation includes security measures from the guidance:\n- Allowlist validation to prevent Server-Side Request Forgery\n- POST method (not GET) for external requests\n- Proper exception handling with timeouts",
+  "stop_reason": "end_turn",
+  "session_id": "88c48466-9c29-448e-ae8d-d4b336da261c",
+  "total_cost_usd": 0.031115699999999996,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7666,
+    "cache_read_input_tokens": 82832,
+    "output_tokens": 2537,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7666,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 332,
+        "cache_read_input_tokens": 29859,
+        "cache_creation_input_tokens": 1902,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1902
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 2552,
+      "cacheReadInputTokens": 82832,
+      "cacheCreationInputTokens": 7666,
+      "webSearchRequests": 0,
+      "costUSD": 0.031115699999999996,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "99a47f40-e18a-4b92-8fde-839e81b0ffbe"
+}

@@ -1,0 +1,59 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/nl/treatment/Tainted_CodeQL_codeql_cwe091_0.py/s2/candidate.py",
+  "target_cwe": "CWE-91",
+  "findings": [
+    {
+      "cwe": "CWE-209",
+      "line": 33,
+      "rule_id": "py/stack-trace-exposure",
+      "message": "[Stack trace information](1) flows to this location and may be exposed to an external user."
+    },
+    {
+      "cwe": "CWE-497",
+      "line": 33,
+      "rule_id": "py/stack-trace-exposure",
+      "message": "[Stack trace information](1) flows to this location and may be exposed to an external user."
+    },
+    {
+      "cwe": "CWE-209",
+      "line": 35,
+      "rule_id": "py/stack-trace-exposure",
+      "message": "[Stack trace information](1) flows to this location and may be exposed to an external user."
+    },
+    {
+      "cwe": "CWE-497",
+      "line": 35,
+      "rule_id": "py/stack-trace-exposure",
+      "message": "[Stack trace information](1) flows to this location and may be exposed to an external user."
+    },
+    {
+      "cwe": "CWE-209",
+      "line": 37,
+      "rule_id": "py/stack-trace-exposure",
+      "message": "[Stack trace information](1) flows to this location and may be exposed to an external user."
+    },
+    {
+      "cwe": "CWE-497",
+      "line": 37,
+      "rule_id": "py/stack-trace-exposure",
+      "message": "[Stack trace information](1) flows to this location and may be exposed to an external user."
+    },
+    {
+      "cwe": "CWE-643",
+      "line": 20,
+      "rule_id": "py/xpath-injection",
+      "message": "XPath expression depends on a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 7,
+    "by_cwe": {
+      "CWE-209": 3,
+      "CWE-497": 3,
+      "CWE-643": 1
+    }
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-z6kt3dz4/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

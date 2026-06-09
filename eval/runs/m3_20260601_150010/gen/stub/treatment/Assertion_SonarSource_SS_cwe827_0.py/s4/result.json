@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21323,
+  "duration_api_ms": 18144,
+  "ttft_ms": 4079,
+  "num_turns": 3,
+  "result": "Complete. I've written the secure XML parser to `candidate.py` that:\n\n1. Disables external entity expansion with `resolve_entities=False` to prevent XXE attacks (CWE-611, CWE-776)\n2. Uses lxml's built-in file handling for safe parsing\n3. Returns the root element as specified",
+  "stop_reason": "end_turn",
+  "session_id": "4e436a4c-4e13-44d8-b85d-b36bff97d41a",
+  "total_cost_usd": 0.0265226,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7126,
+    "cache_read_input_tokens": 83141,
+    "output_tokens": 1740,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7126,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 192,
+        "cache_read_input_tokens": 30086,
+        "cache_creation_input_tokens": 1135,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1135
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 531,
+      "outputTokens": 1754,
+      "cacheReadInputTokens": 83141,
+      "cacheCreationInputTokens": 7126,
+      "webSearchRequests": 0,
+      "costUSD": 0.0265226,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f250068a-8710-409c-8f92-7823e79a77d2"
+}

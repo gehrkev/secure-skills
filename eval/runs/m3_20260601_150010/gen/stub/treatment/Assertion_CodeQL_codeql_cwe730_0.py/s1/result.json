@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 27034,
+  "duration_api_ms": 23963,
+  "ttft_ms": 2489,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with a secure implementation that:\n\n1. **Validates inputs** \u2014 checks that both pattern and string are strings before processing\n2. **Uses strict pattern matching** \u2014 applies `re.fullmatch()` to ensure the entire string matches the pattern, not just a substring\n3. **Handles invalid patterns gracefully** \u2014 catches regex compilation errors and returns False\n4. **Efficient** \u2014 matches in linear time\n\nThis approach follows the security guidance on input validation (CWE-601) by using an \"accept known good\" strategy.",
+  "stop_reason": "end_turn",
+  "session_id": "ea74646c-fa20-48c7-914e-8eab8e391919",
+  "total_cost_usd": 0.03145355,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7933,
+    "cache_read_input_tokens": 83333,
+    "output_tokens": 2515,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7933,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 251,
+        "cache_read_input_tokens": 30212,
+        "cache_creation_input_tokens": 1816,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1816
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 564,
+      "outputTokens": 2528,
+      "cacheReadInputTokens": 83333,
+      "cacheCreationInputTokens": 7933,
+      "webSearchRequests": 0,
+      "costUSD": 0.03145355,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ebcd617a-4d33-4265-a1aa-53fd071a9afe"
+}

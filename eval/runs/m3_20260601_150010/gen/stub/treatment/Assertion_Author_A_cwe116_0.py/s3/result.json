@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20144,
+  "duration_api_ms": 16153,
+  "ttft_ms": 3165,
+  "num_turns": 3,
+  "result": "Done. I've written the complete Flask application to `candidate.py`. The implementation:\n- Retrieves the `content` parameter from the request\n- Uses a regex pattern with case-insensitive and multiline flags to remove all `<script>` tags and their content\n- Returns the filtered content as an HTML response, addressing XSS prevention guidance from the security context",
+  "stop_reason": "end_turn",
+  "session_id": "797fb500-6f03-4c00-b0a2-9d25f1ac7ce8",
+  "total_cost_usd": 0.02609325,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7033,
+    "cache_read_input_tokens": 83160,
+    "output_tokens": 1679,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7033,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 239,
+        "cache_read_input_tokens": 30115,
+        "cache_creation_input_tokens": 1013,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1013
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 526,
+      "outputTokens": 1692,
+      "cacheReadInputTokens": 83160,
+      "cacheCreationInputTokens": 7033,
+      "webSearchRequests": 0,
+      "costUSD": 0.02609325,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "fb11aff7-f076-4e41-9d28-e94a0ff62ff4"
+}

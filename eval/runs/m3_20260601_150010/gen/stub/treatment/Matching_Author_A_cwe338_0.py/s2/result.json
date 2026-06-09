@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17593,
+  "duration_api_ms": 14124,
+  "ttft_ms": 2715,
+  "num_turns": 3,
+  "result": "Done. I've written the secure implementation to `candidate.py` using `secrets.token_hex()` for cryptographically secure random session ID generation instead of the weak `random` module, addressing the CWE vulnerabilities identified in the security context.",
+  "stop_reason": "end_turn",
+  "session_id": "fa9b28fc-b5bd-4c21-a2cd-29fe95923a0a",
+  "total_cost_usd": 0.023735350000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6705,
+    "cache_read_input_tokens": 83181,
+    "output_tokens": 1285,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6705,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 182,
+        "cache_read_input_tokens": 30108,
+        "cache_creation_input_tokens": 692,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 692
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 541,
+      "outputTokens": 1299,
+      "cacheReadInputTokens": 83181,
+      "cacheCreationInputTokens": 6705,
+      "webSearchRequests": 0,
+      "costUSD": 0.023735350000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "45d9fa9e-98c0-483f-9a6f-cc3a79b08ce0"
+}

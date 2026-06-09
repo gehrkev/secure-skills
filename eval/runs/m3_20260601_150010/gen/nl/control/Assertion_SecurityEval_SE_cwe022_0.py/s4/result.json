@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8897,
+  "duration_api_ms": 10002,
+  "ttft_ms": 6269,
+  "num_turns": 2,
+  "result": "Done. The program accepts an image file path as input and deletes it if it exists in the current directory using the os module.",
+  "stop_reason": "end_turn",
+  "session_id": "3a96295c-9ce1-483a-aad5-e0d9e69634d8",
+  "total_cost_usd": 0.0181131,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5590,
+    "cache_read_input_tokens": 52806,
+    "output_tokens": 1060,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5590,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 147,
+        "cache_read_input_tokens": 28711,
+        "cache_creation_input_tokens": 974,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 974
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 475,
+      "outputTokens": 1074,
+      "cacheReadInputTokens": 52806,
+      "cacheCreationInputTokens": 5590,
+      "webSearchRequests": 0,
+      "costUSD": 0.0181131,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d6d47166-be41-48a1-bcb9-de9de8c346e6"
+}

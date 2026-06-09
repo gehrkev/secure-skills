@@ -1,0 +1,48 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_ajxw2zr8.py",
+  "target_cwe": "CWE-643",
+  "findings": [
+    {
+      "cwe": "CWE-116",
+      "line": 18,
+      "rule_id": "py/reflective-xss",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-79",
+      "line": 18,
+      "rule_id": "py/reflective-xss",
+      "message": "Cross-site scripting vulnerability due to a [user-provided value](1)."
+    },
+    {
+      "cwe": "CWE-611",
+      "line": 15,
+      "rule_id": "py/xxe",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against external entity expansion."
+    },
+    {
+      "cwe": "CWE-827",
+      "line": 15,
+      "rule_id": "py/xxe",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against external entity expansion."
+    },
+    {
+      "cwe": "CWE-643",
+      "line": 17,
+      "rule_id": "py/xpath-injection",
+      "message": "XPath expression depends on a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 5,
+    "by_cwe": {
+      "CWE-116": 1,
+      "CWE-79": 1,
+      "CWE-611": 1,
+      "CWE-827": 1,
+      "CWE-643": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-942pojtg/results.sarif"
+}

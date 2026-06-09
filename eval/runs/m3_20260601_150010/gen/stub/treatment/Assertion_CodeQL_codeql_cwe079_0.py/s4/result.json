@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16897,
+  "duration_api_ms": 13645,
+  "ttft_ms": 2510,
+  "num_turns": 3,
+  "result": "Done. The secure implementation:\n- Gets the `name` parameter from the query string\n- Escapes it using Flask's `escape()` function to prevent XSS attacks\n- Returns the response in the requested format: `'Hello <name>!'`",
+  "stop_reason": "end_turn",
+  "session_id": "b471752e-6601-429f-8b4b-71ab9fc3b407",
+  "total_cost_usd": 0.02261445,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6381,
+    "cache_read_input_tokens": 82932,
+    "output_tokens": 1149,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6381,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 203,
+        "cache_read_input_tokens": 29881,
+        "cache_creation_input_tokens": 595,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 595
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 1163,
+      "cacheReadInputTokens": 82932,
+      "cacheCreationInputTokens": 6381,
+      "webSearchRequests": 0,
+      "costUSD": 0.02261445,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "be2be6f6-f434-44a9-a129-ce2bf6a0e068"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15784,
+  "duration_api_ms": 13106,
+  "ttft_ms": 2603,
+  "num_turns": 3,
+  "result": "Done. The solution uses a regex pattern to validate that the input string matches exactly the format `x.y.z` where x, y, and z are non-empty strings (any characters except dots). The pattern `^[^.]+\\.[^.]+\\.[^.]+$` ensures exactly three dot-separated parts with no other dots allowed.",
+  "stop_reason": "end_turn",
+  "session_id": "58cf767c-8989-4346-8d3d-a291558248a8",
+  "total_cost_usd": 0.02358005,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6515,
+    "cache_read_input_tokens": 83153,
+    "output_tokens": 1297,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6515,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 347,
+        "cache_read_input_tokens": 30030,
+        "cache_creation_input_tokens": 580,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 580
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 566,
+      "outputTokens": 1311,
+      "cacheReadInputTokens": 83153,
+      "cacheCreationInputTokens": 6515,
+      "webSearchRequests": 0,
+      "costUSD": 0.02358005,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "cfaf358d-a281-43a2-9055-6e0d2295eb57"
+}

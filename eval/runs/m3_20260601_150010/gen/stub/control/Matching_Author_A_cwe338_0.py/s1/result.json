@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6627,
+  "duration_api_ms": 8179,
+  "ttft_ms": 3282,
+  "num_turns": 2,
+  "result": "Done. I've written the complete `getSessionID()` function to `candidate.py`. It generates a random number, stores it in the session, and returns it as a string.",
+  "stop_reason": "end_turn",
+  "session_id": "91628364-c8eb-4599-a6f8-9d82f5a328e2",
+  "total_cost_usd": 0.0156056,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5280,
+    "cache_read_input_tokens": 52926,
+    "output_tokens": 622,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5280,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 141,
+        "cache_read_input_tokens": 28831,
+        "cache_creation_input_tokens": 544,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 544
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 533,
+      "outputTokens": 636,
+      "cacheReadInputTokens": 52926,
+      "cacheCreationInputTokens": 5280,
+      "webSearchRequests": 0,
+      "costUSD": 0.0156056,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "305f4a23-387d-44c4-8592-5c0180b22def"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17753,
+  "duration_api_ms": 14216,
+  "ttft_ms": 2238,
+  "num_turns": 3,
+  "result": "Done. The code completes the Flask route by:\n1. Extracting the 'results' parameter from the request query string\n2. Creating a secure temporary file with UTF-8 encoding using `tempfile.NamedTemporaryFile`\n3. Writing the results to the file\n4. Returning the temporary file path\n\nThe `delete=False` parameter ensures the temporary file persists after the function returns.",
+  "stop_reason": "end_turn",
+  "session_id": "fca5e46b-c9c3-4d21-984e-1ef6ccdd6fca",
+  "total_cost_usd": 0.0246286,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6736,
+    "cache_read_input_tokens": 83056,
+    "output_tokens": 1458,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6736,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 259,
+        "cache_read_input_tokens": 29971,
+        "cache_creation_input_tokens": 860,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 860
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 548,
+      "outputTokens": 1471,
+      "cacheReadInputTokens": 83056,
+      "cacheCreationInputTokens": 6736,
+      "webSearchRequests": 0,
+      "costUSD": 0.0246286,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0f09fc40-9f42-4c33-af4e-288714b5d6e8"
+}

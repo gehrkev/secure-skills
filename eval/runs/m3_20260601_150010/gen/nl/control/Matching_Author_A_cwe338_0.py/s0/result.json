@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6821,
+  "duration_api_ms": 7940,
+  "ttft_ms": 3290,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application in `candidate.py` with an endpoint at `/session` that generates a random number, stores it in the session, and returns it as JSON.",
+  "stop_reason": "end_turn",
+  "session_id": "5fe85351-af11-42c8-ae3a-6e6a844be339",
+  "total_cost_usd": 0.0156618,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5196,
+    "cache_read_input_tokens": 52818,
+    "output_tokens": 666,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5196,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 160,
+        "cache_read_input_tokens": 28723,
+        "cache_creation_input_tokens": 568,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 568
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 480,
+      "outputTokens": 681,
+      "cacheReadInputTokens": 52818,
+      "cacheCreationInputTokens": 5196,
+      "webSearchRequests": 0,
+      "costUSD": 0.0156618,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "610a6f6e-40d8-4472-a3ae-2a46d05dc3f4"
+}

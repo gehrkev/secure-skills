@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7050,
+  "duration_api_ms": 8629,
+  "ttft_ms": 4248,
+  "num_turns": 2,
+  "result": "Done. I've completed the `executeCommand` function to:\n1. Get the `command` parameter from the request query args\n2. Execute it using `subprocess.run`\n3. Return the command's output (stdout)",
+  "stop_reason": "end_turn",
+  "session_id": "85225876-a2a7-4b02-92ec-9f858fc56265",
+  "total_cost_usd": 0.016384,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5384,
+    "cache_read_input_tokens": 52880,
+    "output_tokens": 757,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5384,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 125,
+        "cache_read_input_tokens": 28785,
+        "cache_creation_input_tokens": 694,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 694
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 511,
+      "outputTokens": 771,
+      "cacheReadInputTokens": 52880,
+      "cacheCreationInputTokens": 5384,
+      "webSearchRequests": 0,
+      "costUSD": 0.016384,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "37175882-1ef2-447b-abf4-972313d4f754"
+}

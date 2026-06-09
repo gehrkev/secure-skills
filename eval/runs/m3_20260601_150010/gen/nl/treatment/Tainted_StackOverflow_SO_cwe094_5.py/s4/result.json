@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19003,
+  "duration_api_ms": 17884,
+  "ttft_ms": 2413,
+  "num_turns": 3,
+  "result": "Done! I've written a Flask endpoint at `/get_value` that accepts a POST request with JSON containing `key` and `object` fields. It safely retrieves the value from the dictionary without using eval() or other dangerous operations, and returns it as a string. The code includes proper error handling for missing parameters and invalid object types.",
+  "stop_reason": "end_turn",
+  "session_id": "2956d171-b603-423e-9c79-dc0d0a187b5c",
+  "total_cost_usd": 0.0253844,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6890,
+    "cache_read_input_tokens": 82949,
+    "output_tokens": 1580,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6890,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 201,
+        "cache_read_input_tokens": 29954,
+        "cache_creation_input_tokens": 1031,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1031
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 502,
+      "outputTokens": 1595,
+      "cacheReadInputTokens": 82949,
+      "cacheCreationInputTokens": 6890,
+      "webSearchRequests": 0,
+      "costUSD": 0.0253844,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "04a184d9-f66b-4f17-b0b2-b5b5084a44b4"
+}

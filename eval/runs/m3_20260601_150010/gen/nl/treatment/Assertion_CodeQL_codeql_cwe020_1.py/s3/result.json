@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16118,
+  "duration_api_ms": 13977,
+  "ttft_ms": 2783,
+  "num_turns": 3,
+  "result": "Done. I've written the function to `candidate.py`. The function checks if a URL ends with 'example.com/' and returns True/False accordingly, with a type check for safety when handling URL input.",
+  "stop_reason": "end_turn",
+  "session_id": "11c5746e-d9d0-4f32-9fec-bed22596c77a",
+  "total_cost_usd": 0.02343965,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6473,
+    "cache_read_input_tokens": 82764,
+    "output_tokens": 1300,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6473,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 209,
+        "cache_read_input_tokens": 29799,
+        "cache_creation_input_tokens": 769,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 769
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 487,
+      "outputTokens": 1317,
+      "cacheReadInputTokens": 82764,
+      "cacheCreationInputTokens": 6473,
+      "webSearchRequests": 0,
+      "costUSD": 0.02343965,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "29a96c69-05b3-4226-9993-704f2091cae1"
+}

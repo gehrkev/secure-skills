@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7630,
+  "duration_api_ms": 8856,
+  "ttft_ms": 4663,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a GET endpoint at `/command` that accepts a command parameter, executes it with `subprocess.call`, and returns the command.",
+  "stop_reason": "end_turn",
+  "session_id": "eef121d1-a156-4cf1-9fdd-f87a5e5aaacd",
+  "total_cost_usd": 0.01660775,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5355,
+    "cache_read_input_tokens": 52830,
+    "output_tokens": 815,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5355,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 162,
+        "cache_read_input_tokens": 28735,
+        "cache_creation_input_tokens": 715,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 715
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 486,
+      "outputTokens": 829,
+      "cacheReadInputTokens": 52830,
+      "cacheCreationInputTokens": 5355,
+      "webSearchRequests": 0,
+      "costUSD": 0.01660775,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "aa77fc7f-afeb-4dd7-a719-1057212ced12"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16765,
+  "duration_api_ms": 15571,
+  "ttft_ms": 2696,
+  "num_turns": 3,
+  "result": "Done. The Flask function now retrieves the `name` parameter from the request query string, escapes it to prevent XSS attacks, and returns the formatted response `'Hello <name>!'`.",
+  "stop_reason": "end_turn",
+  "session_id": "648bb89c-c95b-4118-8aac-24797f31aba2",
+  "total_cost_usd": 0.0237644,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6570,
+    "cache_read_input_tokens": 82969,
+    "output_tokens": 1331,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6570,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 199,
+        "cache_read_input_tokens": 29916,
+        "cache_creation_input_tokens": 749,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 749
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 1345,
+      "cacheReadInputTokens": 82969,
+      "cacheCreationInputTokens": 6570,
+      "webSearchRequests": 0,
+      "costUSD": 0.0237644,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "9d60fc9b-ab93-43fb-9e7d-9c8ee82e1427"
+}

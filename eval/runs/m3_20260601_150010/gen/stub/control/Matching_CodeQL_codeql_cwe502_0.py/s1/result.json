@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6848,
+  "duration_api_ms": 7764,
+  "ttft_ms": 4351,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with the complete Flask function that retrieves pickled data from the request's 'data' parameter, converts it from hex to bytes, and returns the deserialized data.",
+  "stop_reason": "end_turn",
+  "session_id": "3ff7b927-8c33-4905-ac7a-ab08c220a2fe",
+  "total_cost_usd": 0.0167541,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5434,
+    "cache_read_input_tokens": 52916,
+    "output_tokens": 813,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5434,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 166,
+        "cache_read_input_tokens": 28821,
+        "cache_creation_input_tokens": 708,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 708
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 828,
+      "cacheReadInputTokens": 52916,
+      "cacheCreationInputTokens": 5434,
+      "webSearchRequests": 0,
+      "costUSD": 0.0167541,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a4b2c3f4-73d1-4d89-bfec-7e02b15740ac"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6618,
+  "duration_api_ms": 7827,
+  "ttft_ms": 4225,
+  "num_turns": 2,
+  "result": "Done. I've written the `candidate.py` file with the Flask function that gets the 'equation' parameter from the request, evaluates it, and returns the result as a string.",
+  "stop_reason": "end_turn",
+  "session_id": "f93bff71-5b4f-46de-a783-ec0a4102d34a",
+  "total_cost_usd": 0.01634165,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5389,
+    "cache_read_input_tokens": 52904,
+    "output_tokens": 744,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5389,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 129,
+        "cache_read_input_tokens": 28809,
+        "cache_creation_input_tokens": 675,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 675
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 525,
+      "outputTokens": 758,
+      "cacheReadInputTokens": 52904,
+      "cacheCreationInputTokens": 5389,
+      "webSearchRequests": 0,
+      "costUSD": 0.01634165,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6a636a4c-4ea3-4631-8ced-6097c8e9f025"
+}

@@ -1,0 +1,27 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_pviwe4rk.py",
+  "target_cwe": "CWE-776",
+  "findings": [
+    {
+      "cwe": "CWE-400",
+      "line": 14,
+      "rule_id": "py/xml-bomb",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against uncontrolled entity expansion."
+    },
+    {
+      "cwe": "CWE-776",
+      "line": 14,
+      "rule_id": "py/xml-bomb",
+      "message": "XML parsing depends on a [user-provided value](1) without guarding against uncontrolled entity expansion."
+    }
+  ],
+  "summary": {
+    "total_findings": 2,
+    "by_cwe": {
+      "CWE-400": 1,
+      "CWE-776": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-mo0jax76/results.sarif"
+}

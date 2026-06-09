@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8900,
+  "duration_api_ms": 9802,
+  "ttft_ms": 6341,
+  "num_turns": 2,
+  "result": "Done. I've written a solution that:\n\n- Defines a `Node` class to represent tree nodes (value + optional left/right children)\n- Implements an `evaluate()` function that recursively traverses the tree\n- For leaf nodes (numbers), returns the value as a float\n- For operator nodes, recursively evaluates both subtrees and applies the operator\n- Handles all operators: `+`, `-`, `*`, `/`, `^` (exponentiation), `%` (modulo)",
+  "stop_reason": "end_turn",
+  "session_id": "3fab8210-8cfc-4365-a80c-7fddb3be8c40",
+  "total_cost_usd": 0.0194214,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5744,
+    "cache_read_input_tokens": 52864,
+    "output_tokens": 1275,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5744,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 257,
+        "cache_read_input_tokens": 28769,
+        "cache_creation_input_tokens": 1070,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1070
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 505,
+      "outputTokens": 1290,
+      "cacheReadInputTokens": 52864,
+      "cacheCreationInputTokens": 5744,
+      "webSearchRequests": 0,
+      "costUSD": 0.0194214,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5d69ccea-b838-4b1b-82ad-451ae36ee58d"
+}

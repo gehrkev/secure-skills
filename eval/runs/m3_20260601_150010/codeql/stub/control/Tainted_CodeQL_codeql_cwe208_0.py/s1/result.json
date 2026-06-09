@@ -1,0 +1,12 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/stub/control/Tainted_CodeQL_codeql_cwe208_0.py/s1/candidate.py",
+  "target_cwe": "CWE-208",
+  "findings": [],
+  "summary": {
+    "total_findings": 0,
+    "by_cwe": {}
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-1j192i32/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

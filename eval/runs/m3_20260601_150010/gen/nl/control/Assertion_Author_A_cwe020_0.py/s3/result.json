@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8322,
+  "duration_api_ms": 9229,
+  "ttft_ms": 6132,
+  "num_turns": 2,
+  "result": "Done. The function `check_format()` uses regex to validate the x.y.z format, where each part is a string (one or more non-dot characters) separated by dots. It returns True if the format matches, False otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "2ce566ef-ee5f-45f0-9876-5acbd4451a56",
+  "total_cost_usd": 0.017393250000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5433,
+    "cache_read_input_tokens": 52850,
+    "output_tokens": 949,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5433,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 237,
+        "cache_read_input_tokens": 28755,
+        "cache_creation_input_tokens": 773,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 773
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 497,
+      "outputTokens": 964,
+      "cacheReadInputTokens": 52850,
+      "cacheCreationInputTokens": 5433,
+      "webSearchRequests": 0,
+      "costUSD": 0.017393250000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f465178b-0f31-4308-86e7-5ab99434f861"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15245,
+  "duration_api_ms": 16221,
+  "ttft_ms": 13460,
+  "num_turns": 2,
+  "result": "Done! I've completed the Flask function. It gets the `username` from the request query parameters and renders it in the template string, returning the rendered HTML.",
+  "stop_reason": "end_turn",
+  "session_id": "1bb64017-5a68-4b29-ac0f-68283f5703f8",
+  "total_cost_usd": 0.0235154,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6552,
+    "cache_read_input_tokens": 52924,
+    "output_tokens": 1886,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6552,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 130,
+        "cache_read_input_tokens": 28829,
+        "cache_creation_input_tokens": 1818,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1818
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 533,
+      "outputTokens": 1900,
+      "cacheReadInputTokens": 52924,
+      "cacheCreationInputTokens": 6552,
+      "webSearchRequests": 0,
+      "costUSD": 0.0235154,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3f58abc1-3e10-472e-8113-890ae1fecfce"
+}

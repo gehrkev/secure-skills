@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19492,
+  "duration_api_ms": 17217,
+  "ttft_ms": 3235,
+  "num_turns": 3,
+  "result": "Done. I've written a secure Python solution that:\n\n1. **Validates the file path** using `Path.resolve()` to prevent path traversal attacks (CWE-22)\n2. **Checks file existence** before parsing\n3. **Disables external entity resolution** with `resolve_entities=False` to prevent XXE attacks (CWE-611)\n4. **Prevents network access** with `no_network=True` to block external DTD/entity expansion (CWE-776)\n5. **Parses the XML** with lxml and returns the root element\n\nThe function is ready in `candidate.py`.",
+  "stop_reason": "end_turn",
+  "session_id": "84273530-ac23-4c29-95b4-a0063af087d3",
+  "total_cost_usd": 0.02627585,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6909,
+    "cache_read_input_tokens": 82736,
+    "output_tokens": 1760,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6909,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 304,
+        "cache_read_input_tokens": 29785,
+        "cache_creation_input_tokens": 1219,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1219
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 481,
+      "outputTokens": 1777,
+      "cacheReadInputTokens": 82736,
+      "cacheCreationInputTokens": 6909,
+      "webSearchRequests": 0,
+      "costUSD": 0.02627585,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a046c110-2ba2-4607-9207-ea78a96de706"
+}

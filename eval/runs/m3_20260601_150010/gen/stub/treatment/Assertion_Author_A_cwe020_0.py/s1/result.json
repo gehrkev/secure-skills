@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20440,
+  "duration_api_ms": 17136,
+  "ttft_ms": 2272,
+  "num_turns": 3,
+  "result": "Done. The code has been written to `candidate.py`. The implementation validates the input is a string and uses a regex pattern to check for the x.y.z format (three non-empty parts separated by exactly two dots).",
+  "stop_reason": "end_turn",
+  "session_id": "04a21389-edcb-41bf-a38d-d0184d45624a",
+  "total_cost_usd": 0.0263017,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6978,
+    "cache_read_input_tokens": 83132,
+    "output_tokens": 1725,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6978,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 315,
+        "cache_read_input_tokens": 30007,
+        "cache_creation_input_tokens": 1066,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1066
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 566,
+      "outputTokens": 1740,
+      "cacheReadInputTokens": 83132,
+      "cacheCreationInputTokens": 6978,
+      "webSearchRequests": 0,
+      "costUSD": 0.0263017,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6d191ae1-8dd6-4920-825d-895b6167934c"
+}

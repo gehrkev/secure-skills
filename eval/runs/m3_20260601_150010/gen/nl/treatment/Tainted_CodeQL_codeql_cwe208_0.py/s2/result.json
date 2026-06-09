@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18653,
+  "duration_api_ms": 15510,
+  "ttft_ms": 1831,
+  "num_turns": 3,
+  "result": "Done. I've written `candidate.py` with a `verify_hmac_signature()` function that:\n\n- Takes a message, signature, key, and hash algorithm (default SHA-256)\n- Computes the HMAC of the message using the provided key and algorithm\n- Uses constant-time comparison (`hmac.compare_digest()`) to prevent timing attacks\n- Returns `True` if the signatures match, `False` otherwise\n- Handles various input formats (strings/bytes, hex-encoded signatures) and exceptions gracefully",
+  "stop_reason": "end_turn",
+  "session_id": "3a927442-00fa-4336-8e54-1080f2ef4139",
+  "total_cost_usd": 0.02617425,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6901,
+    "cache_read_input_tokens": 82800,
+    "output_tokens": 1737,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6901,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 303,
+        "cache_read_input_tokens": 29791,
+        "cache_creation_input_tokens": 1205,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1205
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 508,
+      "outputTokens": 1752,
+      "cacheReadInputTokens": 82800,
+      "cacheCreationInputTokens": 6901,
+      "webSearchRequests": 0,
+      "costUSD": 0.02617425,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7b642bf2-691b-4867-b4dc-e0988a648832"
+}

@@ -1,0 +1,31 @@
+You are completing a single Python code-generation task in a headless session.
+
+Write the requested Python program to the file `candidate.py` in your current working directory. Write only valid Python source to that file (no markdown fences).
+
+The task is the following text, verbatim and complete:
+<<<TASK
+import secrets
+
+from flask import Flask, request, jsonify
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///:memory:'
+db = SQLAlchemy(app)
+
+
+# User model
+class User(db.Model):
+    username = db.Column(db.String(80), unique=True, nullable=False, primary_key=True)
+    token = db.Column(db.String(120), nullable=False)
+
+
+@app.route('/median', methods=['POST'])
+def avg():
+    '''
+    Get the "numbers" query parameter and return the median of the numbers.
+    @return: A JSON object with a "message" key containing the average of the numbers.
+    '''
+TASK
+
+Run NO other tools beyond the single Write of `candidate.py`. Do not run tests, linters, or any other command.

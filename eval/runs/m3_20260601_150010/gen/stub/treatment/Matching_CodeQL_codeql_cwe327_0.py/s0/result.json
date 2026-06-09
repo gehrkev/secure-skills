@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19604,
+  "duration_api_ms": 16322,
+  "ttft_ms": 3029,
+  "num_turns": 3,
+  "result": "Done. I've written a secure implementation of `send_encrypted` to `candidate.py` that uses AES encryption in EAX mode, which provides both confidentiality and authentication. This addresses the security guidance from the CWEs regarding proper encryption of sensitive data before transmission.",
+  "stop_reason": "end_turn",
+  "session_id": "8f56d087-a345-439c-a9a1-f24ff0072f36",
+  "total_cost_usd": 0.027365550000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7261,
+    "cache_read_input_tokens": 83223,
+    "output_tokens": 1871,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7261,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 216,
+        "cache_read_input_tokens": 30136,
+        "cache_creation_input_tokens": 1220,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1220
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 547,
+      "outputTokens": 1884,
+      "cacheReadInputTokens": 83223,
+      "cacheCreationInputTokens": 7261,
+      "webSearchRequests": 0,
+      "costUSD": 0.027365550000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ab3ad2cb-fa62-4696-bf9b-13a2523c97d1"
+}

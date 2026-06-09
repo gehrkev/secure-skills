@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7812,
+  "duration_api_ms": 8835,
+  "ttft_ms": 5391,
+  "num_turns": 2,
+  "result": "Done. The `candidate.py` file has been written with the complete implementation of the `get_account()` function that retrieves a post by title from the database and returns its content.",
+  "stop_reason": "end_turn",
+  "session_id": "1edca1f8-6bbe-4115-b884-c9aa88bdb4f2",
+  "total_cost_usd": 0.0176788,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5656,
+    "cache_read_input_tokens": 52978,
+    "output_tokens": 935,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5656,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 128,
+        "cache_read_input_tokens": 28883,
+        "cache_creation_input_tokens": 868,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 868
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 561,
+      "outputTokens": 950,
+      "cacheReadInputTokens": 52978,
+      "cacheCreationInputTokens": 5656,
+      "webSearchRequests": 0,
+      "costUSD": 0.0176788,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ae51456f-e491-4c80-a1b7-58ee7361351f"
+}

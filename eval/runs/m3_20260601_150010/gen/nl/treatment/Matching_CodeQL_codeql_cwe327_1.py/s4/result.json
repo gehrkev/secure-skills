@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 24684,
+  "duration_api_ms": 21965,
+  "ttft_ms": 2337,
+  "num_turns": 3,
+  "result": "Done. I've written the `candidate.py` file with a function that:\n\n1. Accepts certificate data (as bytes) and a known hash value\n2. Computes the hash using hashlib (defaulting to SHA-256, a cryptographically secure algorithm)\n3. Compares the computed hash with the known hash (case-insensitive)\n4. Returns `True` if they match, `False` otherwise\n\nThe implementation follows the security guidance from the CWE context by ensuring proper integrity validation of the certificate through cryptographic hashing.",
+  "stop_reason": "end_turn",
+  "session_id": "d8dc720e-3342-44cd-8bd3-19d95a433e41",
+  "total_cost_usd": 0.025540800000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6752,
+    "cache_read_input_tokens": 82648,
+    "output_tokens": 1654,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6752,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 286,
+        "cache_read_input_tokens": 29677,
+        "cache_creation_input_tokens": 1170,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1170
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 491,
+      "outputTokens": 1669,
+      "cacheReadInputTokens": 82648,
+      "cacheCreationInputTokens": 6752,
+      "webSearchRequests": 0,
+      "costUSD": 0.025540800000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1b219f69-0968-453a-a6a2-13eaa28bb43b"
+}

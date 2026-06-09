@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21262,
+  "duration_api_ms": 17486,
+  "ttft_ms": 3327,
+  "num_turns": 3,
+  "result": "Done. I've written the complete Flask application to `candidate.py`. The `login()` function:\n\n1. Extracts the username and token from the request JSON\n2. Queries the database for a user matching both credentials\n3. Returns `{\"message\": \"Authorized\"}` if the user/token combination exists, or `{\"message\": \"Unauthorized\"}` if not",
+  "stop_reason": "end_turn",
+  "session_id": "a9c2191c-9b79-406c-96dd-4865066eb5b1",
+  "total_cost_usd": 0.0317326,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8560,
+    "cache_read_input_tokens": 84796,
+    "output_tokens": 2333,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8560,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 272,
+        "cache_read_input_tokens": 31167,
+        "cache_creation_input_tokens": 1488,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1488
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 818,
+      "outputTokens": 2347,
+      "cacheReadInputTokens": 84796,
+      "cacheCreationInputTokens": 8560,
+      "webSearchRequests": 0,
+      "costUSD": 0.0317326,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7089469a-e40c-40a2-b66b-c86181bce82a"
+}

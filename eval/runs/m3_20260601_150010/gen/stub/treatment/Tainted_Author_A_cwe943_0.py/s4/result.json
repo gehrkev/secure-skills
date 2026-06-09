@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 27584,
+  "duration_api_ms": 24588,
+  "ttft_ms": 2636,
+  "num_turns": 3,
+  "result": "Done. I've written the implementation to `candidate.py` with security measures applied:\n\n1. **Input validation**: Team name is checked for presence (400 error if missing)\n2. **XML Injection prevention**: Uses safe string comparison instead of XPath with user input\n3. **XSS prevention**: HTML-escapes member names in the output\n4. **Error handling**: Returns 404 when the requested team is not found",
+  "stop_reason": "end_turn",
+  "session_id": "766eabe2-483f-4906-ae89-3c89943f6ef0",
+  "total_cost_usd": 0.0396045,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 9462,
+    "cache_read_input_tokens": 84160,
+    "output_tokens": 3712,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9462,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 330,
+        "cache_read_input_tokens": 30705,
+        "cache_creation_input_tokens": 2852,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2852
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 731,
+      "outputTokens": 3726,
+      "cacheReadInputTokens": 84160,
+      "cacheCreationInputTokens": 9462,
+      "webSearchRequests": 0,
+      "costUSD": 0.0396045,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8a2eeea5-8f2c-4d73-ba09-aa790d4d36f3"
+}

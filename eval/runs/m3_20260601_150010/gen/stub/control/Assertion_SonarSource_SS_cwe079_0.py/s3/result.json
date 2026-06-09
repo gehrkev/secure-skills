@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10266,
+  "duration_api_ms": 11970,
+  "ttft_ms": 7316,
+  "num_turns": 2,
+  "result": "Done. I've written a Flask route handler that:\n1. Gets the `param` query parameter from the request\n2. Reads the template file at `../assets/templates/template.html`\n3. Replaces the `{{param}}` placeholder with the parameter value\n4. Returns the rendered HTML with proper Content-Type header\n5. Handles missing template files with a 404 response",
+  "stop_reason": "end_turn",
+  "session_id": "940ba8d3-c69e-42b6-b8ef-dd50ac3b021d",
+  "total_cost_usd": 0.02034885,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5981,
+    "cache_read_input_tokens": 52916,
+    "output_tokens": 1395,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5981,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 196,
+        "cache_read_input_tokens": 28821,
+        "cache_creation_input_tokens": 1255,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1255
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 531,
+      "outputTokens": 1410,
+      "cacheReadInputTokens": 52916,
+      "cacheCreationInputTokens": 5981,
+      "webSearchRequests": 0,
+      "costUSD": 0.02034885,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "eb86ecd6-9292-4e6f-9586-9798daaa9b5f"
+}

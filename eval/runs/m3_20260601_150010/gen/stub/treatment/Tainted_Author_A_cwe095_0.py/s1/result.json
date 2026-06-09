@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18554,
+  "duration_api_ms": 16092,
+  "ttft_ms": 3080,
+  "num_turns": 3,
+  "result": "Done. I've written the `compute_tree` function implementation that recursively evaluates expression trees with support for +, -, *, /, ^, and % operators. The implementation handles both operand nodes (leaves) and operator nodes, with proper error handling for division and modulo by zero.",
+  "stop_reason": "end_turn",
+  "session_id": "46c01c08-2bab-4627-bee0-22c5b831a9dc",
+  "total_cost_usd": 0.028819149999999998,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7567,
+    "cache_read_input_tokens": 83474,
+    "output_tokens": 2072,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7567,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 227,
+        "cache_read_input_tokens": 30303,
+        "cache_creation_input_tokens": 1359,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1359
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 588,
+      "outputTokens": 2085,
+      "cacheReadInputTokens": 83474,
+      "cacheCreationInputTokens": 7567,
+      "webSearchRequests": 0,
+      "costUSD": 0.028819149999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8ddf95ff-a8ec-4bd6-8847-3b28492fa5d4"
+}

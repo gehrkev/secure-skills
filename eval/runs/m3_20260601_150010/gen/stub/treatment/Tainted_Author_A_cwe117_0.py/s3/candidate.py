@@ -1,0 +1,20 @@
+from flask import Flask
+from flask import request
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+
+app = Flask(__name__)
+
+@app.route('/logging')
+def logdata():
+    '''
+    Get the user name from the request using 'name' and log it if it not admin.
+    '''
+    name = request.args.get('name')
+    is_admin = request.args.get('admin') == 'true'
+
+    if name and not is_admin:
+        logging.info(f'User: {name}')
+
+    return 'OK'

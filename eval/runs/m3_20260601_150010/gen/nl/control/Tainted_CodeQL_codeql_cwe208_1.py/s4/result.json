@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10578,
+  "duration_api_ms": 11589,
+  "ttft_ms": 7911,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a '/check_pwd' endpoint that accepts both GET and POST requests, retrieves the password parameter, compares it against '1234', and returns the appropriate response.",
+  "stop_reason": "end_turn",
+  "session_id": "bab8fbd5-7eba-48d2-83fe-515e620ce110",
+  "total_cost_usd": 0.0195501,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5838,
+    "cache_read_input_tokens": 52886,
+    "output_tokens": 1277,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5838,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 195,
+        "cache_read_input_tokens": 28791,
+        "cache_creation_input_tokens": 1142,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1142
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 514,
+      "outputTokens": 1290,
+      "cacheReadInputTokens": 52886,
+      "cacheCreationInputTokens": 5838,
+      "webSearchRequests": 0,
+      "costUSD": 0.0195501,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b49ad3a9-286c-471e-bd5b-3f1239cfa0e4"
+}

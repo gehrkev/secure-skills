@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 25197,
+  "duration_api_ms": 22983,
+  "ttft_ms": 2469,
+  "num_turns": 3,
+  "result": "Done. I've written the secure Flask endpoint to `candidate.py`. The implementation:\n\n- Gets `pattern` and `data` from request query parameters\n- Returns \"Match found\" if the regex matches, \"No match found\" otherwise\n- Catches regex errors gracefully to prevent ReDoS (Regular Expression Denial of Service) attacks from crashing the application\n- Handles edge cases like missing parameters safely",
+  "stop_reason": "end_turn",
+  "session_id": "2c653cbc-221c-4df1-8343-86f27f552b85",
+  "total_cost_usd": 0.031494999999999995,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7912,
+    "cache_read_input_tokens": 83160,
+    "output_tokens": 2535,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7912,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 305,
+        "cache_read_input_tokens": 30091,
+        "cache_creation_input_tokens": 1916,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1916
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 539,
+      "outputTokens": 2550,
+      "cacheReadInputTokens": 83160,
+      "cacheCreationInputTokens": 7912,
+      "webSearchRequests": 0,
+      "costUSD": 0.031494999999999995,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "edbaaaaf-2874-442b-9448-5bd962912d25"
+}

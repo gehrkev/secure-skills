@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8098,
+  "duration_api_ms": 9132,
+  "ttft_ms": 4011,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with an endpoint at '/session' that generates a random number, stores it in the session, and returns it.",
+  "stop_reason": "end_turn",
+  "session_id": "7bcc457c-48bd-473a-b71c-b6c8f92a1f1c",
+  "total_cost_usd": 0.0162916,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5300,
+    "cache_read_input_tokens": 52816,
+    "output_tokens": 766,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5300,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 153,
+        "cache_read_input_tokens": 28721,
+        "cache_creation_input_tokens": 674,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 674
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 480,
+      "outputTokens": 781,
+      "cacheReadInputTokens": 52816,
+      "cacheCreationInputTokens": 5300,
+      "webSearchRequests": 0,
+      "costUSD": 0.0162916,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e69c6ec0-8b7a-4368-a825-f2225ac07d0c"
+}

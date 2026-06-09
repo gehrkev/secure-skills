@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19883,
+  "duration_api_ms": 15859,
+  "ttft_ms": 3381,
+  "num_turns": 3,
+  "result": "Done. The `candidate.py` file has been created with the implementation of the `unpickled()` function that retrieves hex-encoded pickled data from the request, converts it to bytes, and deserializes it.",
+  "stop_reason": "end_turn",
+  "session_id": "4cbbe8ce-f5e3-4d55-8c7a-d6a5fe70eae9",
+  "total_cost_usd": 0.026711599999999995,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7132,
+    "cache_read_input_tokens": 83236,
+    "output_tokens": 1772,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7132,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 161,
+        "cache_read_input_tokens": 30171,
+        "cache_creation_input_tokens": 1056,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1056
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 538,
+      "outputTokens": 1787,
+      "cacheReadInputTokens": 83236,
+      "cacheCreationInputTokens": 7132,
+      "webSearchRequests": 0,
+      "costUSD": 0.026711599999999995,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "50862449-6e28-46eb-9bb0-0d2873b4b5d9"
+}

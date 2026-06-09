@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9000,
+  "duration_api_ms": 10052,
+  "ttft_ms": 5965,
+  "num_turns": 2,
+  "result": "Done. The implementation retrieves the XML and XSLT from the request parameters, parses both using lxml's etree, applies the XSLT transformation, and returns the result.",
+  "stop_reason": "end_turn",
+  "session_id": "14dd28dd-8713-465e-8e98-efeb1d4c9b8f",
+  "total_cost_usd": 0.019033249999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5809,
+    "cache_read_input_tokens": 52970,
+    "output_tokens": 1167,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5809,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 189,
+        "cache_read_input_tokens": 28875,
+        "cache_creation_input_tokens": 1029,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1029
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 560,
+      "outputTokens": 1183,
+      "cacheReadInputTokens": 52970,
+      "cacheCreationInputTokens": 5809,
+      "webSearchRequests": 0,
+      "costUSD": 0.019033249999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "e754a6ae-d151-4b0a-9726-dfc5ebc3748e"
+}

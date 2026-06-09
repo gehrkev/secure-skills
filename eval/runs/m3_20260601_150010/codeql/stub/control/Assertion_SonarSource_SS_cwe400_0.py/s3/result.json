@@ -1,0 +1,28 @@
+{
+  "file": "/Users/gehrke/Udesc/TCC copy/eval/runs/m3_20260601_150010/gen/stub/control/Assertion_SonarSource_SS_cwe400_0.py/s3/candidate.py",
+  "target_cwe": "CWE-400",
+  "findings": [
+    {
+      "cwe": "CWE-400",
+      "line": 18,
+      "rule_id": "py/regex-injection",
+      "message": "This regular expression depends on a [user-provided value](1) and is executed by [re.search](2)."
+    },
+    {
+      "cwe": "CWE-730",
+      "line": 18,
+      "rule_id": "py/regex-injection",
+      "message": "This regular expression depends on a [user-provided value](1) and is executed by [re.search](2)."
+    }
+  ],
+  "summary": {
+    "total_findings": 2,
+    "by_cwe": {
+      "CWE-400": 1,
+      "CWE-730": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-crc1ndnk/results.sarif",
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4"
+}

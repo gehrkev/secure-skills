@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18174,
+  "duration_api_ms": 15493,
+  "ttft_ms": 1707,
+  "num_turns": 3,
+  "result": "Done! I've created a Flask endpoint at `/echo_name` that:\n\n- Gets the `name` parameter from the request query string\n- Returns a greeting in the format `'Hello <name>!'`\n- Uses `escape()` to sanitize the name parameter and prevent XSS injection attacks\n- Defaults to `'Guest'` if no name parameter is provided\n\nThe endpoint is secure against injection vulnerabilities and properly handles special characters in the name.",
+  "stop_reason": "end_turn",
+  "session_id": "4dafd4d6-9d08-48b5-a4fe-6b8a33e93860",
+  "total_cost_usd": 0.025951549999999997,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6953,
+    "cache_read_input_tokens": 82863,
+    "output_tokens": 1683,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6953,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 264,
+        "cache_read_input_tokens": 29886,
+        "cache_creation_input_tokens": 1162,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1162
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 494,
+      "outputTokens": 1696,
+      "cacheReadInputTokens": 82863,
+      "cacheCreationInputTokens": 6953,
+      "webSearchRequests": 0,
+      "costUSD": 0.025951549999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "73e95080-4aca-49c2-9978-836299e7d336"
+}

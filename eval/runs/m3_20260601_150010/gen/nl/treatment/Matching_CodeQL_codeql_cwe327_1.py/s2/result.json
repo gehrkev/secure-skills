@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16098,
+  "duration_api_ms": 13156,
+  "ttft_ms": 1863,
+  "num_turns": 3,
+  "result": "Done! I've written the Python code to `candidate.py`. The function `check_certificate_hash()` computes the hash of a certificate using hashlib and compares it to the provided known_hash value, returning `True` if they match. It supports both certificate bytes and file paths, with SHA-256 as the default algorithm.",
+  "stop_reason": "end_turn",
+  "session_id": "3d3ce53b-a44a-41f5-9d5d-a07ab7233867",
+  "total_cost_usd": 0.0246831,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6678,
+    "cache_read_input_tokens": 82746,
+    "output_tokens": 1501,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6678,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 203,
+        "cache_read_input_tokens": 29775,
+        "cache_creation_input_tokens": 998,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 998
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 491,
+      "outputTokens": 1514,
+      "cacheReadInputTokens": 82746,
+      "cacheCreationInputTokens": 6678,
+      "webSearchRequests": 0,
+      "costUSD": 0.0246831,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d9417df3-416b-46fe-89b3-7f8db74ef67e"
+}

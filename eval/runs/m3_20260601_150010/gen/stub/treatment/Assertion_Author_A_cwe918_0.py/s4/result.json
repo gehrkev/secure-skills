@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 22124,
+  "duration_api_ms": 18025,
+  "ttft_ms": 4491,
+  "num_turns": 4,
+  "result": "Done. The Python code has been written to `candidate.py` with security best practices applied, including input validation to prevent SSRF attacks and proper error handling.",
+  "stop_reason": "end_turn",
+  "session_id": "7835146f-68f8-427b-bf04-471fb0e77682",
+  "total_cost_usd": 0.028815099999999996,
+  "usage": {
+    "input_tokens": 34,
+    "cache_creation_input_tokens": 7132,
+    "cache_read_input_tokens": 113241,
+    "output_tokens": 1589,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7132,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 200,
+        "cache_read_input_tokens": 30600,
+        "cache_creation_input_tokens": 627,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 627
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 556,
+      "outputTokens": 1604,
+      "cacheReadInputTokens": 113241,
+      "cacheCreationInputTokens": 7132,
+      "webSearchRequests": 0,
+      "costUSD": 0.028815099999999996,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0aff200c-aaaf-4651-b8f9-336571adc5cc"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20341,
+  "duration_api_ms": 17405,
+  "ttft_ms": 3075,
+  "num_turns": 3,
+  "result": "Done. I've written the secure implementation to `candidate.py`. The code:\n\n1. Retrieves the XML data from the `xml_src` request parameter\n2. Validates it by parsing with `ET.fromstring()` (which prevents XXE attacks by default)\n3. Returns the original XML string if valid, or an error response if invalid\n4. Handles empty input gracefully",
+  "stop_reason": "end_turn",
+  "session_id": "ae230b61-64a3-4ab6-8b42-ebf415e5a777",
+  "total_cost_usd": 0.027928599999999998,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7326,
+    "cache_read_input_tokens": 83271,
+    "output_tokens": 1966,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7326,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 280,
+        "cache_read_input_tokens": 30190,
+        "cache_creation_input_tokens": 1231,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1231
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 544,
+      "outputTokens": 1980,
+      "cacheReadInputTokens": 83271,
+      "cacheCreationInputTokens": 7326,
+      "webSearchRequests": 0,
+      "costUSD": 0.027928599999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "22272443-7262-418d-a97a-259ee92fe707"
+}

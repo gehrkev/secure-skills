@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9557,
+  "duration_api_ms": 12027,
+  "ttft_ms": 7360,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/open_file` route that accepts a `filename` parameter from the request, attempts to open it from the current directory, and returns the file object on success or None on failure.",
+  "stop_reason": "end_turn",
+  "session_id": "ea1171ef-6a50-4845-8cde-0fcb9463a356",
+  "total_cost_usd": 0.018077749999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5619,
+    "cache_read_input_tokens": 52840,
+    "output_tokens": 1043,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5619,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 128,
+        "cache_read_input_tokens": 28745,
+        "cache_creation_input_tokens": 969,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 969
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 495,
+      "outputTokens": 1055,
+      "cacheReadInputTokens": 52840,
+      "cacheCreationInputTokens": 5619,
+      "webSearchRequests": 0,
+      "costUSD": 0.018077749999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "303009af-bd98-4b19-8d74-c1aca2e25eb5"
+}

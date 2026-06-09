@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20394,
+  "duration_api_ms": 17103,
+  "ttft_ms": 2596,
+  "num_turns": 3,
+  "result": "Done! I've created the Flask endpoint in `candidate.py` with the following features:\n\n- **Endpoint**: `/get_github_info` accepts GET requests with a `username` query parameter\n- **Security**: Validates the username format (alphanumeric, hyphens, underscores only) to prevent SSRF attacks by restricting what can be sent to the GitHub API\n- **API Integration**: Queries `https://api.github.com/users/{username}` and returns the JSON response\n- **Error Handling**: Returns appropriate error messages for missing parameters, invalid usernames, and API failures\n- **Timeout**: Includes a 10-second timeout on the request to prevent hanging connections",
+  "stop_reason": "end_turn",
+  "session_id": "2ab5cd09-9245-42c6-8d06-f342bb0e76a6",
+  "total_cost_usd": 0.0284885,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7340,
+    "cache_read_input_tokens": 83135,
+    "output_tokens": 2085,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7340,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 349,
+        "cache_read_input_tokens": 30138,
+        "cache_creation_input_tokens": 1297,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1297
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 505,
+      "outputTokens": 2099,
+      "cacheReadInputTokens": 83135,
+      "cacheCreationInputTokens": 7340,
+      "webSearchRequests": 0,
+      "costUSD": 0.0284885,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ea77063c-e84f-4046-addc-f7affcf54097"
+}

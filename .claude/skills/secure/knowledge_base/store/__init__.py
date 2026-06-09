@@ -1,0 +1,1 @@
+# store - Vector database wrapper para recuperação de conhecimento

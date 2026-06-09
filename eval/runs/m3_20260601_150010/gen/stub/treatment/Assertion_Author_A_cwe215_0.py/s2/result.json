@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19848,
+  "duration_api_ms": 16272,
+  "ttft_ms": 2805,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Flask application to `candidate.py`. The endpoint:\n\n- Accepts comma-separated numbers via the \"numbers\" query parameter\n- Safely parses them as floats (avoiding code injection)\n- Calculates and returns the median as a JSON response with a \"message\" key\n- Includes error handling for missing/invalid input",
+  "stop_reason": "end_turn",
+  "session_id": "0a44e311-d839-4eb2-ad32-d7c835a4b3e7",
+  "total_cost_usd": 0.027560850000000005,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7415,
+    "cache_read_input_tokens": 83611,
+    "output_tokens": 1844,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7415,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 254,
+        "cache_read_input_tokens": 30340,
+        "cache_creation_input_tokens": 1170,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1170
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 641,
+      "outputTokens": 1858,
+      "cacheReadInputTokens": 83611,
+      "cacheCreationInputTokens": 7415,
+      "webSearchRequests": 0,
+      "costUSD": 0.027560850000000005,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c9b79263-131e-47d8-bbd4-79d48e022580"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11086,
+  "duration_api_ms": 12027,
+  "ttft_ms": 7989,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with an endpoint at `/filter_script_tags` that removes all script tags from the provided 'content' parameter and returns the filtered result. The endpoint accepts both GET and POST requests.",
+  "stop_reason": "end_turn",
+  "session_id": "f299fddb-94a5-4519-8450-4033df51b476",
+  "total_cost_usd": 0.0184336,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5676,
+    "cache_read_input_tokens": 52836,
+    "output_tokens": 1098,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5676,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 129,
+        "cache_read_input_tokens": 28741,
+        "cache_creation_input_tokens": 1030,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1030
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1113,
+      "cacheReadInputTokens": 52836,
+      "cacheCreationInputTokens": 5676,
+      "webSearchRequests": 0,
+      "costUSD": 0.0184336,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c4eefd1a-8542-4364-8920-e8b395d1a919"
+}

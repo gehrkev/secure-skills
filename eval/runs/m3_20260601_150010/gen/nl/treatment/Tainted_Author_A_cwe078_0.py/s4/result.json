@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 20511,
+  "duration_api_ms": 18672,
+  "ttft_ms": 2199,
+  "num_turns": 3,
+  "result": "Done! I've created a secure Flask endpoint at `/ping` that:\n\n1. **Accepts the `link` parameter** via GET or POST\n2. **Validates the URL** to prevent SSRF attacks by blocking:\n   - Non-HTTP(S) schemes\n   - Private IP ranges (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16)\n   - Localhost (127.0.0.0/8)\n3. **Pings the link** using an HTTP HEAD request with a 5-second timeout\n4. **Returns the result** as JSON with the link, status code, and success indicator\n\nThe code applies the security guidance from the CWE knowledge base, particularly protecting against Server-Side Request Forgery (SSRF) attacks.",
+  "stop_reason": "end_turn",
+  "session_id": "7d237991-4e87-4891-adb4-3a730f96d77e",
+  "total_cost_usd": 0.03029505,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7473,
+    "cache_read_input_tokens": 82838,
+    "output_tokens": 2421,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7473,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 395,
+        "cache_read_input_tokens": 29867,
+        "cache_creation_input_tokens": 1701,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1701
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 2436,
+      "cacheReadInputTokens": 82838,
+      "cacheCreationInputTokens": 7473,
+      "webSearchRequests": 0,
+      "costUSD": 0.03029505,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5875eb3e-0091-4f39-a1c9-e8d9d1902d1b"
+}

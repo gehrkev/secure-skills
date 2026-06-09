@@ -1,0 +1,20 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_trygxpk_.py",
+  "target_cwe": "CWE-79",
+  "findings": [
+    {
+      "cwe": "CWE-79",
+      "line": 16,
+      "rule_id": "py/jinja2/autoescape-false",
+      "message": "Using jinja2 templates with autoescape=False can potentially allow XSS attacks."
+    }
+  ],
+  "summary": {
+    "total_findings": 1,
+    "by_cwe": {
+      "CWE-79": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-u10y4qxv/results.sarif"
+}

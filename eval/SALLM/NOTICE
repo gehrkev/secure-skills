@@ -1,0 +1,20 @@
+This directory contains data vendored from the SALLM project:
+
+  SALLM: Security Assessment of LLM Generated Code
+  https://github.com/s2e-lab/SALLM  (commit 0159a63)
+  Copyright the SALLM authors.
+  Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Only the prompt dataset (Dataset/dataset.jsonl — 100 security-focused Python
+prompts, each with an inline insecure reference solution) is retained and used
+by this project, as the source of evaluation prompts.
+
+SALLM's own evaluation/generation harness is NOT used here: in this project the
+security verification of generated code is performed by static analysis with
+CodeQL (the codeql-eval skill), not by SALLM's dynamic test harness.
+
+Changes from upstream (as required by the Apache License, Section 4): only
+Dataset/dataset.jsonl and this LICENSE/NOTICE are kept; all other files
+(.git, .gitignore, README.md, Evaluation/, Generation/, util-scripts/, and the
+remaining Dataset/ entries: Assertion/, Matching/, Tainted/, multi-dataset.jsonl,
+Dataset_creator.ipynb) were removed.

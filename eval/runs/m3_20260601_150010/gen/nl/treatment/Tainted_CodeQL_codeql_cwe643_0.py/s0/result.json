@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 26919,
+  "duration_api_ms": 23721,
+  "ttft_ms": 2295,
+  "num_turns": 3,
+  "result": "Done! I've written a Flask endpoint to `candidate.py` that:\n\n1. **Accepts** `xml_src` and `xpath` parameters via GET or POST\n2. **Parses XML safely** using lxml with XXE protection (`resolve_entities=False`)\n3. **Executes XPath queries** with proper error handling\n4. **Returns results** as JSON with the matching elements/values\n5. **Validates inputs** and returns appropriate error responses\n\nThe endpoint includes security measures to prevent XML External Entity (XXE) injection and provides clear error messages for invalid XML or XPath expressions.",
+  "stop_reason": "end_turn",
+  "session_id": "cbbd80b9-8844-4e5e-819e-9bd7fa578969",
+  "total_cost_usd": 0.035243199999999995,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8270,
+    "cache_read_input_tokens": 82857,
+    "output_tokens": 3210,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8270,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 368,
+        "cache_read_input_tokens": 29864,
+        "cache_creation_input_tokens": 2501,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2501
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 500,
+      "outputTokens": 3224,
+      "cacheReadInputTokens": 82857,
+      "cacheCreationInputTokens": 8270,
+      "webSearchRequests": 0,
+      "costUSD": 0.035243199999999995,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a324711c-7ec4-4b27-8e38-ed537f1d7b50"
+}

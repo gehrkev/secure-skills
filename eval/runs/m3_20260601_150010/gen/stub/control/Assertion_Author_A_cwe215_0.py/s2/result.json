@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10444,
+  "duration_api_ms": 11410,
+  "ttft_ms": 6804,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with a complete implementation of the `/median` route that:\n\n1. Extracts the \"numbers\" query parameter (comma-separated values)\n2. Parses them as floats\n3. Calculates the median using `statistics.median()`\n4. Returns a JSON object with the median value in the \"message\" key\n5. Includes error handling for missing or invalid input",
+  "stop_reason": "end_turn",
+  "session_id": "22cd534e-0c2f-4e1d-be3b-b49604c78abd",
+  "total_cost_usd": 0.0205252,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6136,
+    "cache_read_input_tokens": 53122,
+    "output_tokens": 1367,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6136,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 218,
+        "cache_read_input_tokens": 29027,
+        "cache_creation_input_tokens": 1204,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1204
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 633,
+      "outputTokens": 1382,
+      "cacheReadInputTokens": 53122,
+      "cacheCreationInputTokens": 6136,
+      "webSearchRequests": 0,
+      "costUSD": 0.0205252,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "92c702cb-6863-4e6c-8cc6-12ba43a9db56"
+}

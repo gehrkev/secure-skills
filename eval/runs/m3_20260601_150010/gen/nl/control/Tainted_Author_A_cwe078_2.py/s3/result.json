@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8922,
+  "duration_api_ms": 9739,
+  "ttft_ms": 6098,
+  "num_turns": 2,
+  "result": "Done. Created a Flask application with an `/install` endpoint that accepts a package name as a request parameter, installs it using conda, and returns the package name.",
+  "stop_reason": "end_turn",
+  "session_id": "ff0c7d49-2f11-4556-90ce-30b7daa31691",
+  "total_cost_usd": 0.0191261,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5730,
+    "cache_read_input_tokens": 52826,
+    "output_tokens": 1224,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5730,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 186,
+        "cache_read_input_tokens": 28731,
+        "cache_creation_input_tokens": 1094,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1094
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 486,
+      "outputTokens": 1239,
+      "cacheReadInputTokens": 52826,
+      "cacheCreationInputTokens": 5730,
+      "webSearchRequests": 0,
+      "costUSD": 0.0191261,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "97be6c3b-2768-4c4e-98c8-0a2856945a0f"
+}

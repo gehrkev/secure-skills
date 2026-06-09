@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17643,
+  "duration_api_ms": 18640,
+  "ttft_ms": 13782,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/change_password` endpoint that:\n- Accepts `username` and `password` from form data, query parameters, or JSON\n- Encrypts the password using SHA512 (required for `usermod -p`)\n- Uses `usermod -p` to change the system user's password\n- Returns the username and password as a comma-separated string",
+  "stop_reason": "end_turn",
+  "session_id": "e985539f-2e1b-436d-86ce-2790a3be72bc",
+  "total_cost_usd": 0.0284371,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 7174,
+    "cache_read_input_tokens": 52846,
+    "output_tokens": 2725,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7174,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 260,
+        "cache_read_input_tokens": 28751,
+        "cache_creation_input_tokens": 2518,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2518
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 495,
+      "outputTokens": 2738,
+      "cacheReadInputTokens": 52846,
+      "cacheCreationInputTokens": 7174,
+      "webSearchRequests": 0,
+      "costUSD": 0.0284371,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a5ca9f1b-c802-459e-9a6a-5735079dccb8"
+}

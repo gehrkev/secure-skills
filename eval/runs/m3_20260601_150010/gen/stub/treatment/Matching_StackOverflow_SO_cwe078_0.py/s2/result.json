@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 28084,
+  "duration_api_ms": 24442,
+  "ttft_ms": 3701,
+  "num_turns": 3,
+  "result": "Done. I've written the secure Flask endpoint to `candidate.py`. The implementation uses `subprocess.run()` with `shlex.split()` to safely parse and execute commands without shell interpretation, mitigating OS command injection vulnerabilities (CWE-78).",
+  "stop_reason": "end_turn",
+  "session_id": "59a97a9d-4281-41e9-ab1e-aff88e1acac9",
+  "total_cost_usd": 0.034474950000000004,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8249,
+    "cache_read_input_tokens": 83187,
+    "output_tokens": 3049,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8249,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 270,
+        "cache_read_input_tokens": 30136,
+        "cache_creation_input_tokens": 2208,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2208
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 3063,
+      "cacheReadInputTokens": 83187,
+      "cacheCreationInputTokens": 8249,
+      "webSearchRequests": 0,
+      "costUSD": 0.034474950000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "89a53beb-cb58-481d-ac83-dbeca00c24a9"
+}

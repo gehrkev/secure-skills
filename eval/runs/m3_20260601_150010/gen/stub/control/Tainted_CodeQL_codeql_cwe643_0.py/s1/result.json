@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 14446,
+  "duration_api_ms": 15698,
+  "ttft_ms": 11742,
+  "num_turns": 2,
+  "result": "Done. I've completed the Flask endpoint that:\n1. Retrieves the XML source and XPath from request parameters\n2. Parses the XML using lxml\n3. Executes the XPath query against the parsed XML\n4. Returns the query result as a string",
+  "stop_reason": "end_turn",
+  "session_id": "b9e94ca0-4c0e-4387-b2a4-fd9e18990c3e",
+  "total_cost_usd": 0.02403695,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6639,
+    "cache_read_input_tokens": 52972,
+    "output_tokens": 1963,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6639,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 165,
+        "cache_read_input_tokens": 28877,
+        "cache_creation_input_tokens": 1857,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1857
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 556,
+      "outputTokens": 1977,
+      "cacheReadInputTokens": 52972,
+      "cacheCreationInputTokens": 6639,
+      "webSearchRequests": 0,
+      "costUSD": 0.02403695,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0e0fa61f-ec88-49a9-8373-bd8553dfd48c"
+}

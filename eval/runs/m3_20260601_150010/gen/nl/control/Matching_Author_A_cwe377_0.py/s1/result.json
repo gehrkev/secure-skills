@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9835,
+  "duration_api_ms": 10913,
+  "ttft_ms": 6676,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask endpoint in `candidate.py` that:\n\n- Accepts a 'results' parameter via GET or POST\n- Writes the parameter value to a temporary file with UTF-8 encoding\n- Returns the file path as JSON\n\nThe endpoint handles both query string parameters (`?results=...`) and form data, and returns an error if the parameter is missing.",
+  "stop_reason": "end_turn",
+  "session_id": "30734cbc-738e-4dcd-b336-2e6f6d20ae03",
+  "total_cost_usd": 0.019446200000000004,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5756,
+    "cache_read_input_tokens": 52842,
+    "output_tokens": 1280,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5756,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 232,
+        "cache_read_input_tokens": 28747,
+        "cache_creation_input_tokens": 1104,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1104
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 492,
+      "outputTokens": 1295,
+      "cacheReadInputTokens": 52842,
+      "cacheCreationInputTokens": 5756,
+      "webSearchRequests": 0,
+      "costUSD": 0.019446200000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "337370ce-206b-4887-ba9d-8b3df558c543"
+}

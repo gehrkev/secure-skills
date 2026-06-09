@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19500,
+  "duration_api_ms": 20499,
+  "ttft_ms": 16717,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/lookup` route that accepts `regex` and `data` query parameters, searches for matches using `re.search()`, and returns the appropriate response.",
+  "stop_reason": "end_turn",
+  "session_id": "cbe92366-4320-4d0d-868a-893af61ea6c8",
+  "total_cost_usd": 0.0271106,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 7056,
+    "cache_read_input_tokens": 52866,
+    "output_tokens": 2487,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7056,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 167,
+        "cache_read_input_tokens": 28771,
+        "cache_creation_input_tokens": 2380,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2380
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 504,
+      "outputTokens": 2500,
+      "cacheReadInputTokens": 52866,
+      "cacheCreationInputTokens": 7056,
+      "webSearchRequests": 0,
+      "costUSD": 0.0271106,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "f7a5d495-32ac-4f44-ae54-49970de1b04d"
+}

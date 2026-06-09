@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17955,
+  "duration_api_ms": 15246,
+  "ttft_ms": 2526,
+  "num_turns": 3,
+  "result": "Done! I've written the Flask route to `candidate.py`. The route:\n- Accepts a 'name' query parameter via `request.args.get()`\n- Logs the name only if it's provided and not equal to 'admin'\n- Returns an 'OK' response\n- Uses Python's logging module, following security best practices by avoiding logging sensitive identifiers like 'admin'",
+  "stop_reason": "end_turn",
+  "session_id": "b2e886db-8212-4074-833f-ca10ac2eae28",
+  "total_cost_usd": 0.02555265,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6719,
+    "cache_read_input_tokens": 82689,
+    "output_tokens": 1664,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6719,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 267,
+        "cache_read_input_tokens": 29718,
+        "cache_creation_input_tokens": 1096,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1096
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1679,
+      "cacheReadInputTokens": 82689,
+      "cacheCreationInputTokens": 6719,
+      "webSearchRequests": 0,
+      "costUSD": 0.02555265,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "001cdae3-cdc0-4bcc-82e5-800998e3a03e"
+}

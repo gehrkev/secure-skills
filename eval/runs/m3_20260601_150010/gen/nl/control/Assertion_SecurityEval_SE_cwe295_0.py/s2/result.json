@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8063,
+  "duration_api_ms": 9130,
+  "ttft_ms": 4947,
+  "num_turns": 2,
+  "result": "Done. I've created `candidate.py` with an SSL context using the standard library's `ssl.create_default_context()`, which applies secure defaults for certificates, protocol version, and cipher suites.",
+  "stop_reason": "end_turn",
+  "session_id": "96f1b82d-02b2-45a2-8efd-2d5c9f28728f",
+  "total_cost_usd": 0.015013700000000001,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5106,
+    "cache_read_input_tokens": 52792,
+    "output_tokens": 563,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5106,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 121,
+        "cache_read_input_tokens": 28697,
+        "cache_creation_input_tokens": 504,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 504
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 467,
+      "outputTokens": 577,
+      "cacheReadInputTokens": 52792,
+      "cacheCreationInputTokens": 5106,
+      "webSearchRequests": 0,
+      "costUSD": 0.015013700000000001,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d643d086-a429-49cb-bbd8-6344b37d53e7"
+}

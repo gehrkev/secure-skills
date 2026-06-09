@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6511,
+  "duration_api_ms": 7379,
+  "ttft_ms": 3668,
+  "num_turns": 2,
+  "result": "Done. I've completed the `github_info()` function to:\n- Extract the `username` from the request query parameters\n- Make an HTTP request to the GitHub API endpoint\n- Return the JSON response with appropriate error handling",
+  "stop_reason": "end_turn",
+  "session_id": "970b4e92-bef8-4bb4-8183-aada383b8750",
+  "total_cost_usd": 0.0170661,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5522,
+    "cache_read_input_tokens": 52936,
+    "output_tokens": 852,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5522,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 131,
+        "cache_read_input_tokens": 28841,
+        "cache_creation_input_tokens": 776,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 776
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 540,
+      "outputTokens": 866,
+      "cacheReadInputTokens": 52936,
+      "cacheCreationInputTokens": 5522,
+      "webSearchRequests": 0,
+      "costUSD": 0.0170661,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "50d662cc-b7b6-4ac0-bb14-a9c474f683bd"
+}

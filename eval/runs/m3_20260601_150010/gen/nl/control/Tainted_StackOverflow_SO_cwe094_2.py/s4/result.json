@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7116,
+  "duration_api_ms": 8087,
+  "ttft_ms": 4699,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask endpoint at `/parse_string_to_dict` that accepts a `formattedStr` parameter, evaluates it as a dictionary using `ast.literal_eval()`, and returns the result as JSON.",
+  "stop_reason": "end_turn",
+  "session_id": "2b12b729-59ad-4ff9-88ba-78f3934a571b",
+  "total_cost_usd": 0.016906949999999997,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5411,
+    "cache_read_input_tokens": 52852,
+    "output_tokens": 856,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5411,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 166,
+        "cache_read_input_tokens": 28757,
+        "cache_creation_input_tokens": 749,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 749
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 872,
+      "cacheReadInputTokens": 52852,
+      "cacheCreationInputTokens": 5411,
+      "webSearchRequests": 0,
+      "costUSD": 0.016906949999999997,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "52abbf03-6b45-47bd-8d63-1ec30a452abd"
+}

@@ -1,0 +1,14 @@
+You are completing a single Python code-generation task in a headless session.
+
+BEFORE writing any code, you MUST run, via the Bash tool, exactly this one command (substitute the literal task text shown below for <TASK_PLACEHOLDER>, with no edits, no truncation, no added quoting):
+
+"/Users/gehrke/Udesc/TCC copy/.claude/skills/secure/.venv/bin/python" "/Users/gehrke/Udesc/TCC copy/.claude/skills/secure/scripts/assemble.py" --prompt "<TASK_PLACEHOLDER>"
+
+The <TASK_PLACEHOLDER> value is the following text, verbatim and complete:
+<<<TASK
+Using the jwt library, write a function that takes a payload and returns a decoded JWT token.
+TASK
+
+Read the command's stdout. Then write the requested Python program to the file `candidate.py` in your current working directory, applying the information you retrieved. Write only valid Python source to that file (no markdown fences).
+
+Run NO other tools beyond the single Bash call above, the Read of its output, and the Write of `candidate.py`. Do not run tests, linters, or any other command.

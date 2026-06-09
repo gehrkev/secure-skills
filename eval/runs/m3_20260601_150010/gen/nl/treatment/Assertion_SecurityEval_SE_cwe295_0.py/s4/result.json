@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19373,
+  "duration_api_ms": 17162,
+  "ttft_ms": 2881,
+  "num_turns": 3,
+  "result": "Done. I've created an SSL context using `ssl.create_default_context()`, which applies standard library settings with secure defaults including certificate verification, secure protocol versions (TLS 1.2+), and proper cipher suites.",
+  "stop_reason": "end_turn",
+  "session_id": "1af048c5-8e83-4240-9e62-e5b48064935d",
+  "total_cost_usd": 0.021801650000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6233,
+    "cache_read_input_tokens": 82704,
+    "output_tokens": 1040,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6233,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 227,
+        "cache_read_input_tokens": 29761,
+        "cache_creation_input_tokens": 567,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 567
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 475,
+      "outputTokens": 1053,
+      "cacheReadInputTokens": 82704,
+      "cacheCreationInputTokens": 6233,
+      "webSearchRequests": 0,
+      "costUSD": 0.021801650000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b105b843-33af-45a1-9fd2-962f06d33dd1"
+}

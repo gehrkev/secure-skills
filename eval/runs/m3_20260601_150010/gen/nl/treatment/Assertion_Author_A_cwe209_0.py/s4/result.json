@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 27526,
+  "duration_api_ms": 24674,
+  "ttft_ms": 11218,
+  "num_turns": 3,
+  "result": "Done. I've implemented a secure login endpoint with the following features:\n\n- **POST /login** accepts username and token in JSON request body\n- Verifies credentials against SQLite database\n- Uses SHA-256 hashing for tokens (not stored in plain text)\n- Uses constant-time comparison to prevent timing attacks\n- Returns JSON responses: \"Authentication successful\" (200) or \"Authentication failed\" (401)\n- Generic error messages prevent information leakage\n- Exception handling prevents credential enumeration\n\nThe implementation applies the security mitigations from the CWE guidance provided.",
+  "stop_reason": "end_turn",
+  "session_id": "51893ba9-f87e-443a-b2d1-c65e6e50d037",
+  "total_cost_usd": 0.03257095,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7795,
+    "cache_read_input_tokens": 83842,
+    "output_tokens": 2772,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7795,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 408,
+        "cache_read_input_tokens": 30835,
+        "cache_creation_input_tokens": 1055,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1055
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 508,
+      "outputTokens": 2787,
+      "cacheReadInputTokens": 83842,
+      "cacheCreationInputTokens": 7795,
+      "webSearchRequests": 0,
+      "costUSD": 0.03257095,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "bd3699c4-caf3-4306-a247-243e36ae8783"
+}

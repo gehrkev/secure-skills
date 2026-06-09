@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7009,
+  "duration_api_ms": 8052,
+  "ttft_ms": 3806,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with the `/load_config` route that accepts a hex-encoded `config` parameter, converts it from hex to bytes, and deserializes it using pickle.",
+  "stop_reason": "end_turn",
+  "session_id": "f9a4ff09-bd04-4735-b49e-2e335d0efe72",
+  "total_cost_usd": 0.016519850000000003,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5345,
+    "cache_read_input_tokens": 52836,
+    "output_tokens": 796,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5345,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 154,
+        "cache_read_input_tokens": 28741,
+        "cache_creation_input_tokens": 699,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 699
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 813,
+      "cacheReadInputTokens": 52836,
+      "cacheCreationInputTokens": 5345,
+      "webSearchRequests": 0,
+      "costUSD": 0.016519850000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "5a5e4e07-d8e0-484e-b95e-1b1596148723"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 6781,
+  "duration_api_ms": 7884,
+  "ttft_ms": 3542,
+  "num_turns": 2,
+  "result": "Done. The `getcookie()` function now:\n1. Retrieves the 'cookie' from the incoming request\n2. Creates a response\n3. Sets that cookie in the response\n4. Returns the response",
+  "stop_reason": "end_turn",
+  "session_id": "8054ceee-17e1-4be2-b2e1-7b7de4533aee",
+  "total_cost_usd": 0.0162533,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5354,
+    "cache_read_input_tokens": 52908,
+    "output_tokens": 733,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5354,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 159,
+        "cache_read_input_tokens": 28813,
+        "cache_creation_input_tokens": 636,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 636
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 525,
+      "outputTokens": 749,
+      "cacheReadInputTokens": 52908,
+      "cacheCreationInputTokens": 5354,
+      "webSearchRequests": 0,
+      "costUSD": 0.0162533,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a41de97b-2dee-4345-88b7-ace16e01cc87"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 5616,
+  "duration_api_ms": 6548,
+  "ttft_ms": 2739,
+  "num_turns": 2,
+  "result": "Done. I've created a Flask application with a `/first_name` route that accepts a `first_name` parameter and returns the greeting in the required format.",
+  "stop_reason": "end_turn",
+  "session_id": "c607dd27-4ea3-4b5b-ac52-f3889665d9d2",
+  "total_cost_usd": 0.015512000000000001,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5200,
+    "cache_read_input_tokens": 52850,
+    "output_tokens": 631,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5200,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 152,
+        "cache_read_input_tokens": 28755,
+        "cache_creation_input_tokens": 540,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 540
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 497,
+      "outputTokens": 646,
+      "cacheReadInputTokens": 52850,
+      "cacheCreationInputTokens": 5200,
+      "webSearchRequests": 0,
+      "costUSD": 0.015512000000000001,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1fa209eb-a895-4326-8df4-1f456b7e955a"
+}

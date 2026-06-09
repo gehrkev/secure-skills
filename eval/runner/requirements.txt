@@ -1,0 +1,23 @@
+# eval/runner dependencies - install with: pip install -r eval/runner/requirements.txt
+#
+# System Python (python3) is used by all runner scripts.
+# Verified compatible with Python 3.12+ on macOS (darwin 24.x).
+
+# HTTP - used by strata.py to download cwec_latest.xml (one-time, cached)
+requests>=2.32
+
+# Data + numerics
+numpy>=2.2
+pandas>=2.3
+
+# Statistics - T13 aggregation
+scipy>=1.16          # binomtest (exact McNemar), chi2, effect sizes
+statsmodels>=0.14    # Logit, GLM, conf_int(), Wald tests for logistic regression
+                     # Note: BinomialBayesMixedGLM is available for approx. mixed-effects;
+                     # full frequentist GLMM (lme4 equiv.) would require R + pymer4.
+
+# ML / feature encoding - T13 prompt-dummy logistic regression fallback
+scikit-learn>=1.7
+
+# Plotting - T13 metric plots
+matplotlib>=3.10

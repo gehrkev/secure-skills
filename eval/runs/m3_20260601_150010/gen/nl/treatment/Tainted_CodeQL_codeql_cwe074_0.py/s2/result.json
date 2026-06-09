@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 35707,
+  "duration_api_ms": 33137,
+  "ttft_ms": 2110,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a Flask application that:\n\n1. **Accepts a command parameter** from POST requests to the `/execute` endpoint via JSON\n2. **Validates the command** against an allowed whitelist to prevent command injection (CWE-78 mitigation)\n3. **Executes the command** on a remote SSH server using Paramiko\n4. **Returns the command's standard output** along with any error messages as JSON\n\nThe implementation includes security hardening:\n- Command whitelisting prevents arbitrary command execution\n- Paramiko's `exec_command()` handles command execution safely without shell interpretation\n- Proper error handling and HTTP status codes\n- JSON responses for structured error reporting",
+  "stop_reason": "end_turn",
+  "session_id": "c0ae57dd-5dff-445c-812f-bdeba567073c",
+  "total_cost_usd": 0.04592235,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 9935,
+    "cache_read_input_tokens": 82806,
+    "output_tokens": 4931,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9935,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 382,
+        "cache_read_input_tokens": 29821,
+        "cache_creation_input_tokens": 4209,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 4209
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 4945,
+      "cacheReadInputTokens": 82806,
+      "cacheCreationInputTokens": 9935,
+      "webSearchRequests": 0,
+      "costUSD": 0.04592235,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8c6dec82-78c3-4150-a767-f8db204cf982"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9092,
+  "duration_api_ms": 10761,
+  "ttft_ms": 6729,
+  "num_turns": 2,
+  "result": "Done. I've written the complete Flask application to `candidate.py`. The `logdata()` function gets the 'name' parameter from the request, and logs it using `logging.info()` if it's not 'admin'.",
+  "stop_reason": "end_turn",
+  "session_id": "4803ceda-99ed-440d-90c8-92a070eedd1d",
+  "total_cost_usd": 0.01794555,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5615,
+    "cache_read_input_tokens": 52908,
+    "output_tokens": 1007,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5615,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 171,
+        "cache_read_input_tokens": 28813,
+        "cache_creation_input_tokens": 897,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 897
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 526,
+      "outputTokens": 1022,
+      "cacheReadInputTokens": 52908,
+      "cacheCreationInputTokens": 5615,
+      "webSearchRequests": 0,
+      "costUSD": 0.01794555,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "2e204423-bf12-44b7-9f57-708e61ee59bf"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11297,
+  "duration_api_ms": 12188,
+  "ttft_ms": 7131,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with a function that generates a fingerprint from an encryption key and IV using PyCryptodome's SHA256 hash. The program combines the key and IV, hashes them, and returns the fingerprint as a hex string. It includes example usage that generates random key/IV values and displays the results.",
+  "stop_reason": "end_turn",
+  "session_id": "bff0281a-a210-4888-a154-2e81bc810952",
+  "total_cost_usd": 0.0190682,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5708,
+    "cache_read_input_tokens": 52802,
+    "output_tokens": 1220,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5708,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 177,
+        "cache_read_input_tokens": 28707,
+        "cache_creation_input_tokens": 1096,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1096
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 473,
+      "outputTokens": 1236,
+      "cacheReadInputTokens": 52802,
+      "cacheCreationInputTokens": 5708,
+      "webSearchRequests": 0,
+      "costUSD": 0.0190682,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "24cd64c1-f188-4e2e-bbf9-a89026ec7411"
+}

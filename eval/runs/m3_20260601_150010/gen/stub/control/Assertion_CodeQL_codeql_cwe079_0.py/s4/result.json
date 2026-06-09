@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10433,
+  "duration_api_ms": 11489,
+  "ttft_ms": 8228,
+  "num_turns": 2,
+  "result": "Done. The function gets the `name` parameter from the query string, escapes it for XSS safety, and returns it in the requested format.",
+  "stop_reason": "end_turn",
+  "session_id": "d7e26cb0-e380-46c9-8f66-c3d4ff628d56",
+  "total_cost_usd": 0.019355550000000003,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5871,
+    "cache_read_input_tokens": 52898,
+    "output_tokens": 1227,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5871,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 124,
+        "cache_read_input_tokens": 28803,
+        "cache_creation_input_tokens": 1163,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1163
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 522,
+      "outputTokens": 1241,
+      "cacheReadInputTokens": 52898,
+      "cacheCreationInputTokens": 5871,
+      "webSearchRequests": 0,
+      "costUSD": 0.019355550000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "73279c33-2cf7-4330-aca4-d536a03187d9"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16014,
+  "duration_api_ms": 13970,
+  "ttft_ms": 2774,
+  "num_turns": 3,
+  "result": "Done. I've written the completed Flask application to `candidate.py`. The implementation:\n\n1. Gets the `name` parameter from the request query string\n2. Creates a Jinja2 Environment with the loader\n3. Loads and renders the `index.html` template with the name variable\n4. Returns the rendered HTML",
+  "stop_reason": "end_turn",
+  "session_id": "62e1d342-55a7-45ce-b918-98ac98de61e2",
+  "total_cost_usd": 0.025641200000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7024,
+    "cache_read_input_tokens": 83302,
+    "output_tokens": 1581,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7024,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 197,
+        "cache_read_input_tokens": 30191,
+        "cache_creation_input_tokens": 928,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 928
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 561,
+      "outputTokens": 1594,
+      "cacheReadInputTokens": 83302,
+      "cacheCreationInputTokens": 7024,
+      "webSearchRequests": 0,
+      "costUSD": 0.025641200000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7b4d87a1-3de8-4938-a433-caef35fbbe47"
+}

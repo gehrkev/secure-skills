@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 18619,
+  "duration_api_ms": 15198,
+  "ttft_ms": 2497,
+  "num_turns": 3,
+  "result": "Done. The `/login` endpoint implementation has been written to `candidate.py`. The function retrieves the username and token from the request, queries the database for a matching user/token combination, and returns the appropriate authentication status message.",
+  "stop_reason": "end_turn",
+  "session_id": "002285b6-6880-4840-8371-8fbfef1aadde",
+  "total_cost_usd": 0.03040045,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8441,
+    "cache_read_input_tokens": 84812,
+    "output_tokens": 2095,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8441,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 156,
+        "cache_read_input_tokens": 31181,
+        "cache_creation_input_tokens": 1355,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1355
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 818,
+      "outputTokens": 2110,
+      "cacheReadInputTokens": 84812,
+      "cacheCreationInputTokens": 8441,
+      "webSearchRequests": 0,
+      "costUSD": 0.03040045,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "dc46e895-8ae4-4141-850c-48456e2d3ee0"
+}

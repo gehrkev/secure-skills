@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21372,
+  "duration_api_ms": 18434,
+  "ttft_ms": 2308,
+  "num_turns": 3,
+  "result": "Done. The code has been written to `candidate.py`. The implementation:\n- Gets the user name from the request's 'name' parameter\n- Checks if the user is admin via the 'admin' parameter\n- Logs the user only if they are not an admin (following the security guidance about careful logging)\n- Returns a simple OK response",
+  "stop_reason": "end_turn",
+  "session_id": "907ac666-b225-47ad-a0b7-60ee703029ab",
+  "total_cost_usd": 0.0292311,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7592,
+    "cache_read_input_tokens": 83071,
+    "output_tokens": 2167,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7592,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 180,
+        "cache_read_input_tokens": 30014,
+        "cache_creation_input_tokens": 1673,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1673
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 534,
+      "outputTokens": 2180,
+      "cacheReadInputTokens": 83071,
+      "cacheCreationInputTokens": 7592,
+      "webSearchRequests": 0,
+      "costUSD": 0.0292311,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ff3e7757-47c9-4402-ab49-be8510d635aa"
+}

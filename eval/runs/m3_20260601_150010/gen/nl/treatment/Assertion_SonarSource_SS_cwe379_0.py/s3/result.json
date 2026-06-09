@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15119,
+  "duration_api_ms": 13184,
+  "ttft_ms": 1915,
+  "num_turns": 3,
+  "result": "Done. The function has been written to `candidate.py`. It uses Python's `tempfile` module (a vetted library) to create a temporary file, writes the unicode string with UTF-8 encoding, and returns the file path.",
+  "stop_reason": "end_turn",
+  "session_id": "5c1ca17d-d87e-446c-a3e0-7b64ecc96637",
+  "total_cost_usd": 0.022597100000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6354,
+    "cache_read_input_tokens": 82796,
+    "output_tokens": 1160,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6354,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 227,
+        "cache_read_input_tokens": 29825,
+        "cache_creation_input_tokens": 624,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 624
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1177,
+      "cacheReadInputTokens": 82796,
+      "cacheCreationInputTokens": 6354,
+      "webSearchRequests": 0,
+      "costUSD": 0.022597100000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "02b6117c-825a-411f-b8db-45f6381c8e9a"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9113,
+  "duration_api_ms": 9958,
+  "ttft_ms": 6946,
+  "num_turns": 2,
+  "result": "Done. I've implemented the `encrypt` function that creates a static IV, initializes an AES cipher in CBC mode, pads the data, encrypts it, and returns the IV concatenated with the ciphertext.",
+  "stop_reason": "end_turn",
+  "session_id": "f51de9f6-3b6a-4877-8779-4e5adf1ddc5f",
+  "total_cost_usd": 0.01982,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5964,
+    "cache_read_input_tokens": 52970,
+    "output_tokens": 1286,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5964,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 162,
+        "cache_read_input_tokens": 28875,
+        "cache_creation_input_tokens": 1184,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1184
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 558,
+      "outputTokens": 1302,
+      "cacheReadInputTokens": 52970,
+      "cacheCreationInputTokens": 5964,
+      "webSearchRequests": 0,
+      "costUSD": 0.01982,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c971b295-ab7e-40ae-9fbc-71210be90e33"
+}

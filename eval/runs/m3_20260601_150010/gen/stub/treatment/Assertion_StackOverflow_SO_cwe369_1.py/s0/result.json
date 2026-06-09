@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12993,
+  "duration_api_ms": 10442,
+  "ttft_ms": 1872,
+  "num_turns": 3,
+  "result": "Done. I've written a secure implementation of `get_average_score()` to `candidate.py` that validates the denominator is not zero before dividing, following the CWE-369 guidance provided by the assemble script.",
+  "stop_reason": "end_turn",
+  "session_id": "c074cf2b-a443-4368-adb0-ad469e248c30",
+  "total_cost_usd": 0.021488350000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6239,
+    "cache_read_input_tokens": 82906,
+    "output_tokens": 962,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6239,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 185,
+        "cache_read_input_tokens": 29877,
+        "cache_creation_input_tokens": 457,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 457
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 519,
+      "outputTokens": 976,
+      "cacheReadInputTokens": 82906,
+      "cacheCreationInputTokens": 6239,
+      "webSearchRequests": 0,
+      "costUSD": 0.021488350000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7360268e-9fe3-42ef-ae11-f8c0eb15d097"
+}

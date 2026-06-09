@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 22500,
+  "duration_api_ms": 20021,
+  "ttft_ms": 2501,
+  "num_turns": 3,
+  "result": "Done. The code gets the `config` parameter from the request, decodes it from hex, and unmarshals it, with error handling for invalid formats.",
+  "stop_reason": "end_turn",
+  "session_id": "b68e0ba5-6818-471e-ac77-3caa1cc9b3cf",
+  "total_cost_usd": 0.03056845,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7831,
+    "cache_read_input_tokens": 83267,
+    "output_tokens": 2366,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7831,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 199,
+        "cache_read_input_tokens": 30182,
+        "cache_creation_input_tokens": 1744,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1744
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 548,
+      "outputTokens": 2381,
+      "cacheReadInputTokens": 83267,
+      "cacheCreationInputTokens": 7831,
+      "webSearchRequests": 0,
+      "costUSD": 0.03056845,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "8f81c2f1-b548-46fa-bc85-a7a9b82c296c"
+}

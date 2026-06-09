@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 16372,
+  "duration_api_ms": 16459,
+  "ttft_ms": 2431,
+  "num_turns": 3,
+  "result": "Done. I've created `candidate.py` with a Flask endpoint that validates the `target_url` parameter against the pattern `(www|beta).example.com/` using regex, returning a JSON response with a `valid` boolean. The implementation uses a strict whitelist pattern to prevent URL redirection vulnerabilities.",
+  "stop_reason": "end_turn",
+  "session_id": "3b53b40c-9e15-4d99-8925-b53038b788d3",
+  "total_cost_usd": 0.023020350000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6401,
+    "cache_read_input_tokens": 82901,
+    "output_tokens": 1230,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6401,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 260,
+        "cache_read_input_tokens": 29902,
+        "cache_creation_input_tokens": 594,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 594
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 504,
+      "outputTokens": 1245,
+      "cacheReadInputTokens": 82901,
+      "cacheCreationInputTokens": 6401,
+      "webSearchRequests": 0,
+      "costUSD": 0.023020350000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "82b45b4d-9e40-4c5e-a020-1c263837468b"
+}

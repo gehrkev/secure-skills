@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12392,
+  "duration_api_ms": 13474,
+  "ttft_ms": 6891,
+  "num_turns": 2,
+  "result": "Done. I've implemented `compute_tree` to traverse the expression tree using post-order traversal, evaluating operands at leaf nodes and applying operators at internal nodes. The function supports +, -, *, /, ^ (exponentiation), and % operations, returning a float result.",
+  "stop_reason": "end_turn",
+  "session_id": "43196f61-54b5-42e6-b2cc-cc5d5db4a094",
+  "total_cost_usd": 0.0201595,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6026,
+    "cache_read_input_tokens": 53020,
+    "output_tokens": 1335,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6026,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 194,
+        "cache_read_input_tokens": 28925,
+        "cache_creation_input_tokens": 1196,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1196
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 580,
+      "outputTokens": 1349,
+      "cacheReadInputTokens": 53020,
+      "cacheCreationInputTokens": 6026,
+      "webSearchRequests": 0,
+      "costUSD": 0.0201595,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0fc11505-c954-46a4-8796-2d5e59397273"
+}

@@ -1,0 +1,11 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_71yp_h1p.py",
+  "target_cwe": "CWE-252",
+  "findings": [],
+  "summary": {
+    "total_findings": 0,
+    "by_cwe": {}
+  },
+  "target_cwe_hit": false,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-o7axbbs2/results.sarif"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 21125,
+  "duration_api_ms": 16816,
+  "ttft_ms": 2575,
+  "num_turns": 3,
+  "result": "Done. I've written the complete Flask application with the implemented `login` function to `candidate.py`. The login endpoint retrieves the username and token from the request body, queries the database for a matching user/token combination, and returns either \"Authorized\" or \"Unauthorized\" accordingly.",
+  "stop_reason": "end_turn",
+  "session_id": "f0174f7e-4a93-4c8f-ba8d-cb975a8ed691",
+  "total_cost_usd": 0.030456050000000005,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8389,
+    "cache_read_input_tokens": 84818,
+    "output_tokens": 2121,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8389,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 232,
+        "cache_read_input_tokens": 31191,
+        "cache_creation_input_tokens": 1293,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1293
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 818,
+      "outputTokens": 2134,
+      "cacheReadInputTokens": 84818,
+      "cacheCreationInputTokens": 8389,
+      "webSearchRequests": 0,
+      "costUSD": 0.030456050000000005,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "c93294c2-0de9-4e7f-a410-bf3186ef34db"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 9228,
+  "duration_api_ms": 10403,
+  "ttft_ms": 5525,
+  "num_turns": 2,
+  "result": "Done. I've written the `lookup()` function that retrieves `regex` and `data` from the request query parameters, uses `re.search()` to match the pattern against the data, and returns the appropriate response message.",
+  "stop_reason": "end_turn",
+  "session_id": "0e0a60f8-c4b1-48b0-8d63-0bcec9dff586",
+  "total_cost_usd": 0.017287800000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5512,
+    "cache_read_input_tokens": 52918,
+    "output_tokens": 901,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5512,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 175,
+        "cache_read_input_tokens": 28823,
+        "cache_creation_input_tokens": 784,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 784
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 531,
+      "outputTokens": 915,
+      "cacheReadInputTokens": 52918,
+      "cacheCreationInputTokens": 5512,
+      "webSearchRequests": 0,
+      "costUSD": 0.017287800000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6d0777bb-47ce-4931-a1b1-74239dac0d11"
+}

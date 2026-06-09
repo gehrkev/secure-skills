@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15993,
+  "duration_api_ms": 12200,
+  "ttft_ms": 2418,
+  "num_turns": 3,
+  "result": "Done. I've written the `candidate.py` file with a secure implementation of the `search` function that:\n\n1. Uses a regex pattern to safely check for 'www.example.com/' or 'beta.example.com/' in the query\n2. Properly escapes special characters in the regex pattern\n3. Returns the appropriate message based on whether a match is found\n4. Handles input safely without command injection vulnerabilities",
+  "stop_reason": "end_turn",
+  "session_id": "9b14a47d-6940-4feb-8c3c-7498d1e5ce77",
+  "total_cost_usd": 0.024054250000000003,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6723,
+    "cache_read_input_tokens": 83185,
+    "output_tokens": 1344,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6723,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 220,
+        "cache_read_input_tokens": 30108,
+        "cache_creation_input_tokens": 710,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 710
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 542,
+      "outputTokens": 1358,
+      "cacheReadInputTokens": 83185,
+      "cacheCreationInputTokens": 6723,
+      "webSearchRequests": 0,
+      "costUSD": 0.024054250000000003,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "a027573a-c008-4ff1-8362-7160075b576d"
+}

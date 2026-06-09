@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8313,
+  "duration_api_ms": 9522,
+  "ttft_ms": 6133,
+  "num_turns": 2,
+  "result": "Done. I've written a Flask application with a GET endpoint at `/upload` that takes an XML string from the `xml_src` parameter, parses it, and returns it as a string.",
+  "stop_reason": "end_turn",
+  "session_id": "4d050111-46a3-4e23-9057-c65d50d77c19",
+  "total_cost_usd": 0.0175734,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5540,
+    "cache_read_input_tokens": 52844,
+    "output_tokens": 958,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5540,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 133,
+        "cache_read_input_tokens": 28749,
+        "cache_creation_input_tokens": 886,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 886
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 494,
+      "outputTokens": 974,
+      "cacheReadInputTokens": 52844,
+      "cacheCreationInputTokens": 5540,
+      "webSearchRequests": 0,
+      "costUSD": 0.0175734,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "47943905-781b-4f62-88c1-66ff5da98fce"
+}

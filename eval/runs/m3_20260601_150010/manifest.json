@@ -1,0 +1,41 @@
+{
+  "run_id": "m3_20260601_150010",
+  "model_id": "claude-haiku-4-5-20251001",
+  "max_turns": 10,
+  "k_per_cell": 5,
+  "claude_version": "2.1.159 (Claude Code)",
+  "runner_git_hash": "fc65886",
+  "kb_sources": [
+    "view_1003",
+    "cwe_top25_2025"
+  ],
+  "arms_modalities_completed_note": "completed = sessões válidas por progress.jsonl (fonte autoritativa, pós-revalidação in-place); difere das contagens de geração originais.",
+  "arms_modalities_run": [
+    {
+      "arm": "treatment",
+      "modality": "nl",
+      "completed": 500,
+      "total": 500
+    },
+    {
+      "arm": "control",
+      "modality": "nl",
+      "completed": 500,
+      "total": 500
+    },
+    {
+      "arm": "control",
+      "modality": "stub",
+      "completed": 500,
+      "total": 500
+    },
+    {
+      "arm": "treatment",
+      "modality": "stub",
+      "completed": 498,
+      "total": 500
+    }
+  ],
+  "codeql_image_tag": "securecontext-codeql-eval:2.25.4",
+  "updated_at": "2026-06-03T14:52:04.752487+00:00"
+}

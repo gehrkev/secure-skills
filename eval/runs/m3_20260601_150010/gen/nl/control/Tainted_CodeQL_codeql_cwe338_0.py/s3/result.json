@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8031,
+  "duration_api_ms": 9626,
+  "ttft_ms": 4001,
+  "num_turns": 2,
+  "result": "Done. I've written a Python program to `candidate.py` that generates a random 8-character password including numbers. The program ensures at least one digit is present by checking the generated password and replacing the first character with a random digit if no digits were included.",
+  "stop_reason": "end_turn",
+  "session_id": "06bc43c1-63cb-4d1b-be55-9c5dfae9e5cf",
+  "total_cost_usd": 0.0159521,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5206,
+    "cache_read_input_tokens": 52786,
+    "output_tokens": 725,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5206,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 171,
+        "cache_read_input_tokens": 28691,
+        "cache_creation_input_tokens": 610,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 610
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 466,
+      "outputTokens": 740,
+      "cacheReadInputTokens": 52786,
+      "cacheCreationInputTokens": 5206,
+      "webSearchRequests": 0,
+      "costUSD": 0.0159521,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "b929087b-4375-4817-95e5-28e9ec449bab"
+}

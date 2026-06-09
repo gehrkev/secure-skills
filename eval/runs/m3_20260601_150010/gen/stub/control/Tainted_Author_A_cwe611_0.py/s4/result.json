@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 11030,
+  "duration_api_ms": 12185,
+  "ttft_ms": 8378,
+  "num_turns": 2,
+  "result": "Done. I've written the complete Python program to `candidate.py`. The implementation gets the `xml_src` parameter from the request, parses it as XML using lxml, and returns it as a string.",
+  "stop_reason": "end_turn",
+  "session_id": "9a8e8298-4a3f-45a0-8749-5a45b676fb4e",
+  "total_cost_usd": 0.018534000000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5732,
+    "cache_read_input_tokens": 52920,
+    "output_tokens": 1095,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5732,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 154,
+        "cache_read_input_tokens": 28825,
+        "cache_creation_input_tokens": 1002,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1002
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 532,
+      "outputTokens": 1109,
+      "cacheReadInputTokens": 52920,
+      "cacheCreationInputTokens": 5732,
+      "webSearchRequests": 0,
+      "costUSD": 0.018534000000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "d6dba1ab-b082-4280-8290-d1b8aad0c871"
+}

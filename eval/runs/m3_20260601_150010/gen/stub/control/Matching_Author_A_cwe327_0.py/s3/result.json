@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7369,
+  "duration_api_ms": 12080,
+  "ttft_ms": 4408,
+  "num_turns": 2,
+  "result": "Done. I've written the complete `certificate_matches()` function that retrieves the certificate and known_hash from request parameters, computes the SHA256 hash of the certificate, and returns the string `'True'` if it matches the known_hash, or `'False'` otherwise.",
+  "stop_reason": "end_turn",
+  "session_id": "a837f4e3-8f77-4ae4-b821-0856779e02fb",
+  "total_cost_usd": 0.01753855,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5551,
+    "cache_read_input_tokens": 52938,
+    "output_tokens": 939,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5551,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 191,
+        "cache_read_input_tokens": 28843,
+        "cache_creation_input_tokens": 803,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 803
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 541,
+      "outputTokens": 953,
+      "cacheReadInputTokens": 52938,
+      "cacheCreationInputTokens": 5551,
+      "webSearchRequests": 0,
+      "costUSD": 0.01753855,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "0bc646ff-8add-4257-99ff-c3ce932dc901"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10555,
+  "duration_api_ms": 11728,
+  "ttft_ms": 7647,
+  "num_turns": 2,
+  "result": "Done. I've written the complete Flask function to `candidate.py`. The function retrieves the 'contents' parameter from the request query string and evaluates it as a Python dictionary using `eval()`.",
+  "stop_reason": "end_turn",
+  "session_id": "83e78c6e-3645-46c8-a187-ab2295dfceae",
+  "total_cost_usd": 0.01803325,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5625,
+    "cache_read_input_tokens": 52890,
+    "output_tokens": 1023,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5625,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 158,
+        "cache_read_input_tokens": 28795,
+        "cache_creation_input_tokens": 925,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 925
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 518,
+      "outputTokens": 1039,
+      "cacheReadInputTokens": 52890,
+      "cacheCreationInputTokens": 5625,
+      "webSearchRequests": 0,
+      "costUSD": 0.01803325,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "bbb5da74-d334-4fcc-a585-cd1b546e43d2"
+}

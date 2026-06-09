@@ -1,0 +1,34 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_cf2_63mm.py",
+  "target_cwe": "CWE-601",
+  "findings": [
+    {
+      "cwe": "CWE-215",
+      "line": 49,
+      "rule_id": "py/flask-debug",
+      "message": "A Flask app appears to be run in debug mode. This may allow an attacker to run arbitrary code through the debugger."
+    },
+    {
+      "cwe": "CWE-489",
+      "line": 49,
+      "rule_id": "py/flask-debug",
+      "message": "A Flask app appears to be run in debug mode. This may allow an attacker to run arbitrary code through the debugger."
+    },
+    {
+      "cwe": "CWE-601",
+      "line": 36,
+      "rule_id": "py/url-redirection",
+      "message": "Untrusted URL redirection depends on a [user-provided value](1)."
+    }
+  ],
+  "summary": {
+    "total_findings": 3,
+    "by_cwe": {
+      "CWE-215": 1,
+      "CWE-489": 1,
+      "CWE-601": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-gl_vyys5/results.sarif"
+}

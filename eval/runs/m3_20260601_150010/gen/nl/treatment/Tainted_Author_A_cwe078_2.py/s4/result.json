@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 26643,
+  "duration_api_ms": 23826,
+  "ttft_ms": 2850,
+  "num_turns": 3,
+  "result": "Done! I've created a secure Flask endpoint at `/install` that:\n\n- Takes a `package` parameter from the request (GET or POST)\n- Validates the package name with a regex to prevent code injection attacks\n- Uses a fully-qualified conda path via `shutil.which()` to address untrusted search path vulnerabilities\n- Calls conda with subprocess list arguments (no shell=True) to prevent command injection\n- Returns the package name on successful installation\n- Returns appropriate error messages for invalid inputs or failed installations",
+  "stop_reason": "end_turn",
+  "session_id": "5d8b54ae-70ec-45e8-9bd2-a2741fc4b72d",
+  "total_cost_usd": 0.034359350000000004,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8131,
+    "cache_read_input_tokens": 82716,
+    "output_tokens": 3071,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8131,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 291,
+        "cache_read_input_tokens": 29739,
+        "cache_creation_input_tokens": 2487,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2487
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 494,
+      "outputTokens": 3086,
+      "cacheReadInputTokens": 82716,
+      "cacheCreationInputTokens": 8131,
+      "webSearchRequests": 0,
+      "costUSD": 0.034359350000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "1cc1324b-3008-4dcc-b6f8-99e551c86b1d"
+}

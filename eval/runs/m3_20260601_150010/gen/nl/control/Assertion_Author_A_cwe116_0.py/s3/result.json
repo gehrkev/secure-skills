@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 13743,
+  "duration_api_ms": 14535,
+  "ttft_ms": 10722,
+  "num_turns": 2,
+  "result": "Done. I've written a Flask endpoint to `candidate.py` that:\n- Listens at `/filter_script_tags`\n- Accepts both GET and POST requests\n- Takes a `content` parameter\n- Removes all script tags (opening, closing, and their contents) using a regex pattern that handles attributes and multi-line content\n- Returns the filtered content",
+  "stop_reason": "end_turn",
+  "session_id": "bf7af1b3-4e19-4b2e-99ff-7be2e38c9873",
+  "total_cost_usd": 0.023330899999999998,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6338,
+    "cache_read_input_tokens": 52834,
+    "output_tokens": 1912,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6338,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 272,
+        "cache_read_input_tokens": 28739,
+        "cache_creation_input_tokens": 1694,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1694
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 490,
+      "outputTokens": 1927,
+      "cacheReadInputTokens": 52834,
+      "cacheCreationInputTokens": 6338,
+      "webSearchRequests": 0,
+      "costUSD": 0.023330899999999998,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "98990ba9-c07f-442f-9a69-36cc93c820d9"
+}

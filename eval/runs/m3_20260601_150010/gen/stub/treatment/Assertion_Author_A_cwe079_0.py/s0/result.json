@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19703,
+  "duration_api_ms": 16766,
+  "ttft_ms": 3606,
+  "num_turns": 3,
+  "result": "Done. The code implements the route by:\n1. Extracting the 'first_name' parameter from the request query string\n2. Escaping it to prevent XSS vulnerabilities (as indicated by the security guidance)\n3. Returning the formatted response \"Greetings, {name}!\"",
+  "stop_reason": "end_turn",
+  "session_id": "a82f1cb0-cf7b-4368-8c14-3442355e9934",
+  "total_cost_usd": 0.026141150000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6955,
+    "cache_read_input_tokens": 83204,
+    "output_tokens": 1699,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6955,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 212,
+        "cache_read_input_tokens": 30131,
+        "cache_creation_input_tokens": 919,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 919
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 542,
+      "outputTokens": 1717,
+      "cacheReadInputTokens": 83204,
+      "cacheCreationInputTokens": 6955,
+      "webSearchRequests": 0,
+      "costUSD": 0.026141150000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "ede2a042-01d7-4365-bb51-caaaf5b51463"
+}

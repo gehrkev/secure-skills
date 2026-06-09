@@ -1,0 +1,27 @@
+{
+  "file": "/private/tmp/claude-501/codeql_baseline_38t1nxgr.py",
+  "target_cwe": "CWE-215",
+  "findings": [
+    {
+      "cwe": "CWE-215",
+      "line": 32,
+      "rule_id": "py/flask-debug",
+      "message": "A Flask app appears to be run in debug mode. This may allow an attacker to run arbitrary code through the debugger."
+    },
+    {
+      "cwe": "CWE-489",
+      "line": 32,
+      "rule_id": "py/flask-debug",
+      "message": "A Flask app appears to be run in debug mode. This may allow an attacker to run arbitrary code through the debugger."
+    }
+  ],
+  "summary": {
+    "total_findings": 2,
+    "by_cwe": {
+      "CWE-215": 1,
+      "CWE-489": 1
+    }
+  },
+  "target_cwe_hit": true,
+  "raw_sarif_path": "/tmp/claude-501/codeql-eval-3u5l8pnk/results.sarif"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 19364,
+  "duration_api_ms": 20277,
+  "ttft_ms": 16713,
+  "num_turns": 2,
+  "result": "Done. I've written the `change_password()` function that extracts username and password from the request and changes the user's password using the `usermod` command, returning them as a comma-separated string.",
+  "stop_reason": "end_turn",
+  "session_id": "27305de8-36d0-4a00-bf95-1d5b833bfc66",
+  "total_cost_usd": 0.0266,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 7032,
+    "cache_read_input_tokens": 52940,
+    "output_tokens": 2382,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7032,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 158,
+        "cache_read_input_tokens": 28845,
+        "cache_creation_input_tokens": 2282,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2282
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 541,
+      "outputTokens": 2395,
+      "cacheReadInputTokens": 52940,
+      "cacheCreationInputTokens": 7032,
+      "webSearchRequests": 0,
+      "costUSD": 0.0266,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "4238b9d4-8195-4892-b675-4f48b3730d90"
+}

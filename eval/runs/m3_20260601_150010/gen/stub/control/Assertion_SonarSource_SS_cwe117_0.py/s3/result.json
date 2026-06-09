@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 7494,
+  "duration_api_ms": 8399,
+  "ttft_ms": 5540,
+  "num_turns": 2,
+  "result": "Done. I've written `candidate.py` with a Flask application that logs request data and returns it.",
+  "stop_reason": "end_turn",
+  "session_id": "491a37e4-4541-452c-9f01-1e136d05cf36",
+  "total_cost_usd": 0.016948200000000004,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5452,
+    "cache_read_input_tokens": 52852,
+    "output_tokens": 857,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5452,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 124,
+        "cache_read_input_tokens": 28757,
+        "cache_creation_input_tokens": 790,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 790
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 498,
+      "outputTokens": 870,
+      "cacheReadInputTokens": 52852,
+      "cacheCreationInputTokens": 5452,
+      "webSearchRequests": 0,
+      "costUSD": 0.016948200000000004,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7997d910-3f84-4d00-aa40-95109f47c64d"
+}

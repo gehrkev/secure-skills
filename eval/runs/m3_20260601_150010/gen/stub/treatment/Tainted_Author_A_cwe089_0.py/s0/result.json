@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17477,
+  "duration_api_ms": 14478,
+  "ttft_ms": 3177,
+  "num_turns": 3,
+  "result": "Done! I've written the complete Flask route to `candidate.py`. The implementation:\n\n- Uses **parameterized queries** (`?` placeholder) to prevent SQL injection attacks (CWE-89)\n- Gets the title from request parameters\n- Returns the post's content if found, or a 404 error\n- Validates that the title parameter is provided",
+  "stop_reason": "end_turn",
+  "session_id": "bfbd1865-2228-425b-9f02-1a0a937ec6f3",
+  "total_cost_usd": 0.025765200000000002,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 7046,
+    "cache_read_input_tokens": 83437,
+    "output_tokens": 1592,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7046,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 238,
+        "cache_read_input_tokens": 30306,
+        "cache_creation_input_tokens": 835,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 835
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 569,
+      "outputTokens": 1609,
+      "cacheReadInputTokens": 83437,
+      "cacheCreationInputTokens": 7046,
+      "webSearchRequests": 0,
+      "costUSD": 0.025765200000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "090a8a3b-2776-4c77-bcc6-8a5574154baf"
+}

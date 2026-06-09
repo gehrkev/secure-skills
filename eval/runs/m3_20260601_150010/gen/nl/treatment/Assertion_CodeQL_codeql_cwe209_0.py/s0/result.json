@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 17468,
+  "duration_api_ms": 14457,
+  "ttft_ms": 3219,
+  "num_turns": 3,
+  "result": "Done! I've created the `SSHByteStreamReader` class that:\n\n- Takes a stream in the constructor\n- Has a `read(num_bytes)` method that reads exactly the requested number of bytes\n- Raises `EOFError` with a descriptive message if the stream ends before all bytes are read\n- Safely handles cases where the stream returns fewer bytes than requested by looping until all bytes are accumulated\n\nThe implementation applies the security guidance by avoiding unbounded resource allocation and properly handling EOF conditions.",
+  "stop_reason": "end_turn",
+  "session_id": "061764bb-7b74-4785-b155-6fafc9ca1a60",
+  "total_cost_usd": 0.02517445,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 6749,
+    "cache_read_input_tokens": 82912,
+    "output_tokens": 1572,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6749,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 254,
+        "cache_read_input_tokens": 29899,
+        "cache_creation_input_tokens": 945,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 945
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 512,
+      "outputTokens": 1587,
+      "cacheReadInputTokens": 82912,
+      "cacheCreationInputTokens": 6749,
+      "webSearchRequests": 0,
+      "costUSD": 0.02517445,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "7a6d7f47-347a-41b8-9e7d-852f227f70aa"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 12007,
+  "duration_api_ms": 12936,
+  "ttft_ms": 8315,
+  "num_turns": 2,
+  "result": "Done. The Flask application creates a `/redirect` route that:\n- Gets `target_url` from query parameters\n- Validates it's not external by checking for URL scheme (http, https, etc.) or netloc (domain)\n- Returns a 302 redirect to internal URLs only",
+  "stop_reason": "end_turn",
+  "session_id": "dfc8aeae-e186-40bf-b62f-f018aa602f4d",
+  "total_cost_usd": 0.0210019,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5994,
+    "cache_read_input_tokens": 52854,
+    "output_tokens": 1531,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5994,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 254,
+        "cache_read_input_tokens": 28759,
+        "cache_creation_input_tokens": 1330,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1330
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 499,
+      "outputTokens": 1545,
+      "cacheReadInputTokens": 52854,
+      "cacheCreationInputTokens": 5994,
+      "webSearchRequests": 0,
+      "costUSD": 0.0210019,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "308086f1-b305-40a3-9aaa-1cc28604180a"
+}

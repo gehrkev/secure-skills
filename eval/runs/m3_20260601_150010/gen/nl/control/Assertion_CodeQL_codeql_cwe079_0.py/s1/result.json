@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 8510,
+  "duration_api_ms": 9477,
+  "ttft_ms": 5255,
+  "num_turns": 2,
+  "result": "Done! I've created a Flask application with an endpoint at `/echo_name` that:\n- Gets the `name` parameter from the query string (e.g., `/echo_name?name=John`)\n- Returns a greeting in the format `'Hello <name>!'`",
+  "stop_reason": "end_turn",
+  "session_id": "e826c6c5-30b0-4824-942b-78890bf0e3db",
+  "total_cost_usd": 0.0166688,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5368,
+    "cache_read_input_tokens": 52828,
+    "output_tokens": 824,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5368,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 155,
+        "cache_read_input_tokens": 28733,
+        "cache_creation_input_tokens": 730,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 730
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 486,
+      "outputTokens": 838,
+      "cacheReadInputTokens": 52828,
+      "cacheCreationInputTokens": 5368,
+      "webSearchRequests": 0,
+      "costUSD": 0.0166688,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "4b4e1b7a-a20c-4cf7-a3a8-6f488e176439"
+}

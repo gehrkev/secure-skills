@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 15316,
+  "duration_api_ms": 16334,
+  "ttft_ms": 13163,
+  "num_turns": 2,
+  "result": "Done. The `candidate.py` file has been created with a complete Flask application that retrieves the 'link' query parameter, attempts to ping it via HTTP request, and returns the link.",
+  "stop_reason": "end_turn",
+  "session_id": "a2359384-bfa6-4965-961c-51ad2c1e789b",
+  "total_cost_usd": 0.0235385,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 6522,
+    "cache_read_input_tokens": 52880,
+    "output_tokens": 1902,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 6522,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 129,
+        "cache_read_input_tokens": 28785,
+        "cache_creation_input_tokens": 1832,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1832
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 513,
+      "outputTokens": 1917,
+      "cacheReadInputTokens": 52880,
+      "cacheCreationInputTokens": 6522,
+      "webSearchRequests": 0,
+      "costUSD": 0.0235385,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "37573cd6-2411-43be-98bc-6b843b131b10"
+}

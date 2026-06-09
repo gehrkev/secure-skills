@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 27176,
+  "duration_api_ms": 23753,
+  "ttft_ms": 2453,
+  "num_turns": 3,
+  "result": "Done. I've written the secure Python code to `candidate.py`. The implementation:\n\n1. **Validates the canvas_url** using `urlparse` to prevent SSRF attacks (CWE-918) by ensuring it has proper scheme and netloc components\n2. **Restricts to http/https only** to block potentially malicious protocols\n3. **Retrieves the API token securely** from the `CANVAS_API_TOKEN` environment variable rather than accepting it as a parameter\n4. **Uses the Canvas API** to fetch and return the list of courses from the instance",
+  "stop_reason": "end_turn",
+  "session_id": "ed95c921-ba11-4cb6-ac57-165a5d927726",
+  "total_cost_usd": 0.0344843,
+  "usage": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 8406,
+    "cache_read_input_tokens": 83218,
+    "output_tokens": 3012,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8406,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 268,
+        "cache_read_input_tokens": 30167,
+        "cache_creation_input_tokens": 2334,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2334
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 3025,
+      "cacheReadInputTokens": 83218,
+      "cacheCreationInputTokens": 8406,
+      "webSearchRequests": 0,
+      "costUSD": 0.0344843,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "6ad0a817-da7f-426a-a244-75fb4793e8c4"
+}

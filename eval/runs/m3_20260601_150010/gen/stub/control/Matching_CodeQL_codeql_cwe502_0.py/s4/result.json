@@ -1,0 +1,60 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "duration_ms": 10754,
+  "duration_api_ms": 12240,
+  "ttft_ms": 7706,
+  "num_turns": 2,
+  "result": "Done. The function retrieves the hex-encoded pickled data from the request query parameter 'data', converts it from hex to bytes, and returns the deserialized object using `pickle.loads()`.",
+  "stop_reason": "end_turn",
+  "session_id": "22eb50dd-de1d-4958-b94f-787e63558834",
+  "total_cost_usd": 0.019652450000000002,
+  "usage": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 5905,
+    "cache_read_input_tokens": 52912,
+    "output_tokens": 1275,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 5905,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 8,
+        "output_tokens": 151,
+        "cache_read_input_tokens": 28817,
+        "cache_creation_input_tokens": 1183,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1183
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 530,
+      "outputTokens": 1290,
+      "cacheReadInputTokens": 52912,
+      "cacheCreationInputTokens": 5905,
+      "webSearchRequests": 0,
+      "costUSD": 0.019652450000000002,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "uuid": "3d79e092-2964-42c9-b31c-e0ca907efc46"
+}
