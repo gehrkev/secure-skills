@@ -76,6 +76,8 @@ e elevou o `security@k` de 0,715 para 0,860, sem custo de funcionalidade (`pass@
 com significância pareada (McNemar) nas duas modalidades e nenhuma regressão de segurança
 detectável em 200 comparações pareadas.
 
+O documento textual, presente no TCC, será disponibilizado após defesa em banca.
+
 ### Reproduzir
 
 ```bash
@@ -88,6 +90,11 @@ python3 eval/runner/aggregate/aggregate.py --run-id m3_20260601_150010
 python3 eval/runner/analysis/explore_m3.py  --run-id m3_20260601_150010
 python3 eval/runner/analysis/cost_rollup.py --run-id m3_20260601_150010
 ```
+
+Um notebook Jupyter está localizado em `eval/runner/analysis/m3_resultados_visual.ipynb` 
+para exibir interativamente a análise realizada acima pelo conjunto 
+`aggregate`, `explore_m3` e `cost_rollup` da run `m3_20260601_150010` disponibilizada,
+a qual foi utilizada no TCC.
 
 ## Créditos e licença
 
